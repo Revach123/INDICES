@@ -4,12 +4,12 @@ SPXTR,sp500tr,S&P 500 Total Return - וריאנט
 SPXEWTR,sp500tr,S&P 500 TR - וריאנט (שווה-משקל בפועל שונה מעט, פרוקסי)
 SPXXTSUT,sp500tr,S&P 500 TR - וריאנט
 XNDX,nasdaq100,Nasdaq-100 - חזרה למדד מחיר (^NDX): CNDX.L (ETF) נפסל - מחיר ETF (~1755) הוא בקנה מידה שרירותי שונה לגמרי מרמת המדד (~25000), לא ניתן להציב בנוסחת יחידות×מחיר בלי המרה שאין לה מקור אמין. אין טיקר TR באותו קנה-מידה שנמצא ל-Nasdaq-100 (בניגוד ל-Russell 2000)
-NDUEEGF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג (NDUEEGF Index), פרוקסי ETF EEM
-NDUEACWF,acwi_proxy,MSCI ACWI - טיקר בלומברג (NDUEACWF Index), פרוקסי ETF ACWI
-M1EF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג חלופי (M1EF Index)
-MSCI EMERGING NET TRN,msci_em_proxy,שם מלא קריא - MSCI EM
-MSCI WORLD GROSS,msci_world_proxy,שם מלא קריא - MSCI World
-TPXDDVD,topix,TOPIX Total Return (דיבידנד מותאם) - פרוקסי ETF 1306.T
+NDUEEGF,,MSCI Emerging Markets (NDUEEGF Index) - פרוקסי היחיד שנמצא הוא ETF (EEM) שנפסל: מחיר יחידה (~$40) בקנה-מידה שרירותי שונה לגמרי מרמת מדד MSCI (~1000+) - אין טיקר INDEX חינמי חלופי
+NDUEACWF,,MSCI ACWI (NDUEACWF Index) - אותה בעיה: הפרוקסי היחיד שנמצא הוא ETF (ACWI), נפסל מאותה סיבה
+M1EF,,MSCI Emerging Markets (M1EF Index) - אותה בעיה כמו NDUEEGF
+MSCI EMERGING NET TRN,,שם מלא קריא - MSCI EM, אותה בעיה כמו NDUEEGF
+MSCI WORLD GROSS,,שם מלא קריא - MSCI World, אין טיקר INDEX חינמי (רק ETF-ים שנפסלו)
+TPXDDVD,,TOPIX Total Return (דיבידנד מותאם) - פרוקסי ETF שנבדק (1306.T) נפסל: מחיר יחידה (~430) בקנה-מידה שרירותי שונה לגמרי מרמת מדד TOPIX (~2500-2900) - אין טיקר TOPIX ברמת-מדד חינמי שנמצא
 NKYTR,nikkei225,Nikkei 225 Total Return - פרוקסי מחיר
 HSI,hangseng,Hang Seng Index
 HSI1,hangseng,Hang Seng Index - וריאנט
@@ -28,8 +28,8 @@ INDEXTA125,ta125,TA-125 - וריאנט
 INDEXTA90,ta90,TA-90
 TA-BANK5,ta_banks,TA Banks-5 - עדיין ללא טיקר Yahoo תקין ידוע (ר' README ב-INDICES)
 INDEXTA126,,קוד לא מזוהה - ייתכן טעות דיווח (אין מדד "TA126" ידוע)
-M1IN,msci_india_proxy,MSCI India - טיקר בלומברג (M1IN Index), פרוקסי ETF INDA
-M1CNA,china_a_proxy,MSCI China A - טיקר בלומברג (M1CNA Index), פרוקסי ETF ASHR (לא מדויק - ASHR עוקב CSI300, לא MSCI China A)
+M1IN,,MSCI India (M1IN Index) - פרוקסי היחיד שנמצא הוא ETF (INDA) שנפסל: קנה-מידה שרירותי, לא רמת מדד
+M1CNA,csi300,MSCI China A (M1CNA Index) - אין טיקר MSCI ברמת-מדד חינמי; csi300 (000300.SS) הוא מדד אמיתי (INDEX, לא ETF) באותה משפחת נכסים (מניות A סיניות) ובקנה-מידה נכון (~4000-4500) - לא זהה מתודולוגית ל-MSCI China A אבל קנה-המידה נכון ולא מזיק, בניגוד ל-ASHR (ETF, ~$33)
 SZCOMP,shenzhen,Shenzhen Composite
 GSCBHPWR,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
 GSHAPOW1,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
