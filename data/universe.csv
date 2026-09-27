@@ -31,10 +31,10 @@ asx200,^AXJO,ASX 200,S&P/ASX 200,אוסטרליה,equity,
 bovespa,^BVSP,בוווספה,Bovespa,ברזיל,equity,
 ipc_mexico,^MXX,IPC מקסיקו,IPC Mexico,מקסיקו,equity,
 tsx,^GSPTSE,TSX קנדה,S&P/TSX Composite,קנדה,equity,
-ta125,^TA125,ת"א 125,TA-125,ישראל,equity,https://he.wikipedia.org/wiki/מדד_ת"א_125
+ta125,TA125.TA|^TA125.TA|^TA125|TA-125.TA|TA125INDEX.TA,ת"א 125,TA-125,ישראל,equity,https://he.wikipedia.org/wiki/מדד_ת"א_125
 ta35,TA35.TA,ת"א 35,TA-35,ישראל,equity,https://he.wikipedia.org/wiki/מדד_ת"א_35
 ta90,TA90.TA,ת"א 90,TA-90,ישראל,equity,
-ta_banks,TA-BANKS5.TA,ת"א בנקים,TA Banks-5,ישראל,equity_sector,
+ta_banks,TA-BANKS5.TA|TABANKS5.TA|TA-BANKS.TA|TABANK.TA,ת"א בנקים,TA Banks-5,ישראל,equity_sector,
 ta_tech,TA-TECH.TA,ת"א טכנולוגיה,TA Technology,ישראל,equity_sector,
 msci_world_proxy,URTH,MSCI World (פרוקסי ETF),MSCI World (ETF proxy),גלובלי,equity,
 msci_em_proxy,EEM,MSCI EM (פרוקסי ETF),MSCI Emerging Markets (ETF proxy),גלובלי,equity,

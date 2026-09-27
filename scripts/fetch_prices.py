@@ -70,22 +70,37 @@ def main():
 
     ok, failed = [], []
     for row in universe:
-        index_id, symbol = row["index_id"], row["yahoo_symbol"]
-        try:
-            bars = fetch_one(session, symbol)
-            if not bars:
-                raise RuntimeError("0 bars returned")
+        index_id, symbol_field = row["index_id"], row["yahoo_symbol"]
+        # מאפשר כמה טיקרים מועמדים מופרדים ב-"|" בעמודת yahoo_symbol - מנסים
+        # לפי הסדר, עוצרים בראשון שמצליח. חוסך סבב CI נפרד לכל ניחוש כושל
+        # (נמצא בפועל: TA125.TA/^TA125 שניהם נכשלו על TA-125, לא ברור מראש
+        # איזו מוסכמה Yahoo באמת משתמש בה למדדים ישראליים ספציפיים אלה).
+        candidates = [s.strip() for s in symbol_field.split("|") if s.strip()]
+        bars = None
+        used_symbol = None
+        errors = []
+        for symbol in candidates:
+            try:
+                bars = fetch_one(session, symbol)
+                if not bars:
+                    raise RuntimeError("0 bars returned")
+                used_symbol = symbol
+                break
+            except Exception as e:
+                errors.append(f"{symbol}: {e!r}")
+            time.sleep(0.3)
+
+        if bars:
             out_path = OUT_DIR / f"{index_id}.csv"
             with out_path.open("w", encoding="utf-8", newline="") as f:
                 w = csv.DictWriter(f, fieldnames=["date", "open", "high", "low", "close", "volume"])
                 w.writeheader()
                 w.writerows(bars)
-            ok.append((index_id, symbol, len(bars), bars[0]["date"], bars[-1]["date"]))
-            print(f"OK   {index_id:<20}{symbol:<14}{len(bars):>6} rows  {bars[0]['date']} -> {bars[-1]['date']}")
-        except Exception as e:
-            failed.append((index_id, symbol, repr(e)))
-            print(f"FAIL {index_id:<20}{symbol:<14}{e!r}")
-        time.sleep(0.3)  # נימוס מול Yahoo - לא צריך יותר, זה לא API עם rate-limit נוקשה ידוע
+            ok.append((index_id, used_symbol, len(bars), bars[0]["date"], bars[-1]["date"]))
+            print(f"OK   {index_id:<20}{used_symbol:<14}{len(bars):>6} rows  {bars[0]['date']} -> {bars[-1]['date']}")
+        else:
+            failed.append((index_id, symbol_field, errors))
+            print(f"FAIL {index_id:<20}{symbol_field:<14}{' | '.join(errors)}")
 
     print(f"\n{len(ok)} ok, {len(failed)} failed")
     if failed:
