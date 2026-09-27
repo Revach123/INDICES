@@ -1,0 +1,46 @@
+index_id,yahoo_symbol,name_he,name_en,region,asset_class,wikipedia_url
+sp500,^GSPC,S&P 500,S&P 500,ארה"ב,equity,https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+sp500tr,^SP500TR,S&P 500 Total Return,S&P 500 Total Return,ארה"ב,equity,
+nasdaq100,^NDX,נאסד"ק 100,Nasdaq-100,ארה"ב,equity,https://en.wikipedia.org/wiki/Nasdaq-100
+dow30,^DJI,דאו ג'ונס,Dow Jones Industrial Average,ארה"ב,equity,https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+russell2000,^RUT,ראסל 2000,Russell 2000,ארה"ב,equity,
+vix,^VIX,מדד הפחד,CBOE Volatility Index (VIX),ארה"ב,volatility,
+sp500_tech,^SP500-45,S&P 500 טכנולוגיה,S&P 500 Information Technology,ארה"ב,equity_sector,
+sp500_energy,^GSPE,S&P 500 אנרגיה,S&P 500 Energy,ארה"ב,equity_sector,
+sp500_financials,^SP500-40,S&P 500 פיננסים,S&P 500 Financials,ארה"ב,equity_sector,
+sp500_healthcare,^SP500-35,S&P 500 בריאות,S&P 500 Health Care,ארה"ב,equity_sector,
+ftse100,^FTSE,FTSE 100,FTSE 100,בריטניה,equity,https://en.wikipedia.org/wiki/FTSE_100_Index
+dax,^GDAXI,DAX,DAX,גרמניה,equity,https://en.wikipedia.org/wiki/DAX
+cac40,^FCHI,CAC 40,CAC 40,צרפת,equity,https://en.wikipedia.org/wiki/CAC_40
+ftsemib,FTSEMIB.MI,FTSE MIB,FTSE MIB,איטליה,equity,https://en.wikipedia.org/wiki/FTSE_MIB
+ibex35,^IBEX,IBEX 35,IBEX 35,ספרד,equity,https://en.wikipedia.org/wiki/IBEX_35
+stoxx50,^STOXX50E,יורוסטוקס 50,EURO STOXX 50,אירופה,equity,https://en.wikipedia.org/wiki/EURO_STOXX_50
+aex,^AEX,AEX,AEX,הולנד,equity,
+smi,^SSMI,SMI,Swiss Market Index,שווייץ,equity,https://en.wikipedia.org/wiki/Swiss_Market_Index
+omxs30,^OMX,OMXS30,OMX Stockholm 30,שוודיה,equity,
+nikkei225,^N225,ניקיי 225,Nikkei 225,יפן,equity,https://en.wikipedia.org/wiki/Nikkei_225
+topix,^TPX,טופיקס,TOPIX,יפן,equity,
+hangseng,^HSI,הנג סנג,Hang Seng Index,הונג קונג,equity,https://en.wikipedia.org/wiki/Hang_Seng_Index
+shanghai,000001.SS,שנגחאי מורכב,Shanghai Composite,סין,equity,
+csi300,000300.SS,CSI 300,CSI 300,סין,equity,
+kospi,^KS11,קוספי,KOSPI,דרום קוריאה,equity,
+taiwan,^TWII,טייוואן,Taiwan Weighted Index,טייוואן,equity,
+sensex,^BSESN,סנסקס,BSE SENSEX,הודו,equity,
+nifty50,^NSEI,ניפטי 50,Nifty 50,הודו,equity,
+asx200,^AXJO,ASX 200,S&P/ASX 200,אוסטרליה,equity,
+bovespa,^BVSP,בוווספה,Bovespa,ברזיל,equity,
+ipc_mexico,^MXX,IPC מקסיקו,IPC Mexico,מקסיקו,equity,
+tsx,^GSPTSE,TSX קנדה,S&P/TSX Composite,קנדה,equity,
+ta125,TA125.TA,ת"א 125,TA-125,ישראל,equity,https://he.wikipedia.org/wiki/מדד_ת"א_125
+ta35,TA35.TA,ת"א 35,TA-35,ישראל,equity,https://he.wikipedia.org/wiki/מדד_ת"א_35
+ta90,TA90.TA,ת"א 90,TA-90,ישראל,equity,
+ta_banks,TA-BANKS5.TA,ת"א בנקים,TA Banks-5,ישראל,equity_sector,
+ta_tech,TA-TECH.TA,ת"א טכנולוגיה,TA Technology,ישראל,equity_sector,
+msci_world_proxy,URTH,MSCI World (פרוקסי ETF),MSCI World (ETF proxy),גלובלי,equity,
+msci_em_proxy,EEM,MSCI EM (פרוקסי ETF),MSCI Emerging Markets (ETF proxy),גלובלי,equity,
+acwi_proxy,ACWI,MSCI ACWI (פרוקסי ETF),MSCI ACWI (ETF proxy),גלובלי,equity,
+us10y_yield,^TNX,תשואת אג"ח 10 שנים ארה"ב,US 10Y Treasury Yield,ארה"ב,rates,
+gold,GC=F,זהב,Gold Futures,סחורות,commodity,
+oil_wti,CL=F,נפט WTI,WTI Crude Oil,סחורות,commodity,
+usdils,ILS=X,דולר/שקל,USD/ILS,מט"ח,fx,
+eurusd,EURUSD=X,אירו/דולר,EUR/USD,מט"ח,fx,
