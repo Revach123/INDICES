@@ -11,6 +11,7 @@
 הרצה: python scripts/fetch_constituents.py
 """
 import csv
+import io
 import time
 from pathlib import Path
 
@@ -30,7 +31,7 @@ def load_universe() -> list[dict]:
 
 
 def pick_constituents_table(html: str) -> pd.DataFrame | None:
-    tables = pd.read_html(html)
+    tables = pd.read_html(io.StringIO(html))
     candidates = []
     for t in tables:
         cols_lower = [str(c).strip().lower() for c in t.columns]
