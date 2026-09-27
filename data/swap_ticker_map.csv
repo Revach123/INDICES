@@ -3,7 +3,7 @@ SPTR,sp500tr,S&P 500 Total Return - טיקר בלומברג ישיר
 SPXTR,sp500tr,S&P 500 Total Return - וריאנט
 SPXEWTR,sp500tr,S&P 500 TR - וריאנט (שווה-משקל בפועל שונה מעט, פרוקסי)
 SPXXTSUT,sp500tr,S&P 500 TR - וריאנט
-XNDX,nasdaq100_tr,Nasdaq-100 TR - פרוקסי ETF מצטבר (CNDX.L, iShares Acc) - אין טיקר TR ישיר ב-Yahoo
+XNDX,nasdaq100,Nasdaq-100 - חזרה למדד מחיר (^NDX): CNDX.L (ETF) נפסל - מחיר ETF (~1755) הוא בקנה מידה שרירותי שונה לגמרי מרמת המדד (~25000), לא ניתן להציב בנוסחת יחידות×מחיר בלי המרה שאין לה מקור אמין. אין טיקר TR באותו קנה-מידה שנמצא ל-Nasdaq-100 (בניגוד ל-Russell 2000)
 NDUEEGF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג (NDUEEGF Index), פרוקסי ETF EEM
 NDUEACWF,acwi_proxy,MSCI ACWI - טיקר בלומברג (NDUEACWF Index), פרוקסי ETF ACWI
 M1EF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג חלופי (M1EF Index)
@@ -15,7 +15,7 @@ HSI,hangseng,Hang Seng Index
 HSI1,hangseng,Hang Seng Index - וריאנט
 DAX,dax,DAX - טיקר ישיר
 DEUTSCHE BOERSE AG GERMAN STOC,dax,שם מלא קריא - DAX
-SX5T,stoxx50_tr,EURO STOXX 50 TR - פרוקסי ETF מצטבר (C50.PA, Amundi Acc) - אין טיקר TR ישיר ב-Yahoo
+SX5T,stoxx50,EURO STOXX 50 - חזרה למדד מחיר (^STOXX50E): C50.PA (ETF) נפסל - אותה בעיית קנה-מידה כמו Nasdaq-100 (מחיר ETF לא באותו קנה מידה של רמת המדד). אין טיקר TR באותו קנה-מידה שנמצא
 FTSEMIBN,ftsemib,FTSE MIB Net Total Return - פרוקסי מחיר (FTSEMIB.MI)
 RU20INTR,russell2000_tr,Russell 2000 Total Return - טיקר TR ישיר ב-Yahoo (^RUTTR) - התאמה מדויקת, לא פרוקסי
 RUN20INTR,russell2000_tr,Russell 2000 Total Return - וריאנט, אותו טיקר TR ישיר
