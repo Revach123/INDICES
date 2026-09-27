@@ -1,0 +1,99 @@
+swap_ticker,index_id,note
+SPTR,sp500tr,S&P 500 Total Return - טיקר בלומברג ישיר
+SPXTR,sp500tr,S&P 500 Total Return - וריאנט
+SPXEWTR,sp500tr,S&P 500 TR - וריאנט (שווה-משקל בפועל שונה מעט, פרוקסי)
+SPXXTSUT,sp500tr,S&P 500 TR - וריאנט
+XNDX,nasdaq100,Nasdaq-100 Total Return - אין TR חינמי ב-Yahoo, פרוקסי מחיר
+NDUEEGF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג (NDUEEGF Index), פרוקסי ETF EEM
+NDUEACWF,acwi_proxy,MSCI ACWI - טיקר בלומברג (NDUEACWF Index), פרוקסי ETF ACWI
+M1EF,msci_em_proxy,MSCI Emerging Markets - טיקר בלומברג חלופי (M1EF Index)
+MSCI EMERGING NET TRN,msci_em_proxy,שם מלא קריא - MSCI EM
+MSCI WORLD GROSS,msci_world_proxy,שם מלא קריא - MSCI World
+TPXDDVD,topix,TOPIX Total Return (דיבידנד מותאם) - פרוקסי ETF 1306.T
+NKYTR,nikkei225,Nikkei 225 Total Return - פרוקסי מחיר
+HSI,hangseng,Hang Seng Index
+HSI1,hangseng,Hang Seng Index - וריאנט
+DAX,dax,DAX - טיקר ישיר
+DEUTSCHE BOERSE AG GERMAN STOC,dax,שם מלא קריא - DAX
+SX5T,stoxx50,EURO STOXX 50 Total Return - פרוקסי מחיר (^STOXX50E)
+FTSEMIBN,ftsemib,FTSE MIB Net Total Return - פרוקסי מחיר (FTSEMIB.MI)
+RU20INTR,russell2000,Russell 2000 Total Return - פרוקסי מחיר (^RUT)
+RUN20INTR,russell2000,Russell 2000 Total Return - וריאנט
+CSIN0301,csi300,CSI 300 - טיקר בלומברג (CSIN0301 Index)
+BXTRNIFT,nifty50,Nifty 50 Total Return - פרוקסי מחיר (^NSEI)
+TA125,ta125,TA-125
+TLV125,ta125,TA-125 - וריאנט
+INDEXTA125,ta125,TA-125 - וריאנט
+מדד ת"א,ta125,ככל הנראה TA-125/TA-90 מקוצר - לא ניתן להבחין בוודאות מהטיקר בלבד
+INDEXTA90,ta90,TA-90
+TA-BANK5,ta_banks,TA Banks-5 - עדיין ללא טיקר Yahoo תקין ידוע (ר' README ב-INDICES)
+INDEXTA126,,קוד לא מזוהה - ייתכן טעות דיווח (אין מדד "TA126" ידוע)
+M1IN,msci_india_proxy,MSCI India - טיקר בלומברג (M1IN Index), פרוקסי ETF INDA
+M1CNA,china_a_proxy,MSCI China A - טיקר בלומברג (M1CNA Index), פרוקסי ETF ASHR (לא מדויק - ASHR עוקב CSI300, לא MSCI China A)
+SZCOMP,shenzhen,Shenzhen Composite
+GSCBHPWR,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSHAPOW1,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSXERCOV,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSALTEPW,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSXEPOWR,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSENEPOW,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSPOTECH,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSCLBDOG,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSALTCMC,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSALTBLD,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSHAOPTC,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSCBHJTO,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSALTBPB,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSCBCLTO,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSALTPOW,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSCBXCHI,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSBDIVI2,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSTEDAC3,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+GSCBHJPD,,סל קנייני של GS - אין מקור נתונים ציבורי חינמי
+JPCLGOLD,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPFXHI01,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMGDLEN,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPALS001,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMTVEUI,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPCLAGAM,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPCLACON,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMGDLAI,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPCLABIO,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JP2MAG7E,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPCLIGHT,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPFXCHI2,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPFNXCHI,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPFXHC,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMMOREM IND,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMOREM2 IND,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPMGDLDF,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+JPFXBK01,,סל קנייני של JPM - אין מקור נתונים ציבורי חינמי
+CGASASSA,,סל קנייני של Citi - אין מקור נתונים ציבורי חינמי
+CGASSASL,,סל קנייני של Citi - אין מקור נתונים ציבורי חינמי
+CGASBBB,,סל קנייני של Citi - אין מקור נתונים ציבורי חינמי
+CGMMCONS,,סל קנייני של Citi - אין מקור נתונים ציבורי חינמי
+MLBLMUSS,,סל קנייני של ML/BofA - אין מקור נתונים ציבורי חינמי
+MLBLPH01,,סל קנייני של ML/BofA - אין מקור נתונים ציבורי חינמי
+NDEUCHF,,לא ידוע
+IBOXHY,,iBoxx (Markit) - לא זהה ל-ETF ציבורי בביטחון מספיק
+IXVTR,,S&P sector TR - לא זוהה סקטור בוודאות
+IXYTR,,S&P sector TR - לא זוהה סקטור בוודאות
+IXCTR,,S&P sector TR - לא זוהה סקטור בוודאות
+IXTTR,,S&P sector TR - לא זוהה סקטור בוודאות
+IXMTR,,S&P sector TR - לא זוהה סקטור בוודאות
+S5SFTW,,S&P 500 Software - אין פרוקסי מדויק חינמי
+S5TECH,,"S&P 500 Info Tech - אין TR חינמי, יש פרוקסי מחיר גס (^SP500-45) לא מדויק דיו"
+MSDE15XN,,לא זוהה
+SGBHVP02,,לא זוהה
+TMCXG,,לא זוהה
+DBCUFNXG,,לא זוהה
+ISCI CHINA,,לא זוהה
+GLDEFNSINDEX,,לא זוהה
+HOLMS,,לא זוהה
+RIYCCTR,,לא זוהה
+SDB3674395897,,קוד מספרי - לא טיקר תקין
+SOFR,,ריבית בנצ'מרק (לא מדד מניות) - מחוץ להיקף
+ESTR,,ריבית בנצ'מרק (לא מדד מניות) - מחוץ להיקף
+BBSW,,ריבית בנצ'מרק (לא מדד מניות) - מחוץ להיקף
+M1WOMOM,,MSCI World Momentum - אין פרוקסי חינמי מהימן שנמצא
+NDWUIT,,לא זוהה בוודאות
