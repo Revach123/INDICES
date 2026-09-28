@@ -3,7 +3,7 @@
     "label": "period, no events",
     "params": {
       "period1": 1704067200,
-      "period2": 1790576676,
+      "period2": 1790577016,
       "interval": "1d"
     },
     "n": 686,
@@ -28,7 +28,7 @@
     "label": "period + events=history",
     "params": {
       "period1": 1704067200,
-      "period2": 1790576676,
+      "period2": 1790577016,
       "interval": "1d",
       "events": "history"
     },
@@ -54,7 +54,7 @@
     "label": "period + events=div,splits",
     "params": {
       "period1": 1704067200,
-      "period2": 1790576676,
+      "period2": 1790577016,
       "interval": "1d",
       "events": "div,splits"
     },

@@ -164,7 +164,7 @@
       "instrumentType": "ETF",
       "exchangeName": "JPX",
       "longName": "iShares Core Nikkei 225 ETF",
-      "last_close": 6861.0
+      "last_close": 6850.0
     },
     "1320.T": {
       "status": 200,
@@ -173,7 +173,7 @@
       "instrumentType": "ETF",
       "exchangeName": "JPX",
       "longName": "iFreeETF Nikkei225 (Yearly Dividend Type)",
-      "last_close": 68340.0
+      "last_close": 68250.0
     }
   },
   "topix_tr": {
@@ -187,7 +187,7 @@
       "instrumentType": "ETF",
       "exchangeName": "JPX",
       "longName": "iShares Core TOPIX ETF",
-      "last_close": 423.0
+      "last_close": 422.79998779296875
     },
     "1348.T": {
       "status": 200,
@@ -196,7 +196,7 @@
       "instrumentType": "ETF",
       "exchangeName": "JPX",
       "longName": "MAXIS TOPIX ETF",
-      "last_close": 4280.0
+      "last_close": 4276.0
     }
   },
   "dax_check": {
