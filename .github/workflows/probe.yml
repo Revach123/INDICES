@@ -3,6 +3,9 @@ name: Data source probe
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -27,3 +30,13 @@ jobs:
         with:
           name: probe_out
           path: probe_out/
+      - name: Commit readable MAOF probe text (for inspection via raw.githubusercontent.com)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p probe_out_committed
+          cp probe_out/*.txt probe_out_committed/ 2>/dev/null || true
+          git add probe_out_committed
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "MAOF probe: readable text snapshot for inspection"
+          git push
