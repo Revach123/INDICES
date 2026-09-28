@@ -109,7 +109,7 @@ def fetch_markets(mics, prev_active):
             del results[m]
     for m, err in failed.items():
         log(f"MARKET FAILED {m}: {err} - keeping previous rows")
-    return results, failed, meta
+    return results, failed, meta, firds_lookup
 
 
 def merge_swiss_into_eu(results):
@@ -160,8 +160,53 @@ def fill_isin_from_share_class(rows, cache, dominant):
     log(f"isin: {filled} JP/CA securities got the regulator's ISIN via the same share-class FIGI")
 
 
-def figi_jobs(rows):
-    """key -> job. סדר: שווקים קטנים קודם (נגמרים מהר), אחר כך ראשי באירופה, אחר כך שאר הבורסות."""
+HOME_MICS = {"JP": ("XTKS",), "CA": ("XTSE", "XTSX")}
+
+
+def home_isin_jobs(firds_lookup):
+    """ISIN-ים רשמיים של מניות/קרנות יפניות וקנדיות מ-FIRDS (נסחרות גם באירופה) -> OpenFIGI בבורסת
+    הבית, כדי לקבל את הקוד/סימול שם ולהשלים ISIN לשורה של JPX/TMX."""
+    jobs = {}
+    for isin, a in sorted(firds_lookup.items()):
+        cc = isin[:2]
+        if cc in HOME_MICS and (a.get("cfi") or "")[:1] in ("E", "C"):
+            for mic in HOME_MICS[cc]:
+                jobs[f"{isin}@{mic}"] = {"idType": "ID_ISIN", "idValue": isin, "micCode": mic}
+    return jobs
+
+
+def fill_isin_from_home_lookup(rows, cache, dominant):
+    """ISIN -> (MIC, טיקר) מ-OpenFIGI; שיוך רק כשהמיפוי חד-חד-ערכי (ISIN אחד לקוד, קוד אחד ל-ISIN)."""
+    by_ticker = {}
+    for k, e in cache.items():
+        mic = (e.get("job") or {}).get("micCode")
+        if "@" not in k or mic not in ("XTKS", "XTSE", "XTSX") or not e.get("data"):
+            continue
+        p = figi_pick(e, dominant)
+        if p and p["ticker"]:
+            by_ticker.setdefault((mic, p["ticker"]), set()).add(e["job"]["idValue"])
+    isin_count = {}
+    for isins in by_ticker.values():
+        for i in isins:
+            isin_count[i] = isin_count.get(i, 0) + 1
+    filled = 0
+    for r in rows:
+        if r["market"] not in ("JP", "CA") or r.get("isin"):
+            continue
+        tickers = [r["ticker"]] if r["market"] == "JP" else (r.get("_figi_tickers") or [])
+        cands = set()
+        for t in tickers:
+            cands |= by_ticker.get((r["primary_mic"], t), set())
+        cands = {i for i in cands if isin_count.get(i) == 1}
+        if len(cands) == 1:
+            r["isin"], r["isin_source"] = next(iter(cands)), "firds_openfigi"
+            filled += 1
+    log(f"isin: {filled} JP/CA securities got an official FIRDS ISIN via OpenFIGI at the home exchange")
+
+
+def figi_jobs(rows, extra=None):
+    """key -> job. סדר: שווקים קטנים קודם (נגמרים מהר), אחר כך ראשי באירופה, ISIN-ים של יפן/קנדה,
+    אחר כך שאר הבורסות."""
     first, eu_primary, eu_other = {}, {}, {}
     for r in rows:
         if r["market"] == "JP":
@@ -178,7 +223,7 @@ def figi_jobs(rows):
             else:
                 for o in sorted({l["o"] for l in r["listings"]}):
                     eu_other[f"{r['isin']}@{o}"] = {"idType": "ID_ISIN", "idValue": r["isin"], "micCode": o}
-    return {**first, **eu_primary, **eu_other}
+    return {**first, **eu_primary, **(extra or {}), **eu_other}
 
 
 def apply_figi(r, cache, dominant):
@@ -252,7 +297,7 @@ def main():
     gleif_cache = read_cache(GLEIF_CACHE)
 
     mics = load_mics()
-    results, failed, meta = fetch_markets(mics, prev_active)
+    results, failed, meta, firds_lookup = fetch_markets(mics, prev_active)
     if not results:
         sys.exit("ABORT: all markets failed")
 
@@ -289,13 +334,14 @@ def main():
 
     # OpenFIGI
     try:
-        figi_lookup(figi_jobs(today), figi_cache, FIGI_BUDGET)
+        figi_lookup(figi_jobs(today, home_isin_jobs(firds_lookup)), figi_cache, FIGI_BUDGET)
     except Exception as e:  # noqa: BLE001
         log(f"openfigi FAILED {e!r}")
     dominant = dominant_exch_codes(figi_cache)
     log(f"openfigi: dominant exchCode per MIC: {dict(sorted(dominant.items()))}")
 
     fill_isin_from_share_class(today, figi_cache, dominant)
+    fill_isin_from_home_lookup(today, figi_cache, dominant)
 
     # מיזוג
     out = {}
