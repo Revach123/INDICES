@@ -191,7 +191,8 @@
 },
 "BMEX": {
 "acronym": "BME",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "ES",
 "city": "MADRID",
 "name": "BME - BOLSAS Y MERCADOS ESPANOLES",
@@ -338,6 +339,17 @@
 "oprt": "XHAN",
 "status": "ACTIVE",
 "website": ""
+},
+"HMTF": {
+"acronym": "",
+"cat": "MLTF",
+"cat_raw": "NSPD",
+"cc": "IT",
+"city": "MILANO",
+"name": "HI-MTF",
+"oprt": "HMTF",
+"status": "ACTIVE",
+"website": "WWW.HIMTF.COM"
 },
 "JBUL": {
 "acronym": "BSE-MTF",
@@ -581,7 +593,8 @@
 },
 "XBUL": {
 "acronym": "BSE",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "BG",
 "city": "SOFIA",
 "name": "BULGARIAN STOCK EXCHANGE",
@@ -591,7 +604,8 @@
 },
 "XCSE": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DK",
 "city": "COPENHAGEN",
 "name": "NASDAQ COPENHAGEN A/S",
@@ -611,7 +625,8 @@
 },
 "XDUB": {
 "acronym": "ISE",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "IE",
 "city": "DUBLIN",
 "name": "IRISH STOCK EXCHANGE - ALL MARKET",
@@ -621,7 +636,8 @@
 },
 "XDUS": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "DUESSELDORF",
 "name": "BOERSE DUESSELDORF",
@@ -641,7 +657,8 @@
 },
 "XETR": {
 "acronym": "XETRA",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "FRANKFURT",
 "name": "XETRA",
@@ -661,7 +678,8 @@
 },
 "XFRA": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "FRANKFURT",
 "name": "DEUTSCHE BOERSE AG",
@@ -681,7 +699,8 @@
 },
 "XHAM": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "HAMBURG",
 "name": "HANSEATISCHE WERTPAPIERBOERSE HAMBURG",
@@ -691,7 +710,8 @@
 },
 "XHAN": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "HANNOVER",
 "name": "NIEDERSAECHSISCHE BOERSE ZU HANNOVER",
@@ -701,7 +721,8 @@
 },
 "XHEL": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "FI",
 "city": "HELSINKI",
 "name": "NASDAQ HELSINKI LTD",
@@ -718,6 +739,16 @@
 "oprt": "XICE",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"XJPX": {
+"acronym": "JPX",
+"cat": "RMKT",
+"cc": "JP",
+"city": "TOKYO",
+"name": "JAPAN EXCHANGE GROUP",
+"oprt": "XJPX",
+"status": "ACTIVE",
+"website": "WWW.JPX.CO.JP"
 },
 "XLIS": {
 "acronym": "",
@@ -781,7 +812,8 @@
 },
 "XMIL": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "IT",
 "city": "MILANO",
 "name": "BORSA ITALIANA S.P.A.",
@@ -801,7 +833,8 @@
 },
 "XMUN": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "MUENCHEN",
 "name": "BOERSE MUENCHEN",
@@ -869,6 +902,17 @@
 "status": "ACTIVE",
 "website": "WWW.OSLOBORS.NO"
 },
+"XPAR": {
+"acronym": "",
+"cat": "RMKT",
+"cat_raw": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "EURONEXT - EURONEXT PARIS",
+"oprt": "XPAR",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
 "XPRA": {
 "acronym": "PSE",
 "cat": "RMKT",
@@ -911,7 +955,8 @@
 },
 "XSTU": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "DE",
 "city": "STUTTGART",
 "name": "BOERSE STUTTGART",
@@ -938,6 +983,16 @@
 "oprt": "XTAL",
 "status": "ACTIVE",
 "website": "WWW.NASDAQBALTIC.COM"
+},
+"XTKS": {
+"acronym": "TSE",
+"cat": "NSPD",
+"cc": "JP",
+"city": "TOKYO",
+"name": "TOKYO STOCK EXCHANGE",
+"oprt": "XJPX",
+"status": "ACTIVE",
+"website": "WWW.JPX.CO.JP"
 },
 "XTSE": {
 "acronym": "TSX",
@@ -971,7 +1026,8 @@
 },
 "XWBO": {
 "acronym": "",
-"cat": "NSPD",
+"cat": "RMKT",
+"cat_raw": "NSPD",
 "cc": "AT",
 "city": "VIENNA",
 "name": "WIENER BOERSE AG",
