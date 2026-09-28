@@ -1,0 +1,213 @@
+{
+  "nasdaq100_tr": {
+    "^NDXTR": {
+      "status": 404
+    },
+    "^NDXT": {
+      "status": 200,
+      "ok": true,
+      "currency": "USD",
+      "instrumentType": "INDEX",
+      "exchangeName": "NIM",
+      "longName": "NASDAQ-100 Technology Sector",
+      "last_close": 18086.880859375
+    },
+    "CNDX.L": {
+      "status": 200,
+      "ok": true,
+      "currency": "USD",
+      "instrumentType": "ETF",
+      "exchangeName": "LSE",
+      "longName": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
+      "last_close": 1755.0
+    },
+    "SXRV.DE": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "ETF",
+      "exchangeName": "GER",
+      "longName": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
+      "last_close": 1539.0
+    },
+    "EQQQ.L": {
+      "status": 200,
+      "ok": true,
+      "currency": "GBp",
+      "instrumentType": "ETF",
+      "exchangeName": "LSE",
+      "longName": "Invesco EQQQ NASDAQ-100 UCITS ETF",
+      "last_close": 56387.0
+    }
+  },
+  "stoxx50_tr": {
+    "^SX5T": {
+      "status": 404
+    },
+    "^SX5TR": {
+      "status": 404
+    },
+    "EXW1.DE": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "ETF",
+      "exchangeName": "GER",
+      "longName": "iShares Core EURO STOXX 50 UCITS ETF (DE)",
+      "last_close": 63.5
+    },
+    "CSX5.MI": {
+      "status": 404
+    },
+    "C50.PA": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "ETF",
+      "exchangeName": "PAR",
+      "longName": "Amundi Core EURO STOXX 50 UCITS ETF EUR Acc",
+      "last_close": 169.60000610351562
+    }
+  },
+  "ftse100_tr": {
+    "^FTSETR": {
+      "status": 404
+    },
+    "^UKXTR": {
+      "status": 404
+    },
+    "ISF.L": {
+      "status": 200,
+      "ok": true,
+      "currency": "GBp",
+      "instrumentType": "ETF",
+      "exchangeName": "LSE",
+      "longName": "iShares Core FTSE 100 UCITS ETF GBP (Dist)",
+      "last_close": 1040.0
+    },
+    "CUKX.L": {
+      "status": 200,
+      "ok": true,
+      "currency": "GBp",
+      "instrumentType": "ETF",
+      "exchangeName": "LSE",
+      "longName": "iShares VII PLC - iShares Core FTSE 100 ETF GBP Acc",
+      "last_close": 22010.0
+    }
+  },
+  "ftsemib_tr": {
+    "^FTSEMIBTR": {
+      "status": 404
+    },
+    "^FTMIBTR": {
+      "status": 404
+    },
+    "SPMIB.MI": {
+      "status": 404
+    },
+    "LYXBIT.MI": {
+      "status": 404
+    },
+    "XMIB.MI": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "ETF",
+      "exchangeName": "MIL",
+      "longName": "Xtrackers FTSE MIB UCITS ETF 1D",
+      "last_close": 50.560001373291016
+    }
+  },
+  "russell2000_tr": {
+    "^RUTTR": {
+      "status": 200,
+      "ok": true,
+      "currency": "USD",
+      "instrumentType": "INDEX",
+      "exchangeName": "WCB",
+      "longName": "Russell 2000 Total Return",
+      "last_close": 15687.1396484375
+    },
+    "^RU20INTR": {
+      "status": 404
+    },
+    "IUSN.DE": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "ETF",
+      "exchangeName": "GER",
+      "longName": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
+      "last_close": 8.991999626159668
+    },
+    "WSML.L": {
+      "status": 200,
+      "ok": true,
+      "currency": "USD",
+      "instrumentType": "ETF",
+      "exchangeName": "LSE",
+      "longName": "iShares MSCI World Small Cap UCITS ETF USD (Acc)",
+      "last_close": 10.26200008392334
+    }
+  },
+  "nikkei_tr": {
+    "^N225TR": {
+      "status": 404
+    },
+    "^NKYTR": {
+      "status": 404
+    },
+    "1329.T": {
+      "status": 200,
+      "ok": true,
+      "currency": "JPY",
+      "instrumentType": "ETF",
+      "exchangeName": "JPX",
+      "longName": "iShares Core Nikkei 225 ETF",
+      "last_close": 6850.0
+    },
+    "1320.T": {
+      "status": 200,
+      "ok": true,
+      "currency": "JPY",
+      "instrumentType": "ETF",
+      "exchangeName": "JPX",
+      "longName": "iFreeETF Nikkei225 (Yearly Dividend Type)",
+      "last_close": 68240.0
+    }
+  },
+  "topix_tr": {
+    "^TPXTR": {
+      "status": 404
+    },
+    "1475.T": {
+      "status": 200,
+      "ok": true,
+      "currency": "JPY",
+      "instrumentType": "ETF",
+      "exchangeName": "JPX",
+      "longName": "iShares Core TOPIX ETF",
+      "last_close": 423.20001220703125
+    },
+    "1348.T": {
+      "status": 200,
+      "ok": true,
+      "currency": "JPY",
+      "instrumentType": "ETF",
+      "exchangeName": "JPX",
+      "longName": "MAXIS TOPIX ETF",
+      "last_close": 4278.0
+    }
+  },
+  "dax_check": {
+    "^GDAXI": {
+      "status": 200,
+      "ok": true,
+      "currency": "EUR",
+      "instrumentType": "INDEX",
+      "exchangeName": "GER",
+      "longName": "DAX P",
+      "last_close": 25408.640625
+    }
+  }
+}

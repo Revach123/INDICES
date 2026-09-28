@@ -1,0 +1,310 @@
+{
+  "sp500": {
+    "symbol": "^GSPC",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 7743.41,
+    "longName": "S&P 500"
+  },
+  "sp500tr": {
+    "symbol": "^SP500TR",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 17364.79,
+    "longName": "S&P 500 (TR)"
+  },
+  "nasdaq100": {
+    "symbol": "^NDX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 30608.135,
+    "longName": "NASDAQ-100"
+  },
+  "dow30": {
+    "symbol": "^DJI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 51828.62,
+    "longName": "Dow Jones Industrial Average"
+  },
+  "russell2000": {
+    "symbol": "^RUT",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 2837.552,
+    "longName": " Russell 2000 Index"
+  },
+  "vix": {
+    "symbol": "^VIX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 14.87,
+    "longName": "CBOE Volatility Index"
+  },
+  "sp500_tech": {
+    "symbol": "^SP500-45",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 7295.25,
+    "longName": "S&P 500 Information Technology"
+  },
+  "sp500_energy": {
+    "symbol": "^GSPE",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 951.21,
+    "longName": "S&P 500 Energy (Sector)"
+  },
+  "sp500_financials": {
+    "symbol": "^SP500-40",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 912.96,
+    "longName": "S&P 500 Financials (Sector)"
+  },
+  "sp500_healthcare": {
+    "symbol": "^SP500-35",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 1992.06,
+    "longName": "S&P 500 Health Care (Sector)"
+  },
+  "ftse100": {
+    "symbol": "^FTSE",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 10695.25,
+    "longName": "FTSE 100"
+  },
+  "dax": {
+    "symbol": "^GDAXI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 25408.64,
+    "longName": "DAX P"
+  },
+  "cac40": {
+    "symbol": "^FCHI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 8077.8,
+    "longName": "CAC 40"
+  },
+  "ftsemib": {
+    "symbol": "FTSEMIB.MI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 51866.93,
+    "longName": "FTSE MIB Index"
+  },
+  "ibex35": {
+    "symbol": "^IBEX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 19700.1,
+    "longName": "IBEX 35"
+  },
+  "stoxx50": {
+    "symbol": "^STOXX50E",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 6302.82,
+    "longName": "EURO STOXX 50 I"
+  },
+  "aex": {
+    "symbol": "^AEX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 1112.09,
+    "longName": "AEX-Index"
+  },
+  "smi": {
+    "symbol": "^SSMI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 13945.71,
+    "longName": "SMI PR"
+  },
+  "omxs30": {
+    "symbol": "^OMX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 3295.03,
+    "longName": "OMX Stockholm 30 Index"
+  },
+  "nikkei225": {
+    "symbol": "^N225",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 66168.54,
+    "longName": "Nikkei 225"
+  },
+  "topix": {
+    "symbol": "1306.T",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 429.9,
+    "longName": "NEXT FUNDS TOPIX Exchange Traded Fund"
+  },
+  "hangseng": {
+    "symbol": "^HSI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 24657.91,
+    "longName": "HANG SENG INDEX"
+  },
+  "shanghai": {
+    "symbol": "000001.SS",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 3812.2507,
+    "longName": "SSE Composite Index"
+  },
+  "csi300": {
+    "symbol": "000300.SS",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 4328.7246,
+    "longName": "CSI 300 Index"
+  },
+  "kospi": {
+    "symbol": "^KS11",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 6908.59,
+    "longName": "KOSPI Composite Index"
+  },
+  "taiwan": {
+    "symbol": "^TWII",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 48024.6,
+    "longName": "TSEC CAPITALIZATION WEIGHTED ST"
+  },
+  "sensex": {
+    "symbol": "^BSESN",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 72869.21,
+    "longName": "S&P BSE SENSEX"
+  },
+  "nifty50": {
+    "symbol": "^NSEI",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 22826.0,
+    "longName": "NIFTY 50"
+  },
+  "asx200": {
+    "symbol": "^AXJO",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 8675.7,
+    "longName": "S&P/ASX 200 [XJO]"
+  },
+  "bovespa": {
+    "symbol": "^BVSP",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 183476.86,
+    "longName": "IBOVESPA"
+  },
+  "ipc_mexico": {
+    "symbol": "^MXX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 64992.23,
+    "longName": "IPC MEXICO"
+  },
+  "tsx": {
+    "symbol": "^GSPTSE",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 35800.89,
+    "longName": "S&P/TSX Composite index"
+  },
+  "ta125": {
+    "symbol": "TA125.TA",
+    "error": "no result"
+  },
+  "ta35": {
+    "symbol": "TA35.TA",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 4242.12,
+    "longName": "TA-35"
+  },
+  "ta90": {
+    "symbol": "TA90.TA",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 3677.85,
+    "longName": "TA-90"
+  },
+  "ta_banks": {
+    "symbol": "TA-BANKS5.TA",
+    "error": "no result"
+  },
+  "ta_tech": {
+    "symbol": "TA-TECH.TA",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 2173.01,
+    "longName": "TA Technology"
+  },
+  "msci_world_proxy": {
+    "symbol": "URTH",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 208.73,
+    "longName": "iShares MSCI World ETF"
+  },
+  "msci_em_proxy": {
+    "symbol": "EEM",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 67.98,
+    "longName": "iShares MSCI Emerging Markets ETF"
+  },
+  "acwi_proxy": {
+    "symbol": "ACWI",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 161.05,
+    "longName": "iShares MSCI ACWI ETF"
+  },
+  "us10y_yield": {
+    "symbol": "^TNX",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 5.184,
+    "longName": "CBOE Interest Rate 10 Year T Note"
+  },
+  "gold": {
+    "symbol": "GC=F",
+    "instrumentType": "FUTURE",
+    "regularMarketPrice": 4215.1,
+    "longName": "Gold Dec 26"
+  },
+  "oil_wti": {
+    "symbol": "CL=F",
+    "instrumentType": "FUTURE",
+    "regularMarketPrice": 94.39,
+    "longName": "Crude Oil Nov 26"
+  },
+  "usdils": {
+    "symbol": "ILS=X",
+    "instrumentType": "CURRENCY",
+    "regularMarketPrice": 3.0497,
+    "longName": "USD/ILS"
+  },
+  "eurusd": {
+    "symbol": "EURUSD=X",
+    "instrumentType": "CURRENCY",
+    "regularMarketPrice": 1.138,
+    "longName": "EUR/USD"
+  },
+  "russell2000_tr": {
+    "symbol": "^RUTTR",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 15687.142,
+    "longName": "Russell 2000 Total Return"
+  },
+  "nasdaq100_tr": {
+    "symbol": "CNDX.L",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 1755.0,
+    "longName": "iShares NASDAQ 100 UCITS ETF USD (Acc)"
+  },
+  "stoxx50_tr": {
+    "symbol": "C50.PA",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 169.6,
+    "longName": "Amundi Core EURO STOXX 50 UCITS ETF EUR Acc"
+  },
+  "ftse100_tr": {
+    "symbol": "CUKX.L",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 22010.0,
+    "longName": "iShares VII PLC - iShares Core FTSE 100 ETF GBP Acc"
+  },
+  "msci_india_proxy": {
+    "symbol": "INDA",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 47.86,
+    "longName": "iShares MSCI India ETF"
+  },
+  "china_a_proxy": {
+    "symbol": "ASHR",
+    "instrumentType": "ETF",
+    "regularMarketPrice": 33.09,
+    "longName": "Xtrackers Harvest CSI 300 China A-Shares ETF"
+  },
+  "shenzhen": {
+    "symbol": "399001.SZ",
+    "instrumentType": "INDEX",
+    "regularMarketPrice": 12824.656,
+    "longName": "Shenzhen Index"
+  }
+}

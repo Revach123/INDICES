@@ -1,0 +1,80 @@
+{
+  "yahoo_chart_spx": {
+    "status": 200,
+    "bytes": 1699,
+    "content_type": "application/json;charset=utf-8",
+    "head": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^GSPC\",\"exchangeName\":\"SNP\",\"fullExchangeName\":\"SNP\",\"instrumentType\":\"INDEX\",\"firstTradeDate\":-1325583000,\"regularMarketTime\":1790368797,\"hasPr"
+  },
+  "stooq_spx": {
+    "status": 200,
+    "bytes": 796,
+    "content_type": "text/html; charset=utf-8",
+    "head": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><noscript>This site requires JavaScript to verify your browser. Please enable JavaScript an"
+  },
+  "stooq_ta125": {
+    "status": 200,
+    "bytes": 796,
+    "content_type": "text/html; charset=utf-8",
+    "head": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><noscript>This site requires JavaScript to verify your browser. Please enable JavaScript an"
+  },
+  "fred_sp500": {
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\"))"
+  },
+  "wikipedia_sp500_constituents": {
+    "status": 200,
+    "bytes": 569938,
+    "content_type": "text/html; charset=UTF-8",
+    "head": "<!DOCTYPE html>\n<html class=\"client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-pag"
+  },
+  "ishares_ivv_holdings": {
+    "status": 200,
+    "bytes": 2251704,
+    "content_type": "text/csv;charset=UTF-8",
+    "head": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-d"
+  },
+  "tase_indices": {
+    "status": 403,
+    "bytes": 884,
+    "content_type": "text/html",
+    "head": "<html style=\"height:100%\"><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\"><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\" content=\"initial-scale=1.0\"><meta http-equiv="
+  },
+  "worldbank": {
+    "status": 200,
+    "bytes": 19031,
+    "content_type": "application/json;charset=utf-8",
+    "head": "[{\"page\":1,\"pages\":6,\"per_page\":\"50\",\"total\":295},[{\"id\":\"ABW\",\"iso2Code\":\"AW\",\"name\":\"Aruba\",\"region\":{\"id\":\"LCN\",\"iso2code\":\"ZJ\",\"value\":\"Latin America & Caribbean \"},\"adminregion\":{\"id\":\"\",\"iso2cod"
+  },
+  "ecb_sdw": {
+    "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'sdw-wsrest.ecb.europa.eu\\', port=443): Max retries exceeded with url: /service/data/EXR/D.USD.EUR.SP00.A (Caused by NameResolutionError(\"HTTPSConnection(host=\\'sdw-wsrest.ecb.europa.eu\\', port=443): Failed to resolve \\'sdw-wsrest.ecb.europa.eu\\' ([Errno -2] Name or service not known)\"))'))"
+  },
+  "nasdaqtrader": {
+    "status": 200,
+    "bytes": 349814,
+    "content_type": "text/plain",
+    "head": "Symbol|Security Name|Market Category|Test Issue|Financial Status|Round Lot Size|ETF|NextShares\r\nAAAP|Pacer Barings CLO Market Flex ETF|G|N|N|100|Y|N\r\nAACG|ATA Creativity Global - American Depositary S"
+  },
+  "msci_index_perf": {
+    "status": 200,
+    "bytes": 72906,
+    "content_type": "text/html;charset=UTF-8",
+    "head": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html class=\"ltr\" dir=\"ltr\" lang=\"en-US\" itemscope itemtype=\"http://schema.org"
+  },
+  "investing_ping": {
+    "status": 403,
+    "bytes": 3,
+    "content_type": "text/plain",
+    "head": "403"
+  },
+  "google_ping": {
+    "status": 200,
+    "bytes": 230668,
+    "content_type": "text/html; charset=UTF-8",
+    "head": "<!doctype html><html itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"en\"><head><meta charset=\"UTF-8\"><meta content=\"origin\" name=\"referrer\"><link href=\"//www.gstatic.com/images/branding/search"
+  },
+  "sec_ping": {
+    "status": 403,
+    "bytes": 1925,
+    "content_type": "text/html",
+    "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-T"
+  }
+}
