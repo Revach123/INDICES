@@ -1,0 +1,88 @@
+{
+  "POLI.TA": {
+    "expected": "בנק הפועלים (Bank Hapoalim)",
+    "instrumentType": "EQUITY",
+    "longName": "Bank Hapoalim B.M.",
+    "price": 7830.0
+  },
+  "LUMI.TA": {
+    "expected": "בנק לאומי (Bank Leumi)",
+    "instrumentType": "EQUITY",
+    "longName": "Bank Leumi le-Israel B.M.",
+    "price": 7588.0
+  },
+  "DSCT.TA": {
+    "expected": "בנק דיסקונט (Discount Bank)",
+    "instrumentType": "EQUITY",
+    "longName": "Israel Discount Bank Limited",
+    "price": 3527.0
+  },
+  "MZTF.TA": {
+    "expected": "מזרחי טפחות (Mizrahi-Tefahot)",
+    "instrumentType": "EQUITY",
+    "longName": "Mizrahi Tefahot Bank Ltd.",
+    "price": 23520.0
+  },
+  "BEZQ.TA": {
+    "expected": "בזק (Bezeq)",
+    "instrumentType": "EQUITY",
+    "longName": "Bezeq The Israel Telecommunication Corp. Ltd",
+    "price": 743.0
+  },
+  "CLIS.TA": {
+    "expected": "כלל ביטוח (Clal Insurance)",
+    "instrumentType": "EQUITY",
+    "longName": "Clal Insurance Enterprises Holdings Ltd.",
+    "price": 29190.0
+  },
+  "PHOE.TA": {
+    "expected": "הפניקס (Phoenix)",
+    "instrumentType": "EQUITY",
+    "longName": "Phoenix Financial Ltd.",
+    "price": 18410.0
+  },
+  "PHOE1.TA": {
+    "expected": "הפניקס (Phoenix) - variant",
+    "error": "no result"
+  },
+  "MMHD.TA": {
+    "expected": "מנורה מבטחים (Menora Mivtachim)",
+    "instrumentType": "EQUITY",
+    "longName": "Menora Mivtachim Holdings Ltd.",
+    "price": 53210.0
+  },
+  "MGDL.TA": {
+    "expected": "מגדל ביטוח (Migdal Insurance)",
+    "instrumentType": "EQUITY",
+    "longName": "Migdal Insurance and Financial Holdings Ltd.",
+    "price": 2080.0
+  },
+  "ENLT.TA": {
+    "expected": "אנלייט (Enlight Renewable Energy)",
+    "instrumentType": "EQUITY",
+    "longName": "Enlight Renewable Energy Ltd",
+    "price": 20990.0
+  },
+  "AFHL.TA": {
+    "expected": "אפקון החזקות (Afcon Holdings)",
+    "instrumentType": "EQUITY",
+    "longName": "Afcon Holdings Ltd",
+    "price": 54030.0
+  },
+  "DMRI.TA": {
+    "expected": "דמרי (Dmri Group)",
+    "error": "no result"
+  },
+  "HYSH.TA": {
+    "expected": "הכשרת הישוב (Hachsharat Hayishuv)",
+    "error": "no result"
+  },
+  "BAZN.TA": {
+    "expected": "בזן (Bazan / Oil Refineries)",
+    "error": "no result"
+  },
+  "PZOL.TA": {
+    "expected": "פז (Paz Oil)",
+    "error": "no result"
+  }
+}
