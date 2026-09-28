@@ -22,19 +22,19 @@
   },
   "wikipedia_sp500_constituents": {
     "status": 200,
-    "bytes": 569954,
+    "bytes": 569937,
     "content_type": "text/html; charset=UTF-8",
     "head": "<!DOCTYPE html>\n<html class=\"client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-pag"
   },
   "ishares_ivv_holdings": {
     "status": 200,
-    "bytes": 2251704,
+    "bytes": 2251564,
     "content_type": "text/csv;charset=UTF-8",
     "head": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-d"
   },
   "tase_indices": {
     "status": 403,
-    "bytes": 887,
+    "bytes": 883,
     "content_type": "text/html",
     "head": "<html style=\"height:100%\"><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\"><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\" content=\"initial-scale=1.0\"><meta http-equiv="
   },
@@ -55,7 +55,7 @@
   },
   "msci_index_perf": {
     "status": 200,
-    "bytes": 72906,
+    "bytes": 72896,
     "content_type": "text/html;charset=UTF-8",
     "head": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html class=\"ltr\" dir=\"ltr\" lang=\"en-US\" itemscope itemtype=\"http://schema.org"
   },
@@ -67,7 +67,7 @@
   },
   "google_ping": {
     "status": 200,
-    "bytes": 230646,
+    "bytes": 231239,
     "content_type": "text/html; charset=UTF-8",
     "head": "<!doctype html><html itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"en\"><head><meta charset=\"UTF-8\"><meta content=\"origin\" name=\"referrer\"><link href=\"//www.gstatic.com/images/branding/search"
   },
