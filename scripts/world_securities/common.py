@@ -274,6 +274,7 @@ def figi_lookup(requests_by_key, cache, budget_sec):
     todo.sort(key=lambda k: k in cache)   # קודם מה שלא נבדק מעולם
     log(f"openfigi: {len(todo)} lookups ({'with' if OPENFIGI_KEY else 'without'} API key, budget {budget_sec}s)")
     client, start, done = Figi(), time.monotonic(), 0
+    errors = {}
     for i in range(0, len(todo), OPENFIGI_JOBS):
         if time.monotonic() - start > budget_sec:
             log(f"openfigi: budget reached - {len(todo) - i} deferred to next run")
@@ -284,7 +285,13 @@ def figi_lookup(requests_by_key, cache, budget_sec):
             log("openfigi: unavailable - stopping")
             break
         for k, r in zip(chunk, res):
-            if r.get("error") and "No identifier found" not in r["error"]:
+            err = r.get("error")
+            if err and "No identifier found" not in err:
+                key = f"{(requests_by_key[k].get('micCode') or '')}: {err[:80]}"
+                errors[key] = errors.get(key, 0) + 1
+                if "micCode" in err or "Invalid" in err or "not supported" in err.lower():
+                    # שגיאה קבועה (MIC לא מוכר ל-OpenFIGI) - נשמרת כ"לא נמצא" כדי לא לחזור עליה כל ריצה
+                    cache[k] = {"job": requests_by_key[k], "data": None, "error": err[:200], "d": now}
                 continue
             data = [{f: d.get(f) for f in ("figi", "compositeFIGI", "shareClassFIGI", "ticker", "exchCode", "name",
                                            "securityType", "securityType2", "marketSector")}
@@ -293,7 +300,7 @@ def figi_lookup(requests_by_key, cache, budget_sec):
             done += 1
         if (i // OPENFIGI_JOBS) % 100 == 0:
             log(f"openfigi: {done}/{len(todo)}")
-    log(f"openfigi: looked up {done}")
+    log(f"openfigi: looked up {done}; errors {dict(sorted(errors.items(), key=lambda kv: -kv[1])[:20])}")
     return done
 
 
