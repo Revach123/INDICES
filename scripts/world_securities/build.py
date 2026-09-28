@@ -410,6 +410,7 @@ def main():
     exchanges = {m: mics[m] for m in used_mics if m in mics}
 
     stats = {"generated_at": NOW_ISO, "failed_markets": failed, "firds_files": meta,
+             "mic_samples": {m: mics.get(m) for m in ("XLON", "XLOM", "AIMX", "XPAR", "XETR", "XMIL", "XTKS", "XTSE")},
              "total": len(rows), "active": len(active),
              "by_market": count(active, "market"), "by_region": count(active, "region"),
              "by_country": count(active, "country"),

@@ -157,7 +157,8 @@ def build(mics):
             for mic, first in ((a or {}).get("req") or {}).items():
                 m = mics.get(mic) or {}
                 if m.get("cat") not in LISTED_CATS:
-                    dropped[m.get("cat") or "?"] = dropped.get(m.get("cat") or "?", 0) + 1
+                    dk = f"{mic}|{m.get('cat') or '?'}|{m.get('status') or '?'}"
+                    dropped[dk] = dropped.get(dk, 0) + 1
                     continue
                 if mic in listings:
                     listings[mic]["r"] = "ESMA+FCA"
@@ -208,5 +209,7 @@ def build(mics):
     for reg in ("FCA", "ESMA"):   # ESMA גובר
         for isin, a in regs[reg].items():
             lookup[isin] = {"cfi": a["cfi"], "lei": a["lei"], "name": a["name"], "ccy": a["ccy"], "reg": reg}
-    log(f"firds: {len(rows)} listed securities; non-RM/MTF issuer venues dropped: {dropped}")
+    top = dict(sorted(dropped.items(), key=lambda kv: -kv[1])[:40])
+    log(f"firds: {len(rows)} listed securities; non-RM/MTF issuer venues dropped (mic|cat|status): {top}")
+    meta = dict(meta, dropped_issuer_venues=top)
     return rows, lookup, meta

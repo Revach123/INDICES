@@ -110,7 +110,7 @@ def load_mics():
     # RMKT אם יש לו סגמנט שוק מוסדר פעיל, אחרת MLTF אם יש סגמנט MTF.
     seg_cats = {}
     for mic, m in mics.items():
-        if m["oprt"] != mic and m.get("status") == "ACTIVE":
+        if m["oprt"] != mic and (m.get("status") or "").upper() != "EXPIRED":
             seg_cats.setdefault(m["oprt"], set()).add(m.get("cat"))
     for mic, m in mics.items():
         if m["oprt"] == mic and m.get("cat") not in ("RMKT", "MLTF"):
