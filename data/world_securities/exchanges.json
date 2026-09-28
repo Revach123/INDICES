@@ -6,6 +6,7 @@
 "city": "SOFIA",
 "name": "BULGARIAN STOCK EXCHANGE - ALTERNATIVE MARKET",
 "oprt": "XBUL",
+"short": "BULGARIAN STOCK EXCHANGE - ALTERNATIVE MARKET",
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
@@ -16,6 +17,7 @@
 "city": "LONDON",
 "name": "AQUIS STOCK EXCHANGE",
 "oprt": "AQSE",
+"short": "AQUIS STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -26,6 +28,7 @@
 "city": "LONDON",
 "name": "AQSE GROWTH MARKET (EQUITY)",
 "oprt": "AQSE",
+"short": "AQSE GROWTH MARKET (EQUITY)",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -36,6 +39,7 @@
 "city": "LONDON",
 "name": "AQSE TRADING (NON-EQUITY)",
 "oprt": "AQSE",
+"short": "AQSE TRADING (NON-EQUITY)",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -46,6 +50,7 @@
 "city": "LONDON",
 "name": "AQSE TRADING (EQUITY)",
 "oprt": "AQSE",
+"short": "AQSE TRADING (EQUITY)",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -56,6 +61,7 @@
 "city": "LONDON",
 "name": "AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD)",
 "oprt": "AQXE",
+"short": "AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD)",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -66,6 +72,7 @@
 "city": "LONDON",
 "name": "AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK",
 "oprt": "AQXE",
+"short": "AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -76,6 +83,7 @@
 "city": "LONDON",
 "name": "AQUIS EXCHANGE PLC",
 "oprt": "AQXE",
+"short": "AQUIS EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.AQUIS.EU"
 },
@@ -86,6 +94,7 @@
 "city": "LONDON",
 "name": "ARCHAX",
 "oprt": "ARCH",
+"short": "ARCHAX",
 "status": "ACTIVE",
 "website": "WWW.ARCHAX.COM"
 },
@@ -96,6 +105,7 @@
 "city": "TRIESEN",
 "name": "ARTEX EUROPE",
 "oprt": "ARTX",
+"short": "ARTEX EUROPE",
 "status": "ACTIVE",
 "website": "WWW.ARTEX.IO"
 },
@@ -106,6 +116,7 @@
 "city": "ATHENS",
 "name": "ATHENS STOCK EXCHANGE",
 "oprt": "ASEX",
+"short": "ATHENS STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.ASE.GR"
 },
@@ -116,6 +127,7 @@
 "city": "MILANO",
 "name": "ATFUND MTF",
 "oprt": "XMIL",
+"short": "ATFUND MTF",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
@@ -126,6 +138,7 @@
 "city": "LONDON",
 "name": "CBOE EUROPE - REGULATED MARKET DARK BOOK",
 "oprt": "BCRM",
+"short": "CBOE EUROPE - REGULATED MARKET DARK BOOK",
 "status": "ACTIVE",
 "website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
 },
@@ -136,6 +149,7 @@
 "city": "LONDON",
 "name": "CBOE EUROPE - REGULATED MARKET OFF BOOK",
 "oprt": "BCRM",
+"short": "CBOE EUROPE - REGULATED MARKET OFF BOOK",
 "status": "ACTIVE",
 "website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
 },
@@ -146,6 +160,7 @@
 "city": "LONDON",
 "name": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK",
 "oprt": "BCRM",
+"short": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK",
 "status": "ACTIVE",
 "website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
 },
@@ -156,6 +171,7 @@
 "city": "AMSTERDAM",
 "name": "CBOE EUROPE - REGULATED MARKET DARK BOOK (NL)",
 "oprt": "CCRM",
+"short": "CBOE EUROPE - REGULATED MARKET DARK BOOK (NL)",
 "status": "ACTIVE",
 "website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
 },
@@ -166,6 +182,7 @@
 "city": "LONDON",
 "name": "CBOE EUROPE REGULATED MARKETS",
 "oprt": "BCRM",
+"short": "CBOE EUROPE REGULATED MARKETS",
 "status": "ACTIVE",
 "website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
 },
@@ -176,6 +193,7 @@
 "city": "AMSTERDAM",
 "name": "CBOE EUROPE - REGULATED MARKET OFF BOOK (NL)",
 "oprt": "CCRM",
+"short": "CBOE EUROPE - REGULATED MARKET OFF BOOK (NL)",
 "status": "ACTIVE",
 "website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
 },
@@ -186,6 +204,7 @@
 "city": "AMSTERDAM",
 "name": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK (NL)",
 "oprt": "CCRM",
+"short": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK (NL)",
 "status": "ACTIVE",
 "website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
 },
@@ -197,6 +216,7 @@
 "city": "MADRID",
 "name": "BME - BOLSAS Y MERCADOS ESPANOLES",
 "oprt": "BMEX",
+"short": "BME - BOLSAS Y MERCADOS ESPANOLES",
 "status": "ACTIVE",
 "website": "WWW.BOLSASYMERCADOS.ES"
 },
@@ -207,6 +227,7 @@
 "city": "AMSTERDAM",
 "name": "CBOE EUROPE REGULATED MARKETS (NL)",
 "oprt": "CCRM",
+"short": "CBOE EUROPE REGULATED MARKETS (NL)",
 "status": "ACTIVE",
 "website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
 },
@@ -217,6 +238,7 @@
 "city": "AMSTERDAM",
 "name": "CAPTIN",
 "oprt": "CPTX",
+"short": "CAPTIN",
 "status": "ACTIVE",
 "website": "WWW.CAPTIN.NL"
 },
@@ -227,6 +249,7 @@
 "city": "COPENHAGEN",
 "name": "NASDAQ COPENHAGEN A/S - NORDIC@MID",
 "oprt": "XCSE",
+"short": "NASDAQ COPENHAGEN A/S - NORDIC@MID",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -237,6 +260,7 @@
 "city": "HELSINKI",
 "name": "NASDAQ HELSINKI LTD - NORDIC@MID",
 "oprt": "XHEL",
+"short": "NASDAQ HELSINKI LTD - NORDIC@MID",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -247,6 +271,7 @@
 "city": "REYKJAVIK",
 "name": "NASDAQ ICELAND HF. - NORDIC@MID",
 "oprt": "XICE",
+"short": "NASDAQ ICELAND HF. - NORDIC@MID",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -257,6 +282,7 @@
 "city": "STOCKHOLM",
 "name": "NASDAQ STOCKHOLM AB - NORDIC@MID",
 "oprt": "XSTO",
+"short": "NASDAQ STOCKHOLM AB - NORDIC@MID",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -267,6 +293,7 @@
 "city": "DUESSELDORF",
 "name": "BOERSE DUESSELDORF - REGULIERTER MARKT",
 "oprt": "XDUS",
+"short": "BOERSE DUESSELDORF - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": ""
 },
@@ -277,6 +304,7 @@
 "city": "DUESSELDORF",
 "name": "BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT",
 "oprt": "XDUS",
+"short": "BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": ""
 },
@@ -287,6 +315,7 @@
 "city": "MILANO",
 "name": "ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET",
 "oprt": "XMIL",
+"short": "ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
@@ -297,6 +326,7 @@
 "city": "FRANKFURT",
 "name": "BOERSE FRANKFURT - REGULIERTER MARKT",
 "oprt": "XFRA",
+"short": "BOERSE FRANKFURT - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -307,6 +337,7 @@
 "city": "HELSINKI",
 "name": "FIRST NORTH FINLAND - SME GROWTH MARKET",
 "oprt": "XHEL",
+"short": "FIRST NORTH FINLAND - SME GROWTH MARKET",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -317,6 +348,7 @@
 "city": "HAMBURG",
 "name": "BOERSE HAMBURG - REGULIERTER MARKT",
 "oprt": "XHAM",
+"short": "BOERSE HAMBURG - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": ""
 },
@@ -327,6 +359,7 @@
 "city": "HAMBURG",
 "name": "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - REGULIERTER MARKT",
 "oprt": "XHAM",
+"short": "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.BOERSENAG.DE"
 },
@@ -337,6 +370,7 @@
 "city": "HANNOVER",
 "name": "BOERSE HANNOVER - REGULIERTER MARKT",
 "oprt": "XHAN",
+"short": "BOERSE HANNOVER - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": ""
 },
@@ -348,6 +382,7 @@
 "city": "MILANO",
 "name": "HI-MTF",
 "oprt": "HMTF",
+"short": "HI-MTF",
 "status": "ACTIVE",
 "website": "WWW.HIMTF.COM"
 },
@@ -358,6 +393,7 @@
 "city": "SOFIA",
 "name": "BULGARIAN STOCK EXCHANGE - INTERNATIONAL MTF",
 "oprt": "XBUL",
+"short": "BULGARIAN STOCK EXCHANGE - INTERNATIONAL MTF",
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
@@ -368,6 +404,7 @@
 "city": "COPENHAGEN",
 "name": "NASDAQ COPENHAGEN A/S - AUCTION ON DEMAND",
 "oprt": "XCSE",
+"short": "NASDAQ COPENHAGEN A/S - AUCTION ON DEMAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -378,6 +415,7 @@
 "city": "HELSINKI",
 "name": "NASDAQ HELSINKI LTD -  AUCTION ON DEMAND",
 "oprt": "XHEL",
+"short": "NASDAQ HELSINKI LTD -  AUCTION ON DEMAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -388,6 +426,7 @@
 "city": "REYKJAVIK",
 "name": "NASDAQ ICELAND HF. - AUCTION ON DEMAND",
 "oprt": "XICE",
+"short": "NASDAQ ICELAND HF. - AUCTION ON DEMAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -398,6 +437,7 @@
 "city": "MILAN",
 "name": "EURONEXT MIV MILAN",
 "oprt": "XMIL",
+"short": "EURONEXT MIV MILAN",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
@@ -408,6 +448,7 @@
 "city": "STOCKHOLM",
 "name": "NASDAQ STOCKHOLM AB - AUCTION ON DEMAND",
 "oprt": "XSTO",
+"short": "NASDAQ STOCKHOLM AB - AUCTION ON DEMAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -418,6 +459,7 @@
 "city": "MILAN",
 "name": "EURONEXT MILAN",
 "oprt": "XMIL",
+"short": "EURONEXT MILAN",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
@@ -428,6 +470,7 @@
 "city": "MUENCHEN",
 "name": "BOERSE MUENCHEN - REGULIERTER MARKT",
 "oprt": "XMUN",
+"short": "BOERSE MUENCHEN - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-MUENCHEN.DE"
 },
@@ -438,6 +481,7 @@
 "city": "MUENCHEN",
 "name": "BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT",
 "oprt": "XMUN",
+"short": "BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.GETTEX.DE"
 },
@@ -448,6 +492,7 @@
 "city": "THE HAGUE",
 "name": "NPEX",
 "oprt": "NPEX",
+"short": "NPEX",
 "status": "ACTIVE",
 "website": "WWW.NPEX.NL"
 },
@@ -458,6 +503,7 @@
 "city": "MADRID",
 "name": "PORTFOLIO STOCK EXCHANGE",
 "oprt": "POSE",
+"short": "PORTFOLIO STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.PORTFOLIO.EXCHANGE"
 },
@@ -468,6 +514,7 @@
 "city": "STUTTGART",
 "name": "BOERSE STUTTGART - REGULIERTER MARKT",
 "oprt": "XSTU",
+"short": "BOERSE STUTTGART - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-STUTTGART.DE"
 },
@@ -478,6 +525,7 @@
 "city": "STUTTGART",
 "name": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 2",
 "oprt": "XSTU",
+"short": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 2",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-STUTTGART.DE"
 },
@@ -488,6 +536,7 @@
 "city": "VIENNA",
 "name": "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
 "oprt": "XWBO",
+"short": "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
 "status": "ACTIVE",
 "website": "WWW.WIENERBOERSE.AT"
 },
@@ -498,6 +547,7 @@
 "city": "VIENNA",
 "name": "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
 "oprt": "XWBO",
+"short": "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
 "status": "ACTIVE",
 "website": "WWW.WIENERBOERSE.AT"
 },
@@ -508,6 +558,7 @@
 "city": "WARSAW",
 "name": "WARSAW STOCK EXCHANGE/ ETPS",
 "oprt": "XWAR",
+"short": "WARSAW STOCK EXCHANGE/ ETPS",
 "status": "ACTIVE",
 "website": "WWW.GPW.PL"
 },
@@ -518,6 +569,7 @@
 "city": "AMSTERDAM",
 "name": "EURONEXT - EURONEXT AMSTERDAM",
 "oprt": "XAMS",
+"short": "EURONEXT AMSTERDAM",
 "status": "ACTIVE",
 "website": "WWW.EURONEXT.COM"
 },
@@ -528,6 +580,7 @@
 "city": "ATHENS",
 "name": "ATHENS EXCHANGE S.A. CASH MARKET",
 "oprt": "ASEX",
+"short": "ATHENS EXCHANGE S.A. CASH MARKET",
 "status": "ACTIVE",
 "website": "WWW.ATHEXGROUP.GR"
 },
@@ -538,6 +591,7 @@
 "city": "BARCELONA",
 "name": "BOLSA DE BARCELONA",
 "oprt": "BMEX",
+"short": "BOLSA DE BARCELONA",
 "status": "ACTIVE",
 "website": "WWW.BORSABCN.ES"
 },
@@ -548,6 +602,7 @@
 "city": "BILBAO",
 "name": "BOLSA DE VALORES DE BILBAO",
 "oprt": "BMEX",
+"short": "BOLSA DE VALORES DE BILBAO",
 "status": "ACTIVE",
 "website": "WWW.BOLSABILBAO.ES"
 },
@@ -558,6 +613,7 @@
 "city": "BRATISLAVA",
 "name": "BRATISLAVA STOCK EXCHANGE",
 "oprt": "XBRA",
+"short": "BRATISLAVA STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.BSSE.SK"
 },
@@ -568,6 +624,7 @@
 "city": "BRUSSELS",
 "name": "EURONEXT - EURONEXT BRUSSELS",
 "oprt": "XBRU",
+"short": "EURONEXT BRUSSELS",
 "status": "ACTIVE",
 "website": "WWW.EURONEXT.COM"
 },
@@ -578,6 +635,7 @@
 "city": "BUCHAREST",
 "name": "SPOT REGULATED MARKET - BVB",
 "oprt": "XBSE",
+"short": "SPOT REGULATED MARKET - BVB",
 "status": "ACTIVE",
 "website": "WWW.BVB.RO"
 },
@@ -588,6 +646,7 @@
 "city": "BUDAPEST",
 "name": "BUDAPEST STOCK EXCHANGE",
 "oprt": "XBUD",
+"short": "BUDAPEST STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.BET.HU"
 },
@@ -599,6 +658,7 @@
 "city": "SOFIA",
 "name": "BULGARIAN STOCK EXCHANGE",
 "oprt": "XBUL",
+"short": "BULGARIAN STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
@@ -610,6 +670,7 @@
 "city": "COPENHAGEN",
 "name": "NASDAQ COPENHAGEN A/S",
 "oprt": "XCSE",
+"short": "NASDAQ COPENHAGEN",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -620,6 +681,7 @@
 "city": "NICOSIA (LEFKOSIA)",
 "name": "CYPRUS STOCK EXCHANGE",
 "oprt": "XCYS",
+"short": "CYPRUS STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.CSE.COM.CY"
 },
@@ -631,6 +693,7 @@
 "city": "DUBLIN",
 "name": "IRISH STOCK EXCHANGE - ALL MARKET",
 "oprt": "XDUB",
+"short": "IRISH STOCK EXCHANGE - ALL MARKET",
 "status": "ACTIVE",
 "website": "WWW.ISE.IE"
 },
@@ -642,6 +705,7 @@
 "city": "DUESSELDORF",
 "name": "BOERSE DUESSELDORF",
 "oprt": "XDUS",
+"short": "BOERSE DUESSELDORF",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-DUESSELDORF.DE"
 },
@@ -652,6 +716,7 @@
 "city": "FRANKFURT",
 "name": "XETRA - REGULIERTER MARKT",
 "oprt": "XETR",
+"short": "XETRA - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -663,6 +728,7 @@
 "city": "FRANKFURT",
 "name": "XETRA",
 "oprt": "XETR",
+"short": "XETRA",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -673,6 +739,7 @@
 "city": "FRANKFURT",
 "name": "XETRA - REGULIERTERMARKT - OFF-BOOK",
 "oprt": "XETR",
+"short": "XETRA - REGULIERTERMARKT - OFF-BOOK",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -684,6 +751,7 @@
 "city": "FRANKFURT",
 "name": "DEUTSCHE BOERSE AG",
 "oprt": "XFRA",
+"short": "DEUTSCHE BOERSE",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -694,6 +762,7 @@
 "city": "WARSAW",
 "name": "WARSAW STOCK EXCHANGE/ EQUITIES/GLOBAL CONNECT - MTF",
 "oprt": "XWAR",
+"short": "WARSAW STOCK EXCHANGE/ EQUITIES/GLOBAL CONNECT - MTF",
 "status": "ACTIVE",
 "website": "WWW.GPW.PL"
 },
@@ -705,6 +774,7 @@
 "city": "HAMBURG",
 "name": "HANSEATISCHE WERTPAPIERBOERSE HAMBURG",
 "oprt": "XHAM",
+"short": "HANSEATISCHE WERTPAPIERBOERSE HAMBURG",
 "status": "ACTIVE",
 "website": "WWW.BOERSENAG.DE"
 },
@@ -716,6 +786,7 @@
 "city": "HANNOVER",
 "name": "NIEDERSAECHSISCHE BOERSE ZU HANNOVER",
 "oprt": "XHAN",
+"short": "NIEDERSAECHSISCHE BOERSE ZU HANNOVER",
 "status": "ACTIVE",
 "website": "WWW.BOERSENAG.DE"
 },
@@ -727,6 +798,7 @@
 "city": "HELSINKI",
 "name": "NASDAQ HELSINKI LTD",
 "oprt": "XHEL",
+"short": "NASDAQ HELSINKI",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -737,6 +809,7 @@
 "city": "REYKJAVIK",
 "name": "NASDAQ ICELAND HF.",
 "oprt": "XICE",
+"short": "NASDAQ ICELAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -747,6 +820,7 @@
 "city": "TOKYO",
 "name": "JAPAN EXCHANGE GROUP",
 "oprt": "XJPX",
+"short": "JAPAN EXCHANGE GROUP",
 "status": "ACTIVE",
 "website": "WWW.JPX.CO.JP"
 },
@@ -757,6 +831,7 @@
 "city": "LISBOA",
 "name": "EURONEXT - EURONEXT LISBON",
 "oprt": "XLIS",
+"short": "EURONEXT LISBON",
 "status": "ACTIVE",
 "website": "WWW.EURONEXT.COM"
 },
@@ -767,6 +842,7 @@
 "city": "VILNIUS",
 "name": "AB NASDAQ VILNIUS",
 "oprt": "XLIT",
+"short": "AB NASDAQ VILNIUS",
 "status": "ACTIVE",
 "website": "WWW.NASDAQBALTIC.COM"
 },
@@ -777,6 +853,7 @@
 "city": "LJUBLJANA",
 "name": "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
 "oprt": "XLJU",
+"short": "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
 "status": "ACTIVE",
 "website": "WWW.LJSE.SI"
 },
@@ -787,6 +864,7 @@
 "city": "LUXEMBOURG",
 "name": "LUXEMBOURG STOCK EXCHANGE",
 "oprt": "XLUX",
+"short": "LUXEMBOURG STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.BOURSE.LU"
 },
@@ -797,6 +875,7 @@
 "city": "MADRID",
 "name": "BOLSA DE MADRID",
 "oprt": "BMEX",
+"short": "BOLSA DE MADRID",
 "status": "ACTIVE",
 "website": "WWW.BOLSAMADRID.ES"
 },
@@ -807,6 +886,7 @@
 "city": "VALLETTA",
 "name": "MALTA STOCK EXCHANGE",
 "oprt": "XMAL",
+"short": "MALTA STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.BORZAMALTA.COM.MT"
 },
@@ -818,6 +898,7 @@
 "city": "MILANO",
 "name": "BORSA ITALIANA S.P.A.",
 "oprt": "XMIL",
+"short": "BORSA ITALIANA",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
@@ -828,6 +909,7 @@
 "city": "DUBLIN",
 "name": "EURONEXT DUBLIN",
 "oprt": "XDUB",
+"short": "EURONEXT DUBLIN",
 "status": "ACTIVE",
 "website": "WWW.ISE.IE"
 },
@@ -839,6 +921,7 @@
 "city": "MUENCHEN",
 "name": "BOERSE MUENCHEN",
 "oprt": "XMUN",
+"short": "BOERSE MUENCHEN",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-MUENCHEN.DE"
 },
@@ -849,6 +932,7 @@
 "city": "WARSAW",
 "name": "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF",
 "oprt": "XWAR",
+"short": "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF",
 "status": "ACTIVE",
 "website": "WWW.NEWCONNECT.PL"
 },
@@ -859,6 +943,7 @@
 "city": "STOCKHOLM",
 "name": "NORDIC GROWTH MARKET",
 "oprt": "XNGM",
+"short": "NORDIC GROWTH MARKET",
 "status": "ACTIVE",
 "website": "WWW.NGM.SE"
 },
@@ -869,6 +954,7 @@
 "city": "AMSTERDAM",
 "name": "NXCHANGE",
 "oprt": "XNXC",
+"short": "NXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.NXCHANGE.COM"
 },
@@ -879,6 +965,7 @@
 "city": "AMSTERDAM",
 "name": "NXCHANGE B.V. MTF",
 "oprt": "XNXC",
+"short": "NXCHANGE B.V. MTF",
 "status": "ACTIVE",
 "website": "WWW.NXCHANGE.COM"
 },
@@ -889,6 +976,7 @@
 "city": "OSLO",
 "name": "EURONEXT EXPAND OSLO",
 "oprt": "XOSL",
+"short": "EURONEXT EXPAND OSLO",
 "status": "ACTIVE",
 "website": "WWW.OSLOBORS.NO"
 },
@@ -899,6 +987,7 @@
 "city": "OSLO",
 "name": "OSLO BORS",
 "oprt": "XOSL",
+"short": "OSLO BORS",
 "status": "ACTIVE",
 "website": "WWW.OSLOBORS.NO"
 },
@@ -910,6 +999,7 @@
 "city": "PARIS",
 "name": "EURONEXT - EURONEXT PARIS",
 "oprt": "XPAR",
+"short": "EURONEXT PARIS",
 "status": "ACTIVE",
 "website": "WWW.EURONEXT.COM"
 },
@@ -920,6 +1010,7 @@
 "city": "PRAGUE",
 "name": "PRAGUE STOCK EXCHANGE",
 "oprt": "XPRA",
+"short": "PRAGUE STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.PSE.CZ"
 },
@@ -930,6 +1021,7 @@
 "city": "RIGA",
 "name": "NASDAQ RIGA AS",
 "oprt": "XRIS",
+"short": "NASDAQ RIGA AS",
 "status": "ACTIVE",
 "website": "WWW.NASDAQBALTIC.COM"
 },
@@ -940,6 +1032,7 @@
 "city": "STOCKHOLM",
 "name": "SPOTLIGHT STOCK MARKET AB",
 "oprt": "XSAT",
+"short": "SPOTLIGHT STOCK MARKET",
 "status": "ACTIVE",
 "website": "WWW.SPOTLIGHTSTOCKMARKET.COM"
 },
@@ -950,6 +1043,7 @@
 "city": "STOCKHOLM",
 "name": "NASDAQ STOCKHOLM AB",
 "oprt": "XSTO",
+"short": "NASDAQ STOCKHOLM",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
@@ -961,6 +1055,7 @@
 "city": "STUTTGART",
 "name": "BOERSE STUTTGART",
 "oprt": "XSTU",
+"short": "BOERSE STUTTGART",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-STUTTGART.DE"
 },
@@ -971,6 +1066,7 @@
 "city": "ZURICH",
 "name": "SIX SWISS EXCHANGE",
 "oprt": "XSWX",
+"short": "SIX SWISS EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.SIX-GROUP.COM/EN/SITE/EXCHANGES.HTML"
 },
@@ -981,6 +1077,7 @@
 "city": "TALLINN",
 "name": "NASDAQ TALLINN AS",
 "oprt": "XTAL",
+"short": "NASDAQ TALLINN AS",
 "status": "ACTIVE",
 "website": "WWW.NASDAQBALTIC.COM"
 },
@@ -991,6 +1088,7 @@
 "city": "TOKYO",
 "name": "TOKYO STOCK EXCHANGE",
 "oprt": "XJPX",
+"short": "TOKYO STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.JPX.CO.JP"
 },
@@ -1001,6 +1099,7 @@
 "city": "TORONTO",
 "name": "TORONTO STOCK EXCHANGE",
 "oprt": "XTSE",
+"short": "TORONTO STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.TSE.COM"
 },
@@ -1011,6 +1110,7 @@
 "city": "TORONTO",
 "name": "TSX VENTURE EXCHANGE",
 "oprt": "XTSX",
+"short": "TSX VENTURE EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.TSX.COM"
 },
@@ -1021,6 +1121,7 @@
 "city": "WARSAW",
 "name": "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
 "oprt": "XWAR",
+"short": "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
 "status": "ACTIVE",
 "website": "WWW.GPW.PL"
 },
@@ -1032,6 +1133,7 @@
 "city": "VIENNA",
 "name": "WIENER BOERSE AG",
 "oprt": "XWBO",
+"short": "WIENER BOERSE",
 "status": "ACTIVE",
 "website": "WWW.WIENERBOERSE.AT"
 },
@@ -1042,6 +1144,7 @@
 "city": "ZAGREB",
 "name": "ZAGREB STOCK EXCHANGE",
 "oprt": "XZAG",
+"short": "ZAGREB STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.ZSE.HR"
 },
@@ -1052,6 +1155,7 @@
 "city": "ZAGREB",
 "name": "PROGRESS MARKET",
 "oprt": "XZAG",
+"short": "PROGRESS MARKET",
 "status": "ACTIVE",
 "website": "HTTP://PROGRESS.MARKET"
 },
@@ -1062,6 +1166,7 @@
 "city": "SOFIA",
 "name": "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
 "oprt": "XBUL",
+"short": "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 }
