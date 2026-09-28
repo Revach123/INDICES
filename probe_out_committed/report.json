@@ -22,7 +22,7 @@
   },
   "wikipedia_sp500_constituents": {
     "status": 200,
-    "bytes": 569938,
+    "bytes": 569959,
     "content_type": "text/html; charset=UTF-8",
     "head": "<!DOCTYPE html>\n<html class=\"client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-pag"
   },
@@ -67,13 +67,13 @@
   },
   "google_ping": {
     "status": 200,
-    "bytes": 230536,
+    "bytes": 230418,
     "content_type": "text/html; charset=UTF-8",
     "head": "<!doctype html><html itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"en\"><head><meta charset=\"UTF-8\"><meta content=\"origin\" name=\"referrer\"><link href=\"//www.gstatic.com/images/branding/search"
   },
   "sec_ping": {
     "status": 403,
-    "bytes": 1925,
+    "bytes": 1924,
     "content_type": "text/html",
     "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-T"
   }

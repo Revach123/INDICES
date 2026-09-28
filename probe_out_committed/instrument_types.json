@@ -116,37 +116,37 @@
   "nikkei225": {
     "symbol": "^N225",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 66187.76,
+    "regularMarketPrice": 66267.55,
     "longName": "Nikkei 225"
   },
   "topix": {
     "symbol": "1306.T",
     "instrumentType": "ETF",
-    "regularMarketPrice": 429.9,
+    "regularMarketPrice": 430.3,
     "longName": "NEXT FUNDS TOPIX Exchange Traded Fund"
   },
   "hangseng": {
     "symbol": "^HSI",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 24635.42,
+    "regularMarketPrice": 24662.81,
     "longName": "HANG SENG INDEX"
   },
   "shanghai": {
     "symbol": "000001.SS",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 3811.9226,
+    "regularMarketPrice": 3815.3123,
     "longName": "SSE Composite Index"
   },
   "csi300": {
     "symbol": "000300.SS",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 4328.4883,
+    "regularMarketPrice": 4332.7173,
     "longName": "CSI 300 Index"
   },
   "kospi": {
     "symbol": "^KS11",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 6905.55,
+    "regularMarketPrice": 6901.71,
     "longName": "KOSPI Composite Index"
   },
   "taiwan": {
@@ -158,19 +158,19 @@
   "sensex": {
     "symbol": "^BSESN",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 72855.98,
+    "regularMarketPrice": 72914.43,
     "longName": "S&P BSE SENSEX"
   },
   "nifty50": {
     "symbol": "^NSEI",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 22835.25,
+    "regularMarketPrice": 22841.2,
     "longName": "NIFTY 50"
   },
   "asx200": {
     "symbol": "^AXJO",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 8677.5,
+    "regularMarketPrice": 8674.6,
     "longName": "S&P/ASX 200 [XJO]"
   },
   "bovespa": {
@@ -244,19 +244,19 @@
   "gold": {
     "symbol": "GC=F",
     "instrumentType": "FUTURE",
-    "regularMarketPrice": 4214.8,
+    "regularMarketPrice": 4208.6,
     "longName": "Gold Dec 26"
   },
   "oil_wti": {
     "symbol": "CL=F",
     "instrumentType": "FUTURE",
-    "regularMarketPrice": 94.29,
+    "regularMarketPrice": 94.39,
     "longName": "Crude Oil Nov 26"
   },
   "usdils": {
     "symbol": "ILS=X",
     "instrumentType": "CURRENCY",
-    "regularMarketPrice": 3.0504,
+    "regularMarketPrice": 3.0498,
     "longName": "USD/ILS"
   },
   "eurusd": {
@@ -304,7 +304,7 @@
   "shenzhen": {
     "symbol": "399001.SZ",
     "instrumentType": "INDEX",
-    "regularMarketPrice": 12833.84,
+    "regularMarketPrice": 12846.667,
     "longName": "Shenzhen Index"
   }
 }
