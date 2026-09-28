@@ -1,40 +1,13 @@
 {
-  "range_max": {
-    "label": "range=max",
-    "n": 169,
-    "first_gaps_days": [
-      90.0,
-      92.0,
-      92.0,
-      91.0,
-      90.0,
-      92.0,
-      92.0,
-      91.0,
-      90.0,
-      92.0
-    ]
-  },
-  "range_2y": {
-    "label": "range=2y",
-    "n": 501,
-    "first_gaps_days": [
-      1.0,
-      3.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      3.0,
-      1.0,
-      1.0,
-      1.0
-    ]
-  },
-  "explicit_period": {
-    "label": "period1/2 explicit",
+  "period_no_events": {
+    "label": "period, no events",
+    "params": {
+      "period1": 1704067200,
+      "period2": 1790575703,
+      "interval": "1d"
+    },
     "n": 686,
-    "first_gaps_days": [
+    "gaps": [
       1.0,
       1.0,
       1.0,
@@ -44,6 +17,62 @@
       1.0,
       1.0,
       4.0,
+      1.0,
+      1.0,
+      1.0,
+      3.0,
+      1.0
+    ]
+  },
+  "period_with_events": {
+    "label": "period + events=history",
+    "params": {
+      "period1": 1704067200,
+      "period2": 1790575703,
+      "interval": "1d",
+      "events": "history"
+    },
+    "n": 686,
+    "gaps": [
+      1.0,
+      1.0,
+      1.0,
+      3.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0,
+      1.0,
+      3.0,
+      1.0
+    ]
+  },
+  "period_with_events_div": {
+    "label": "period + events=div,splits",
+    "params": {
+      "period1": 1704067200,
+      "period2": 1790575703,
+      "interval": "1d",
+      "events": "div,splits"
+    },
+    "n": 686,
+    "gaps": [
+      1.0,
+      1.0,
+      1.0,
+      3.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0,
+      1.0,
+      3.0,
       1.0
     ]
   }
