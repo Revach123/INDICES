@@ -37,7 +37,7 @@ def safe_filename(symbol: str) -> str:
 
 def fetch_one(session: requests.Session, symbol: str) -> list[dict]:
     r = session.get(CHART_URL.format(symbol=symbol),
-                     params={"range": "max", "interval": "1d", "events": "history"},
+                     params={"range": "2y", "interval": "1d", "events": "history"},
                      timeout=30)
     r.raise_for_status()
     data = r.json()

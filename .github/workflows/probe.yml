@@ -27,6 +27,8 @@ jobs:
         run: python scripts/probe_maof.py
       - name: Verify TASE stock tickers against Yahoo Finance
         run: python scripts/probe_tase_stocks.py
+      - name: Probe daily-granularity handling for long ranges
+        run: python scripts/probe_daily_granularity.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -38,7 +40,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p probe_out_committed
           cp probe_out/*.txt probe_out_committed/ 2>/dev/null || true
-          cp probe_out/tase_stocks.json probe_out_committed/ 2>/dev/null || true
+          cp probe_out/*.json probe_out_committed/ 2>/dev/null || true
           git add probe_out_committed
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "Probe: readable text/json snapshot for inspection"
