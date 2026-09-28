@@ -46,7 +46,7 @@ jobs:
         env:
           OPENFIGI_API_KEY: ${{ secrets.OPENFIGI_API_KEY }}
           WORLD_MARKETS: ${{ github.event.inputs.markets }}
-          OPENFIGI_BUDGET: ${{ github.event.inputs.figi_budget || (github.event_name == 'schedule' && '3600') || vars.WORLD_FIGI_BUDGET || '600' }}
+          OPENFIGI_BUDGET: ${{ github.event.inputs.figi_budget || (github.event_name == 'schedule' && '3600') || vars.WORLD_FIGI_BUDGET || '1500' }}
         run: python -u scripts/world_securities/build.py
       - name: Commit data
         if: always()

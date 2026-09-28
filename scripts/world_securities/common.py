@@ -103,6 +103,19 @@ def load_mics():
         }
     if len(mics) < 1000:
         raise RuntimeError(f"MIC list too small: {len(mics)}")
+    # MIC תפעולי (OPRT) מסומן לרוב NSPD ("לא מוגדר") - סוג השוק מופיע רק על הסגמנטים שלו.
+    # FIRDS מדווח לפעמים את ה-MIC התפעולי (XPAR, XLON, XMIL), אז הוא מקבל את סוג הסגמנטים:
+    # RMKT אם יש לו סגמנט שוק מוסדר פעיל, אחרת MLTF אם יש סגמנט MTF.
+    seg_cats = {}
+    for mic, m in mics.items():
+        if m["oprt"] != mic and m.get("status") == "ACTIVE":
+            seg_cats.setdefault(m["oprt"], set()).add(m.get("cat"))
+    for mic, m in mics.items():
+        if m["oprt"] == mic and m.get("cat") not in ("RMKT", "MLTF"):
+            cats = seg_cats.get(mic, set())
+            eff = "RMKT" if "RMKT" in cats else "MLTF" if "MLTF" in cats else None
+            if eff:
+                m["cat_raw"], m["cat"] = m.get("cat"), eff
     return mics
 
 
@@ -136,6 +149,7 @@ CATEGORY_BY_TYPE = {
     "ETF": "etf", "ETN": "etf", "ETF/ETN": "etf", "ETC": "etf",
     "Investment Fund": "funds", "REIT": "funds", "Hedge Fund": "funds", "Fund of Funds": "funds",
     "Private Equity Fund": "funds", "Pension Fund": "funds", "Other Fund": "funds", "Infrastructure Fund": "funds",
+    "Real Estate Fund": "funds", "Participation Certificate": "stocks",
     "Warrant": "other", "Right": "other", "Unit": "other", "Debenture": "other", "Other": "other",
 }
 

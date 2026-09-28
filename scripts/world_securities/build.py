@@ -16,10 +16,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-import firds  # noqa: E402
-import jpx  # noqa: E402
-import six  # noqa: E402
-import tmx  # noqa: E402
+import src_firds as firds  # noqa: E402
+import src_jpx as jpx  # noqa: E402
+import src_six as six  # noqa: E402
+import src_tmx as tmx  # noqa: E402
 from common import (CATEGORY_BY_TYPE, NOW_ISO, OUT_DIR, TODAY, count, dominant_exch_codes, figi_lookup,  # noqa: E402
                     figi_pick, gleif_enrich, load_mics, log)
 

@@ -16,7 +16,17 @@ from common import CFI_TYPES, get, log
 FQS = "https://www.six-group.com/fqs/ref.csv"
 FIELDS = "ShortName,ValorSymbol,ValorNumber,ISIN,TradingBaseCurrency,IssuerNameFull,SecTypeCode,PortalSegment,ProductLine"
 ISSUERS = "https://www.six-group.com/sheldon/equity_issuers/v1/equity_issuers.json"
-SEGMENT_TYPES = {   # כשאין CFI רשמי ב-FIRDS
+# כשאין CFI רשמי ב-FIRDS - לפי קווי המוצר (ProductLine) וסוג הנייר (SecTypeCode) של SIX
+PRODUCT_LINE_TYPES = {
+    ("FU", "ET"): ("ETF", "קרן סל (ETF)"),
+    ("FU", "PF"): ("Investment Fund", "קרן השקעה"),
+    ("FU", "IF"): ("Real Estate Fund", "קרן נדל\"ן"),
+}
+SEC_TYPE_TYPES = {
+    "RS": ("Common Stock", "מניה רגילה"), "BS": ("Common Stock", "מניה רגילה"),
+    "PC": ("Participation Certificate", "תעודת השתתפות"),
+}
+SEGMENT_TYPES = {
     "EQ": ("Common Stock", "מניה רגילה"),
     "FU": ("Investment Fund", "קרן השקעה"),
     "EP": ("ETP", "מוצר נסחר (ETP)"),
@@ -58,6 +68,10 @@ def build(firds_lookup):
         cfi = fl.get("cfi")
         if cfi and cfi[:2] in CFI_TYPES:
             typ, tsrc = CFI_TYPES[cfi[:2]], "cfi_" + fl["reg"].lower()
+        elif (x["seg"], r.get("ProductLine")) in PRODUCT_LINE_TYPES:
+            typ, tsrc = PRODUCT_LINE_TYPES[(x["seg"], r.get("ProductLine"))], "six_product_line"
+        elif x["seg"] == "EQ" and r.get("SecTypeCode") in SEC_TYPE_TYPES:
+            typ, tsrc = SEC_TYPE_TYPES[r["SecTypeCode"]], "six_sec_type"
         else:
             typ, tsrc = SEGMENT_TYPES[x["seg"]], "six_segment"
         tickers = sorted(x["tickers"])
