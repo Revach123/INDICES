@@ -1,9 +1,7 @@
-"""ממשיך את הבדיקה: dType/qType כנראה מסננים (למשל מדד מול מניה בודדת) -
-הבקשה הראשונה עם dType=1 החזירה רק אופציות מדד ת"א-35. מנסה dType אחרים
-ו-pageNum כדי למצוא את המניות הבודדות (כולל בזן/ברס/פנק/פרן שחסרים
-ב-option_ticker_parse.py).
-
-הרצה: python scripts/probe_tase_derivatives.py
+"""בדיקה: האם TotalRec בגוף הבקשה שולט בגודל העמוד בפועל (נסיון קודם עם
+TotalRec=1 תמיד החזיר 30 פריטים, כולם ת"א-35 - כנראה ממוינים לפי
+AssetNumber ולא מפולטרים ע"י dType/qType). מנסה TotalRec=8000 וגם pageNum
+גבוה יותר כדי להגיע למניות בודדות.
 """
 import json
 from pathlib import Path
@@ -33,33 +31,27 @@ def fetch(body):
 
 
 def main():
-    summary = {}
-    all_items = []
-    # dType 1-6, qType 1-2, כמה pageNum לכל אחד
-    for dtype in range(1, 7):
-        for qtype in (1, 2):
-            status, data = fetch({"qType": qtype, "dType": dtype, "TotalRec": 1,
-                                    "pageNum": 1, "oId": "", "lang": "0"})
-            if status != 200 or not isinstance(data, dict):
-                summary[f"d{dtype}q{qtype}"] = {"status": status}
-                continue
-            items = data.get("Items", [])
-            assets = sorted(set(i.get("AssetName") for i in items))
-            summary[f"d{dtype}q{qtype}"] = {
-                "status": status, "TotalRec": data.get("TotalRec"),
-                "n_items": len(items), "distinct_assets": assets[:15],
-            }
-            all_items.extend(items)
+    results = {}
 
-    txt = json.dumps(summary, ensure_ascii=False, indent=2)
+    # נסיון 1: TotalRec גדול
+    status, data = fetch({"qType": 1, "dType": 1, "TotalRec": 8000, "pageNum": 1, "oId": "", "lang": "0"})
+    items = data.get("Items", []) if isinstance(data, dict) else []
+    results["big_totalrec"] = {"status": status, "n_items": len(items),
+                                 "distinct_assets": sorted(set(i.get("AssetName") for i in items))}
+
+    # נסיון 2: pageNum גבוה (אם 30/עמוד, עמוד 50 = פריטים 1470-1500)
+    all_assets = set()
+    for page in (1, 20, 50, 100, 150, 200, 249):
+        status, data = fetch({"qType": 1, "dType": 1, "TotalRec": 1, "pageNum": page, "oId": "", "lang": "0"})
+        items = data.get("Items", []) if isinstance(data, dict) else []
+        page_assets = sorted(set(i.get("AssetName") for i in items))
+        results[f"page_{page}"] = {"status": status, "n_items": len(items), "distinct_assets": page_assets}
+        all_assets.update(page_assets)
+
+    txt = json.dumps(results, ensure_ascii=False, indent=2)
     print(txt)
     (OUT / "tase_deriv_filters.json").write_text(txt, encoding="utf-8")
-
-    all_assets = sorted(set(i.get("AssetName") for i in all_items if i.get("AssetName")))
-    print(f"\n{len(all_assets)} distinct AssetName across all filter combos tried:")
-    for a in all_assets:
-        print(" ", a)
-    (OUT / "tase_deriv_all_assets.txt").write_text("\n".join(all_assets), encoding="utf-8")
+    (OUT / "tase_deriv_all_assets.txt").write_text("\n".join(sorted(a for a in all_assets if a)), encoding="utf-8")
 
 
 if __name__ == "__main__":
