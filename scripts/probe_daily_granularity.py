@@ -1,11 +1,5 @@
-"""בדיקה: האם Yahoo chart API מחזיר גרנולריות יומית אמיתית על פני טווח ארוך
-(כמעט 3 שנים) אם משתמשים ב-period1/period2 מפורשים במקום range=max - נמצא
-בפועל (9.28.2026) ש-range=max מחזיר נתונים חודשיים/רבעוניים בפועל (לא
-יומיים כפי ש-interval=1d ביקש) לטווחים ארוכים, מה שפוגע בחישובי תנודתיות
-ריאליזד ובדיוק תמחור-לפי-תאריך-דוח (גם להיסטוריה של מדדים ב-fetch_prices.py
-הקיים - לא רק לטיקרים הבודדים החדשים).
-
-הרצה: python scripts/probe_daily_granularity.py
+"""המשך בדיקת הגרנולריות: אולי events=history (לא רק range) הוא שגורם
+לקוארסינג, לא ה-period עצמו. משווה את כל הצירופים.
 """
 import json
 import time
@@ -19,7 +13,6 @@ CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
 OUT = Path("probe_out")
 OUT.mkdir(exist_ok=True)
 
-# 2024-01-01 -> now, אותו טווח בדיוק שצריך לארכיון MASLULIM
 PERIOD1 = 1704067200  # 2024-01-01 UTC
 PERIOD2 = int(time.time())
 
@@ -31,19 +24,19 @@ def check(symbol, params, label):
     data = r.json()
     result = (data.get("chart") or {}).get("result")
     if not result:
-        return {"label": label, "error": (data.get("chart") or {}).get("error")}
+        return {"label": label, "params": params, "error": (data.get("chart") or {}).get("error")}
     ts = result[0].get("timestamp") or []
     if len(ts) < 3:
-        return {"label": label, "n": len(ts)}
-    gaps = [(ts[i] - ts[i-1]) / 86400 for i in range(1, min(len(ts), 30))]
-    return {"label": label, "n": len(ts), "first_gaps_days": [round(g, 1) for g in gaps[:10]]}
+        return {"label": label, "params": params, "n": len(ts)}
+    gaps = [(ts[i] - ts[i-1]) / 86400 for i in range(1, min(len(ts), 15))]
+    return {"label": label, "params": params, "n": len(ts), "gaps": [round(g, 1) for g in gaps]}
 
 
 def main():
     report = {}
-    report["range_max"] = check("AAPL", {"range": "max", "interval": "1d"}, "range=max")
-    report["range_2y"] = check("AAPL", {"range": "2y", "interval": "1d"}, "range=2y")
-    report["explicit_period"] = check("AAPL", {"period1": PERIOD1, "period2": PERIOD2, "interval": "1d"}, "period1/2 explicit")
+    report["period_no_events"] = check("AAPL", {"period1": PERIOD1, "period2": PERIOD2, "interval": "1d"}, "period, no events")
+    report["period_with_events"] = check("AAPL", {"period1": PERIOD1, "period2": PERIOD2, "interval": "1d", "events": "history"}, "period + events=history")
+    report["period_with_events_div"] = check("AAPL", {"period1": PERIOD1, "period2": PERIOD2, "interval": "1d", "events": "div,splits"}, "period + events=div,splits")
     txt = json.dumps(report, ensure_ascii=False, indent=2)
     print(txt)
     (OUT / "daily_granularity.json").write_text(txt, encoding="utf-8")
