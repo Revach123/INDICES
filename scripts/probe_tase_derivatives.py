@@ -1,9 +1,12 @@
-"""בדיקה: האם TotalRec בגוף הבקשה שולט בגודל העמוד בפועל (נסיון קודם עם
-TotalRec=1 תמיד החזיר 30 פריטים, כולם ת"א-35 - כנראה ממוינים לפי
-AssetNumber ולא מפולטרים ע"י dType/qType). מנסה TotalRec=8000 וגם pageNum
-גבוה יותר כדי להגיע למניות בודדות.
+"""סריקה מלאה של API הנגזרים הרשמי של הבורסה (TASE) - בונה מיפוי Name(סימול
+האופציה)->AssetName(שם נכס הבסיס הרשמי) לכל ~7500 הנגזרים, כדי לפענח את
+קודי-הקיצור העבריים שמופיעים בדוחות MASLULIM (בזן/ברס/פנק/פרן שנשארו
+לא-ממופים ב-option_ticker_parse.py + לאמת מחדש את הידועים).
+
+הרצה: python scripts/probe_tase_derivatives.py
 """
 import json
+import time
 from pathlib import Path
 
 import requests
@@ -20,38 +23,54 @@ HEADERS = {
 }
 OUT = Path("probe_out")
 OUT.mkdir(exist_ok=True)
+PAGE_SIZE = 30
+MAX_PAGES = 260  # ~7492/30
 
 
-def fetch(body):
-    r = requests.post(URL, headers=HEADERS, json=body, timeout=30)
+def fetch(page):
+    r = requests.post(URL, headers=HEADERS,
+                       json={"qType": 1, "dType": 1, "TotalRec": 1, "pageNum": page, "oId": "", "lang": "0"},
+                       timeout=30)
+    if r.status_code != 200:
+        return None
     try:
-        return r.status_code, r.json()
+        return r.json()
     except Exception:
-        return r.status_code, {"raw": r.text[:500]}
+        return None
 
 
 def main():
-    results = {}
+    name_to_asset = {}
+    total_rec = None
+    for page in range(1, MAX_PAGES + 1):
+        data = fetch(page)
+        if not data:
+            print(f"page {page}: FAIL")
+            continue
+        total_rec = data.get("TotalRec")
+        items = data.get("Items", [])
+        if not items:
+            print(f"page {page}: empty, stopping")
+            break
+        for it in items:
+            name = it.get("Name")
+            asset = it.get("AssetName")
+            if name:
+                name_to_asset[name] = asset
+        if page % 20 == 0:
+            print(f"page {page}: {len(items)} items, running total {len(name_to_asset)}")
+        time.sleep(0.15)
 
-    # נסיון 1: TotalRec גדול
-    status, data = fetch({"qType": 1, "dType": 1, "TotalRec": 8000, "pageNum": 1, "oId": "", "lang": "0"})
-    items = data.get("Items", []) if isinstance(data, dict) else []
-    results["big_totalrec"] = {"status": status, "n_items": len(items),
-                                 "distinct_assets": sorted(set(i.get("AssetName") for i in items))}
+    print(f"\nTotalRec (server): {total_rec}, collected {len(name_to_asset)} Name->AssetName mappings")
+    (OUT / "tase_deriv_full_map.json").write_text(
+        json.dumps(name_to_asset, ensure_ascii=False), encoding="utf-8")
 
-    # נסיון 2: pageNum גבוה (אם 30/עמוד, עמוד 50 = פריטים 1470-1500)
-    all_assets = set()
-    for page in (1, 20, 50, 100, 150, 200, 249):
-        status, data = fetch({"qType": 1, "dType": 1, "TotalRec": 1, "pageNum": page, "oId": "", "lang": "0"})
-        items = data.get("Items", []) if isinstance(data, dict) else []
-        page_assets = sorted(set(i.get("AssetName") for i in items))
-        results[f"page_{page}"] = {"status": status, "n_items": len(items), "distinct_assets": page_assets}
-        all_assets.update(page_assets)
-
-    txt = json.dumps(results, ensure_ascii=False, indent=2)
-    print(txt)
-    (OUT / "tase_deriv_filters.json").write_text(txt, encoding="utf-8")
-    (OUT / "tase_deriv_all_assets.txt").write_text("\n".join(sorted(a for a in all_assets if a)), encoding="utf-8")
+    # החלוצים שחיפשנו במפורש
+    targets = ["בזן", "ברס", "פנק", "פרן", "כלל", "בזק", "דסק", "ת35", "35ת"]
+    print("\n--- דוגמאות לכל קוד-יעד ---")
+    for t in targets:
+        matches = [(n, a) for n, a in name_to_asset.items() if n.endswith(f"-{t}")]
+        print(f"{t}: {len(matches)} matches, sample: {matches[:2]}")
 
 
 if __name__ == "__main__":
