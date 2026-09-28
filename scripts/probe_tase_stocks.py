@@ -1,6 +1,5 @@
-"""אימות טיקרים בודדים ל-TASE (בנקים/מבטחות גדולים שמופיעים באופציות
-MASLULIM בשם עברי מלא) מול Yahoo Finance - כדי לא להציב טיקר מהזיכרון בלי
-אימות (אותו עיקרון כמו probe_instrument_types.py).
+"""אימות טיקרים נוספים ל-TASE (בזן, הבורסה עצמה, פניקס-פנק) שנמצאו דרך
+ה-API הרשמי של TASE (AssetName) - צריך את הטיקר של Yahoo שמתאים.
 
 הרצה: python scripts/probe_tase_stocks.py
 """
@@ -16,22 +15,8 @@ OUT = Path("probe_out")
 OUT.mkdir(exist_ok=True)
 
 CANDIDATES = {
-    "POLI.TA": "בנק הפועלים (Bank Hapoalim)",
-    "LUMI.TA": "בנק לאומי (Bank Leumi)",
-    "DSCT.TA": "בנק דיסקונט (Discount Bank)",
-    "MZTF.TA": "מזרחי טפחות (Mizrahi-Tefahot)",
-    "BEZQ.TA": "בזק (Bezeq)",
-    "CLIS.TA": "כלל ביטוח (Clal Insurance)",
-    "PHOE.TA": "הפניקס (Phoenix)",
-    "PHOE1.TA": "הפניקס (Phoenix) - variant",
-    "MMHD.TA": "מנורה מבטחים (Menora Mivtachim)",
-    "MGDL.TA": "מגדל ביטוח (Migdal Insurance)",
-    "ENLT.TA": "אנלייט (Enlight Renewable Energy)",
-    "AFHL.TA": "אפקון החזקות (Afcon Holdings)",
-    "DMRI.TA": "דמרי (Dmri Group)",
-    "HYSH.TA": "הכשרת הישוב (Hachsharat Hayishuv)",
-    "BAZN.TA": "בזן (Bazan / Oil Refineries)",
-    "PZOL.TA": "פז (Paz Oil)",
+    "ORL.TA": "בזן (Bazan Oil Refineries) - מ-WebSearch",
+    "TASE.TA": "הבורסה לני\"ע בתל אביב (TASE עצמה) - מ-WebSearch",
 }
 
 
