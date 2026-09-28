@@ -1,0 +1,1117 @@
+{
+ "label": "fca_equities",
+ "distinct_isins": 183036,
+ "with_issuer_request_venue": 160820,
+ "on_regulated_market": 0,
+ "with_lei": 183036,
+ "distinct_leis": 18892,
+ "by_cfi2": [
+  [
+   "EY",
+   157065
+  ],
+  [
+   "ES",
+   21414
+  ],
+  [
+   "ED",
+   4100
+  ],
+  [
+   "EP",
+   251
+  ],
+  [
+   "EM",
+   144
+  ],
+  [
+   "EL",
+   41
+  ],
+  [
+   "EF",
+   13
+  ],
+  [
+   "EC",
+   8
+  ]
+ ],
+ "by_relevant_venue_top60": [
+  [
+   "FRAB",
+   72873,
+   "BOERSE FRANKFURT - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "MUND",
+   44285,
+   "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "STUB",
+   37936,
+   "BOERSE STUTTGART - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "IMCE",
+   5936,
+   "TP ICAP UK MTF - CASH EQUITY",
+   "GB"
+  ],
+  [
+   "UBSY",
+   2800,
+   "UBS AG LONDON BRANCH - SYSTEMATIC INTERNALISER",
+   "GB"
+  ],
+  [
+   "XLOM",
+   1824,
+   "LONDON STOCK EXCHANGE - MTF",
+   "GB"
+  ],
+  [
+   "STUH",
+   1284,
+   null,
+   null
+  ],
+  [
+   "XPAL",
+   1248,
+   "POSIT AUCTION UK",
+   "GB"
+  ],
+  [
+   "XLON",
+   1075,
+   "LONDON STOCK EXCHANGE",
+   "GB"
+  ],
+  [
+   "TRQM",
+   1026,
+   "TURQUOISE PLATO",
+   "GB"
+  ],
+  [
+   "MUNB",
+   848,
+   "BOERSE MUENCHEN - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "BLOX",
+   744,
+   "BLOCKMATCH  UK DARK",
+   "GB"
+  ],
+  [
+   "FNSE",
+   709,
+   "FIRST NORTH SWEDEN",
+   "SE"
+  ],
+  [
+   "SEDX",
+   608,
+   "SECURITISED DERIVATIVES MARKET",
+   "IT"
+  ],
+  [
+   "WBDM",
+   581,
+   "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
+   "AT"
+  ],
+  [
+   "AIMX",
+   543,
+   "LONDON STOCK EXCHANGE - AIM MTF",
+   "GB"
+  ],
+  [
+   "WBAH",
+   529,
+   "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
+   "AT"
+  ],
+  [
+   "FRAV",
+   514,
+   "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "SGMX",
+   483,
+   "SIGMA X MTF",
+   "GB"
+  ],
+  [
+   "BMTF",
+   427,
+   "BLOOMBERG TRADING FACILITY LIMITED",
+   "GB"
+  ],
+  [
+   "XGAT",
+   419,
+   "TRADEGATE EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "BATD",
+   345,
+   "CBOE EUROPE - BXE DARK ORDER BOOK",
+   "GB"
+  ],
+  [
+   "XNCO",
+   339,
+   "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF",
+   "PL"
+  ],
+  [
+   "EMTF",
+   245,
+   "EURO MTF",
+   "LU"
+  ],
+  [
+   "XCAN",
+   242,
+   "CAN - ATS",
+   "RO"
+  ],
+  [
+   "ETLX",
+   241,
+   "EUROTLX",
+   "IT"
+  ],
+  [
+   "BILU",
+   236,
+   "BANQUE INTERNATIONALE A LUXEMBOURG S.A. - SYSTEMATIC INTERNALISER",
+   "LU"
+  ],
+  [
+   "DUSB",
+   223,
+   "BOERSE DUESSELDORF - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XSGA",
+   200,
+   "SOCIETE GENERALE - SYSTEMATIC INTERNALISER",
+   "FR"
+  ],
+  [
+   "EXGM",
+   188,
+   "EURONEXT GROWTH MILAN",
+   "IT"
+  ],
+  [
+   "NMTF",
+   174,
+   "NORDIC MTF",
+   "SE"
+  ],
+  [
+   "AQXA",
+   145,
+   "AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD)",
+   "GB"
+  ],
+  [
+   "FNDK",
+   143,
+   "FIRST NORTH DENMARK",
+   "DK"
+  ],
+  [
+   "XSAT",
+   123,
+   "SPOTLIGHT STOCK MARKET AB",
+   "SE"
+  ],
+  [
+   "TREU",
+   118,
+   "TRADEWEB EUROPE LIMITED",
+   "GB"
+  ],
+  [
+   "HAMN",
+   118,
+   "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "ONSE",
+   115,
+   "FIRST NORTH SWEDEN - NORWAY",
+   "SE"
+  ],
+  [
+   "AQSN",
+   112,
+   "AQSE TRADING (NON-EQUITY)",
+   "GB"
+  ],
+  [
+   "PPEX",
+   112,
+   "PROPERTY PARTNER EXCHANGE",
+   "GB"
+  ],
+  [
+   "XWAR",
+   108,
+   "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+   "PL"
+  ],
+  [
+   "TPIR",
+   105,
+   "TP ICAP EU - MTF - REGISTRATION",
+   "FR"
+  ],
+  [
+   "GROW",
+   100,
+   "BME GROWTH MARKET",
+   "ES"
+  ],
+  [
+   "BTFE",
+   95,
+   "BLOOMBERG TRADING FACILITY B.V.",
+   "NL"
+  ],
+  [
+   "MNSE",
+   93,
+   "FIRST NORTH SWEDEN - AUCTION ON DEMAND",
+   "SE"
+  ],
+  [
+   "HAMB",
+   93,
+   "BOERSE HAMBURG - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "TRQA",
+   89,
+   "TURQUOISE LIT AUCTIONS",
+   "GB"
+  ],
+  [
+   "NSME",
+   81,
+   "NORDIC SME",
+   "SE"
+  ],
+  [
+   "XECM",
+   81,
+   "MTF - CYPRUS EXCHANGE",
+   "CY"
+  ],
+  [
+   "XMLI",
+   77,
+   "EURONEXT ACCESS PARIS",
+   "FR"
+  ],
+  [
+   "XTXM",
+   77,
+   "XTX MARKETS",
+   "GB"
+  ],
+  [
+   "UBSI",
+   77,
+   "UBS EUROPE SE - SYSTEMATIC INTERNALISER",
+   "DE"
+  ],
+  [
+   "VPXB",
+   73,
+   "EURONEXT - VENTES PUBLIQUES BRUSSELS",
+   "BE"
+  ],
+  [
+   "XZAG",
+   73,
+   "ZAGREB STOCK EXCHANGE",
+   "HR"
+  ],
+  [
+   "LIQU",
+   72,
+   "LIQUIDNET SYSTEMS",
+   "GB"
+  ],
+  [
+   "AQSG",
+   72,
+   "AQSE GROWTH MARKET (EQUITY)",
+   "GB"
+  ],
+  [
+   "SPSD",
+   71,
+   null,
+   null
+  ],
+  [
+   "UCDE",
+   63,
+   "UNICREDIT BANK AG - SYSTEMATIC INTERNALISER",
+   "DE"
+  ],
+  [
+   "HAND",
+   63,
+   null,
+   null
+  ],
+  [
+   "DUSD",
+   56,
+   "BOERSE DUESSELDORF - QUOTRIX MTF",
+   "DE"
+  ],
+  [
+   "FRAA",
+   51,
+   "BOERSE FRANKFURT - REGULIERTER MARKT",
+   "DE"
+  ]
+ ],
+ "isin_prefix_top30": [
+  [
+   "DE",
+   153919
+  ],
+  [
+   "US",
+   6972
+  ],
+  [
+   "CA",
+   2522
+  ],
+  [
+   "GB",
+   1989
+  ],
+  [
+   "CH",
+   1984
+  ],
+  [
+   "JP",
+   1796
+  ],
+  [
+   "SE",
+   1726
+  ],
+  [
+   "AU",
+   1201
+  ],
+  [
+   "BR",
+   782
+  ],
+  [
+   "AT",
+   770
+  ],
+  [
+   "PL",
+   734
+  ],
+  [
+   "FR",
+   691
+  ],
+  [
+   "KY",
+   621
+  ],
+  [
+   "TR",
+   581
+  ],
+  [
+   "IT",
+   493
+  ],
+  [
+   "ES",
+   397
+  ],
+  [
+   "NO",
+   381
+  ],
+  [
+   "RO",
+   326
+  ],
+  [
+   "DK",
+   309
+  ],
+  [
+   "NL",
+   296
+  ],
+  [
+   "CN",
+   294
+  ],
+  [
+   "BG",
+   280
+  ],
+  [
+   "BM",
+   265
+  ],
+  [
+   "AR",
+   264
+  ],
+  [
+   "SA",
+   243
+  ],
+  [
+   "IL",
+   242
+  ],
+  [
+   "FI",
+   217
+  ],
+  [
+   "BE",
+   191
+  ],
+  [
+   "JE",
+   189
+  ],
+  [
+   "CY",
+   163
+  ]
+ ],
+ "sample": {
+  "DE000VJ2L5B3": {
+   "name": "Vontobel Financial Products R.BOC.Z 28.12.26 DAX",
+   "short": "VONT.FINL PROD/ZT 20261228 DAX BARR",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "5299009N4N61DPCDHR97",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000FE0UHC7": {
+   "name": "Capped Bonus-Zertifikat auf Daimler Truck Holding AG",
+   "short": "SG EFFEKTEN/ZT 20270326 DAIMLT BARR",
+   "cfi": "EYCYMS",
+   "ccy": "EUR",
+   "lei": "529900W18LQJJN6SJ336",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000JZ8SGK0": {
+   "name": "LVMH Moet Hennessy Louis Vuitton SE Reverse Bonus Zertifikat",
+   "short": "JPM STR.PRO./ZT 20261228 LVMH BARR",
+   "cfi": "EYCYFS",
+   "ccy": "EUR",
+   "lei": "XZYUUT6IYN31D9K77X08",
+   "venues": [
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "STUB",
+   "nca": "FR"
+  },
+  "DE000FG0ZKU0": {
+   "name": "Société Générale Effekten GmbHBO.C.Z 30.03.27 Luftha.",
+   "short": "SG EFFEKTEN/ZT 20270330 LUFTHA BARR",
+   "cfi": "EYCYMS",
+   "ccy": "EUR",
+   "lei": "529900W18LQJJN6SJ336",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000UR1HCS5": {
+   "name": "Bonus Cap Zertifikat auf die Aktie der Microsoft Corp. Quanto",
+   "short": "UNICREDIT/ZT 20261228 M.SOFT BARR",
+   "cfi": "EYCYFS",
+   "ccy": "EUR",
+   "lei": "2ZCNRR8UK83OBTEK2170",
+   "venues": [
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "MUND",
+   "nca": "DE"
+  },
+  "DE000UR214N6": {
+   "name": "Bonus Cap Zertifikat auf den Su.P 500 Price Return Index Quanto",
+   "short": "UNICREDIT/ZT 20270924 S&P500 BARR",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "2ZCNRR8UK83OBTEK2170",
+   "venues": [
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "MUND",
+   "nca": "DE"
+  },
+  "DE000BD6C016": {
+   "name": "Vontobel Financial Products BOC.Z 24.09.27 VW Vz",
+   "short": "VONT.FINL PROD/ZT 20270924",
+   "cfi": "EYCYMS",
+   "ccy": "EUR",
+   "lei": "5299009N4N61DPCDHR97",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000FG4D517": {
+   "name": "Capped Bonus-Zertifikat auf Siemens Energy AG",
+   "short": "SG EFFEKTEN/ZT 20270330 SIEENE BARR",
+   "cfi": "EYCYMS",
+   "ccy": "EUR",
+   "lei": "529900W18LQJJN6SJ336",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "STUB"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000DN4E6N3": {
+   "name": "DZ BANK AG Deut.Zentral-Gen. CA.BO.Z 25.06.27 DAX",
+   "short": "DZ BANK AG/ZT 20270625 DTBOER BARR",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "529900HNOAA1KXQJUQ27",
+   "venues": [
+    "FRAB",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000DU6GUC8": {
+   "name": "DZ BANK AG Deut.Zentral-Gen. CA.BO.Z 28.12.26 DAX",
+   "short": "DZ BANK AG/ZT 20261228 DTBOER BARR",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "529900HNOAA1KXQJUQ27",
+   "venues": [
+    "FRAB",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000HT9YDS6": {
+   "name": "HSBC Trinkaus & Burkhardt GmbHR.C.BO.Z 29.12.26 DAX",
+   "short": "HSBC T+B/ZT 20261229 DTBOER BARR",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "JUNT405OW8OY5GN4DX16",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "MUND",
+   "nca": "DE"
+  },
+  "DE000JE4X9W1": {
+   "name": "DAX Reverse Bonus Zertifikat",
+   "short": "JPM STR.PRO./ZT 20270330",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "XZYUUT6IYN31D9K77X08",
+   "venues": [
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "STUB",
+   "nca": "DE"
+  },
+  "DE000PK27QF0": {
+   "name": "Capped Bonus auf den DAX",
+   "short": "BNP PARIBAS EM/ZT 20270325",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "549300TS3U4JKMR1B479",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "MUND",
+   "nca": "DE"
+  },
+  "DE000PM4BG05": {
+   "name": "BNP Paribas Em.-u.Handelsg.mbH CA.BO.Z 24.12.26 Nasd100",
+   "short": "BNP PARIBAS EM/ZT 20261224",
+   "cfi": "EYCYFI",
+   "ccy": "EUR",
+   "lei": "549300TS3U4JKMR1B479",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  },
+  "DE000HM8RPK0": {
+   "name": "HSBC Trinkaus & Burkhardt GmbHCAP.BO.Z 25.06.27 BMW",
+   "short": "HSBC T+B/ZT 20270625 BMW AG BARR",
+   "cfi": "EYCYFS",
+   "ccy": "EUR",
+   "lei": "JUNT405OW8OY5GN4DX16",
+   "venues": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "issr_req": [
+    "FRAB",
+    "HAND",
+    "MUND",
+    "STUB",
+    "STUH"
+   ],
+   "rlvnt": "FRAB",
+   "nca": "DE"
+  }
+ },
+ "known": {
+  "DE0007164600": {
+   "name": "SAP ORD",
+   "short": "SAP SE/AKT O.N.",
+   "cfi": "ESVUFB",
+   "ccy": "EUR",
+   "lei": "529900D6BF99LW9R2E68",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BETA",
+    "BEUP",
+    "BGEM",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CEUD",
+    "CEUO",
+    "CEUX"
+   ],
+   "issr_req": [
+    "FRAA",
+    "FRAU",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XGLO"
+   ],
+   "rlvnt": "TRQM",
+   "nca": "GB"
+  },
+  "FR0000121014": {
+   "name": "LVMH",
+   "short": "LVMH MOET HENNE/EQ",
+   "cfi": "ESVUFN",
+   "ccy": "EUR",
+   "lei": "IOG4E947OATN0KJYSD45",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BEUP",
+    "BGEM",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "CHID"
+   ],
+   "issr_req": [
+    "XPAR"
+   ],
+   "rlvnt": "TRQM",
+   "nca": "GB"
+  },
+  "NL0010273215": {
+   "name": "ASML Holding N.V. Aandelen op naam EO -,09",
+   "short": "ASML HOLDING N./SH VTG FPD",
+   "cfi": "ESVUFN",
+   "ccy": "EUR",
+   "lei": "724500Y6DUVHQD6OXN27",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BEUP",
+    "BGEM",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "CHID"
+   ],
+   "issr_req": [
+    "XAMS",
+    "XGLO"
+   ],
+   "rlvnt": "TRQM",
+   "nca": "GB"
+  },
+  "IE00B4L5Y983": null,
+  "IE00B5BMR087": null,
+  "GB0005405286": {
+   "name": "HSBC Holdings PLC Registered Shares DL -,50",
+   "short": "HSBC HLDG/PAR VTG FPD 0.5",
+   "cfi": "ESVUFR",
+   "ccy": "GBP",
+   "lei": "MLU0ZO3ML4LN2LL2TL39",
+   "venues": [
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CHID",
+    "CHIO",
+    "CHIX",
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "FRAB",
+    "FRAV",
+    "HAMB"
+   ],
+   "issr_req": [
+    "XLON",
+    "XLOX"
+   ],
+   "rlvnt": "XLON",
+   "nca": "GB"
+  },
+  "CH0038863350": {
+   "name": "NESTLE/REGSH CHF0.1",
+   "short": "Nestle/RegSh CHF0.1",
+   "cfi": "ESVTFR",
+   "ccy": "CHF",
+   "lei": "KY37LUS27QQX7BB93L28",
+   "venues": [
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BGEM",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CHID",
+    "CHIO",
+    "CHIX",
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "FRAB",
+    "FRAV"
+   ],
+   "issr_req": [],
+   "rlvnt": "LIQU",
+   "nca": "GB"
+  },
+  "IT0003128367": {
+   "name": "ENEL S.p.A. Azioni nom. EO 1",
+   "short": "ENEL/AZ EUR 1",
+   "cfi": "ESVUFR",
+   "ccy": "EUR",
+   "lei": "WOCMU6HCI0OJWNPRZS33",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BEUP",
+    "BLOX",
+    "BNTW",
+    "BRFQ",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "CHID",
+    "CHIO"
+   ],
+   "issr_req": [
+    "HMTF",
+    "MTAA"
+   ],
+   "rlvnt": "TRQM",
+   "nca": "GB"
+  },
+  "US0378331005": {
+   "name": "Apple Inc",
+   "short": "APPLE INC/SH SH",
+   "cfi": "ESVUFR",
+   "ccy": "USD",
+   "lei": "HWUPKR0MPOU8FGXBT394",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BEUP",
+    "BGEM",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "CHID",
+    "CHIO",
+    "CHIX",
+    "DUSB"
+   ],
+   "issr_req": [
+    "XGLO"
+   ],
+   "rlvnt": "IMCE",
+   "nca": "GB"
+  },
+  "IL0006290147": {
+   "name": "TEVA PHARMACEUTICAL INDS LTD. Registered Shares IS 0,1",
+   "short": "TEVA/REGSH ILS",
+   "cfi": "ESVUFR",
+   "ccy": "ILS",
+   "lei": "549300BAFGM4RC74ZJ94",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "IMCE",
+    "MUNB",
+    "STUB",
+    "TPIR",
+    "XGAT",
+    "XPAL",
+    "XPOL"
+   ],
+   "issr_req": [],
+   "rlvnt": "IMCE",
+   "nca": "GB"
+  }
+ },
+ "downloads": [
+  {
+   "file": "FULINS_E_20260926_01of01.zip",
+   "status": 200,
+   "mb": 38.0,
+   "sec": 0.4,
+   "parse_sec": 38.9
+  }
+ ],
+ "stats": {
+  "rows": 785143,
+  "terminated_rows": 58
+ }
+}

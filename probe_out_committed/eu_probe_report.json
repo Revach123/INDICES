@@ -1,0 +1,1319 @@
+{
+ "esma_firds_files": {
+  "url": "https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2026-09-14T00:00:00Z+TO+2026-09-28T23:59:59Z%5D&wt=json&start=0&rows=500",
+  "status": 200,
+  "sec": 0.4,
+  "bytes": 62808,
+  "n_docs": 132,
+  "sample_docs": [
+   {
+    "_root_": "117205",
+    "id": "117205",
+    "published_instrument_file_id": "117205",
+    "file_name": "DLTINS_20260922_01of04.zip",
+    "file_type": "DLTINS",
+    "publication_date": "2026-09-22T00:00:00Z",
+    "download_link": "https://firds.esma.europa.eu/firds/DLTINS_20260922_01of04.zip",
+    "checksum": "caf2d369d2c531c75b676dfc3865184f",
+    "_version_": 1877545254421266445,
+    "timestamp": "2026-09-28T03:38:06.446Z"
+   },
+   {
+    "_root_": "117206",
+    "id": "117206",
+    "published_instrument_file_id": "117206",
+    "file_name": "DLTINS_20260922_02of04.zip",
+    "file_type": "DLTINS",
+    "publication_date": "2026-09-22T00:00:00Z",
+    "download_link": "https://firds.esma.europa.eu/firds/DLTINS_20260922_02of04.zip",
+    "checksum": "6e7920684e392c2f10351987479630fc",
+    "_version_": 1877545254421266446,
+    "timestamp": "2026-09-28T03:38:06.446Z"
+   },
+   {
+    "_root_": "117207",
+    "id": "117207",
+    "published_instrument_file_id": "117207",
+    "file_name": "DLTINS_20260922_03of04.zip",
+    "file_type": "DLTINS",
+    "publication_date": "2026-09-22T00:00:00Z",
+    "download_link": "https://firds.esma.europa.eu/firds/DLTINS_20260922_03of04.zip",
+    "checksum": "eff299b829d3f24941e6e4fd735e8a5e",
+    "_version_": 1877545254421266447,
+    "timestamp": "2026-09-28T03:38:06.446Z"
+   }
+  ],
+  "files": [
+   [
+    "",
+    null,
+    "",
+    "2026-09-28T03:38:06Z"
+   ],
+   [
+    "DLTINS_20260914_01of01.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260914_01of01.zip",
+    "DLTINS",
+    "2026-09-14T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260915_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260915_01of04.zip",
+    "DLTINS",
+    "2026-09-15T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260915_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260915_02of04.zip",
+    "DLTINS",
+    "2026-09-15T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260915_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260915_03of04.zip",
+    "DLTINS",
+    "2026-09-15T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260915_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260915_04of04.zip",
+    "DLTINS",
+    "2026-09-15T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260916_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260916_01of04.zip",
+    "DLTINS",
+    "2026-09-16T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260916_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260916_02of04.zip",
+    "DLTINS",
+    "2026-09-16T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260916_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260916_03of04.zip",
+    "DLTINS",
+    "2026-09-16T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260916_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260916_04of04.zip",
+    "DLTINS",
+    "2026-09-16T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260917_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260917_01of04.zip",
+    "DLTINS",
+    "2026-09-17T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260917_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260917_02of04.zip",
+    "DLTINS",
+    "2026-09-17T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260917_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260917_03of04.zip",
+    "DLTINS",
+    "2026-09-17T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260917_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260917_04of04.zip",
+    "DLTINS",
+    "2026-09-17T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260918_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260918_01of04.zip",
+    "DLTINS",
+    "2026-09-18T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260918_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260918_02of04.zip",
+    "DLTINS",
+    "2026-09-18T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260918_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260918_03of04.zip",
+    "DLTINS",
+    "2026-09-18T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260918_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260918_04of04.zip",
+    "DLTINS",
+    "2026-09-18T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260919_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260919_01of04.zip",
+    "DLTINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260919_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260919_02of04.zip",
+    "DLTINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260919_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260919_03of04.zip",
+    "DLTINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260919_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260919_04of04.zip",
+    "DLTINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260920_01of01.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260920_01of01.zip",
+    "DLTINS",
+    "2026-09-20T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260921_01of01.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260921_01of01.zip",
+    "DLTINS",
+    "2026-09-21T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260922_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260922_01of04.zip",
+    "DLTINS",
+    "2026-09-22T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260922_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260922_02of04.zip",
+    "DLTINS",
+    "2026-09-22T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260922_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260922_03of04.zip",
+    "DLTINS",
+    "2026-09-22T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260922_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260922_04of04.zip",
+    "DLTINS",
+    "2026-09-22T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260923_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260923_01of04.zip",
+    "DLTINS",
+    "2026-09-23T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260923_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260923_02of04.zip",
+    "DLTINS",
+    "2026-09-23T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260923_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260923_03of04.zip",
+    "DLTINS",
+    "2026-09-23T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260923_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260923_04of04.zip",
+    "DLTINS",
+    "2026-09-23T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260924_01of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260924_01of05.zip",
+    "DLTINS",
+    "2026-09-24T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260924_02of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260924_02of05.zip",
+    "DLTINS",
+    "2026-09-24T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260924_03of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260924_03of05.zip",
+    "DLTINS",
+    "2026-09-24T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260924_04of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260924_04of05.zip",
+    "DLTINS",
+    "2026-09-24T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260924_05of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260924_05of05.zip",
+    "DLTINS",
+    "2026-09-24T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260925_01of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260925_01of05.zip",
+    "DLTINS",
+    "2026-09-25T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260925_02of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260925_02of05.zip",
+    "DLTINS",
+    "2026-09-25T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260925_03of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260925_03of05.zip",
+    "DLTINS",
+    "2026-09-25T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260925_04of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260925_04of05.zip",
+    "DLTINS",
+    "2026-09-25T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260925_05of05.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260925_05of05.zip",
+    "DLTINS",
+    "2026-09-25T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260926_01of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260926_01of04.zip",
+    "DLTINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260926_02of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260926_02of04.zip",
+    "DLTINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260926_03of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260926_03of04.zip",
+    "DLTINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260926_04of04.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260926_04of04.zip",
+    "DLTINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260927_01of01.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260927_01of01.zip",
+    "DLTINS",
+    "2026-09-27T00:00:00Z"
+   ],
+   [
+    "DLTINS_20260928_01of01.zip",
+    "https://firds.esma.europa.eu/firds/DLTINS_20260928_01of01.zip",
+    "DLTINS",
+    "2026-09-28T00:00:00Z"
+   ],
+   [
+    "FULCAN_20260919_01of02.zip",
+    "https://firds.esma.europa.eu/firds/FULCAN_20260919_01of02.zip",
+    "FULCAN",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULCAN_20260919_02of02.zip",
+    "https://firds.esma.europa.eu/firds/FULCAN_20260919_02of02.zip",
+    "FULCAN",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULCAN_20260926_01of02.zip",
+    "https://firds.esma.europa.eu/firds/FULCAN_20260926_01of02.zip",
+    "FULCAN",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULCAN_20260926_02of02.zip",
+    "https://firds.esma.europa.eu/firds/FULCAN_20260926_02of02.zip",
+    "FULCAN",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_C_20260919_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_C_20260919_01of01.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_C_20260926_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_C_20260926_01of01.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260919_01of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260919_01of04.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260919_02of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260919_02of04.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260919_03of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260919_03of04.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260919_04of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260919_04of04.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260926_01of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260926_01of04.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260926_02of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260926_02of04.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260926_03of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260926_03of04.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_D_20260926_04of04.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_D_20260926_04of04.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_E_20260919_01of02.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_E_20260919_01of02.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_E_20260919_02of02.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_E_20260919_02of02.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_E_20260926_01of02.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_E_20260926_01of02.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_E_20260926_02of02.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_E_20260926_02of02.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_F_20260919_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_F_20260919_01of01.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_F_20260926_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_F_20260926_01of01.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260919_01of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260919_01of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260919_02of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260919_02of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260919_03of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260919_03of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260926_01of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260926_01of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260926_02of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260926_02of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_H_20260926_03of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_H_20260926_03of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_I_20260919_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_I_20260919_01of01.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_I_20260926_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_I_20260926_01of01.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_J_20260919_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_J_20260919_01of01.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_J_20260926_01of01.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_J_20260926_01of01.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260919_01of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260919_01of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260919_02of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260919_02of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260919_03of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260919_03of03.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260926_01of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260926_01of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260926_02of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260926_02of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_O_20260926_03of03.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_O_20260926_03of03.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_01of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_01of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_02of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_02of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_03of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_03of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_04of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_04of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_05of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_05of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_06of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_06of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_07of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_07of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_08of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_08of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_09of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_09of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_10of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_10of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_11of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_11of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_12of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_12of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_13of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_13of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_14of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_14of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_15of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_15of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_16of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_16of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_17of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_17of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_18of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_18of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260919_19of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260919_19of19.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_01of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_01of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_02of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_02of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_03of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_03of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_04of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_04of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_05of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_05of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_06of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_06of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_07of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_07of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_08of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_08of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_09of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_09of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_10of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_10of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_11of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_11of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_12of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_12of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_13of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_13of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_14of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_14of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_15of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_15of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_16of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_16of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_17of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_17of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_18of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_18of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_R_20260926_19of19.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_R_20260926_19of19.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260919_01of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260919_01of05.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260919_02of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260919_02of05.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260919_03of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260919_03of05.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260919_04of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260919_04of05.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260919_05of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260919_05of05.zip",
+    "FULINS",
+    "2026-09-19T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260926_01of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260926_01of05.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260926_02of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260926_02of05.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260926_03of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260926_03of05.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260926_04of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260926_04of05.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ],
+   [
+    "FULINS_S_20260926_05of05.zip",
+    "https://firds.esma.europa.eu/firds/FULINS_S_20260926_05of05.zip",
+    "FULINS",
+    "2026-09-26T00:00:00Z"
+   ]
+  ]
+ },
+ "esma_fitrs_files": {
+  "url": "https://registers.esma.europa.eu/solr/esma_registers_fitrs_files/select?q=*&fq=publication_date:%5B2026-09-14T00:00:00Z+TO+2026-09-28T23:59:59Z%5D&wt=json&start=0&rows=500",
+  "status": 400,
+  "sec": 0.2,
+  "bytes": 447,
+  "head": "{\n  \"responseHeader\":{\n    \"status\":400,\n    \"QTime\":6,\n    \"params\":{\n      \"q\":\"*\",\n      \"start\":\"0\",\n      \"fq\":\"publication_date:[2026-09-14T00:00:00Z TO 2026-09-28T23:59:59Z]\",\n      \"rows\":\"500\",\n      \"wt\":\"json\"}},\n  \"error\":{\n    \"metadata\":[\n      \"error-class\",\"org.apache.solr.common.SolrException\",\n      \"root-error-class\",\"org.apache.solr.common.SolrException\"],\n    \"msg\":\"undefined field: \\\"publication_date\\\"\",\n    \"code\":400}}\n"
+ },
+ "fca_firds_files": {
+  "url": "https://api.data.fca.org.uk/fca_data_firds_files?q=((file_type:FULINS)%20AND%20(publication_date:%5B2026-09-14%20TO%202026-09-28%5D))&from=0&size=200&pretty=true",
+  "status": 200,
+  "sec": 0.5,
+  "bytes": 30025,
+  "n": 69,
+  "sample": [
+   {
+    "download_link": "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260919_02of03.zip",
+    "file_type": "FULINS",
+    "file_name": "FULINS_D_20260919_02of03.zip",
+    "publication_date": "2026-09-19",
+    "last_refreshed": "2026-09-19T09:46:51.235Z"
+   },
+   {
+    "download_link": "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_01of06.zip",
+    "file_type": "FULINS",
+    "file_name": "FULINS_H_20260919_01of06.zip",
+    "publication_date": "2026-09-19",
+    "last_refreshed": "2026-09-19T09:46:51.236Z"
+   },
+   {
+    "download_link": "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_04of06.zip",
+    "file_type": "FULINS",
+    "file_name": "FULINS_H_20260919_04of06.zip",
+    "publication_date": "2026-09-19",
+    "last_refreshed": "2026-09-19T09:46:51.236Z"
+   }
+  ],
+  "files": [
+   [
+    "FULINS_C_20260919_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_C_20260919_01of01.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_C_20260926_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_C_20260926_01of01.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_D_20260919_01of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260919_01of03.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_D_20260919_02of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260919_02of03.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_D_20260919_03of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260919_03of03.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_D_20260926_01of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260926_01of03.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_D_20260926_02of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260926_02of03.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_D_20260926_03of03.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_D_20260926_03of03.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_E_20260919_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_E_20260919_01of01.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_E_20260926_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_E_20260926_01of01.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_F_20260919_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_F_20260919_01of01.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_F_20260926_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_F_20260926_01of01.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260919_01of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_01of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260919_02of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_02of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260919_03of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_03of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260919_04of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_04of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260919_05of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_05of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260919_06of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260919_06of06.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_H_20260926_01of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_01of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260926_02of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_02of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260926_03of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_03of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260926_04of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_04of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260926_05of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_05of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_H_20260926_06of06.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_H_20260926_06of06.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_I_20260919_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_I_20260919_01of01.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_I_20260926_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_I_20260926_01of01.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_J_20260919_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_J_20260919_01of01.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_J_20260926_01of01.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_J_20260926_01of01.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_O_20260919_01of02.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_O_20260919_01of02.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_O_20260919_02of02.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_O_20260919_02of02.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_O_20260926_01of02.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_O_20260926_01of02.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_O_20260926_02of02.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_O_20260926_02of02.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260919_01of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_01of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_02of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_02of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_03of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_03of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_04of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_04of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_05of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_05of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_06of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_06of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_07of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_07of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_08of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_08of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_09of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_09of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260919_10of10.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260919_10of10.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_R_20260926_01of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_01of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_02of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_02of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_03of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_03of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_04of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_04of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_05of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_05of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_06of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_06of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_07of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_07of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_08of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_08of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_R_20260926_09of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_R_20260926_09of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260919_01of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_01of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_02of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_02of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_03of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_03of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_04of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_04of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_05of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_05of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_06of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_06of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_07of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_07of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_08of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_08of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260919_09of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260919_09of09.zip",
+    "2026-09-19"
+   ],
+   [
+    "FULINS_S_20260926_01of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_01of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_02of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_02of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_03of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_03of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_04of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_04of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_05of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_05of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_06of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_06of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_07of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_07of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_08of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_08of09.zip",
+    "2026-09-26"
+   ],
+   [
+    "FULINS_S_20260926_09of09.zip",
+    "https://data.fca.org.uk/artefacts/FIRDS/FULINS_S_20260926_09of09.zip",
+    "2026-09-26"
+   ]
+  ]
+ },
+ "gleif": {
+  "status": 200,
+  "sec": 1.0,
+  "records": [
+   {
+    "lei": "529900D6BF99LW9R2E68",
+    "name": "SAP SE",
+    "country": "DE",
+    "hq": "DE",
+    "status": "ACTIVE"
+   },
+   {
+    "lei": "969500UP76J52A9OXU27",
+    "name": "EXANE",
+    "country": "FR",
+    "hq": "FR",
+    "status": "INACTIVE"
+   }
+  ],
+  "head": null
+ },
+ "mic": {
+  "https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv": {
+   "status": 200,
+   "sec": 4.5,
+   "bytes": 589482,
+   "head": "\"MIC\",\"OPERATING MIC\",\"OPRT/SGMT\",\"MARKET NAME-INSTITUTION DESCRIPTION\",\"LEGAL ENTITY NAME\",\"LEI\",\"MARKET CATEGORY CODE\",\"ACRONYM\",\"ISO COUNTRY CODE (ISO 3166)\",\"CITY\",\"WEBSITE\",\"STATUS\",\"CREATION DATE\",\"LAST UPDATE DATE\",\"LAST VALIDATION DATE\",\"EXPIRY DATE\",\"COMMENTS\"\r\n\"DRSP\",\"DRSP\",\"OPRT\",\"EURONEXT  UK - REPORTING SERVICES\",\"EURONEXT LONDON LIMITED\",\"969500HMVSZ0TCV65D58\",\"APPA\",\"\",\"GB\",\"LONDON\",\"WWW.EURONEXT.COM\",\"ACTIVE\",\"20210927\",\"20210927\",\"20210927\",\"\",\"APPROVED PUBLICATION ARRANGEMENT.\"\r\n\"XCNQ\",\"XCNQ\",\"OPRT\",\"CANADIAN SECURITIES EXCHANGE\",\"CNSX MARKETS, INC.\",\"\",\"RMKT\",\"CSE LISTED\",\"C"
+  },
+  "https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC_NewFormat.csv": {
+   "status": 200,
+   "sec": 0.7,
+   "bytes": 495159,
+   "head": "\"MIC\",\"OPERATING MIC\",\"OPRT/SGMT\",\"NAME-INSTITUTION DESCRIPTION\",\"LEGAL ENTITY NAME\",\"LEI\",\"MARKET_CAT_CODE\",\"ACRONYM\",\"ISO COUNTRY CODE (ISO 3166)\",\"CITY\",\"WEBSITE\",\"STATUS\",\"CREATION-ISO DATE\",\"MODIF-ISO DATE\",\"LAST VALIDATION MONTH\",\"EXPIRY DATE\",\"COMMENTS\"\r\n\"DRSP\",\"DRSP\",\"OPRT\",\"EURONEXT  UK - REPORTING SERVICES\",\"EURONEXT LONDON LIMITED\",\"969500HMVSZ0TCV65D58\",\"APPA\",\"\",\"GB\",\"LONDON\",\"WWW.EURONEXT.COM\",\"ACTIVE\",\"20210927\",\"20210927\",\"20210927\",\"\",\"APPROVED PUBLICATION ARRANGEMENT.\"\r\n\"XCNQ\",\"XCNQ\",\"OPRT\",\"CANADIAN SECURITIES EXCHANGE\",\"CNSX MARKETS, INC.\",\"\",\"RMKT\",\"CSE LISTED\",\"CA\",\"TORON"
+  }
+ },
+ "mic_parsed": {
+  "n": 2553,
+  "columns": [
+   "MIC",
+   "OPERATING MIC",
+   "OPRT/SGMT",
+   "NAME-INSTITUTION DESCRIPTION",
+   "LEGAL ENTITY NAME",
+   "LEI",
+   "MARKET_CAT_CODE",
+   "ACRONYM",
+   "ISO COUNTRY CODE (ISO 3166)",
+   "CITY",
+   "WEBSITE",
+   "STATUS",
+   "CREATION-ISO DATE",
+   "MODIF-ISO DATE",
+   "LAST VALIDATION MONTH",
+   "EXPIRY DATE",
+   "COMMENTS"
+  ],
+  "sample": {
+   "DRSP": {
+    "name": "EURONEXT  UK - REPORTING SERVICES",
+    "cc": "GB",
+    "cat": null,
+    "oprt": "DRSP",
+    "status": "ACTIVE"
+   },
+   "XCNQ": {
+    "name": "CANADIAN SECURITIES EXCHANGE",
+    "cc": "CA",
+    "cat": null,
+    "oprt": "XCNQ",
+    "status": "ACTIVE"
+   },
+   "PURE": {
+    "name": "CANADIAN SECURITIES EXCHANGE - PURE",
+    "cc": "CA",
+    "cat": null,
+    "oprt": "XCNQ",
+    "status": "ACTIVE"
+   },
+   "ZODM": {
+    "name": "ZODIA MARKETS",
+    "cc": "GB",
+    "cat": null,
+    "oprt": "ZODM",
+    "status": "ACTIVE"
+   },
+   "FNFX": {
+    "name": "FENICS FX ECN",
+    "cc": "US",
+    "cat": null,
+    "oprt": "BGCF",
+    "status": "ACTIVE"
+   }
+  }
+ }
+}

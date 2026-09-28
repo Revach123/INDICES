@@ -1,0 +1,860 @@
+{
+ "label": "fca_funds",
+ "distinct_isins": 20888,
+ "with_issuer_request_venue": 10527,
+ "on_regulated_market": 0,
+ "with_lei": 20888,
+ "distinct_leis": 11405,
+ "by_cfi2": [
+  [
+   "CE",
+   10232
+  ],
+  [
+   "CI",
+   7871
+  ],
+  [
+   "CM",
+   2165
+  ],
+  [
+   "CF",
+   236
+  ],
+  [
+   "CB",
+   228
+  ],
+  [
+   "CH",
+   114
+  ],
+  [
+   "CP",
+   37
+  ],
+  [
+   "CS",
+   5
+  ]
+ ],
+ "by_relevant_venue_top60": [
+  [
+   "BMTF",
+   3999,
+   "BLOOMBERG TRADING FACILITY LIMITED",
+   "GB"
+  ],
+  [
+   "XLON",
+   2408,
+   "LONDON STOCK EXCHANGE",
+   "GB"
+  ],
+  [
+   "MUNB",
+   2381,
+   "BOERSE MUENCHEN - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "EMTF",
+   1576,
+   "EURO MTF",
+   "LU"
+  ],
+  [
+   "XEYE",
+   1491,
+   "IRISH STOCK EXCHANGE  - GLOBAL EXCHANGE MARKET",
+   "IE"
+  ],
+  [
+   "HAMB",
+   1380,
+   "BOERSE HAMBURG - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XMSM",
+   847,
+   "EURONEXT DUBLIN",
+   "IE"
+  ],
+  [
+   "SGMX",
+   823,
+   "SIGMA X MTF",
+   "GB"
+  ],
+  [
+   "XPAL",
+   662,
+   "POSIT AUCTION UK",
+   "GB"
+  ],
+  [
+   "BTFE",
+   530,
+   "BLOOMBERG TRADING FACILITY B.V.",
+   "NL"
+  ],
+  [
+   "MABX",
+   495,
+   "BME MTF EQUITY (IIC AND ECR SEGMENTS)",
+   "ES"
+  ],
+  [
+   "XLUX",
+   484,
+   "LUXEMBOURG STOCK EXCHANGE",
+   "LU"
+  ],
+  [
+   "TREU",
+   421,
+   "TRADEWEB EUROPE LIMITED",
+   "GB"
+  ],
+  [
+   "XCSE",
+   416,
+   "NASDAQ COPENHAGEN A/S",
+   "DK"
+  ],
+  [
+   "MUND",
+   359,
+   "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "FRAB",
+   349,
+   "BOERSE FRANKFURT - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "TWEM",
+   323,
+   "TRADEWEB EU BV - MTF",
+   "NL"
+  ],
+  [
+   "XGAT",
+   308,
+   "TRADEGATE EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "DUSB",
+   292,
+   "BOERSE DUESSELDORF - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "BATD",
+   226,
+   "CBOE EUROPE - BXE DARK ORDER BOOK",
+   "GB"
+  ],
+  [
+   "STUB",
+   138,
+   "BOERSE STUTTGART - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "IMCE",
+   134,
+   "TP ICAP UK MTF - CASH EQUITY",
+   "GB"
+  ],
+  [
+   "TRQM",
+   116,
+   "TURQUOISE PLATO",
+   "GB"
+  ],
+  [
+   "XAMS",
+   93,
+   "EURONEXT - EURONEXT AMSTERDAM",
+   "NL"
+  ],
+  [
+   "XLOM",
+   73,
+   "LONDON STOCK EXCHANGE - MTF",
+   "GB"
+  ],
+  [
+   "BARK",
+   71,
+   "CBOE EUROPE - REGULATED MARKET DARK BOOK",
+   "GB"
+  ],
+  [
+   "ATFX",
+   68,
+   "ATFUND MTF",
+   "IT"
+  ],
+  [
+   "BLOX",
+   60,
+   "BLOCKMATCH  UK DARK",
+   "GB"
+  ],
+  [
+   "XPRA",
+   39,
+   "PRAGUE STOCK EXCHANGE",
+   "CZ"
+  ],
+  [
+   "FRAA",
+   30,
+   "BOERSE FRANKFURT - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "BARU",
+   28,
+   "CBOE EUROPE - REGULATED MARKET DARK BOOK (NL)",
+   "NL"
+  ],
+  [
+   "XWAR",
+   27,
+   "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+   "PL"
+  ],
+  [
+   "LIQU",
+   25,
+   "LIQUIDNET SYSTEMS",
+   "GB"
+  ],
+  [
+   "IMET",
+   24,
+   "TP ICAP UK MTF - EXCHANGE TRADED PRODUCTS",
+   "GB"
+  ],
+  [
+   "XETA",
+   20,
+   "XETRA - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "WETP",
+   19,
+   "WARSAW STOCK EXCHANGE/ ETPS",
+   "PL"
+  ],
+  [
+   "HANB",
+   15,
+   "BOERSE HANNOVER - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "ETFP",
+   13,
+   "ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET",
+   "IT"
+  ],
+  [
+   "XBUD",
+   12,
+   "BUDAPEST STOCK EXCHANGE",
+   "HU"
+  ],
+  [
+   "FRAV",
+   11,
+   "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "XBSE",
+   11,
+   "SPOT REGULATED MARKET - BVB",
+   "RO"
+  ],
+  [
+   "WBDM",
+   9,
+   "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
+   "AT"
+  ],
+  [
+   "ZBUL",
+   8,
+   "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
+   "BG"
+  ],
+  [
+   "NPEX",
+   6,
+   "NPEX",
+   "NL"
+  ],
+  [
+   "XZAG",
+   6,
+   "ZAGREB STOCK EXCHANGE",
+   "HR"
+  ],
+  [
+   "XPAR",
+   4,
+   "EURONEXT - EURONEXT PARIS",
+   "FR"
+  ],
+  [
+   "UBSY",
+   4,
+   "UBS AG LONDON BRANCH - SYSTEMATIC INTERNALISER",
+   "GB"
+  ],
+  [
+   "TRQA",
+   4,
+   "TURQUOISE LIT AUCTIONS",
+   "GB"
+  ],
+  [
+   "XLJU",
+   4,
+   "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
+   "SI"
+  ],
+  [
+   "DUSD",
+   3,
+   "BOERSE DUESSELDORF - QUOTRIX MTF",
+   "DE"
+  ],
+  [
+   "ENXL",
+   3,
+   "EURONEXT ACCESS LISBON",
+   "PT"
+  ],
+  [
+   "MIVX",
+   3,
+   "EURONEXT MIV MILAN",
+   "IT"
+  ],
+  [
+   "XAMC",
+   3,
+   null,
+   null
+  ],
+  [
+   "XBRU",
+   2,
+   "EURONEXT - EURONEXT BRUSSELS",
+   "BE"
+  ],
+  [
+   "HMTF",
+   2,
+   "HI-MTF",
+   "IT"
+  ],
+  [
+   "XETU",
+   2,
+   "XETRA - REGULIERTERMARKT - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "EXGM",
+   2,
+   "EURONEXT GROWTH MILAN",
+   "IT"
+  ],
+  [
+   "XTAL",
+   2,
+   "NASDAQ TALLINN AS",
+   "EE"
+  ],
+  [
+   "HAND",
+   2,
+   null,
+   null
+  ],
+  [
+   "LNEQ",
+   2,
+   "TP ICAP EU - MTF - LIQUIDNET EU EQUITY",
+   "FR"
+  ]
+ ],
+ "isin_prefix_top30": [
+  [
+   "LU",
+   7124
+  ],
+  [
+   "IE",
+   6033
+  ],
+  [
+   "US",
+   3238
+  ],
+  [
+   "DE",
+   1224
+  ],
+  [
+   "ES",
+   498
+  ],
+  [
+   "DK",
+   461
+  ],
+  [
+   "FR",
+   413
+  ],
+  [
+   "IL",
+   320
+  ],
+  [
+   "AT",
+   315
+  ],
+  [
+   "CA",
+   217
+  ],
+  [
+   "CH",
+   142
+  ],
+  [
+   "NL",
+   112
+  ],
+  [
+   "JP",
+   93
+  ],
+  [
+   "HK",
+   73
+  ],
+  [
+   "ZA",
+   64
+  ],
+  [
+   "AU",
+   60
+  ],
+  [
+   "KY",
+   59
+  ],
+  [
+   "GB",
+   48
+  ],
+  [
+   "PL",
+   48
+  ],
+  [
+   "CZ",
+   41
+  ],
+  [
+   "SG",
+   33
+  ],
+  [
+   "LI",
+   25
+  ],
+  [
+   "IT",
+   20
+  ],
+  [
+   "BG",
+   18
+  ],
+  [
+   "VG",
+   17
+  ],
+  [
+   "TR",
+   16
+  ],
+  [
+   "BE",
+   16
+  ],
+  [
+   "SE",
+   14
+  ],
+  [
+   "GG",
+   14
+  ],
+  [
+   "HU",
+   12
+  ]
+ ],
+ "sample": {
+  "IE00BK71LP72": {
+   "name": "BARINGS UMBRELLA FUND PLC A1 USD DISTRIBUTION",
+   "short": "BRNGS UM/SHS CL-A1 DIS USD",
+   "cfi": "CIOIBS",
+   "ccy": "USD",
+   "lei": "549300Z6XYRUUF6QE716",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "IE00B460MY98": {
+   "name": "BARINGS UMBRELLA FUND PLC Tranche S EUR Accumulating Shares",
+   "short": "BRNGS UM/SHS CL-S EUR",
+   "cfi": "CMXXXS",
+   "ccy": "EUR",
+   "lei": "54930004TKTB3JK50H28",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "IE00BZ4CS800": {
+   "name": "PGIM FUNDS PLC USD I Distribution",
+   "short": "PGIM/SHS CL-I USD",
+   "cfi": "CMXXXS",
+   "ccy": "USD",
+   "lei": "549300FDTMVLMZ8XTN55",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "LU3242526815": {
+   "name": "Amundi Index Solutions Amundi Core EUR Corporate Bond IHG ACC",
+   "short": "AMUNDI I.SOL-CORE/SH GBP",
+   "cfi": "CIOGBS",
+   "ccy": "GBP",
+   "lei": "2138006XR9SVGI223982",
+   "venues": [
+    "XLUX"
+   ],
+   "issr_req": [
+    "XLUX"
+   ],
+   "rlvnt": "XLUX",
+   "nca": "LU"
+  },
+  "ES0145701001": {
+   "name": "HIRUANDER SICAV S.A.",
+   "short": "HIRUANDER/AC 10.00",
+   "cfi": "CIOGLS",
+   "ccy": "EUR",
+   "lei": "95980020140005325865",
+   "venues": [
+    "MABX"
+   ],
+   "issr_req": [
+    "MABX"
+   ],
+   "rlvnt": "MABX",
+   "nca": "ES"
+  },
+  "ES0127499004": {
+   "name": "HARBOUR TOWN CAPITAL SICAV S.A.",
+   "short": "HARBOUR TOWN SICAV/AC",
+   "cfi": "CIOGLS",
+   "ccy": "EUR",
+   "lei": "959800KK448GMPL0YY59",
+   "venues": [
+    "MABX"
+   ],
+   "issr_req": [
+    "MABX"
+   ],
+   "rlvnt": "MABX",
+   "nca": "ES"
+  },
+  "LU2297533478": {
+   "name": "Amundi Index Solutions Amundi MSCI Emerging Markets SRI Climate Paris Aligned AK",
+   "short": "AmundiIndS     /Amundi Index Soluti",
+   "cfi": "CIOGEX",
+   "ccy": "CZK",
+   "lei": "549300GISPIIUMKTYR80",
+   "venues": [
+    "XLUX"
+   ],
+   "issr_req": [
+    "XLUX"
+   ],
+   "rlvnt": "XLUX",
+   "nca": "LU"
+  },
+  "IE00BKZGKH96": {
+   "name": "BARINGS UMBRELLA FUND PLC Tranche A GBP Accumulating Shares",
+   "short": "BRNGS UM/SHS CL-A GBP",
+   "cfi": "CMXXXS",
+   "ccy": "GBP",
+   "lei": "549300Z6XYRUUF6QE716",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "IE0009580469": {
+   "name": "MARRIOTT INTERNATIONAL FUNDS PLC Distributing Class",
+   "short": "MARRIOTT/SHS CL-DISTRG",
+   "cfi": "CMXXXS",
+   "ccy": "USD",
+   "lei": "225YDZ14ZO8E1TXUSU86",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "CZ0008042264": {
+   "name": "CREAM SICAV, a.s.",
+   "short": "CREAM SICAV/SHS",
+   "cfi": "CIOGRQ",
+   "ccy": "CZK",
+   "lei": "315700PLKSFUFWCS0163",
+   "venues": [
+    "XPRA"
+   ],
+   "issr_req": [
+    "XPRA"
+   ],
+   "rlvnt": "XPRA",
+   "nca": "CZ"
+  },
+  "NL0012125736": {
+   "name": "GS ENH INDX SUS EQ",
+   "short": "Goldman Sachs E/EUR",
+   "cfi": "CIOXXX",
+   "ccy": "EUR",
+   "lei": "549300FC5LTJT24RXA14",
+   "venues": [
+    "XAMS"
+   ],
+   "issr_req": [
+    "XAMS"
+   ],
+   "rlvnt": "XAMS",
+   "nca": "NL"
+  },
+  "LU1475071517": {
+   "name": "State Street Global Advisors Luxembourg SICAV State Street Euro Corporate Bond Screened Index Fund P Dis",
+   "short": "StateStGlAdvLuS/State Street Global",
+   "cfi": "CIOGBX",
+   "ccy": "EUR",
+   "lei": "BGDNQR0UF4DXP46WRG43",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "IE00B1VK9J77": {
+   "name": "SCHRODER PRIVATE EQUITY FUND OF FUNDS IV PLC B Shares",
+   "short": "SCHRODER PRIV/SHS CL-B EUR",
+   "cfi": "CMXXXS",
+   "ccy": "EUR",
+   "lei": "5493009117EFIQRY7T08",
+   "venues": [
+    "XEYE"
+   ],
+   "issr_req": [
+    "XEYE"
+   ],
+   "rlvnt": "XEYE",
+   "nca": "IE"
+  },
+  "DK0061294048": {
+   "name": "Sparinvest Bæredygtige Aktier KL A",
+   "short": "SI BaeredAkKLA/-",
+   "cfi": "CEOIES",
+   "ccy": "DKK",
+   "lei": "5493008UJVZVIJW9UR81",
+   "venues": [
+    "XCSE"
+   ],
+   "issr_req": [
+    "XCSE"
+   ],
+   "rlvnt": "XCSE",
+   "nca": "DK"
+  },
+  "DK0060549277": {
+   "name": "Independent Global",
+   "short": "INDGLO/-",
+   "cfi": "CEOIES",
+   "ccy": "DKK",
+   "lei": "5299001TRTYNB6CEQF85",
+   "venues": [
+    "XCSE"
+   ],
+   "issr_req": [
+    "XCSE"
+   ],
+   "rlvnt": "XCSE",
+   "nca": "DK"
+  }
+ },
+ "known": {
+  "DE0007164600": null,
+  "FR0000121014": null,
+  "NL0010273215": null,
+  "IE00B4L5Y983": {
+   "name": "ISHARES CORE MSCI WORLD UCITS ETF ACC",
+   "short": "ISHS III/SHS CL-ACC USD",
+   "cfi": "CEOGES",
+   "ccy": "GBP",
+   "lei": "549300QS4Q1IT6XCA514",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQSN",
+    "AQST",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BEUP",
+    "BLOX",
+    "BMTF",
+    "BNTW",
+    "BRFQ",
+    "BTFE",
+    "CEUD"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XAMS",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XGLO",
+    "XLON",
+    "XLOX"
+   ],
+   "rlvnt": "XLON",
+   "nca": "GB"
+  },
+  "IE00B5BMR087": {
+   "name": "iShares Core S&P 500 UCITS ETF",
+   "short": "ISHS VII/SHS CL-ACC USD",
+   "cfi": "CEOGES",
+   "ccy": "GBP",
+   "lei": "5493006ESS9BM09FB892",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "AQSN",
+    "AQST",
+    "AQXA",
+    "AQXD",
+    "AQXE",
+    "AVXE",
+    "BATD",
+    "BATE",
+    "BATF",
+    "BATP",
+    "BETA",
+    "BEUP",
+    "BLOX",
+    "BMTF",
+    "BNTW",
+    "BRFQ",
+    "BTFE"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XAMS",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XLON",
+    "XLOX"
+   ],
+   "rlvnt": "XLON",
+   "nca": "GB"
+  },
+  "GB0005405286": null,
+  "CH0038863350": null,
+  "IT0003128367": null,
+  "US0378331005": null,
+  "IL0006290147": null
+ },
+ "downloads": [
+  {
+   "file": "FULINS_C_20260926_01of01.zip",
+   "status": 200,
+   "mb": 8.0,
+   "sec": 0.1,
+   "parse_sec": 7.9
+  }
+ ],
+ "stats": {
+  "rows": 234852
+ }
+}
