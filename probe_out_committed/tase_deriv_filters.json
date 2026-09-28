@@ -1,82 +1,60 @@
 {
-  "d1q1": {
+  "big_totalrec": {
     "status": 200,
-    "TotalRec": 7492,
     "n_items": 30,
     "distinct_assets": [
       "מדד ת\"א-35"
     ]
   },
-  "d1q2": {
+  "page_1": {
     "status": 200,
-    "TotalRec": 6768,
     "n_items": 30,
     "distinct_assets": [
       "מדד ת\"א-35"
     ]
   },
-  "d2q1": {
+  "page_20": {
     "status": 200,
-    "TotalRec": 7380,
     "n_items": 30,
     "distinct_assets": [
       "מדד ת\"א-35"
     ]
   },
-  "d2q2": {
+  "page_50": {
     "status": 200,
-    "TotalRec": 6674,
     "n_items": 30,
     "distinct_assets": [
-      "מדד ת\"א-35"
+      "אירו",
+      "דולר",
+      "מדד ת\"א בנקים-5"
     ]
   },
-  "d3q1": {
+  "page_100": {
     "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
+    "n_items": 30,
+    "distinct_assets": [
+      "נייס"
+    ]
   },
-  "d3q2": {
+  "page_150": {
     "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
+    "n_items": 30,
+    "distinct_assets": [
+      "גי סיטי"
+    ]
   },
-  "d4q1": {
+  "page_200": {
     "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
+    "n_items": 30,
+    "distinct_assets": [
+      "אלוני חץ"
+    ]
   },
-  "d4q2": {
+  "page_249": {
     "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
-  },
-  "d5q1": {
-    "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
-  },
-  "d5q2": {
-    "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
-  },
-  "d6q1": {
-    "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
-  },
-  "d6q2": {
-    "status": 200,
-    "TotalRec": 0,
-    "n_items": 0,
-    "distinct_assets": []
+    "n_items": 30,
+    "distinct_assets": [
+      "אל על"
+    ]
   }
 }

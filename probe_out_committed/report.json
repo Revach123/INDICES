@@ -34,7 +34,7 @@
   },
   "tase_indices": {
     "status": 403,
-    "bytes": 884,
+    "bytes": 887,
     "content_type": "text/html",
     "head": "<html style=\"height:100%\"><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\"><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\" content=\"initial-scale=1.0\"><meta http-equiv="
   },
@@ -55,7 +55,7 @@
   },
   "msci_index_perf": {
     "status": 200,
-    "bytes": 72905,
+    "bytes": 72906,
     "content_type": "text/html;charset=UTF-8",
     "head": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html class=\"ltr\" dir=\"ltr\" lang=\"en-US\" itemscope itemtype=\"http://schema.org"
   },
@@ -67,7 +67,7 @@
   },
   "google_ping": {
     "status": 200,
-    "bytes": 231030,
+    "bytes": 230646,
     "content_type": "text/html; charset=UTF-8",
     "head": "<!doctype html><html itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"en\"><head><meta charset=\"UTF-8\"><meta content=\"origin\" name=\"referrer\"><link href=\"//www.gstatic.com/images/branding/search"
   },
