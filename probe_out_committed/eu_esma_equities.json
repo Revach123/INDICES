@@ -1,0 +1,1086 @@
+{
+ "label": "esma_equities",
+ "distinct_isins": 180375,
+ "with_issuer_request_venue": 161031,
+ "on_regulated_market": 0,
+ "with_lei": 180375,
+ "distinct_leis": 17321,
+ "by_cfi2": [
+  [
+   "EY",
+   159064
+  ],
+  [
+   "ES",
+   17336
+  ],
+  [
+   "ED",
+   3666
+  ],
+  [
+   "EP",
+   170
+  ],
+  [
+   "EM",
+   96
+  ],
+  [
+   "EL",
+   27
+  ],
+  [
+   "EF",
+   10
+  ],
+  [
+   "EC",
+   6
+  ]
+ ],
+ "by_relevant_venue_top60": [
+  [
+   "FRAB",
+   75777,
+   "BOERSE FRANKFURT - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "MUND",
+   45226,
+   "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "STUB",
+   39779,
+   "BOERSE STUTTGART - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "UBSI",
+   1906,
+   "UBS EUROPE SE - SYSTEMATIC INTERNALISER",
+   "DE"
+  ],
+  [
+   "MUNB",
+   1825,
+   "BOERSE MUENCHEN - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "STUH",
+   1284,
+   null,
+   null
+  ],
+  [
+   "TPIR",
+   1042,
+   "TP ICAP EU - MTF - REGISTRATION",
+   "FR"
+  ],
+  [
+   "XGAT",
+   787,
+   "TRADEGATE EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "FNSE",
+   713,
+   "FIRST NORTH SWEDEN",
+   "SE"
+  ],
+  [
+   "FRAV",
+   703,
+   "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "SEDX",
+   608,
+   "SECURITISED DERIVATIVES MARKET",
+   "IT"
+  ],
+  [
+   "WBDM",
+   585,
+   "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
+   "AT"
+  ],
+  [
+   "WBAH",
+   584,
+   "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
+   "AT"
+  ],
+  [
+   "XWAR",
+   420,
+   "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+   "PL"
+  ],
+  [
+   "DUSB",
+   415,
+   "BOERSE DUESSELDORF - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XNCO",
+   339,
+   "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF",
+   "PL"
+  ],
+  [
+   "XPAR",
+   321,
+   "EURONEXT - EURONEXT PARIS",
+   "FR"
+  ],
+  [
+   "FRAA",
+   305,
+   "BOERSE FRANKFURT - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "BTFE",
+   290,
+   "BLOOMBERG TRADING FACILITY B.V.",
+   "NL"
+  ],
+  [
+   "EMTF",
+   257,
+   "EURO MTF",
+   "LU"
+  ],
+  [
+   "XCAN",
+   242,
+   "CAN - ATS",
+   "RO"
+  ],
+  [
+   "ETLX",
+   242,
+   "EUROTLX",
+   "IT"
+  ],
+  [
+   "BILU",
+   236,
+   "BANQUE INTERNATIONALE A LUXEMBOURG S.A. - SYSTEMATIC INTERNALISER",
+   "LU"
+  ],
+  [
+   "ALXP",
+   209,
+   "EURONEXT GROWTH PARIS",
+   "FR"
+  ],
+  [
+   "EXGM",
+   203,
+   "EURONEXT GROWTH MILAN",
+   "IT"
+  ],
+  [
+   "XSGA",
+   200,
+   "SOCIETE GENERALE - SYSTEMATIC INTERNALISER",
+   "FR"
+  ],
+  [
+   "MTAA",
+   199,
+   "EURONEXT MILAN",
+   "IT"
+  ],
+  [
+   "XOSL",
+   196,
+   "OSLO BORS",
+   "NO"
+  ],
+  [
+   "XETA",
+   196,
+   "XETRA - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "MNSE",
+   186,
+   "FIRST NORTH SWEDEN - AUCTION ON DEMAND",
+   "SE"
+  ],
+  [
+   "DSTO",
+   179,
+   "NASDAQ STOCKHOLM AB - NORDIC@MID",
+   "SE"
+  ],
+  [
+   "NMTF",
+   174,
+   "NORDIC MTF",
+   "SE"
+  ],
+  [
+   "ABUL",
+   163,
+   "BULGARIAN STOCK EXCHANGE - ALTERNATIVE MARKET",
+   "BG"
+  ],
+  [
+   "HAMB",
+   153,
+   "BOERSE HAMBURG - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "HAMN",
+   149,
+   "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XAMS",
+   144,
+   "EURONEXT - EURONEXT AMSTERDAM",
+   "NL"
+  ],
+  [
+   "FNDK",
+   143,
+   "FIRST NORTH DENMARK",
+   "DK"
+  ],
+  [
+   "XSTO",
+   142,
+   "NASDAQ STOCKHOLM AB",
+   "SE"
+  ],
+  [
+   "XMLI",
+   141,
+   "EURONEXT ACCESS PARIS",
+   "FR"
+  ],
+  [
+   "XATH",
+   136,
+   "ATHENS EXCHANGE S.A. CASH MARKET",
+   "GR"
+  ],
+  [
+   "XSAT",
+   134,
+   "SPOTLIGHT STOCK MARKET AB",
+   "SE"
+  ],
+  [
+   "DNSE",
+   121,
+   "FIRST NORTH SWEDEN - NORDIC@MID",
+   "SE"
+  ],
+  [
+   "XMAD",
+   119,
+   "BOLSA DE MADRID",
+   "ES"
+  ],
+  [
+   "ONSE",
+   115,
+   "FIRST NORTH SWEDEN - NORWAY",
+   "SE"
+  ],
+  [
+   "GROW",
+   111,
+   "BME GROWTH MARKET",
+   "ES"
+  ],
+  [
+   "MSTO",
+   106,
+   "NASDAQ STOCKHOLM AB - AUCTION ON DEMAND",
+   "SE"
+  ],
+  [
+   "DHEL",
+   103,
+   "NASDAQ HELSINKI LTD - NORDIC@MID",
+   "FI"
+  ],
+  [
+   "XBRU",
+   103,
+   "EURONEXT - EURONEXT BRUSSELS",
+   "BE"
+  ],
+  [
+   "EQTC",
+   102,
+   "BOERSE BERLIN EQUIDUCT TRADING - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XCSE",
+   100,
+   "NASDAQ COPENHAGEN A/S",
+   "DK"
+  ],
+  [
+   "DUSD",
+   96,
+   "BOERSE DUESSELDORF - QUOTRIX MTF",
+   "DE"
+  ],
+  [
+   "NSME",
+   92,
+   "NORDIC SME",
+   "SE"
+  ],
+  [
+   "XBSE",
+   89,
+   "SPOT REGULATED MARKET - BVB",
+   "RO"
+  ],
+  [
+   "MERK",
+   85,
+   "EURONEXT GROWTH - OSLO",
+   "NO"
+  ],
+  [
+   "XECM",
+   85,
+   "MTF - CYPRUS EXCHANGE",
+   "CY"
+  ],
+  [
+   "ZBUL",
+   82,
+   "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
+   "BG"
+  ],
+  [
+   "SPSD",
+   79,
+   null,
+   null
+  ],
+  [
+   "TWEM",
+   78,
+   "TRADEWEB EU BV - MTF",
+   "NL"
+  ],
+  [
+   "VPXB",
+   73,
+   "EURONEXT - VENTES PUBLIQUES BRUSSELS",
+   "BE"
+  ],
+  [
+   "XZAG",
+   73,
+   "ZAGREB STOCK EXCHANGE",
+   "HR"
+  ]
+ ],
+ "isin_prefix_top30": [
+  [
+   "DE",
+   155978
+  ],
+  [
+   "US",
+   5684
+  ],
+  [
+   "CA",
+   2481
+  ],
+  [
+   "CH",
+   1885
+  ],
+  [
+   "SE",
+   1674
+  ],
+  [
+   "GB",
+   1214
+  ],
+  [
+   "AU",
+   1067
+  ],
+  [
+   "JP",
+   934
+  ],
+  [
+   "BR",
+   774
+  ],
+  [
+   "AT",
+   763
+  ],
+  [
+   "PL",
+   733
+  ],
+  [
+   "FR",
+   662
+  ],
+  [
+   "KY",
+   576
+  ],
+  [
+   "IT",
+   471
+  ],
+  [
+   "ES",
+   378
+  ],
+  [
+   "NO",
+   371
+  ],
+  [
+   "RO",
+   325
+  ],
+  [
+   "DK",
+   302
+  ],
+  [
+   "CN",
+   293
+  ],
+  [
+   "BG",
+   280
+  ],
+  [
+   "AR",
+   264
+  ],
+  [
+   "NL",
+   256
+  ],
+  [
+   "BM",
+   247
+  ],
+  [
+   "FI",
+   208
+  ],
+  [
+   "BE",
+   186
+  ],
+  [
+   "IL",
+   170
+  ],
+  [
+   "CY",
+   162
+  ],
+  [
+   "JE",
+   160
+  ],
+  [
+   "GR",
+   151
+  ],
+  [
+   "LU",
+   144
+  ]
+ ],
+ "sample": {
+  "NL00150001S5": {
+   "name": "Kingfish Co NV/The SHRS",
+   "short": "KINGFISH ZEELAN/SH VTG FPD",
+   "cfi": "ECVUFB",
+   "ccy": "EUR",
+   "lei": "9845004WD3997B9F1061",
+   "venues": [
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "FRAB",
+    "FRAV",
+    "HAMN",
+    "MERK",
+    "STUB",
+    "STUD",
+    "XPAC",
+    "XPOS"
+   ],
+   "issr_req": [
+    "MERK"
+   ],
+   "rlvnt": "MERK",
+   "nca": "NO"
+  },
+  "FR0014003FN0": {
+   "name": "Integritas Viager SA SHRS",
+   "short": "INTEGRITAS VIAG/SH VTG FPD",
+   "cfi": "ECVUFN",
+   "ccy": "EUR",
+   "lei": "969500DWAEWYP7GOWU54",
+   "venues": [
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "XMLI",
+    "XPAC",
+    "XPOS"
+   ],
+   "issr_req": [
+    "XMLI"
+   ],
+   "rlvnt": "XMLI",
+   "nca": "FR"
+  },
+  "FR00140153H3": {
+   "name": "ADOMOS",
+   "short": "ADOMOS/SH VTG FPD",
+   "cfi": "ECVUFN",
+   "ccy": "EUR",
+   "lei": "969500Y1PUEV0APBE938",
+   "venues": [
+    "ALXP",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "FRAB",
+    "FRAV",
+    "HAMN",
+    "HAND",
+    "MUNB",
+    "MUND",
+    "SGMU",
+    "SGMV"
+   ],
+   "issr_req": [
+    "ALXP"
+   ],
+   "rlvnt": "ALXP",
+   "nca": "FR"
+  },
+  "US9129311026": {
+   "name": "UnimicronTech GDS Common Shares Rule 144A GDS",
+   "short": "UNIMICRON TECY /GDR 144A",
+   "cfi": "EDMNFR",
+   "ccy": "USD",
+   "lei": "529900552WPFHC1YI579",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US92945K1007": {
+   "name": "WTMicroelectron  Rule 144A GDS",
+   "short": "WTMicroelectron/WTMicroelectron  Ru",
+   "cfi": "EDMXDR",
+   "ccy": "USD",
+   "lei": "549300B9CGCS0W06W129",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US92945K2096": {
+   "name": "WTMicroelectron  Reg S GDS",
+   "short": "WTMicroelectron/WTMicroelectron  Re",
+   "cfi": "EDMXDR",
+   "ccy": "USD",
+   "lei": "549300B9CGCS0W06W129",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US9843267934": {
+   "name": "Yageo  20 Rule 144A GDS",
+   "short": "YAGEO CORP/GDR 144A",
+   "cfi": "EDMXQR",
+   "ccy": "USD",
+   "lei": "5493001P0TOZH7GGNQ21",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US87286C1210": {
+   "name": "TSFinancialHold GDS Class I Preferred Shares Reg S GDS",
+   "short": "TS FINL HLDG CO/GDR REGS",
+   "cfi": "EDPNDR",
+   "ccy": "USD",
+   "lei": "254900NDEO99JV07HK17",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US87286C2044": {
+   "name": "TSFinancialHold GDS Class I Preferred Shares Rule 144A GDS",
+   "short": "TS FINL HLDG CO/GDR 144A",
+   "cfi": "EDPNDR",
+   "ccy": "USD",
+   "lei": "254900NDEO99JV07HK17",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "US06738C8284": {
+   "name": "BACR 6.278 PERP",
+   "short": "BARCLAYS BK PLC/ADR",
+   "cfi": "EDPNFR",
+   "ccy": "USD",
+   "lei": "G5GSEF7VJP5I7OUK5573",
+   "venues": [
+    "AURO",
+    "FRAB",
+    "FRAV",
+    "TWEM",
+    "XLUX"
+   ],
+   "issr_req": [
+    "XLUX"
+   ],
+   "rlvnt": "XLUX",
+   "nca": "LU"
+  },
+  "FI4000349378": {
+   "name": "AS Tallink Grupp FDR",
+   "short": "TALLINK FDR/DR",
+   "cfi": "EDSNDR",
+   "ccy": "EUR",
+   "lei": "529900QRMWAKKR3L9W75",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "DHEL",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "MHEL",
+    "XHEL",
+    "XPAC",
+    "XPOS"
+   ],
+   "issr_req": [
+    "DHEL",
+    "MHEL",
+    "XHEL"
+   ],
+   "rlvnt": "MHEL",
+   "nca": "FI"
+  },
+  "GRK014011008": {
+   "name": "MERMEREN KOMBINAT A.D. PRILEP (GDR)",
+   "short": "MERMEREN KOMBIN/SPON DR",
+   "cfi": "EDSNDR",
+   "ccy": "EUR",
+   "lei": "254900TQ0BNI304IAA74",
+   "venues": [
+    "XATH",
+    "XPAC",
+    "XPOS"
+   ],
+   "issr_req": [
+    "XATH"
+   ],
+   "rlvnt": "XATH",
+   "nca": "GR"
+  },
+  "NL0010732244": {
+   "name": "Depository Receipts Fastned",
+   "short": "FAST",
+   "cfi": "EDSNDR",
+   "ccy": "EUR",
+   "lei": "724500UR6VMRCDJ13804",
+   "venues": [
+    "XNXC"
+   ],
+   "issr_req": [
+    "XNXC"
+   ],
+   "rlvnt": "XNXC",
+   "nca": "NL"
+  },
+  "NL0013995160": {
+   "name": "Depositary Receipts SBC",
+   "short": "SBCA",
+   "cfi": "EDSNDR",
+   "ccy": "EUR",
+   "lei": "724500SWGMATVKFMOX42",
+   "venues": [
+    "XNXD"
+   ],
+   "issr_req": [
+    "XNXD"
+   ],
+   "rlvnt": "XNXD",
+   "nca": "NL"
+  },
+  "NL00150007S2": {
+   "name": "Depositary Receipts SBCS",
+   "short": "SBCS",
+   "cfi": "EDSNDR",
+   "ccy": "EUR",
+   "lei": "724500MQBK03GRCNLC21",
+   "venues": [
+    "XNXD"
+   ],
+   "issr_req": [
+    "XNXD"
+   ],
+   "rlvnt": "XNXD",
+   "nca": "NL"
+  }
+ },
+ "known": {
+  "DE0007164600": {
+   "name": "SAP AG",
+   "short": "SAP SE/AKT O.N.",
+   "cfi": "ESVUFB",
+   "ccy": "EUR",
+   "lei": "529900D6BF99LW9R2E68",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BETA",
+    "BEUP",
+    "BGEM",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "EQTA",
+    "ERFQ",
+    "ETLX",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN"
+   ],
+   "issr_req": [
+    "FRAA",
+    "FRAU",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XGLO"
+   ],
+   "rlvnt": "FRAA",
+   "nca": "DE"
+  },
+  "FR0000121014": {
+   "name": "LVMH Moet Hennessy Louis Vuitton SA",
+   "short": "LVMH MOET HENNE/EQ",
+   "cfi": "ESVUFN",
+   "ccy": "EUR",
+   "lei": "IOG4E947OATN0KJYSD45",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "BGEM",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "EQTB",
+    "ERFQ",
+    "ETLX",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ"
+   ],
+   "issr_req": [
+    "XPAR"
+   ],
+   "rlvnt": "XPAR",
+   "nca": "FR"
+  },
+  "NL0010273215": {
+   "name": "ASML Holding NV",
+   "short": "ASML HOLDING N./SH VTG FPD",
+   "cfi": "ESVUFN",
+   "ccy": "EUR",
+   "lei": "724500Y6DUVHQD6OXN27",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "BGEM",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "EQTB",
+    "ERFQ",
+    "ETLX",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ"
+   ],
+   "issr_req": [
+    "XAMS",
+    "XGLO"
+   ],
+   "rlvnt": "XAMS",
+   "nca": "NL"
+  },
+  "IE00B4L5Y983": null,
+  "IE00B5BMR087": null,
+  "GB0005405286": {
+   "name": "HSBC Holdings PLC Registered Shares DL -,50",
+   "short": "HSBC HLDG/PAR VTG FPD 0.5",
+   "cfi": "ESVUFR",
+   "ccy": "USD",
+   "lei": "MLU0ZO3ML4LN2LL2TL39",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND",
+    "JBUL",
+    "LNEQ",
+    "MUNB",
+    "MUND",
+    "RFQN",
+    "STUB",
+    "STUD",
+    "STUF",
+    "TPIR",
+    "TWEM"
+   ],
+   "issr_req": [],
+   "rlvnt": "MUNB",
+   "nca": "DE"
+  },
+  "CH0038863350": {
+   "name": "Nestle SA",
+   "short": "NESTLE/REGSH CHF0.1",
+   "cfi": "ESVTFR",
+   "ccy": "CHF",
+   "lei": "549300PZN3NFSOUXLC42",
+   "venues": [
+    "BGEM",
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND",
+    "MUNB",
+    "MUND",
+    "RFQN",
+    "STUB",
+    "STUD",
+    "STUF",
+    "TWEM",
+    "WBDM",
+    "XETB"
+   ],
+   "issr_req": [],
+   "rlvnt": "STUB",
+   "nca": "DE"
+  },
+  "IT0003128367": {
+   "name": "Enel Global Trad",
+   "short": "ENEL/AZ EUR 1",
+   "cfi": "ESVUFR",
+   "ccy": "EUR",
+   "lei": "WOCMU6HCI0OJWNPRZS33",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "EQTB",
+    "ERFQ",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND"
+   ],
+   "issr_req": [
+    "HMTF",
+    "MTAA"
+   ],
+   "rlvnt": "MTAA",
+   "nca": "IT"
+  },
+  "US0378331005": {
+   "name": "Apple Inc",
+   "short": "APPLE INC/SH SH",
+   "cfi": "ESVUFR",
+   "ccy": "USD",
+   "lei": "HWUPKR0MPOU8FGXBT394",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "BGEM",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "ETLX",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND",
+    "JBUL"
+   ],
+   "issr_req": [
+    "XGLO"
+   ],
+   "rlvnt": "HAMB",
+   "nca": "DE"
+  },
+  "IL0006290147": {
+   "name": "Teva Pharmaceutical Inds Ltd. Registered Shares IS 0,1",
+   "short": "TEVA PHARMA",
+   "cfi": "ESVUFR",
+   "ccy": "USD",
+   "lei": "549300BAFGM4RC74ZJ94",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "MUNB",
+    "STUB",
+    "TPIR",
+    "XGAT"
+   ],
+   "issr_req": [],
+   "rlvnt": "TPIR",
+   "nca": "FR"
+  }
+ },
+ "downloads": [
+  {
+   "file": "FULINS_E_20260926_01of02.zip",
+   "status": 200,
+   "mb": 8.5,
+   "sec": 2.4,
+   "parse_sec": 13.2
+  },
+  {
+   "file": "FULINS_E_20260926_02of02.zip",
+   "status": 200,
+   "mb": 2.9,
+   "sec": 0.3,
+   "parse_sec": 5.6
+  }
+ ],
+ "stats": {
+  "rows": 688700,
+  "terminated_rows": 2284
+ }
+}

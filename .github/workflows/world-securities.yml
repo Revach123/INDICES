@@ -1,0 +1,73 @@
+name: World securities (EU/UK/CH/JP/CA)
+
+# מאגר ניי"ע עולמי ממקורות רשמיים: ESMA+FCA FIRDS, SIX, JPX, TMX, GLEIF, ISO MIC, OpenFIGI.
+# ר' scripts/world_securities/build.py. הפלט (data/world_securities/) נצרך ע"י Revach.
+# ריפו ציבורי - דקות Actions ללא הגבלה, לכן העבודה הכבדה (הורדת FIRDS, OpenFIGI בלי מפתח) כאן.
+
+on:
+  schedule:
+    - cron: "40 5 * * *"      # יומי - FIRDS מתפרסם בלילה (FULINS מלא בסופ"ש, JPX/TMX/SIX יומי)
+  workflow_dispatch:
+    inputs:
+      markets:
+        description: "Only these markets (EU_UK,CH,JP,CA) - empty = all"
+        required: false
+        default: ""
+      figi_budget:
+        description: "OpenFIGI time budget (seconds)"
+        required: false
+        default: "9000"
+  push:
+    branches: ["claude/**"]
+    paths:
+      - "scripts/world_securities/**"
+      - ".github/workflows/world-securities.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: world-securities
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      # קצה הענף (לא ה-commit שהפעיל את הריצה) - כדי לקבל את הנתונים והמטמונים שריצה קודמת
+      # קימטה בינתיים
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas openpyxl
+      - name: Build
+        env:
+          OPENFIGI_API_KEY: ${{ secrets.OPENFIGI_API_KEY }}
+          WORLD_MARKETS: ${{ github.event.inputs.markets }}
+          OPENFIGI_BUDGET: ${{ github.event.inputs.figi_budget || (github.event_name == 'schedule' && '3600') || vars.WORLD_FIGI_BUDGET || '3600' }}
+        run: python -u scripts/world_securities/build.py
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -d data/world_securities ] || { echo "no output"; exit 0; }
+          # הנתונים של הריצה הזו מחליפים את data/world_securities בקצה הענף (בלי מיזוג שורות -
+          # קבצי JSONL שנבנו מאותו בסיס מתנגשים ב-rebase); שינויי קוד שנדחפו בינתיים נשמרים.
+          mkdir -p /tmp/ws && cp -r data/world_securities/. /tmp/ws/
+          for i in 1 2 3 4 5; do
+            git fetch -q origin "$GITHUB_REF_NAME" && git reset -q --hard "origin/$GITHUB_REF_NAME"
+            rm -rf data/world_securities && mkdir -p data/world_securities && cp -r /tmp/ws/. data/world_securities/
+            git add -A data/world_securities
+            git diff --cached --quiet && { echo "no changes"; exit 0; }
+            git commit -q -m "World securities update ($(date -u +%Y-%m-%d))"
+            git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

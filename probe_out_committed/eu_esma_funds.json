@@ -1,0 +1,1000 @@
+{
+ "label": "esma_funds",
+ "distinct_isins": 18561,
+ "with_issuer_request_venue": 10261,
+ "on_regulated_market": 0,
+ "with_lei": 18561,
+ "distinct_leis": 10635,
+ "by_cfi2": [
+  [
+   "CE",
+   8000
+  ],
+  [
+   "CI",
+   7824
+  ],
+  [
+   "CM",
+   2155
+  ],
+  [
+   "CF",
+   237
+  ],
+  [
+   "CB",
+   192
+  ],
+  [
+   "CH",
+   114
+  ],
+  [
+   "CP",
+   37
+  ],
+  [
+   "CS",
+   2
+  ]
+ ],
+ "by_relevant_venue_top60": [
+  [
+   "MUNB",
+   2436,
+   "BOERSE MUENCHEN - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "BTFE",
+   1794,
+   "BLOOMBERG TRADING FACILITY B.V.",
+   "NL"
+  ],
+  [
+   "EMTF",
+   1578,
+   "EURO MTF",
+   "LU"
+  ],
+  [
+   "XEYE",
+   1492,
+   "IRISH STOCK EXCHANGE  - GLOBAL EXCHANGE MARKET",
+   "IE"
+  ],
+  [
+   "HAMB",
+   1389,
+   "BOERSE HAMBURG - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XMSM",
+   1196,
+   "EURONEXT DUBLIN",
+   "IE"
+  ],
+  [
+   "TWEM",
+   1171,
+   "TRADEWEB EU BV - MTF",
+   "NL"
+  ],
+  [
+   "XETA",
+   1098,
+   "XETRA - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "FRAA",
+   967,
+   "BOERSE FRANKFURT - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "ETFP",
+   699,
+   "ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET",
+   "IT"
+  ],
+  [
+   "XLUX",
+   599,
+   "LUXEMBOURG STOCK EXCHANGE",
+   "LU"
+  ],
+  [
+   "MABX",
+   495,
+   "BME MTF EQUITY (IIC AND ECR SEGMENTS)",
+   "ES"
+  ],
+  [
+   "XCSE",
+   492,
+   "NASDAQ COPENHAGEN A/S",
+   "DK"
+  ],
+  [
+   "XGAT",
+   488,
+   "TRADEGATE EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "FRAB",
+   396,
+   "BOERSE FRANKFURT - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "MUND",
+   360,
+   "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XPAR",
+   330,
+   "EURONEXT - EURONEXT PARIS",
+   "FR"
+  ],
+  [
+   "DUSB",
+   297,
+   "BOERSE DUESSELDORF - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XETU",
+   268,
+   "XETRA - REGULIERTERMARKT - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "XAMS",
+   186,
+   "EURONEXT - EURONEXT AMSTERDAM",
+   "NL"
+  ],
+  [
+   "STUB",
+   162,
+   "BOERSE STUTTGART - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XAMC",
+   152,
+   null,
+   null
+  ],
+  [
+   "FRAU",
+   79,
+   "BOERSE FRANKFURT - REGULIERTERMARKT - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "ATFX",
+   68,
+   "ATFUND MTF",
+   "IT"
+  ],
+  [
+   "BARU",
+   62,
+   "CBOE EUROPE - REGULATED MARKET DARK BOOK (NL)",
+   "NL"
+  ],
+  [
+   "XPMC",
+   41,
+   null,
+   null
+  ],
+  [
+   "XPRA",
+   39,
+   "PRAGUE STOCK EXCHANGE",
+   "CZ"
+  ],
+  [
+   "XWAR",
+   27,
+   "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+   "PL"
+  ],
+  [
+   "WETP",
+   21,
+   "WARSAW STOCK EXCHANGE/ ETPS",
+   "PL"
+  ],
+  [
+   "TPIR",
+   18,
+   "TP ICAP EU - MTF - REGISTRATION",
+   "FR"
+  ],
+  [
+   "FRAV",
+   15,
+   "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+   "DE"
+  ],
+  [
+   "HANB",
+   15,
+   "BOERSE HANNOVER - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XBSE",
+   12,
+   "SPOT REGULATED MARKET - BVB",
+   "RO"
+  ],
+  [
+   "XBUD",
+   12,
+   "BUDAPEST STOCK EXCHANGE",
+   "HU"
+  ],
+  [
+   "XSTO",
+   12,
+   "NASDAQ STOCKHOLM AB",
+   "SE"
+  ],
+  [
+   "ZBUL",
+   10,
+   "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
+   "BG"
+  ],
+  [
+   "WBDM",
+   9,
+   "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
+   "AT"
+  ],
+  [
+   "XZAG",
+   6,
+   "ZAGREB STOCK EXCHANGE",
+   "HR"
+  ],
+  [
+   "NPEX",
+   6,
+   "NPEX",
+   "NL"
+  ],
+  [
+   "HAMN",
+   5,
+   "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - FREIVERKEHR",
+   "DE"
+  ],
+  [
+   "XMAD",
+   5,
+   "BOLSA DE MADRID",
+   "ES"
+  ],
+  [
+   "LNEQ",
+   4,
+   "TP ICAP EU - MTF - LIQUIDNET EU EQUITY",
+   "FR"
+  ],
+  [
+   "XLJU",
+   4,
+   "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
+   "SI"
+  ],
+  [
+   "XBRU",
+   4,
+   "EURONEXT - EURONEXT BRUSSELS",
+   "BE"
+  ],
+  [
+   "MIVX",
+   4,
+   "EURONEXT MIV MILAN",
+   "IT"
+  ],
+  [
+   "DUSD",
+   3,
+   "BOERSE DUESSELDORF - QUOTRIX MTF",
+   "DE"
+  ],
+  [
+   "ENXL",
+   3,
+   "EURONEXT ACCESS LISBON",
+   "PT"
+  ],
+  [
+   "TSAF",
+   2,
+   "TSAF OTC - OTF",
+   "FR"
+  ],
+  [
+   "XTAL",
+   2,
+   "NASDAQ TALLINN AS",
+   "EE"
+  ],
+  [
+   "HMTF",
+   2,
+   "HI-MTF",
+   "IT"
+  ],
+  [
+   "HAND",
+   2,
+   null,
+   null
+  ],
+  [
+   "XRMO",
+   2,
+   "RM-SYSTEM CZECH STOCK EXCHANGE - MTF",
+   "CZ"
+  ],
+  [
+   "WBAH",
+   2,
+   "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
+   "AT"
+  ],
+  [
+   "EXGM",
+   2,
+   "EURONEXT GROWTH MILAN",
+   "IT"
+  ],
+  [
+   "DUSA",
+   1,
+   "BOERSE DUESSELDORF - REGULIERTER MARKT",
+   "DE"
+  ],
+  [
+   "SGMU",
+   1,
+   "SIGMA X EUROPE NON-DISPLAYED BOOK",
+   "FR"
+  ],
+  [
+   "XEMA",
+   1,
+   null,
+   null
+  ],
+  [
+   "XHEL",
+   1,
+   "NASDAQ HELSINKI LTD",
+   "FI"
+  ],
+  [
+   "XOSL",
+   1,
+   "OSLO BORS",
+   "NO"
+  ],
+  [
+   "XMAL",
+   1,
+   "MALTA STOCK EXCHANGE",
+   "MT"
+  ]
+ ],
+ "isin_prefix_top30": [
+  [
+   "LU",
+   6750
+  ],
+  [
+   "IE",
+   5749
+  ],
+  [
+   "US",
+   2569
+  ],
+  [
+   "DE",
+   1118
+  ],
+  [
+   "ES",
+   498
+  ],
+  [
+   "DK",
+   461
+  ],
+  [
+   "AT",
+   315
+  ],
+  [
+   "FR",
+   185
+  ],
+  [
+   "CA",
+   151
+  ],
+  [
+   "NL",
+   111
+  ],
+  [
+   "CH",
+   76
+  ],
+  [
+   "JP",
+   58
+  ],
+  [
+   "KY",
+   55
+  ],
+  [
+   "PL",
+   48
+  ],
+  [
+   "GB",
+   43
+  ],
+  [
+   "CZ",
+   41
+  ],
+  [
+   "HK",
+   38
+  ],
+  [
+   "AU",
+   33
+  ],
+  [
+   "SG",
+   28
+  ],
+  [
+   "LI",
+   25
+  ],
+  [
+   "IT",
+   20
+  ],
+  [
+   "BG",
+   18
+  ],
+  [
+   "ZA",
+   17
+  ],
+  [
+   "VG",
+   17
+  ],
+  [
+   "BE",
+   16
+  ],
+  [
+   "GG",
+   14
+  ],
+  [
+   "HR",
+   12
+  ],
+  [
+   "HU",
+   12
+  ],
+  [
+   "NO",
+   12
+  ],
+  [
+   "SE",
+   11
+  ]
+ ],
+ "sample": {
+  "LU0386500333": {
+   "name": "FLE SICAV FIS B",
+   "short": "FLE SICAV-FIS  /FLE SICAV-FIS B",
+   "cfi": "CBCIXU",
+   "ccy": "EUR",
+   "lei": "529900YOE5JM5TCFXC79",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "DE000A0MW975": {
+   "name": "Fair Value REIT-AG Inhaber-Aktien o.N.",
+   "short": "Fair Val.REIT/AKT o.N.",
+   "cfi": "CBCJXS",
+   "ccy": "EUR",
+   "lei": "52990084DFVKX2FRR033",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "MUNB",
+    "STUB",
+    "STUD"
+   ],
+   "issr_req": [
+    "FRAA",
+    "FRAU"
+   ],
+   "rlvnt": "FRAA",
+   "nca": "DE"
+  },
+  "DE000A14KRD3": {
+   "name": "Deutsche Konsum Real Estate AG",
+   "short": "Dt.Konsum REIT/AKT o.N.",
+   "cfi": "CBCJXS",
+   "ccy": "EUR",
+   "lei": "529900QXC6TDASMCSU89",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "ERFQ"
+   ],
+   "issr_req": [
+    "FRAA",
+    "FRAU",
+    "XEMA",
+    "XETA",
+    "XETU"
+   ],
+   "rlvnt": "XETA",
+   "nca": "DE"
+  },
+  "DE000A3H2333": {
+   "name": "Hamborner REIT AG NA O.N",
+   "short": "HAMBORNER REIT/AKT O.N.",
+   "cfi": "CBCJXS",
+   "ccy": "EUR",
+   "lei": "529900EJTD8IR1GN0P96",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSA",
+    "DUSC",
+    "EBLX",
+    "ENTW",
+    "EQTB"
+   ],
+   "issr_req": [
+    "DUSA",
+    "DUSC",
+    "FRAA",
+    "FRAU",
+    "XEMA",
+    "XETA",
+    "XETU"
+   ],
+   "rlvnt": "DUSA",
+   "nca": "DE"
+  },
+  "US74460D1090": {
+   "name": "Public Storage Operat. Company Registered Shares DL -,10",
+   "short": "PUB STORAGE/SH",
+   "cfi": "CBMJXS",
+   "ccy": "USD",
+   "lei": "549300LMZF40TKJ6DM64",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "EQTC",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND",
+    "JBUL",
+    "MUNB"
+   ],
+   "issr_req": [
+    "JBUL"
+   ],
+   "rlvnt": "MUNB",
+   "nca": "DE"
+  },
+  "LU0556125283": {
+   "name": "Pendragon Fund SICAV SIF S.C.A. Real Estate Fund One One",
+   "short": "PendragFdSicSIF/Pendragon Fund SICA",
+   "cfi": "CBOGXU",
+   "ccy": "EUR",
+   "lei": "222100GPXEUONFSN5937",
+   "venues": [
+    "XLUX"
+   ],
+   "issr_req": [
+    "XLUX"
+   ],
+   "rlvnt": "XLUX",
+   "nca": "LU"
+  },
+  "DE000A111Z29": {
+   "name": "UBS (D) Euroinvest Immobilien Inhaber-Anteile P-dist",
+   "short": "UBS EURO.IMMOB/ CL P-DIST",
+   "cfi": "CBOIXU",
+   "ccy": "EUR",
+   "lei": "5299000LT2ASWE3QMB50",
+   "venues": [
+    "HAMB",
+    "MUNB"
+   ],
+   "issr_req": [
+    "HAMB"
+   ],
+   "rlvnt": "HAMB",
+   "nca": "DE"
+  },
+  "DE000A2ATC31": {
+   "name": "Swis.Lif.REF(DE)Eur.R.E.L.a.W. Inhaber-Anteile",
+   "short": "S.L.REF(DE)E.R./",
+   "cfi": "CBOIXU",
+   "ccy": "EUR",
+   "lei": "529900PYU00B5K6ME867",
+   "venues": [
+    "DUSB",
+    "DUSD",
+    "FRAB",
+    "FRAV",
+    "HAMB",
+    "HAMQ",
+    "HAND",
+    "MUNB",
+    "MUND",
+    "STUB",
+    "STUD",
+    "STUF"
+   ],
+   "issr_req": [
+    "HAMB"
+   ],
+   "rlvnt": "HAMB",
+   "nca": "DE"
+  },
+  "LU0259348570": {
+   "name": "Encore + FCP Encore + A Distribution",
+   "short": "Encore+        /Encore + FCP Encore",
+   "cfi": "CBOIXU",
+   "ccy": "EUR",
+   "lei": "549300U0Y02CIPD3D789",
+   "venues": [
+    "EMTF"
+   ],
+   "issr_req": [
+    "EMTF"
+   ],
+   "rlvnt": "EMTF",
+   "nca": "LU"
+  },
+  "LU0625186423": {
+   "name": "IAD Investments Fund IAD IRF Institutional Class  IAD IRF",
+   "short": "HBReavisRealEst/IAD Investments Fun",
+   "cfi": "CBOIXU",
+   "ccy": "EUR",
+   "lei": "222100I3N6XODRU1KA05",
+   "venues": [
+    "XLUX"
+   ],
+   "issr_req": [
+    "XLUX"
+   ],
+   "rlvnt": "XLUX",
+   "nca": "LU"
+  },
+  "IE000XNGQNH4": {
+   "name": "Allianz Smart EUR Corporate Bo ETFS",
+   "short": "ALNZ GLB INV/SHS CL-EUR ACC EUR",
+   "cfi": "CECGBS",
+   "ccy": "EUR",
+   "lei": "984500C4FEE77396BP20",
+   "venues": [
+    "BTFE",
+    "DUSB",
+    "DUSD",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMQ",
+    "MUNB",
+    "MUND",
+    "SGMU",
+    "SGMV",
+    "STUB"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XETA",
+    "XETU"
+   ],
+   "rlvnt": "ETFP",
+   "nca": "IT"
+  },
+  "LU2533812058": {
+   "name": "BNP Paribas Easy EUR Corp Bond ETFS",
+   "short": "BNPP EASY-EU.CO.B.S/SH EUR",
+   "cfi": "CECGBS",
+   "ccy": "EUR",
+   "lei": "2138005A5VTEBBNJY683",
+   "venues": [
+    "BTFE",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XPAR"
+   ],
+   "rlvnt": "FRAA",
+   "nca": "DE"
+  },
+  "LU2616774076": {
+   "name": "BNPP Easy - USD Corp Bond SRI ETFS",
+   "short": "BNPP EASY-USD COR.B/SH USD",
+   "cfi": "CECGBS",
+   "ccy": "USD",
+   "lei": "213800JWEKVAMBL7QS53",
+   "venues": [
+    "BTFE",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "ETFP",
+    "HAMN",
+    "SGMU",
+    "SGMV",
+    "TWEM",
+    "XETA",
+    "XETU",
+    "XPAC"
+   ],
+   "issr_req": [
+    "ETFP",
+    "XETA",
+    "XETU",
+    "XPMC"
+   ],
+   "rlvnt": "ETFP",
+   "nca": "IT"
+  },
+  "LU2697596745": {
+   "name": "BNP Paribas Easy ESG Enhanced ETFS",
+   "short": "BNPP EASY-ESG EN.EU/SH EUR",
+   "cfi": "CECGBS",
+   "ccy": "EUR",
+   "lei": "213800PJ9ZYPF822NM47",
+   "venues": [
+    "BTFE",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XETA",
+    "XETU",
+    "XPAR"
+   ],
+   "rlvnt": "ETFP",
+   "nca": "IT"
+  },
+  "LU2697597552": {
+   "name": "BNP Paribas Easy ESG Enhanced ETFS",
+   "short": "BNPP EASY-SUS EUR/SH EUR",
+   "cfi": "CECGBS",
+   "ccy": "EUR",
+   "lei": "213800YTVISLI3213D47",
+   "venues": [
+    "BTFE",
+    "DUSB",
+    "DUSD",
+    "EBLX",
+    "ENTW",
+    "ERFQ",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XETA",
+    "XETU",
+    "XPAR"
+   ],
+   "rlvnt": "XPAR",
+   "nca": "FR"
+  }
+ },
+ "known": {
+  "DE0007164600": null,
+  "FR0000121014": null,
+  "NL0010273215": null,
+  "IE00B4L5Y983": {
+   "name": "iShares Core MSCI World UCITS ETF",
+   "short": "ISHS III/SHS CL-ACC USD",
+   "cfi": "CEOGES",
+   "ccy": "USD",
+   "lei": "549300QS4Q1IT6XCA514",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BEUP",
+    "BTFE",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EQTB",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND",
+    "JBUL"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XAMS",
+    "XEMA",
+    "XETA",
+    "XETU",
+    "XGLO"
+   ],
+   "rlvnt": "XETA",
+   "nca": "DE"
+  },
+  "IE00B5BMR087": {
+   "name": "iShares Core S&P 500 UCITS ETF",
+   "short": "ISHS VII/SHS CL-ACC USD",
+   "cfi": "CEOGES",
+   "ccy": "USD",
+   "lei": "5493006ESS9BM09FB892",
+   "venues": [
+    "AQEA",
+    "AQED",
+    "AQEU",
+    "BETA",
+    "BEUP",
+    "BTFE",
+    "CEUD",
+    "CEUO",
+    "CEUX",
+    "DUSB",
+    "DUSD",
+    "EQTB",
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "HAMB",
+    "HAMN",
+    "HAMQ",
+    "HANB",
+    "HAND"
+   ],
+   "issr_req": [
+    "ETFP",
+    "FRAA",
+    "FRAU",
+    "XAMS",
+    "XEMA",
+    "XETA",
+    "XETU"
+   ],
+   "rlvnt": "XETA",
+   "nca": "DE"
+  },
+  "GB0005405286": null,
+  "CH0038863350": null,
+  "IT0003128367": null,
+  "US0378331005": null,
+  "IL0006290147": null
+ },
+ "downloads": [
+  {
+   "file": "FULINS_C_20260926_01of01.zip",
+   "status": 200,
+   "mb": 3.8,
+   "sec": 0.3,
+   "parse_sec": 3.1
+  }
+ ],
+ "stats": {
+  "rows": 156849,
+  "terminated_rows": 5
+ }
+}
