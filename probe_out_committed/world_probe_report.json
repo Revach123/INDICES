@@ -1,0 +1,840 @@
+{
+ "six_equity_issuers_csv": {
+  "url": "https://www.six-group.com/sheldon/equity_issuers/v1/equity_issuers.csv",
+  "status": 200,
+  "bytes": 44880,
+  "sec": 0.9,
+  "ctype": "text/csv",
+  "final_url": "https://www.six-group.com/sheldon/equity_issuers/v1/equity_issuers.csv",
+  "head": "Company;ISIN;Symbol;Valor Number;Country;Traded Currency;Trading platform;Class of Share;Nominal Value;Listing Segment;Accounting Rules;Next General Meeting;Annual closing date;Auditors;Sustainability report opting in;International recognized standard;Primary listing;Opting Clause\n3M Company;US88579Y1010;MMM;1405105;US;CHF;XSWX;Registered Share;0.01;International Reporting Standard;;;;PricewaterhouseCoopers LLP - US;No;;FALSE;\nABB Ltd;CH0012221716;ABBN;1222171;CH;CHF;XSWX;Registered Share;0.12;International Reporting Standard;US GAAP;25.03.2027;31.12.;KPMG AG - CH[501403];No;;TRUE;\nAbbott Laboratories;US0028241000;ABT;903037;US;CHF;XSWX;Registered Share;0.00;International Reporting Standard;;;;Ernst & Young LLP - US;No;;FALSE;\nAccelleron Industries AG;CH1169360919;ACLN;116936091;CH;CHF;XSWX;Registered Share;0.01;International Reporting Standard;US GAAP;;31.12.;KPMG AG - CH[501403];No;;TRUE;\nAddex Therapeutics Ltd;CH0029850754;ADXN;2985075;CH;CHF;XSWX;Registered Share;0.01;International Reporting Standard;IFRS;;31.12.;BDO AG - CH[500705];No;;TRUE;\nAdecco Group AG;CH0012138605;ADEN;1213860;CH;CHF;XSWX;Registered Share;0.10;International Reporting Standard;US GAAP;;31.12.;PricewaterhouseCoopers AG - CH[500003];No;;TRUE;\nAdval Tech Holding AG;CH0008967926;ADVN;896792;CH;CHF;XSWX;Registered Share;20.00;Swiss Reporting Standard;Swiss GAAP FER;22.04.2027;31.12.;Deloitte AG - CH[500420];No;;TRUE;\nAEVIS VICTORIA SA;CH0478634105;AEVS;47863410;CH;CHF;XSWX;Registered Share;1.00;Swiss Rep"
+ },
+ "six_equity_issuers_json": {
+  "url": "https://www.six-group.com/sheldon/equity_issuers/v1/equity_issuers.json",
+  "status": 200,
+  "bytes": 183453,
+  "sec": 0.7,
+  "ctype": "text/plain; charset=UTF-8",
+  "final_url": "https://www.six-group.com/sheldon/equity_issuers/v1/equity_issuers.json",
+  "head": "{\n  \"status\" : \"Ok\",\n  \"totalCount\" : 241,\n  \"itemList\" : [ {\n    \"company\" : \"3M Company\",\n    \"isin\" : \"US88579Y1010\",\n    \"valorSymbol\" : \"MMM\",\n    \"valorNumber\" : 1405105,\n    \"country\" : \"US\",\n    \"tradingCurrency\" : \"CHF\",\n    \"tradingPlatform\" : \"XSWX\",\n    \"classOfShareCode\" : \"RS\",\n    \"classOfShare\" : \"Registered Share\",\n    \"nominalValue\" : 0.01,\n    \"regulatoryStandard\" : \"International Reporting Standard\",\n    \"accountingRules\" : [ ],\n    \"nextGeneralMeeting\" : null,\n    \"annualClosingDate\" : null,\n    \"auditor\" : \"PricewaterhouseCoopers LLP - US\",\n    \"optingIn\" : false,\n    \"recognizedStandard\" : null,\n    \"primaryListing\" : false,\n    \"optingClause\" : \"\",\n    \"secondLineReasonCode\" : null,\n    \"firstListingDate\" : 20020409,\n    \"lastListingDate\" : 99991231\n  }, {\n    \"company\" : \"ABB Ltd\",\n    \"isin\" : \"CH0012221716\",\n    \"valorSymbol\" : \"ABBN\",\n    \"valorNumber\" : 1222171,\n    \"country\" : \"CH\",\n    \"tradingCurrency\" : \"CHF\",\n    \"tradingPlatform\" : \"XSWX\",\n    \"classOfShareCode\" : \"RS\",\n    \"classOfShare\" : \"Registered Share\",\n    \"nominalValue\" : 0.12,\n    \"regulatoryStandard\" : \"International Reporting Standard\",\n    \"accountingRules\" : [ \"US GAAP\" ],\n    \"nextGeneralMeeting\" : 20270325,\n    \"annualClosingDate\" : 20251231,\n    \"auditor\" : \"KPMG AG - CH[501403]\",\n    \"optingIn\" : false,\n    \"recognizedStandard\" : null,\n    \"primaryListing\" : true,\n    \"optingClause\" : \"\",\n    \"secondLineReasonCode\" : null,\n    \"firstListingDate\" : 20201207,\n    \"lastListing"
+ },
+ "six_fqs_shares": {
+  "url": "https://www.six-group.com/fqs/ref.csv?select=ShortName,ValorSymbol,ValorNumber,ISIN,TradingBaseCurrency,IssuerNameFull,SecTypeCode,PortalSegment,ProductLine&where=PortalSegment=EQ*&orderby=ShortName&page=1&pagesize=99999",
+  "status": 200,
+  "bytes": 75722,
+  "sec": 0.2,
+  "ctype": "text/csv; charset=ISO-8859-1",
+  "final_url": "https://www.six-group.com/fqs/ref.csv?select=ShortName,ValorSymbol,ValorNumber,ISIN,TradingBaseCurrency,IssuerNameFull,SecTypeCode,PortalSegment,ProductLine&where=PortalSegment=EQ*&orderby=ShortName&page=1&pagesize=99999",
+  "head": "ShortName;ValorSymbol;ValorNumber;ISIN;TradingBaseCurrency;IssuerNameFull;SecTypeCode;PortalSegment;ProductLine\n1&1 AG;1U1;868900;DE0005545503;CHF;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\n3D SYSTEMS CORP;DDD;366612;US88554D2053;CHF;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\n3D SYSTEMS CORP;DDD;366612;US88554D2053;USD;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\n3M;MMM;1405105;US88579Y1010;CHF;3M Company;RS;EQ;FS\nABB LTD N;ABBN;1222171;CH0012221716;CHF;ABB Ltd;RS;EQ;BC\nABB LTD N 2. LINIE;ABBNE;35767961;CH0357679619;CHF;ABB Ltd;RS;EQ;DS\nABBOTT LABOR;ABT;903037;US0028241000;CHF;Abbott Laboratories;RS;EQ;FS\nABBVIE INC;ABBV;20145667;US00287Y1091;CHF;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\nABBVIE INC;ABBV;20145667;US00287Y1091;USD;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\nACCELLERON N;ACLN;116936091;CH1169360919;CHF;Accelleron Industries AG;RS;EQ;DS\nACCELLERON N 2. LINIE;ACLNE;155040905;CH1550409051;CHF;Accelleron Industries AG;RS;EQ;DS\nADDEX N;ADXN;2985075;CH0029850754;CHF;Addex Therapeutics Ltd;RS;EQ;DS\nADECCO N;ADEN;1213860;CH0012138605;CHF;Adecco Group AG;RS;EQ;DS\nADIDAS AG;ADS;11730015;DE000A1EWWW0;CHF;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\nADOBE INC;ADBE;903472;US00724F1012;CHF;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\nADOBE INC;ADBE;903472;US00724F1012;USD;Sponsor SIX Swiss Exchange - Sponsored Segment;SS;EQ;PS\nADTRAN NETW SE;ADV;498244;DE0005103006;CHF;Sponsor SIX Swiss Excha"
+ },
+ "six_fqs_funds": {
+  "url": "https://www.six-group.com/fqs/ref.csv?select=ShortName,ValorSymbol,ISIN,PortalSegment&where=PortalSegment=FU*&page=1&pagesize=99999",
+  "status": 200,
+  "bytes": 139729,
+  "sec": 0.4,
+  "ctype": "text/csv; charset=ISO-8859-1",
+  "final_url": "https://www.six-group.com/fqs/ref.csv?select=ShortName,ValorSymbol,ISIN,PortalSegment&where=PortalSegment=FU*&page=1&pagesize=99999",
+  "head": "ShortName;ValorSymbol;ISIN;PortalSegment\n$ High Yld Corp Bnd Enhncd Act;UHEB;IE000T9NSP89;FU\n2Xideas Gl MidC Lib CHF SC;2XMC;LU2001262208;FU\n2Xideas Gl MidC Lib EUR SC;2XME;LU2001262463;FU\n2Xideas Gl MidC Lib USD SC;2XMU;LU1785301513;FU\n3V Inv Swiss Sm Mid;OP3V;LU0092739993;FU\n3V Inv Swiss Sm&MidC CHF BC;3VSS;LU1702504785;FU\nAB Int HealthC EUR AC;AXBF;LU0251853072;FU\nAB Int HealthC USD AC;XAYP;LU0058720904;FU\nAB Sus Gl Them EUR AC;AXB0;LU0252218267;FU\nAB Sus Gl Them USD AC;AXB3;LU0069063385;FU\nabrdn All China Sus AC;AEF6;LU0231483743;FU\nabrdn Asia Pac Sus AC;ABD2;LU0011963245;FU\nabrdn Asia SmComp AC;ABD9;LU0231459107;FU\nabrdn China A Sh Sus AC;CES8;LU1146622755;FU\nabrdn Em Eq AC;ABD4;LU0132412106;FU\nabrdn Em Sm Comp AC;AEF5;LU0278937759;FU\nabrdn Fut Supply Ch UCITS ETF;ASCC;IE000G9O8QD4;FU\nabrdn Future Raw Mat UCITS ETF;ARAW;IE000J7QYHD8;FU\nabrdn Future RE UCITS ETF;AREC;IE000GGQK173;FU\nACATIS Val Ev AT;UI26;DE000A0X7541;FU\nAGIF China A-Sh EUR AD;AGC3;LU1997244873;FU\nAGIF China A-Shares ATC;ACH3;LU1997245177;FU\nAGIF China A-Shares EUR AH2D;A1CA;LU1997244790;FU\nAGIF China Fut Techno EUR AD;EQ30;LU2778985510;FU\nAGIF China Fut Techno USD AD;8CA0;LU2778985437;FU\nAGIF China Fut Techno USD RTC;EQ35;LU2476275024;FU\nAGIF Eu Eq Div ATC;AH8V;LU0414045822;FU\nAGIF Eu Eq Gr AD;UQ2A;LU0256839191;FU\nAGIF Eu Eq Gr AT;UQ2B;LU0256839274;FU\nAGIF German Eq EUR ATC;AH8J;LU0840617350;FU\nAGIF Gl Art Int EUR AD;ZZRA;LU1548497186;FU\nAGIF Gl Art Int EUR ATH2C;ZZRF;LU1548497772;FU\nAGIF Gl Art Int USD A"
+ },
+ "six_fqs_all_json": {
+  "url": "https://www.six-group.com/fqs/ref.json?select=ISIN,ValorSymbol,ShortName,PortalSegment&where=PortalSegment=EQ&page=1&pagesize=50",
+  "status": 200,
+  "bytes": 2760,
+  "sec": 0.2,
+  "ctype": "application/json; charset=UTF-8",
+  "final_url": "https://www.six-group.com/fqs/ref.json?select=ISIN,ValorSymbol,ShortName,PortalSegment&where=PortalSegment=EQ&page=1&pagesize=50",
+  "head": "{\"protocolVersion\":\"fqs.json#17x\",\n\"pageNumber\":1,\n\"pageSize\":50,\n\"totalRows\":811,\n\"delayMinutes\":15,\n\"delayedMillis\":1790604626903,\n\"delayedDateTime\":\"20260928T16:10:26.903\",\n\"requestURL\":\"/itf/fqs/delayed/ref.json?pagesize=50&page=1&where=PortalSegment=EQ&select=ISIN,ValorSymbol,ShortName,PortalSegment\",\n\"copyRight\":\"(c) Copyright by SIX Group Ltd 2026. All rights reserved.\",\n\"colNames\":[\"ISIN\",\"ValorSymbol\",\"ShortName\",\"PortalSegment\"],\n\"rowData\":[\n[\"AT0000A3EPA4\",\"AMS\",\"AMS-OSRAM\",\"EQ\"],\n[\"AT0000KTMI02\",\"BMAG\",\"BAJAJ MOBILITY AG\",\"EQ\"],\n[\"CA0084741085\",\"AEM\",\"AGNICO EAGLE MINES LTD.\",\"EQ\"],\n[\"CA0203987072\",\"ALM\",\"ALMONTY INDUSTRY O.N.\",\"EQ\"],\n[\"CA0585861085\",\"BLDP\",\"BALLARD POWER\",\"EQ\"],\n[\"CA06849F1080\",\"B\",\"BARRICK MINING CORP\",\"EQ\"],\n[\"CA13321L1085\",\"CCJ\",\"CAMECO CORP.\",\"EQ\"],\n[\"CA29258Y1034\",\"EXK\",\"ENDEAVOUR SILVER CORP.\",\"EQ\"],\n[\"CA2926717083\",\"UUUU\",\"ENERGY FUELS INC.\",\"EQ\"],\n[\"CA32076V1031\",\"AG\",\"FIRST MAJESTIC SILVER\",\"EQ\"],\n[\"CA4969024047\",\"KG\",\"KINROSS GOLD\",\"EQ\"],\n[\"CA67077M1086\",\"NTR\",\"NUTRIEN LTD\",\"EQ\"],\n[\"CA6979001089\",\"PAAS\",\"PAN AMER. SILVER CORP.\",\"EQ\"],\n[\"CA82509L1076\",\"SHOP\",\"SHOPIFY A SUB.VTG\",\"EQ\"],\n[\"CA9628791027\",\"WPM\",\"WHEATON PREC. METALS\",\"EQ\"],\n[\"CH0000816824\",\"OERL\",\"OC OERLIKON N\",\"EQ\"],\n[\"CH0001319265\",\"SNBN\",\"SNB N\",\"EQ\"],\n[\"CH0001340204\",\"GRKP\",\"GRAUB KB PS\",\"EQ\"],\n[\"CH0001341608\",\"HBLN\",\"HYPO LENZB N\",\"EQ\"],\n[\"CH0001473559\",\"BLKB\",\"BASELLAND KB PS\",\"EQ\"],\n[\"CH0001624714\",\"CPHN\",\"CPHG N\",\"EQ\"],\n[\"CH0002178181\",\"SRAIL\",\"STADLER RAIL N\",\"EQ\"],"
+ },
+ "six_shares_page": {
+  "url": "https://www.six-group.com/en/market-data/shares/companies.html",
+  "status": 200,
+  "bytes": 208643,
+  "sec": 0.2,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://www.six-group.com/en/market-data/shares/companies.html",
+  "head": "<!DOCTYPE html>\n<html lang=en>\n<head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"keywords\" content=\"\">\n    <meta name=\"description\" content=\"Get the list of equity issuers at the Swiss Stock Exchange. \"/>\n    <meta name=\"msvalidate.01\" content=\"79B110B8D19EF701D2522A7B0C5B06CD\"/>\n    <meta property=\"og:title\" content=\"List of Equity Issuers | SIX\"/>\n    <meta property=\"og:description\" content=\"Get the list of equity issuers at the Swiss Stock Exchange. \"/>\n    <meta property=\"og:type\" content=\"website\"/>\n    <meta property=\"og:url\" content=\"https://www.six-group.com/en/market-data/shares/companies.html\"/>\n\n    <meta property=\"og:image\" content=\"https://www.six-group.com/dam/images/the-swiss-stock-exchange/Header/GettyImages-117147864.six-image.standard.1250.jpg\"/>\n    <meta property=\"og:site_name\" content=\"SIX\"/>\n    <meta property=\"twitter:card\" content=\"summary_large_image\"/>\n    <meta property=\"twitter:title\" content=\"List of Equity Issuers | SIX\"/>\n    <meta property=\"twitter:description\" content=\"Get the list of equity issuers at the Swiss Stock Exchange. \"/>\n    <meta property=\"twitter:url\" content=\"https://www.six-group.com/en/market-data/shares/companies.html\"/>\n    <meta property=\"twitter:image\" content=\"https://www.six-group.com/dam/images/the-swiss-stock-exchange/Header/GettyImages-117147864.six-image.standard.1250.jpg\"/>\n    <met",
+  "links": [
+   "https://www.six-group.com/en/market-data/indices/resource-hub/download-center.html"
+  ]
+ },
+ "six_etf_page": {
+  "url": "https://www.six-group.com/en/market-data/etf/etf-explorer.html",
+  "status": 200,
+  "bytes": 207202,
+  "sec": 0.2,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://www.six-group.com/en/market-data/etf/etf-explorer.html",
+  "head": "<!DOCTYPE html>\n<html lang=en>\n<head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"keywords\" content=\"\">\n    <meta name=\"description\" content=\"Use the ETF Explorer from SIX to get specific information on ETFs traded on the Swiss Stock Exchange.\"/>\n    <meta name=\"msvalidate.01\" content=\"79B110B8D19EF701D2522A7B0C5B06CD\"/>\n    <meta property=\"og:title\" content=\"ETF Explorer | SIX\"/>\n    <meta property=\"og:description\" content=\"Use the ETF Explorer from SIX to get specific information on ETFs traded on the Swiss Stock Exchange.\"/>\n    <meta property=\"og:type\" content=\"website\"/>\n    <meta property=\"og:url\" content=\"https://www.six-group.com/en/market-data/etf/etf-explorer.html\"/>\n\n    <meta property=\"og:image\" content=\"https://www.six-group.com/dam/images/market-data/id-bg-overlay.six-image.standard.1020.png\"/>\n    <meta property=\"og:site_name\" content=\"SIX\"/>\n    <meta property=\"twitter:card\" content=\"summary_large_image\"/>\n    <meta property=\"twitter:title\" content=\"ETF Explorer | SIX\"/>\n    <meta property=\"twitter:description\" content=\"Use the ETF Explorer from SIX to get specific information on ETFs traded on the Swiss Stock Exchange.\"/>\n    <meta property=\"twitter:url\" content=\"https://www.six-group.com/en/market-data/etf/etf-explorer.html\"/>\n    <meta property=\"twitter:image\" content=\"https://www.six-group.com/dam/images/market-data/id-bg-",
+  "links": [
+   "https://www.six-group.com/en/market-data/indices/resource-hub/download-center.html"
+  ]
+ },
+ "jpx_listed_page_en": {
+  "url": "https://www.jpx.co.jp/english/markets/statistics-equities/misc/01.html",
+  "status": 200,
+  "bytes": 30060,
+  "sec": 0.3,
+  "ctype": "text/html",
+  "final_url": "https://www.jpx.co.jp/english/markets/statistics-equities/misc/01.html",
+  "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"copyright\" content=\"(C) Japan Exchange Group, Inc.\">\r\n\r\n<meta name=\"description\" content=\"Other Statistics | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:title\" content=\"Other Statistics | Japan Exchange Group\">\r\n  \r\n<meta property=\"og:type\" content=\"article\">\r\n\r\n<meta property=\"og:description\" content=\"Other Statistics | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:image\" content=\"https://www.jpx.co.jp/english/common/images/other/b5b4pj000000f2gn-img/ogp.png\">\r\n  \r\n<meta property=\"og:site_name\" content=\"Japan Exchange Group\">\r\n<meta property=\"og:url\" content=\"https://www.jpx.co.jp/english/markets/statistics-equities/misc/01.html\">\r\n<meta property=\"og:locale\" content=\"en_US\">\r\n<meta property=\"fb:app_id\" content=\"493523696109663\">\r\n<meta property=\"twitter:card\" content=\"summary_large_image\">\r\n<meta property=\"twitter:site\" content=\"@JPX_official_EN\">\r\n<link href=\"/english/_assets/img/icon/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\">\r\n\r\n<title>List of TSE-listed Issues | Japan Exchange Group</title>\r\n  \r\n\r",
+  "links": [
+   "https://www.jpx.co.jp/english/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_e.xlsx",
+   "https://www.jpx.co.jp/english/markets/statistics-equities/misc/tvdivq0000001vg2-att/jyoujyou(updated)_e.xlsx"
+  ]
+ },
+ "jpx_listed_xls": {
+  "url": "https://www.jpx.co.jp/english/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_e.xlsx",
+  "status": 200,
+  "bytes": 227579,
+  "sec": 0.3,
+  "ctype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "final_url": "https://www.jpx.co.jp/english/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_e.xlsx",
+  "head": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000�6\"]��\u0013]~\u0001\u0000\u0000�\u0005\u0000\u0000\u0013\u0000\u001d\u0000[Content_Types].xmlII\u0010\u0000�\u0005\u0000\u0000\u0000\u0000\u0000\u0000~\u0001\u0000\u0000\u0000\u0000\u0000\u0000UT\u0005\u0000\u0001eȗj���N�0\u0010E%�\u00165.,\u0010BMY\u0000\u000b$\u001e��\u0007�����<���=NR*��\u000f��X�̽�:�xt�r�Xb\"\u0013|%.ˡ(Ы���Ub���F\u0014��5��\u0012k$q7\u001e}�#R���*�0�[)I5��\u0010��J\u001d�\u0003ηi&#�9�P^\r��R\u0005��y���\u0018�\u001e�����q�\u001f�9�Ƌ��kQ��\u0018�Q��,�^��\fB]\u001b�:��˒�bB�� ���Z\u0010\u00077IY�x-�Ȅ��cn6Ufe�C��t�\u001b�!���\u0001\u001b�[�\u0016�h,&��\u0015\\�++?C�OC���M�}3�Z:0�b?�k&�-�g\u000e��ߓ��/����\b��\u001e ��\"���w���\r$���(�=�O�]9���\u001b�C���\u0010�#Ҫ\u0007�\u001f@�{�[b�>y��N�F},�?1N��6��_�A\u0003�|�)�'_�\u0003\"�ol�,\u0010�zS��ǖ(�\u0013{�\u0005PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000�6\"]�Ѻ!\u0001\u0000\u0000o\u0003\u0000\u0000\u000b\u0000\u001d\u0000_rels/.relsII\u0010\u0000o\u0003\u0000\u0000\u0000\u0000\u0000\u0000!\u0001\u0000\u0000\u0000\u0000\u0000\u0000UT\u0005\u0000\u0001eȗj���n�0\f�_%ʝ�t4M\u0014.\\�6i�x\u0001��%����l��\u000bhh�\u0004\u001d\u0007��?��Q&����\u0007�d��r\\�R��d�ok��f�$Eb�\u0006:�X�=&9�Nޱ\u0003�-imC\u0012�çZ��óRI��A*(�ϕ��\u0003�alU\u0000��\u0016UU��*���}O�0��\u000bs'�r\u001f�\u001aoj\u001a�qNz���\u0011\nw�ޠ\u0019���#ۼ�XBl�kiH��tR\u0010B���:OT]Oty[��\u0000��\u0014q��\u0018\u0002\u001a��D}�\u000fͮS�\u00147+��\u0010��-Y�61��s�\f!=\\@rVGJ�p��}�d��Te�\u0017���l\u0016\u001cs\u001d��볼�^��P[��ND��Q�_PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000�6\"]��8\f�\u0002\u0000\u0000�\u0006\u0000\u0000\u000f\u0000\u001d\u0000xl/workbook.xmlII\u0010\u0000�\u0006\u0000\u0000\u0000\u0000\u0000\u0000�\u0002\u0000\u0000\u0000\u0000\u0000\u0000UT\u0005\u0000\u0001eȗj��mo�@\u0010ǿ\n��-� P%�\u0005Dr�ԦiM�{լ�Ȧ��e��K��͢hM�\u0005�%fa����f���}�+o�ה�\u001e2�:RH\u0019���[\u000f5\"U�H�\u0005.\u0013���x�@j�}6�1��a�U��e��L��մ:�H��!�H\t���\u0017X�ɷZ]q��:#D\u0014�f꺣\u0015���Hpy\u001f\u0006KS\u001a���MAJq�p�c\u0001��\u0019��V�}p\u0005�M�Ƭ�\u0000��9\u0015�\u0016�a����SИ���b\b�N\u0019}\u0012g�a\\��\u0016؏d��7*�sA9_d9g�E\"7���\u0019�\u0005g~�f�i&R�ؽݖ��M\u000e3\u0007mP�\u001c~�\"Ӆ�D�iJs�|\u001c\\\u0005W�=.�k��\u001c�b�PA\u0012\u000f݀�v�j�7U��\u001c��n�c�]���+�\u0015�?p���\u0003�\b��m G�*���䊔�����\nTv���i��#��陒]}�KSٯi����TÄ�\u001d��]k�i\"2\u000f�\u0013�:�� t�\t�`�HG(��P\u0010�'4\"�����\u0018Y�jM�:�C_\u001d;��\u0018\u0005�b��2#�CJm廧R���;\bn�n�V<we\f~�\u0018-�;\u0006�iI\u0012Y�k�z��e1|��b�X�\r���E��\u000e\u000f*2�$D�\r͎ѿ\r���\u000e~\u000e,}�O�\u000f�ٕ\u0005Q\u0001\u0015C��Mvb��\u0004��\u0012Z�\u0002�\r�e�d/�j�>�A�n�\u0017gu���\t\u0016\r���p\n}\b�q��&�jEF�Z�DW���T;�F��\u0011�\u0017v�\u000e�{\f��5:!Λ'橊Wٸ������\t>�9��\u001c=�t��/W˞�w���:���/�����?>��W�_]\b�",
+  "sheets": {
+   "Sheet1": {
+    "shape": [
+     4442,
+     10
+    ],
+    "head": [
+     [
+      "Effective Date",
+      "Local Code",
+      "Name (English)",
+      "Section/Products",
+      "33 Sector(Code)",
+      "33 Sector(name)",
+      "17 Sector(Code)",
+      "17 Sector(name)",
+      "Size Code (New Index Series)",
+      "Size (New Index Series)"
+     ],
+     [
+      "20260831",
+      "1301",
+      "KYOKUYO CO.,LTD.",
+      "Prime Market (Domestic)",
+      "50",
+      "Fishery, Agriculture and Forestry",
+      "1",
+      "FOODS",
+      "6",
+      "TOPIX Small 1"
+     ],
+     [
+      "20260831",
+      "1305",
+      "iFreeETF TOPIX (Yearly Dividend Type)",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1306",
+      "NEXT FUNDS TOPIX Exchange Traded Fund",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1308",
+      "Listed Index Fund TOPIX",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1309",
+      "NEXT FUNDS ChinaAMC SSE50 Index Exchange Traded Fund",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "130A",
+      "Veritas In Silico Inc.",
+      "Growth Market(Domestic)",
+      "3250",
+      "Pharmaceutical",
+      "5",
+      "PHARMACEUTICAL",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1311",
+      "NEXT FUNDS TOPIX Core 30 Exchange Traded Fund",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1319",
+      "NEXT FUNDS Nikkei 300 Index Exchange Traded Fund",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "131A",
+      "CCN Group Corporation",
+      "PRO Market",
+      "5250",
+      "Information & Communication",
+      "10",
+      "IT & SERVICES, OTHERS",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1320",
+      "iFreeETF Nikkei225 (Yearly Dividend Type)",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     [
+      "20260831",
+      "1321",
+      "NEXT FUNDS Nikkei 225 Exchange Traded Fund",
+      "ETFs/ ETNs",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+     ]
+    ]
+   }
+  }
+ },
+ "jpx_listed_page_ja": {
+  "url": "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html",
+  "status": 200,
+  "bytes": 29914,
+  "sec": 0.2,
+  "ctype": "text/html",
+  "final_url": "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html",
+  "head": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"copyright\" content=\"(C) Japan Exchange Group, Inc.\">\r\n\r\n<meta name=\"description\" content=\"ãã®ä»çµ±è¨è³æã®ãã¼ã¸ãæ±äº¬è¨¼å¸åå¼æãå¤§éªåå¼æãæ±äº¬åååå¼æç­ãéå¶ããæ¥æ¬åå¼æã°ã«ã¼ãï¼JPXï¼ã®ãµã¤ãã§ãã\">\r\n  \r\n<meta property=\"og:title\" content=\"ãã®ä»çµ±è¨è³æ | æ¥æ¬åå¼æã°ã«ã¼ã\">\r\n  \r\n<meta property=\"og:type\" content=\"article\">\r\n\r\n<meta property=\"og:description\" content=\"ãã®ä»çµ±è¨è³æã®ãã¼ã¸ãæ±äº¬è¨¼å¸åå¼æãå¤§éªåå¼æãæ±äº¬åååå¼æç­ãéå¶ããæ¥æ¬åå¼æã°ã«ã¼ãï¼JPXï¼ã®ãµã¤ãã§ãã\">\r\n  \r\n<meta property=\"og:image\" content=\"https://www.jpx.co.jp/common/images/other/nlsgeu000000pud7-img/ogp.png\">\r\n  \r\n<meta property=\"og:site_name\" content=\"æ¥æ¬åå¼æã°ã«ã¼ã\">\r\n<meta property=\"og:url\" content=\"https://www.jpx.co.jp/markets/statistics-equities/misc/01.html\">\r\n<meta property=\"og:locale\" content=\"ja_JP\">\r\n<meta property=\"fb:app_id\" content=\"175272119257459\">\r\n<meta property=\"twitter:card\" content=\"summary_large_image\">\r\n<meta property=\"twitter:site\" content=\"@JPX_official\">\r\n<link href=\"/_assets/img/icon/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\">\r\n\r\n<title>æ±è¨¼ä¸å ´éæä¸è¦§ | ",
+  "links": [
+   "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
+  ]
+ },
+ "jpx_sicc_page": {
+  "url": "https://www.jpx.co.jp/sicc/",
+  "status": 200,
+  "bytes": 24635,
+  "sec": 0.2,
+  "ctype": "text/html",
+  "final_url": "https://www.jpx.co.jp/sicc/",
+  "head": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"copyright\" content=\"(C) Japan Exchange Group, Inc.\">\r\n\r\n<meta name=\"description\" content=\"è¨¼å¸ã³ã¼ãåè­°ä¼ã®ãã¼ã¸ãæ±äº¬è¨¼å¸åå¼æãå¤§éªåå¼æãæ±äº¬åååå¼æç­ãéå¶ããæ¥æ¬åå¼æã°ã«ã¼ãï¼JPXï¼ã®ãµã¤ãã§ãã\">\r\n  \r\n<meta property=\"og:title\" content=\"è¨¼å¸ã³ã¼ãåè­°ä¼ | æ¥æ¬åå¼æã°ã«ã¼ã\">\r\n  \r\n<meta property=\"og:type\" content=\"article\">\r\n\r\n<meta property=\"og:description\" content=\"è¨¼å¸ã³ã¼ãåè­°ä¼ã®ãã¼ã¸ãæ±äº¬è¨¼å¸åå¼æãå¤§éªåå¼æãæ±äº¬åååå¼æç­ãéå¶ããæ¥æ¬åå¼æã°ã«ã¼ãï¼JPXï¼ã®ãµã¤ãã§ãã\">\r\n  \r\n<meta property=\"og:image\" content=\"https://www.jpx.co.jp/common/images/other/nlsgeu000000pud7-img/ogp.png\">\r\n  \r\n<meta property=\"og:site_name\" content=\"æ¥æ¬åå¼æã°ã«ã¼ã\">\r\n<meta property=\"og:url\" content=\"https://www.jpx.co.jp/sicc/index.html\">\r\n<meta property=\"og:locale\" content=\"ja_JP\">\r\n<meta property=\"fb:app_id\" content=\"175272119257459\">\r\n<meta property=\"twitter:card\" content=\"summary_large_image\">\r\n<meta property=\"twitter:site\" content=\"@JPX_official\">\r\n<link href=\"/_assets/img/icon/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\">\r\n\r\n<title>è¨¼å¸ã³ã¼ãåè­°ä¼ | æ¥æ¬åå¼æã",
+  "links": [
+   "https://www.jpx.co.jp/sicc/code-pr/index.html",
+   "https://www.jpx.co.jp/sicc/securities-code/01.html",
+   "https://www.jpx.co.jp/sicc/securities-code/02.html",
+   "https://www.jpx.co.jp/sicc/securities-code/index.html"
+  ]
+ },
+ "jpx_sicc_en": {
+  "url": "https://www.jpx.co.jp/english/sicc/",
+  "status": 200,
+  "bytes": 24335,
+  "sec": 0.2,
+  "ctype": "text/html",
+  "final_url": "https://www.jpx.co.jp/english/sicc/",
+  "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"copyright\" content=\"(C) Japan Exchange Group, Inc.\">\r\n\r\n<meta name=\"description\" content=\"Securities Identification Code Committee | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:title\" content=\"Securities Identification Code Committee | Japan Exchange Group\">\r\n  \r\n<meta property=\"og:type\" content=\"article\">\r\n\r\n<meta property=\"og:description\" content=\"Securities Identification Code Committee | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:image\" content=\"https://www.jpx.co.jp/english/common/images/other/b5b4pj000000f2gn-img/ogp.png\">\r\n  \r\n<meta property=\"og:site_name\" content=\"Japan Exchange Group\">\r\n<meta property=\"og:url\" content=\"https://www.jpx.co.jp/english/sicc/index.html\">\r\n<meta property=\"og:locale\" content=\"en_US\">\r\n<meta property=\"fb:app_id\" content=\"493523696109663\">\r\n<meta property=\"twitter:card\" content=\"summary_large_image\">\r\n<meta property=\"twitter:site\" content=\"@JPX_official_EN\">\r\n<link href=\"/english/_assets/img/icon/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\">\r\n\r\n<title>Securities Ident",
+  "links": [
+   "https://www.jpx.co.jp/english/sicc/code-pr/index.html",
+   "https://www.jpx.co.jp/english/sicc/securities-code/01.html",
+   "https://www.jpx.co.jp/english/sicc/securities-code/02.html",
+   "https://www.jpx.co.jp/english/sicc/securities-code/index.html"
+  ]
+ },
+ "jpx_etf_page": {
+  "url": "https://www.jpx.co.jp/english/equities/products/etfs/issues/01.html",
+  "status": 200,
+  "bytes": 262710,
+  "sec": 0.2,
+  "ctype": "text/html",
+  "final_url": "https://www.jpx.co.jp/english/equities/products/etfs/issues/01.html",
+  "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\r\n\r\n<meta charset=\"UTF-8\">\r\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\r\n<meta name=\"copyright\" content=\"(C) Japan Exchange Group, Inc.\">\r\n\r\n<meta name=\"description\" content=\"Listed Issues - ETFs | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:title\" content=\"Listed Issues - ETFs | Japan Exchange Group\">\r\n  \r\n<meta property=\"og:type\" content=\"article\">\r\n\r\n<meta property=\"og:description\" content=\"Listed Issues - ETFs | This is the website of Japan Exchange Group (JPX), which operates Tokyo Stock Exchange, Osaka Exchange, and Tokyo Commodity Exchange.\">\r\n  \r\n<meta property=\"og:image\" content=\"https://www.jpx.co.jp/english/common/images/other/b5b4pj000000f2gn-img/ogp.png\">\r\n  \r\n<meta property=\"og:site_name\" content=\"Japan Exchange Group\">\r\n<meta property=\"og:url\" content=\"https://www.jpx.co.jp/english/equities/products/etfs/issues/01.html\">\r\n<meta property=\"og:locale\" content=\"en_US\">\r\n<meta property=\"fb:app_id\" content=\"493523696109663\">\r\n<meta property=\"twitter:card\" content=\"summary_large_image\">\r\n<meta property=\"twitter:site\" content=\"@JPX_official_EN\">\r\n<link href=\"/english/_assets/img/icon/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\">\r\n\r\n<title>All | Listed Issues - ETFs | Japan Exchange Group</tit",
+  "links": [
+   "https://www.jpx.co.jp/english/equities/products/etfs/issues/tvdivq000001j45s-att/b5b4pj000002nyru.pdf"
+  ]
+ },
+ "tmx_directory_tsx": {
+  "url": "https://www.tsx.com/json/company-directory/search/tsx/%5E*",
+  "status": 200,
+  "bytes": 322316,
+  "sec": 0.5,
+  "ctype": "application/json; charset=utf-8",
+  "final_url": "https://www.tsx.com/json/company-directory/search/tsx/%5E*",
+  "head": "{\"last_updated\":1790585714,\"length\":2286,\"results\":[{\"symbol\":\"IGBT.UN\",\"name\":\"2028 Investment Grade Bond Trust\",\"instruments\":[{\"symbol\":\"IGBT.UN\",\"name\":\"2028 InvGrd Bnd F Un\"}]},{\"symbol\":\"BTCQ\",\"name\":\"3iQ Bitcoin ETF\",\"instruments\":[{\"symbol\":\"BTCQ\",\"name\":\"3iQ Bitcoin ETF Un\"},{\"symbol\":\"BTCQ.U\",\"name\":\"3iQ Bitcoin USF\"}]},{\"symbol\":\"ETHQ\",\"name\":\"3iQ Ether Staking ETF\",\"instruments\":[{\"symbol\":\"ETHQ\",\"name\":\"3iQ Ether Staking Un\"},{\"symbol\":\"ETHQ.U\",\"name\":\"3iQ Ether Staking US\"}]},{\"symbol\":\"SOLQ\",\"name\":\"3iQ Solana Staking ETF\",\"instruments\":[{\"symbol\":\"SOLQ\",\"name\":\"3iQ Solana Stakg ETF\"},{\"symbol\":\"SOLQ.U\",\"name\":\"3iQ Sola Stak ETF US\"}]},{\"symbol\":\"XRPQ\",\"name\":\"3iQ XRP ETF\",\"instruments\":[{\"symbol\":\"XRPQ\",\"name\":\"3iQ XRP ETF\"},{\"symbol\":\"XRPQ.U\",\"name\":\"3iQ XRP ETF USF\"}]},{\"symbol\":\"MMMM\",\"name\":\"3M CDR (CAD Hedged)\",\"instruments\":[{\"symbol\":\"MMMM\",\"name\":\"3M CDR Hgd\"}]},{\"symbol\":\"VNP\",\"name\":\"5N Plus Inc.\",\"instruments\":[{\"symbol\":\"VNP\",\"name\":\"5N Plus Inc.\"}]},{\"symbol\":\"AW\",\"name\":\"A \\u0026 W Food Services of Canada Inc.\",\"instruments\":[{\"symbol\":\"AW\",\"name\":\"A\\u0026W Food Serv Canada\"}]},{\"symbol\":\"ABXX\",\"name\":\"Abaxx Technologies Inc.\",\"instruments\":[{\"symbol\":\"ABXX\",\"name\":\"Abaxx Technologies I\"}]},{\"symbol\":\"ABT\",\"name\":\"Abbott Labs CDR (CAD Hedged)\",\"instruments\":[{\"symbol\":\"ABT\",\"name\":\"AbbottLab CDR Hgd\"}]},{\"symbol\":\"ABBV\",\"name\":\"AbbVie CDR (CAD Hedged)\",\"instruments\":[{\"symbol\":\"ABBV\",\"name\":\"AbbVie CDR CAN Hgd\"}]},{\"symbol\":\"AAB\",\"name\":\"Aberdeen"
+ },
+ "tmx_directory_tsxv": {
+  "url": "https://www.tsx.com/json/company-directory/search/tsxv/%5E*",
+  "status": 200,
+  "bytes": 169470,
+  "sec": 0.4,
+  "ctype": "application/json; charset=utf-8",
+  "final_url": "https://www.tsx.com/json/company-directory/search/tsxv/%5E*",
+  "head": "{\"last_updated\":1790585712,\"length\":1426,\"results\":[{\"symbol\":\"ONE\",\"name\":\"01 Quantum Inc.\",\"instruments\":[{\"symbol\":\"ONE\",\"name\":\"01 Quantum Inc.\"}]},{\"symbol\":\"EFF\",\"name\":\"1844 Resources Inc.\",\"instruments\":[{\"symbol\":\"EFF\",\"name\":\"1844 Resources Inc.\"}]},{\"symbol\":\"AUMB\",\"name\":\"1911 Gold Corporation\",\"instruments\":[{\"symbol\":\"AUMB\",\"name\":\"1911 Gold Corporation\"}]},{\"symbol\":\"FNR\",\"name\":\"49 North Resources Inc.\",\"instruments\":[{\"symbol\":\"FNR\",\"name\":\"49 North Resources Inc.\"}]},{\"symbol\":\"FIVD.P\",\"name\":\"5D Acquisition Corp.\",\"instruments\":[{\"symbol\":\"FIVD.P\",\"name\":\"5D Acquisition Corp.\"}]},{\"symbol\":\"ALAB.P\",\"name\":\"A-Labs Capital II Corp.\",\"instruments\":[{\"symbol\":\"ALAB.P\",\"name\":\"A-Labs Capital II Corp.\"}]},{\"symbol\":\"ACL\",\"name\":\"A.C.L. Construction Ltd.\",\"instruments\":[{\"symbol\":\"ACL\",\"name\":\"A.C.L. Construction Ltd.\"}]},{\"symbol\":\"AIS\",\"name\":\"A.I.S. Resources Limited\",\"instruments\":[{\"symbol\":\"AIS\",\"name\":\"A.I.S. Resources Limited\"}]},{\"symbol\":\"AUAU\",\"name\":\"A2 Gold Corp.\",\"instruments\":[{\"symbol\":\"AUAU\",\"name\":\"A2 Gold Corp.\"}]},{\"symbol\":\"AZC.P\",\"name\":\"A2ZCryptocap Inc.\",\"instruments\":[{\"symbol\":\"AZC.P\",\"name\":\"A2ZCryptocap Inc.\"}]},{\"symbol\":\"AAAJ.P\",\"name\":\"AAJ Capital 3 Corp.\",\"instruments\":[{\"symbol\":\"AAAJ.P\",\"name\":\"AAJ Capital 3 Corp.\"}]},{\"symbol\":\"AME\",\"name\":\"Abacus Mining \\u0026 Exploration Corporation\",\"instruments\":[{\"symbol\":\"AME\",\"name\":\"Abacus Mining \\u0026 Exploration Corporation\"}]},{\"symbol\":\"ABA\",\"name\":\"Abasca Resources Inc.\",\"instrument"
+ },
+ "tmx_interlisted": {
+  "url": "https://www.tsx.com/files/trading/interlisted-companies.txt",
+  "status": 200,
+  "bytes": 14744,
+  "sec": 0.1,
+  "ctype": "text/plain; charset=UTF-8",
+  "final_url": "https://www.tsx.com/files/trading/interlisted-companies.txt",
+  "head": "As of September 1, 2026\n\nSymbol\tName\tUS Symbol\tSector\tInternational Market\nAAUC:TSX\tAllied Gold Corporation\tAAUC\tMining\tNYSE\nABX:TSX\tBarrick Mining Corporation\tB\tMining\tNYSE\nACB:TSX\tAurora Cannabis Inc.\tACB\tLife Sciences\tNasdaqCM\nACT:TSX\tAduro Clean Technologies Inc.\tADUR\tClean Technology & Renewable Energy\tNasdaqCM\nAEM:TSX\tAgnico Eagle Mines Limited\tAEM\tMining\tNYSE\nAFE:TSXV\tAfrica Energy Corp.\t\tOil & Gas\tNasdaq Nordic\nAFM:TSXV\tAlphamin Resources Corp.\t\tMining\tJSE\nAG:TSX\tFirst Majestic Silver Corp.\tAG\tMining\tNYSE\nAGI:TSX\tAlamos Gold Inc.\tAGI\tMining\tNYSE\nAGLD:TSXV\tAustral Gold Limited\t\tMining\tASX\nAIM:TSX\tAimia Inc.\t\tConsumer Products & Services\tJSE\nALK:TSX\tAlkane Resources Limited\t\tMining\tASX\nALT:TSXV\tAlturas Minerals Corp.\t\tMining\tLima (BVL)\nAQN:TSX\tAlgonquin Power & Utilities Corp.\tAQN\tClean Technology & Renewable Energy\tNYSE\nARIS:TSX\tAris Mining Corporation\tARIS\tMining\tNYSE Mkt\nASM:TSX\tAvino Silver & Gold Mines Ltd.\tASM\tMining\tNYSE Mkt\nASTL.WT:TSX\tAlgoma Steel Group Inc. Wt\tASTLW\tIndustrial Products & Services\tNASDAQ\nASTL:TSX\tAlgoma Steel Group Inc.\tASTL\tIndustrial Products & Services\tNasdaqGM\nATS:TSX\tATS Corporation\tATS\tIndustrial Products & Services\tNYSE\nAUM:TSXV\tAuMega Metals Ltd.\t\tMining\tASX\nAXL:TSXV\tArrow Exploration Corp.\t\tOil & Gas\tAIM\nAYA:TSX\tAya Gold & Silver Inc.\tAYA\tMining\tNasdaqGS\nBAM:TSX\tBrookfield Asset Management Ltd.\tBAM\tFinancial Services\tNYSE\nBB:TSX\tBlackBerry Limited\tBB\tTechnology\tNYSE\nBBU.UN:TSX\tBrookfield Business Partners L.P. \tBBU\tReal Estate\tNYSE\nBBU"
+ },
+ "tmx_mig_page": {
+  "url": "https://www.tsx.com/en/listings/current-market-statistics",
+  "status": 200,
+  "bytes": 126023,
+  "sec": 0.6,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://www.tsx.com/en/listings/current-market-statistics",
+  "head": "<!DOCTYPE html>\n<html class=\"no-js\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<head>\n<meta charset=\"utf-8\"/>\n<title>TMX TSX | TSXV | Current Market Statistics</title>\n<meta name=\"viewport\" content=\"user-scalable=yes, initial-scale=1, minimum-scale=1, maximum-scale=3, width=device-width\"/>\n<meta name=\"revisit-after\" content=\"1 day\"/>\n<meta name=\"geo.placename\" content=\"Canada\"/>\n<meta name=\"geo.region\" content=\"Toronto\"/>\n<link rel=\"canonical\" href=\"https://www.tsx.com/en/listings/current-market-statistics\"/>\n<meta name=\"description\" content=\"\">\n<meta property=\"og:title\" content=\"TMX TSX | Current Market Statistics\">\n<meta property=\"og:description\" content=\"\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:url\" content=\"https://www.tsx.com/en/listings/current-market-statistics\">\n<meta property=\"og:site_name\" content=\"cdcc.ca\">\n<meta property=\"twitter:card\" content=\"summary\">\n<meta property=\"twitter:title\" content=\"TMX TSX | Current Market Statistics\">\n<meta property=\"twitter:description\" content=\"\">\n<meta property=\"og:image\" content=\"http://www.tsx.com/assets/application/img/tmx_logo_highres.jpg\">\n<meta property=\"twitter:image\" content=\"http://www.tsx.com/assets/application/img/tmx_logo_highres.jpg\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"/>\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\"/>\n<link rel=\"apple-touch-icon\" href=\"/ass",
+  "links": []
+ },
+ "tmx_mig_page2": {
+  "url": "https://www.tsx.com/listings/current-market-statistics/mig-archives",
+  "status": 200,
+  "bytes": 111165,
+  "sec": 1.0,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://www.tsx.com/en/listings/current-market-statistics/mig-archives",
+  "head": "<!DOCTYPE html>\n<html class=\"no-js\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n<head>\n<meta charset=\"utf-8\"/>\n<title>TMX TSX | TSXV | MiG Archives</title>\n<meta name=\"viewport\" content=\"user-scalable=yes, initial-scale=1, minimum-scale=1, maximum-scale=3, width=device-width\"/>\n<meta name=\"revisit-after\" content=\"1 day\"/>\n<meta name=\"geo.placename\" content=\"Canada\"/>\n<meta name=\"geo.region\" content=\"Toronto\"/>\n<link rel=\"canonical\" href=\"https://www.tsx.com/en/listings/current-market-statistics/mig-archives\"/>\n<meta name=\"description\" content=\"\">\n<meta property=\"og:title\" content=\"TMX TSX | MiG Archives\">\n<meta property=\"og:description\" content=\"\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:url\" content=\"https://www.tsx.com/en/listings/current-market-statistics/mig-archives\">\n<meta property=\"og:site_name\" content=\"cdcc.ca\">\n<meta property=\"twitter:card\" content=\"summary\">\n<meta property=\"twitter:title\" content=\"TMX TSX | MiG Archives\">\n<meta property=\"twitter:description\" content=\"\">\n<meta property=\"og:image\" content=\"http://www.tsx.com/assets/application/img/tmx_logo_highres.jpg\">\n<meta property=\"twitter:image\" content=\"http://www.tsx.com/assets/application/img/tmx_logo_highres.jpg\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"/>\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\"/>\n<link rel=\"apple-touch-icon\" href=\"/assets/applicati"
+ },
+ "openfigi_mic": {
+  "status": 200,
+  "jobs": [
+   {
+    "idType": "ID_ISIN",
+    "idValue": "FR0000121014",
+    "micCode": "XPAR"
+   },
+   {
+    "idType": "ID_ISIN",
+    "idValue": "DE0007164600",
+    "micCode": "XETR"
+   },
+   {
+    "idType": "ID_ISIN",
+    "idValue": "IE00B5BMR087",
+    "micCode": "XLON"
+   },
+   {
+    "idType": "TICKER",
+    "idValue": "7203",
+    "micCode": "XTKS"
+   },
+   {
+    "idType": "TICKER",
+    "idValue": "7203",
+    "exchCode": "JT"
+   },
+   {
+    "idType": "ID_ISIN",
+    "idValue": "JP3633400001",
+    "micCode": "XTKS"
+   },
+   {
+    "idType": "TICKER",
+    "idValue": "RY",
+    "micCode": "XTSE"
+   },
+   {
+    "idType": "TICKER",
+    "idValue": "BBD/B",
+    "micCode": "XTSE"
+   },
+   {
+    "idType": "ID_ISIN",
+    "idValue": "CA7800871021",
+    "micCode": "XTSE"
+   },
+   {
+    "idType": "ID_ISIN",
+    "idValue": "CH0038863350",
+    "micCode": "XSWX"
+   }
+  ],
+  "result": [
+   {
+    "data": [
+     {
+      "figi": "BBG000BC7Q05",
+      "name": "LVMH MOET HENNESSY LOUIS VUI",
+      "ticker": "MC",
+      "exchCode": "FP",
+      "compositeFIGI": "BBG000BC7PK5",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S641T5",
+      "securityType2": "Common Stock",
+      "securityDescription": "MC"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BG7GX2",
+      "name": "SAP SE",
+      "ticker": "SAP",
+      "exchCode": "GY",
+      "compositeFIGI": "BBG000BG7DY8",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S6RK27",
+      "securityType2": "Common Stock",
+      "securityDescription": "SAP"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000QYWL77",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXEUR",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG000QYWGP8",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXEUR"
+     },
+     {
+      "figi": "BBG000QYWPT4",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXEUR",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG000QYWGP8",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXEUR"
+     },
+     {
+      "figi": "BBG0015GN4B0",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPX",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG0015GN411",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPX"
+     },
+     {
+      "figi": "BBG0015GN4L9",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPX",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG0015GN411",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPX"
+     },
+     {
+      "figi": "BBG0015VQKM6",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPX",
+      "exchCode": "LN",
+      "compositeFIGI": "BBG0015VQKL7",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPX"
+     },
+     {
+      "figi": "BBG0015VQL53",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSP1",
+      "exchCode": "LN",
+      "compositeFIGI": "BBG0015VQL44",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSP1"
+     },
+     {
+      "figi": "BBG001638942",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXGBX",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG0016388V4",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXGBX"
+     },
+     {
+      "figi": "BBG0016389D2",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXGBX",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG0016388V4",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXGBX"
+     },
+     {
+      "figi": "BBG001KWW2Y7",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPX",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG001KWW2X8",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPX"
+     },
+     {
+      "figi": "BBG002GKHVY9",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXCH",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG002GKHVM2",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXCH"
+     },
+     {
+      "figi": "BBG002GKHW68",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXCH",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG002GKHVM2",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXCH"
+     },
+     {
+      "figi": "BBG003P7V4X1",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSSPXGBX",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG003P7V4W2",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSSPXGBX"
+     },
+     {
+      "figi": "BBG00KZZWDT4",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXCZK",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG00KZZWDJ5",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXCZK"
+     },
+     {
+      "figi": "BBG00KZZWF19",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXCZK",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG00KZZWDJ5",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXCZK"
+     },
+     {
+      "figi": "BBG00KZZWFD6",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXCZK",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG00KZZWFC7",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXCZK"
+     },
+     {
+      "figi": "BBG00M6GW833",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXHUF",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG00M6GW7T7",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXHUF"
+     },
+     {
+      "figi": "BBG00M6GW8B4",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXHUF",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG00M6GW7T7",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXHUF"
+     },
+     {
+      "figi": "BBG00M6GW8N1",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXHUF",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG00M6GW8M2",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXHUF"
+     },
+     {
+      "figi": "BBG00P81Y201",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXMXN",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG00P81Y1P6",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXMXN"
+     },
+     {
+      "figi": "BBG00P81Y274",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXMXN",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG00P81Y1P6",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXMXN"
+     },
+     {
+      "figi": "BBG00P81Y2L8",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXMXN",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG00P81Y2K9",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXMXN"
+     },
+     {
+      "figi": "BBG00Q4TKW56",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXILS",
+      "exchCode": "XL",
+      "compositeFIGI": "BBG00Q4TKVW8",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXILS"
+     },
+     {
+      "figi": "BBG00Q4TKWD7",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXILS",
+      "exchCode": "E1",
+      "compositeFIGI": "BBG00Q4TKVW8",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXILS"
+     },
+     {
+      "figi": "BBG00Q4TKX90",
+      "name": "ISHARES CORE S&P 500",
+      "ticker": "CSPXILS",
+      "exchCode": "EU",
+      "compositeFIGI": "BBG00Q4TKX81",
+      "securityType": "ETP",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001T6CZQ3",
+      "securityType2": "Mutual Fund",
+      "securityDescription": "CSPXILS"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BCM9N1",
+      "name": "TOYOTA MOTOR CORP",
+      "ticker": "7203",
+      "exchCode": "JT",
+      "compositeFIGI": "BBG000BCM915",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S6BGT4",
+      "securityType2": "Common Stock",
+      "securityDescription": "7203"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BCM9N1",
+      "name": "TOYOTA MOTOR CORP",
+      "ticker": "7203",
+      "exchCode": "JT",
+      "compositeFIGI": "BBG000BCM915",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S6BGT4",
+      "securityType2": "Common Stock",
+      "securityDescription": "7203"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BCM9N1",
+      "name": "TOYOTA MOTOR CORP",
+      "ticker": "7203",
+      "exchCode": "JT",
+      "compositeFIGI": "BBG000BCM915",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S6BGT4",
+      "securityType2": "Common Stock",
+      "securityDescription": "7203"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BCJHV8",
+      "name": "ROYAL BANK OF CANADA",
+      "ticker": "RY",
+      "exchCode": "CT",
+      "compositeFIGI": "BBG000BCJG31",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S60869",
+      "securityType2": "Common Stock",
+      "securityDescription": "RY"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BXPPX5",
+      "name": "BOMBARDIER INC-B",
+      "ticker": "BBD/B",
+      "exchCode": "CT",
+      "compositeFIGI": "BBG000BXPP29",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S5XZ38",
+      "securityType2": "Common Stock",
+      "securityDescription": "BBD/B"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG000BCJHV8",
+      "name": "ROYAL BANK OF CANADA",
+      "ticker": "RY",
+      "exchCode": "CT",
+      "compositeFIGI": "BBG000BCJG31",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S60869",
+      "securityType2": "Common Stock",
+      "securityDescription": "RY"
+     }
+    ]
+   },
+   {
+    "data": [
+     {
+      "figi": "BBG00HCYRYM6",
+      "name": "NESTLE SA-REG",
+      "ticker": "NESN",
+      "exchCode": "SE",
+      "compositeFIGI": "BBG000CPBD63",
+      "securityType": "Common Stock",
+      "marketSector": "Equity",
+      "shareClassFIGI": "BBG001S6BX08",
+      "securityType2": "Common Stock",
+      "securityDescription": "NESN"
+     }
+    ]
+   }
+  ]
+ }
+}
