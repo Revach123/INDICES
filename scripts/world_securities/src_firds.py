@@ -192,6 +192,8 @@ def build(mics):
         # המנפיק/שם לפי הרגולטור של השוק העיקרי (אם ידוע), אחרת ESMA
         pcc = (mics.get(primary) or {}).get("cc") if primary else None
         src = f if (pcc == "GB" and f) else base
+        other = e if src is f else f
+        lei_alt = other.get("lei") if other and other.get("lei") and other.get("lei") != src.get("lei") else None
         typ = CFI_TYPES.get(cfi[:2], ("Other", "אחר"))
         countries = sorted({l["cc"] for l in listings.values() if l["cc"]})
         region = ("UK" if pcc == "GB" else "EU") if pcc else ("EU" if any(c in EEA for c in countries) else "UK")
@@ -200,7 +202,7 @@ def build(mics):
             "name": src.get("name"), "short_name": src.get("short"), "cfi": cfi,
             "security_type": typ[0], "security_type_he": typ[1],
             "type_source": "cfi_" + ("fca" if src is f else "esma"),
-            "currency": src.get("ccy"), "lei": src.get("lei"),
+            "currency": src.get("ccy"), "lei": src.get("lei"), "lei_alt": lei_alt,
             "primary_mic": primary, "primary_oprt": oprt(primary) if primary else None, "primary_source": psrc,
             "country": pcc, "listings": sorted(listings.values(), key=lambda l: (l["o"], l["m"])),
             "listing_countries": countries, "n_venues": (e or {}).get("n_venues", 0) + (f or {}).get("n_venues", 0),
@@ -211,7 +213,10 @@ def build(mics):
     lookup = {}
     for reg in ("FCA", "ESMA"):   # ESMA גובר
         for isin, a in regs[reg].items():
-            lookup[isin] = {"cfi": a["cfi"], "lei": a["lei"], "name": a["name"], "ccy": a["ccy"], "reg": reg}
+            prev = lookup.get(isin)
+            alt = prev["lei"] if prev and prev.get("lei") and prev["lei"] != a["lei"] else None
+            lookup[isin] = {"cfi": a["cfi"], "lei": a["lei"], "lei_alt": alt, "name": a["name"], "ccy": a["ccy"],
+                            "reg": reg}
     top = dict(sorted(dropped.items(), key=lambda kv: -kv[1])[:40])
     log(f"firds: {len(rows)} listed securities; non-RM/MTF issuer venues dropped (mic|cat|status): {top}")
     meta = dict(meta, dropped_issuer_venues=top)

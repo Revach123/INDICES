@@ -21,7 +21,7 @@ import src_jpx as jpx  # noqa: E402
 import src_six as six  # noqa: E402
 import src_tmx as tmx  # noqa: E402
 from common import (CATEGORY_BY_TYPE, NOW_ISO, OUT_DIR, TODAY, count, dominant_exch_codes, figi_lookup,  # noqa: E402
-                    figi_pick, gleif_enrich, load_mics, log)
+                    figi_pick, gleif_enrich, gleif_isin_leis, load_mics, log)
 
 SECURITIES = os.path.join(OUT_DIR, "securities.jsonl")
 ISSUERS = os.path.join(OUT_DIR, "issuers.jsonl")
@@ -315,8 +315,10 @@ def main():
             n = (mics.get(o) or {}).get("short") or o
             if n not in names:
                 names.append(n)
-        r["primary_exchange"] = ((mics.get(r["primary_oprt"]) or {}).get("short") or r["primary_oprt"]
-                                 if r.get("primary_oprt") else None)
+        disp = r.pop("exchange_display_mic", None) or r.get("primary_oprt")
+        r["primary_exchange"] = ((mics.get(disp) or {}).get("short") or disp) if disp else None
+        if disp and names and disp != r.get("primary_oprt"):
+            names[0] = r["primary_exchange"]
         r["exchange_names"] = "; ".join(names)
         r["listing_mics"] = sorted({l["o"] for l in r["listings"]} | {l["m"] for l in r["listings"]})
         # רישום משני של חברה זרה: ISIN של מדינה מחוץ לאירופה, שונה ממדינת הבורסה (Apple ב-Warsaw
@@ -324,6 +326,26 @@ def main():
         home = (r.get("isin") or "")[:2]
         r["foreign_listing"] = 1 if (r["market"] in ("EU_UK", "CH") and home and home not in EUROPE
                                      and home != r.get("country")) else None
+
+    # LEI: כשהרגולטורים חלוקים (ESMA מול FCA) - ה-LEI שמשויך ל-ISIN במיפוי הרשמי של GLEIF
+    conflicts = [r for r in today if r.get("lei_alt") and r.get("isin")]
+    try:
+        gleif_isin_leis({r["isin"] for r in conflicts}, gleif_cache, GLEIF_BUDGET)
+    except Exception as e:  # noqa: BLE001
+        log(f"gleif-isin FAILED {e!r}")
+    fixed = 0
+    for r in today:
+        r["lei_source"] = "regulator" if r.get("lei") else None
+        if r.get("lei_alt") and r.get("isin"):
+            leis = set((gleif_cache.get("isin:" + r["isin"]) or {}).get("leis") or [])
+            pick = leis & {r["lei"], r["lei_alt"]}
+            if len(pick) == 1:
+                chosen = next(iter(pick))
+                if chosen != r["lei"]:
+                    r["lei_alt"], r["lei"] = r["lei"], chosen
+                    fixed += 1
+                r["lei_source"] = "gleif_isin"
+    log(f"lei: {len(conflicts)} ISINs with conflicting regulator LEIs, {fixed} switched to GLEIF's ISIN mapping")
 
     # GLEIF
     leis = {r["lei"] for r in today if r.get("lei")}

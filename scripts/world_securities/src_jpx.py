@@ -62,6 +62,7 @@ def build():
             "sector": clean(r.get("33 Sector(name)")), "sector_code": clean(r.get("33 Sector(Code)")),
             "sector17": clean(r.get("17 Sector(name)")), "size_group": clean(r.get("Size (New Index Series)")),
             "currency": "JPY", "primary_mic": "XTKS", "primary_oprt": "XJPX", "primary_source": "exchange",
+            "exchange_display_mic": "XTKS",   # "TOKYO STOCK EXCHANGE" ולא המפעיל "JAPAN EXCHANGE GROUP"
             "listings": [{"m": "XTKS", "o": "XJPX", "cc": "JP", "cat": "RMKT", "r": "JPX"}],
             "listing_countries": ["JP"],
             "ticker": code, "tickers": [code], "ticker_source": "exchange",

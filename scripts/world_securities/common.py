@@ -221,6 +221,28 @@ def gleif_enrich(leis, cache, budget_sec=1200):
     log(f"gleif: fetched {done}")
 
 
+def gleif_isin_leis(isins, cache, budget_sec=900):
+    """GLEIF ממפה ISIN -> LEI (מיפוי רשמי של ANNA/GLEIF). cache: 'isin:X' -> {leis, d}.
+    משמש להכרעה כשהרגולטורים (ESMA/FCA) מדווחים LEI שונה לאותו ISIN."""
+    cut = (NOW - datetime.timedelta(days=GLEIF_REFRESH_DAYS * 3)).isoformat()
+    todo = sorted(i for i in isins if (cache.get("isin:" + i) or {}).get("d", "") < cut)
+    log(f"gleif-isin: {len(todo)} ISINs to resolve ({len(isins)} with conflicting regulator LEIs)")
+    start, done = time.monotonic(), 0
+    for i in todo:
+        if time.monotonic() - start > budget_sec:
+            log(f"gleif-isin: budget reached, {len(todo) - done} deferred")
+            break
+        try:
+            r = get(GLEIF_URL, params={"filter[isin]": i, "page[size]": 10})
+        except Exception as e:  # noqa: BLE001
+            log(f"gleif-isin: failed {e!r} - stopping")
+            break
+        cache["isin:" + i] = {"leis": sorted(x["id"] for x in r.json().get("data", [])), "d": NOW_ISO}
+        done += 1
+        time.sleep(1.05)
+    log(f"gleif-isin: resolved {done}")
+
+
 # ------------------------------------------------------------------ OpenFIGI (לפי MIC)
 
 OPENFIGI_URL = "https://api.openfigi.com/v3/mapping"
