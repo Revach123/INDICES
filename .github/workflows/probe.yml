@@ -25,18 +25,21 @@ jobs:
         run: python scripts/probe_instrument_types.py
       - name: Probe MAOF underlying list sources
         run: python scripts/probe_maof.py
+      - name: Verify TASE stock tickers against Yahoo Finance
+        run: python scripts/probe_tase_stocks.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: probe_out
           path: probe_out/
-      - name: Commit readable MAOF probe text (for inspection via raw.githubusercontent.com)
+      - name: Commit readable probe text/json (for inspection via raw.githubusercontent.com)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p probe_out_committed
           cp probe_out/*.txt probe_out_committed/ 2>/dev/null || true
+          cp probe_out/tase_stocks.json probe_out_committed/ 2>/dev/null || true
           git add probe_out_committed
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "MAOF probe: readable text snapshot for inspection"
+          git commit -m "Probe: readable text/json snapshot for inspection"
           git push
