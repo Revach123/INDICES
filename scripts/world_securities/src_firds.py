@@ -4,10 +4,10 @@
 האם המנפיק ביקש/אישר את הרישום (IssrReq) ותאריך מסחר ראשון/סיום. בנוסף TechAttrbts/RlvntTradgVn -
 "הזירה הרלוונטית ביותר" שקבע הרגולטור.
 
-"רשום בבורסה" אצלנו = יש לפחות זירה אחת עם IssrReq=true (רישום ביוזמת/באישור המנפיק), שהיא שוק
-מוסדר (RMKT) או MTF (MLTF) לפי ISO 10383, ושלא הסתיים בה המסחר. כך נכנסים שוק ראשי + שווקי צמיחה
-(AIM, Euronext Growth, First North), ולא נכנס מסחר משני בלי המנפיק (Freiverkehr/Tradegate) או
-מוצרים מובנים של בנקים (CFI EY).
+"רשום בבורסה" אצלנו = יש לפחות זירה אחת עם IssrReq=true (רישום ביוזמת/באישור המנפיק) שלא הסתיים
+בה המסחר, ושאינה במפורש זירה שאינה בורסה (SI/OTF/ספקי דיווח - ר' NON_EXCHANGE_CATS). כך נכנסים שוק
+ראשי + שווקי צמיחה (AIM, Euronext Growth, First North), ולא נכנס מסחר משני בלי המנפיק
+(Freiverkehr/Tradegate) או מוצרים מובנים של בנקים (CFI EY).
 
 שוק עיקרי (primary_mic), לפי הסדר, רק אם חד-משמעי:
   rlvnt        - הזירה הרלוונטית של הרגולטור, אם היא אחת מזירות הרישום
@@ -27,7 +27,10 @@ from common import CFI_TYPES, NOW, TODAY, get, log
 ESMA_FILES = "https://registers.esma.europa.eu/solr/esma_registers_firds_files/select"
 FCA_FILES = "https://api.data.fca.org.uk/fca_data_firds_files"
 CATEGORIES = ("E", "C")
-LISTED_CATS = {"RMKT", "MLTF"}
+# הקטגוריה ב-ISO 10383 לא אמינה לשווקים (כל ה-LSE כולל AIM, Euronext Growth, First North ו-Euro MTF
+# מסומנים NSPD - "לא מוגדר"), לכן הסימן לרישום הוא IssrReq של הרגולטור, והקטגוריה משמשת רק להוצאת
+# זירות שבמפורש אינן בורסה: מבצע מסחר עצמי (SINT), OTF, וספקי דיווח/נתונים (APA/ARM/CTP/CASP).
+NON_EXCHANGE_CATS = {"SINT", "OTFS", "APPA", "ARMS", "CTPS", "CASP"}
 SKIP_CFI2 = {"EY"}     # מוצרים מובנים (תעודות/אופציות בנקאיות) - לא ניירות של מנפיק ברישום
 FILE_RX = re.compile(r"^FULINS_([A-Z])_(\d{8})_(\d+)of(\d+)\.zip$")
 EEA = {"AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU",
@@ -156,7 +159,7 @@ def build(mics):
         for reg, a in (("ESMA", e), ("FCA", f)):
             for mic, first in ((a or {}).get("req") or {}).items():
                 m = mics.get(mic) or {}
-                if m.get("cat") not in LISTED_CATS:
+                if m.get("cat") in NON_EXCHANGE_CATS:
                     dk = f"{mic}|{m.get('cat') or '?'}|{m.get('status') or '?'}"
                     dropped[dk] = dropped.get(dk, 0) + 1
                     continue
