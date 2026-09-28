@@ -103,6 +103,8 @@ def load_mics():
         }
     if len(mics) < 1000:
         raise RuntimeError(f"MIC list too small: {len(mics)}")
+    for m in mics.values():
+        m["short"] = short_exchange_name(m.get("name"))
     # MIC תפעולי (OPRT) מסומן לרוב NSPD ("לא מוגדר") - סוג השוק מופיע רק על הסגמנטים שלו.
     # FIRDS מדווח לפעמים את ה-MIC התפעולי (XPAR, XLON, XMIL), אז הוא מקבל את סוג הסגמנטים:
     # RMKT אם יש לו סגמנט שוק מוסדר פעיל, אחרת MLTF אם יש סגמנט MTF.
@@ -117,6 +119,25 @@ def load_mics():
             if eff:
                 m["cat_raw"], m["cat"] = m.get("cat"), eff
     return mics
+
+
+LEGAL_SUFFIXES = (" AKTIENGESELLSCHAFT", " S.P.A.", " S.A.", " A/S", " ASA", " PLC", " AG", " AB", " SA", " HF.",
+                  " HF", " AD", " A.S.", " D.D.", " SE", " LTD", " LIMITED", " GMBH", " B.V.", " N.V.")
+
+
+def short_exchange_name(name):
+    """שם תצוגה קצר מהשם הרשמי ב-ISO 10383 (רק לתצוגה):
+    'EURONEXT - EURONEXT PARIS' -> 'EURONEXT PARIS', 'WIENER BOERSE AG' -> 'WIENER BOERSE'."""
+    n = (name or "").strip()
+    if " - " in n:
+        head, tail = n.split(" - ", 1)
+        if tail.startswith(head):          # EURONEXT - EURONEXT PARIS
+            n = tail
+    for suf in LEGAL_SUFFIXES:
+        if n.endswith(suf) and len(n) > len(suf) + 3:
+            n = n[: -len(suf)].rstrip(" ,")
+            break
+    return n or None
 
 
 # ------------------------------------------------------------------ ISO 10962 (CFI)

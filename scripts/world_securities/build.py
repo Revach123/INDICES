@@ -137,6 +137,29 @@ def merge_swiss_into_eu(results):
     return [r for rows in results.values() for r in rows]
 
 
+EUROPE = firds.EEA | {"GB", "CH"}
+
+
+def fill_isin_from_share_class(rows, cache, dominant):
+    """יפן/קנדה (המקורות בלי ISIN): ISIN רשמי מ-FIRDS/SIX של אותו נייר בדיוק - שורה אירופית עם
+    אותו Share Class FIGI וקידומת ISIN של מדינת הבורסה (CA/JP). רק התאמה יחידה."""
+    by_sc = {}
+    for r in rows:
+        if r["market"] in ("EU_UK", "CH") and r.get("isin"):
+            apply_figi(r, cache, dominant)
+            if r.get("share_class_figi"):
+                by_sc.setdefault(r["share_class_figi"], set()).add(r["isin"])
+    filled = 0
+    for r in rows:
+        if r["market"] in ("JP", "CA") and not r.get("isin"):
+            apply_figi(r, cache, dominant)
+            isins = {i for i in by_sc.get(r.get("share_class_figi") or "", set()) if i[:2] == r["country"]}
+            if len(isins) == 1:
+                r["isin"], r["isin_source"] = next(iter(isins)), "firds_share_class"
+                filled += 1
+    log(f"isin: {filled} JP/CA securities got the regulator's ISIN via the same share-class FIGI")
+
+
 def figi_jobs(rows):
     """key -> job. סדר: שווקים קטנים קודם (נגמרים מהר), אחר כך ראשי באירופה, אחר כך שאר הבורסות."""
     first, eu_primary, eu_other = {}, {}, {}
@@ -244,12 +267,18 @@ def main():
             l["o"] = (mics.get(l["m"]) or {}).get("oprt") or l["o"]
         names = []
         for o in ([r["primary_oprt"]] if r.get("primary_oprt") else []) + sorted({l["o"] for l in r["listings"]}):
-            n = (mics.get(o) or {}).get("name") or o
+            n = (mics.get(o) or {}).get("short") or o
             if n not in names:
                 names.append(n)
-        r["primary_exchange"] = (mics.get(r["primary_oprt"]) or {}).get("name") if r.get("primary_oprt") else None
+        r["primary_exchange"] = ((mics.get(r["primary_oprt"]) or {}).get("short") or r["primary_oprt"]
+                                 if r.get("primary_oprt") else None)
         r["exchange_names"] = "; ".join(names)
         r["listing_mics"] = sorted({l["o"] for l in r["listings"]} | {l["m"] for l in r["listings"]})
+        # רישום משני של חברה זרה: ISIN של מדינה מחוץ לאירופה, שונה ממדינת הבורסה (Apple ב-Warsaw
+        # Global Connect, Bank of Montreal בבורסת סופיה). נתון רשמי - מסומן, לא מוסתר.
+        home = (r.get("isin") or "")[:2]
+        r["foreign_listing"] = 1 if (r["market"] in ("EU_UK", "CH") and home and home not in EUROPE
+                                     and home != r.get("country")) else None
 
     # GLEIF
     leis = {r["lei"] for r in today if r.get("lei")}
@@ -266,6 +295,8 @@ def main():
     dominant = dominant_exch_codes(figi_cache)
     log(f"openfigi: dominant exchCode per MIC: {dict(sorted(dominant.items()))}")
 
+    fill_isin_from_share_class(today, figi_cache, dominant)
+
     # מיזוג
     out = {}
     pending = 0
@@ -277,6 +308,8 @@ def main():
             for k in FIGI_FIELDS + ("ticker", "tickers", "figi_ticker", "ticker_source"):
                 if r.get(k) in (None, [], "") and old.get(k) not in (None, [], ""):
                     r[k] = old[k]
+        if r["market"] in ("JP", "CA") and not r.get("isin") and old.get("isin"):
+            r["isin"], r["isin_source"] = old["isin"], old.get("isin_source")   # התאמה מדויקת מריצה קודמת
         if r["market"] == "CA" and r.get("type_source") is None:
             t = FIGI_TYPES.get(r.get("figi_security_type") or "")
             if t:
