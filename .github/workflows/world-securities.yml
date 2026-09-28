@@ -17,11 +17,6 @@ on:
         description: "OpenFIGI time budget (seconds)"
         required: false
         default: "9000"
-  push:
-    branches: ["claude/**"]
-    paths:
-      - "scripts/world_securities/**"
-      - ".github/workflows/world-securities.yml"
 
 permissions:
   contents: write

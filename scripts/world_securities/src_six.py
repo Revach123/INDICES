@@ -83,7 +83,7 @@ def build(firds_lookup):
             "security_type": typ[0], "security_type_he": typ[1], "type_source": tsrc,
             "exchange_segment": x["seg"], "exchange_product_line": r.get("ProductLine"),
             "exchange_sec_type": r.get("SecTypeCode"), "share_class_desc": iss.get("classOfShare"),
-            "currency": ",".join(sorted(x["ccys"])) or None, "lei": fl.get("lei"),
+            "currency": ",".join(sorted(x["ccys"])) or None, "lei": fl.get("lei"), "lei_alt": fl.get("lei_alt"),
             "issuer_name_exchange": r.get("IssuerNameFull"),
             "issuer_country_exchange": iss.get("country"),
             "primary_listing": {True: 1, False: 0}.get(iss.get("primaryListing")),
