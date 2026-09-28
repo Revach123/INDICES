@@ -10,6 +10,83 @@
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
+"AIMX": {
+"acronym": "LSE",
+"cat": "NSPD",
+"cc": "GB",
+"city": "LONDON",
+"name": "LONDON STOCK EXCHANGE - AIM MTF",
+"oprt": "XLON",
+"short": "LONDON STOCK EXCHANGE - AIM MTF",
+"status": "ACTIVE",
+"website": "WWW.LONDONSTOCKEXCHANGE.COM"
+},
+"ALXB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "BE",
+"city": "BRUSSELS",
+"name": "EURONEXT GROWTH BRUSSELS",
+"oprt": "XBRU",
+"short": "EURONEXT GROWTH BRUSSELS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"ALXL": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "PT",
+"city": "LISBON",
+"name": "EURONEXT GROWTH LISBON",
+"oprt": "XLIS",
+"short": "EURONEXT GROWTH LISBON",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"ALXP": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "EURONEXT GROWTH PARIS",
+"oprt": "XPAR",
+"short": "EURONEXT GROWTH PARIS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"AQEA": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "AQUIS EXCHANGE EUROPE AUCTION ON DEMAND (AOD)",
+"oprt": "AQEU",
+"short": "AQUIS EXCHANGE EUROPE AUCTION ON DEMAND (AOD)",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQED": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "AQUIS EXCHANGE EUROPE NON DISPLAY ORDER BOOK (NDOB)",
+"oprt": "AQEU",
+"short": "AQUIS EXCHANGE EUROPE NON DISPLAY ORDER BOOK (NDOB)",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQEU": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "AQUIS EXCHANGE EUROPE",
+"oprt": "AQEU",
+"short": "AQUIS EXCHANGE EUROPE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
 "AQSE": {
 "acronym": "AQSE",
 "cat": "RMKT",
@@ -275,6 +352,61 @@
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
+"DNDK": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "FIRST NORTH DENMARK - NORDIC@MID",
+"oprt": "XCSE",
+"short": "FIRST NORTH DENMARK - NORDIC@MID",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DNFI": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "FIRST NORTH FINLAND - NORDIC@MID",
+"oprt": "XHEL",
+"short": "FIRST NORTH FINLAND - NORDIC@MID",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DNSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - NORDIC@MID",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - NORDIC@MID",
+"status": "ACTIVE",
+"website": "NASDAQOMXNORDIC.COM/FIRSTNORTH"
+},
+"DOSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - NORWAY NORDIC@MID",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - NORWAY NORDIC@MID",
+"status": "ACTIVE",
+"website": "NASDAQOMXNORDIC.COM/FIRSTNORTH"
+},
+"DSME": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "FIRST NORTH DENMARK -SME GROWTH MARKET",
+"oprt": "XCSE",
+"short": "FIRST NORTH DENMARK -SME GROWTH MARKET",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
 "DSTO": {
 "acronym": "",
 "cat": "RMKT",
@@ -297,6 +429,17 @@
 "status": "ACTIVE",
 "website": ""
 },
+"DUSB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "DUESSELDORF",
+"name": "BOERSE DUESSELDORF - FREIVERKEHR",
+"oprt": "XDUS",
+"short": "BOERSE DUESSELDORF - FREIVERKEHR",
+"status": "ACTIVE",
+"website": ""
+},
 "DUSC": {
 "acronym": "",
 "cat": "RMKT",
@@ -307,6 +450,39 @@
 "short": "BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT",
 "status": "ACTIVE",
 "website": ""
+},
+"EMTF": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "LU",
+"city": "LUXEMBOURG",
+"name": "EURO MTF",
+"oprt": "XLUX",
+"short": "EURO MTF",
+"status": "ACTIVE",
+"website": "WWW.BOURSE.LU"
+},
+"ENAX": {
+"acronym": "ENAX",
+"cat": "NSPD",
+"cc": "GR",
+"city": "ATHENS",
+"name": "ATHENS EXCHANGE ALTERNATIVE MARKET",
+"oprt": "ASEX",
+"short": "ATHENS EXCHANGE ALTERNATIVE MARKET",
+"status": "ACTIVE",
+"website": "WWW.ATHEXGROUP.GR"
+},
+"ENXL": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "PT",
+"city": "LISBOA",
+"name": "EURONEXT ACCESS LISBON",
+"oprt": "XLIS",
+"short": "EURONEXT ACCESS LISBON",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
 },
 "ETFP": {
 "acronym": "ETFPLUS",
@@ -319,6 +495,61 @@
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
+"EXGM": {
+"acronym": "EGM",
+"cat": "NSPD",
+"cc": "IT",
+"city": "MILAN",
+"name": "EURONEXT GROWTH MILAN",
+"oprt": "XMIL",
+"short": "EURONEXT GROWTH MILAN",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"FNEE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "EE",
+"city": "TALLINN",
+"name": "FIRST NORTH ESTONIA",
+"oprt": "XTAL",
+"short": "FIRST NORTH ESTONIA",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
+"FNIS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "IS",
+"city": "REYKJAVIK",
+"name": "FIRST NORTH ICELAND",
+"oprt": "XICE",
+"short": "FIRST NORTH ICELAND",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"FNLT": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "LT",
+"city": "VILNIUS",
+"name": "FIRST NORTH LITHUANIA",
+"oprt": "XLIT",
+"short": "FIRST NORTH LITHUANIA",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
+"FNLV": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "LV",
+"city": "RIGA",
+"name": "FIRST NORTH LATVIA",
+"oprt": "XRIS",
+"short": "FIRST NORTH LATVIA",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
 "FRAA": {
 "acronym": "",
 "cat": "RMKT",
@@ -327,6 +558,61 @@
 "name": "BOERSE FRANKFURT - REGULIERTER MARKT",
 "oprt": "XFRA",
 "short": "BOERSE FRANKFURT - REGULIERTER MARKT",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FRAB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - FREIVERKEHR",
+"oprt": "XFRA",
+"short": "BOERSE FRANKFURT - FREIVERKEHR",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FRAS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - SCALE",
+"oprt": "XFRA",
+"short": "BOERSE FRANKFURT - SCALE",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FRAU": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - REGULIERTERMARKT - OFF-BOOK",
+"oprt": "XFRA",
+"short": "BOERSE FRANKFURT - REGULIERTERMARKT - OFF-BOOK",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FRAV": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+"oprt": "XFRA",
+"short": "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FRAW": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - SCALE - OFF-BOOK",
+"oprt": "XFRA",
+"short": "BOERSE FRANKFURT - SCALE - OFF-BOOK",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -341,6 +627,28 @@
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
 },
+"GBUL": {
+"acronym": "BEAM",
+"cat": "NSPD",
+"cc": "BG",
+"city": "SOFIA",
+"name": "BULGARIAN STOCK EXCHANGE - SME GROWTH MARKET BEAM",
+"oprt": "XBUL",
+"short": "BULGARIAN STOCK EXCHANGE - SME GROWTH MARKET BEAM",
+"status": "ACTIVE",
+"website": "WWW.BSE-SOFIA.BG"
+},
+"GROW": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "ES",
+"city": "MADRID",
+"name": "BME GROWTH MARKET",
+"oprt": "BMEX",
+"short": "BME GROWTH MARKET",
+"status": "ACTIVE",
+"website": "WWW.BMEGROWTH.ES"
+},
 "HAMA": {
 "acronym": "",
 "cat": "RMKT",
@@ -349,6 +657,17 @@
 "name": "BOERSE HAMBURG - REGULIERTER MARKT",
 "oprt": "XHAM",
 "short": "BOERSE HAMBURG - REGULIERTER MARKT",
+"status": "ACTIVE",
+"website": ""
+},
+"HAMB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "HAMBURG",
+"name": "BOERSE HAMBURG - FREIVERKEHR",
+"oprt": "XHAM",
+"short": "BOERSE HAMBURG - FREIVERKEHR",
 "status": "ACTIVE",
 "website": ""
 },
@@ -374,6 +693,28 @@
 "status": "ACTIVE",
 "website": ""
 },
+"HANB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "HANNOVER",
+"name": "BOERSE HANNOVER - FREIVERKEHR",
+"oprt": "XHAN",
+"short": "BOERSE HANNOVER - FREIVERKEHR",
+"status": "ACTIVE",
+"website": ""
+},
+"HMOD": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "IT",
+"city": "MILANO",
+"name": "HI-MTF ORDER DRIVEN",
+"oprt": "HMTF",
+"short": "HI-MTF ORDER DRIVEN",
+"status": "ACTIVE",
+"website": "WWW.HIMTF.COM"
+},
 "HMTF": {
 "acronym": "",
 "cat": "MLTF",
@@ -397,6 +738,17 @@
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
+"MABX": {
+"acronym": "MAB",
+"cat": "NSPD",
+"cc": "ES",
+"city": "MADRID",
+"name": "BME MTF EQUITY (IIC AND ECR SEGMENTS)",
+"oprt": "BMEX",
+"short": "BME MTF EQUITY (IIC AND ECR SEGMENTS)",
+"status": "ACTIVE",
+"website": "WWW.BMEGROWTH.ES"
+},
 "MCSE": {
 "acronym": "",
 "cat": "RMKT",
@@ -407,6 +759,17 @@
 "short": "NASDAQ COPENHAGEN A/S - AUCTION ON DEMAND",
 "status": "ACTIVE",
 "website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MERK": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "NO",
+"city": "OSLO",
+"name": "EURONEXT GROWTH - OSLO",
+"oprt": "XOSL",
+"short": "EURONEXT GROWTH - OSLO",
+"status": "ACTIVE",
+"website": "WWW.OSLOBORS.NO"
 },
 "MHEL": {
 "acronym": "",
@@ -441,6 +804,72 @@
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
 },
+"MLXB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "BE",
+"city": "BRUSSELS",
+"name": "EURONEXT ACCESS BRUSSELS",
+"oprt": "XBRU",
+"short": "EURONEXT ACCESS BRUSSELS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"MNDK": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "FIRST NORTH DENMARK - AUCTION ON DEMAND",
+"oprt": "XCSE",
+"short": "FIRST NORTH DENMARK - AUCTION ON DEMAND",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MNFI": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "FIRST NORTH FINLAND - AUCTION ON DEMAND",
+"oprt": "XHEL",
+"short": "FIRST NORTH FINLAND - AUCTION ON DEMAND",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MNIS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "IS",
+"city": "REYKJAVIK",
+"name": "FIRST NORTH ICELAND - AUCTION ON DEMAND",
+"oprt": "XICE",
+"short": "FIRST NORTH ICELAND - AUCTION ON DEMAND",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MNSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - AUCTION ON DEMAND",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - AUCTION ON DEMAND",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MOSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - NORWAY AUCTION ON DEMAND",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - NORWAY AUCTION ON DEMAND",
+"status": "ACTIVE",
+"website": "NASDAQOMXNORDIC.COM/FIRSTNORTH"
+},
 "MSTO": {
 "acronym": "",
 "cat": "RMKT",
@@ -474,6 +903,17 @@
 "status": "ACTIVE",
 "website": "WWW.BOERSE-MUENCHEN.DE"
 },
+"MUNB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "MUENCHEN",
+"name": "BOERSE MUENCHEN - FREIVERKEHR",
+"oprt": "XMUN",
+"short": "BOERSE MUENCHEN - FREIVERKEHR",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-MUENCHEN.DE"
+},
 "MUNC": {
 "acronym": "",
 "cat": "RMKT",
@@ -482,6 +922,17 @@
 "name": "BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT",
 "oprt": "XMUN",
 "short": "BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT",
+"status": "ACTIVE",
+"website": "WWW.GETTEX.DE"
+},
+"MUND": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "MUENCHEN",
+"name": "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
+"oprt": "XMUN",
+"short": "BOERSE MUENCHEN - GETTEX - FREIVERKEHR",
 "status": "ACTIVE",
 "website": "WWW.GETTEX.DE"
 },
@@ -496,6 +947,28 @@
 "status": "ACTIVE",
 "website": "WWW.NPEX.NL"
 },
+"NSME": {
+"acronym": "NGM",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "NORDIC SME",
+"oprt": "XNGM",
+"short": "NORDIC SME",
+"status": "ACTIVE",
+"website": "WWW.NGM.SE"
+},
+"ONSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - NORWAY",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - NORWAY",
+"status": "ACTIVE",
+"website": "NASDAQOMXNORDIC.COM/FIRSTNORTH"
+},
 "POSE": {
 "acronym": "",
 "cat": "MLTF",
@@ -507,6 +980,39 @@
 "status": "ACTIVE",
 "website": "WWW.PORTFOLIO.EXCHANGE"
 },
+"PPEX": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "GB",
+"city": "LONDON",
+"name": "PROPERTY PARTNER EXCHANGE",
+"oprt": "PPEX",
+"short": "PROPERTY PARTNER EXCHANGE",
+"status": "ACTIVE",
+"website": "WWW.PROPERTYPARTNER.CO"
+},
+"PROS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "MT",
+"city": "VALLETTA",
+"name": "PROSPECTS",
+"oprt": "XMAL",
+"short": "PROSPECTS",
+"status": "ACTIVE",
+"website": "WWW.SMEPROSPECTS.COM"
+},
+"SSME": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "FIRST NORTH SWEDEN - SME GROWTH MARKET",
+"oprt": "XSTO",
+"short": "FIRST NORTH SWEDEN - SME GROWTH MARKET",
+"status": "ACTIVE",
+"website": "NASDAQOMXNORDIC.COM"
+},
 "STUA": {
 "acronym": "",
 "cat": "RMKT",
@@ -515,6 +1021,17 @@
 "name": "BOERSE STUTTGART - REGULIERTER MARKT",
 "oprt": "XSTU",
 "short": "BOERSE STUTTGART - REGULIERTER MARKT",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"STUB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - FREIVERKEHR",
+"oprt": "XSTU",
+"short": "BOERSE STUTTGART - FREIVERKEHR",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-STUTTGART.DE"
 },
@@ -528,6 +1045,50 @@
 "short": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 2",
 "status": "ACTIVE",
 "website": "WWW.BOERSE-STUTTGART.DE"
+},
+"STUD": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 2",
+"oprt": "XSTU",
+"short": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 2",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"STUE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 3",
+"oprt": "XSTU",
+"short": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 3",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"STUF": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 3",
+"oprt": "XSTU",
+"short": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 3",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"VPXB": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "BE",
+"city": "BRUSSELS",
+"name": "EURONEXT - VENTES PUBLIQUES BRUSSELS",
+"oprt": "XBRU",
+"short": "EURONEXT - VENTES PUBLIQUES BRUSSELS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
 },
 "WBAH": {
 "acronym": "",
@@ -662,6 +1223,17 @@
 "status": "ACTIVE",
 "website": "WWW.BSE-SOFIA.BG"
 },
+"XCAN": {
+"acronym": "",
+"cat": "ATSS",
+"cc": "RO",
+"city": "BUCHAREST",
+"name": "CAN - ATS",
+"oprt": "XBSE",
+"short": "CAN - ATS",
+"status": "ACTIVE",
+"website": "WWW.BVB.RO"
+},
 "XCSE": {
 "acronym": "",
 "cat": "RMKT",
@@ -709,6 +1281,28 @@
 "status": "ACTIVE",
 "website": "WWW.BOERSE-DUESSELDORF.DE"
 },
+"XECM": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "CY",
+"city": "NICOSIA",
+"name": "MTF - CYPRUS EXCHANGE",
+"oprt": "XCYS",
+"short": "MTF - CYPRUS EXCHANGE",
+"status": "ACTIVE",
+"website": "WWW.CSE.COM.CY/EN/DEFAULT.ASP"
+},
+"XESM": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "IE",
+"city": "DUBLIN",
+"name": "EURONEXT GROWTH DUBLIN",
+"oprt": "XDUB",
+"short": "EURONEXT GROWTH DUBLIN",
+"status": "ACTIVE",
+"website": "WWW.ISE.IE"
+},
 "XETA": {
 "acronym": "XETRA",
 "cat": "RMKT",
@@ -717,6 +1311,17 @@
 "name": "XETRA - REGULIERTER MARKT",
 "oprt": "XETR",
 "short": "XETRA - REGULIERTER MARKT",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XETB": {
+"acronym": "XETRA",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - FREIVERKEHR",
+"oprt": "XETR",
+"short": "XETRA - FREIVERKEHR",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
@@ -732,6 +1337,17 @@
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
+"XETS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - SCALE",
+"oprt": "XETR",
+"short": "XETRA - SCALE",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
 "XETU": {
 "acronym": "",
 "cat": "RMKT",
@@ -742,6 +1358,39 @@
 "short": "XETRA - REGULIERTERMARKT - OFF-BOOK",
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XETV": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - FREIVERKEHR - OFF-BOOK",
+"oprt": "XETR",
+"short": "XETRA - FREIVERKEHR - OFF-BOOK",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XETW": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - SCALE - OFF-BOOK",
+"oprt": "XETR",
+"short": "XETRA - SCALE - OFF-BOOK",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XEYE": {
+"acronym": "ISE GEM",
+"cat": "NSPD",
+"cc": "IE",
+"city": "DUBLIN",
+"name": "IRISH STOCK EXCHANGE  - GLOBAL EXCHANGE MARKET",
+"oprt": "XDUB",
+"short": "IRISH STOCK EXCHANGE  - GLOBAL EXCHANGE MARKET",
+"status": "ACTIVE",
+"website": "WWW.ISE.IE"
 },
 "XFRA": {
 "acronym": "",
@@ -824,6 +1473,17 @@
 "status": "ACTIVE",
 "website": "WWW.JPX.CO.JP"
 },
+"XLAT": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "ES",
+"city": "MADRID",
+"name": "LATIBEX",
+"oprt": "BMEX",
+"short": "LATIBEX",
+"status": "ACTIVE",
+"website": "WWW.LATIBEX.COM"
+},
 "XLIS": {
 "acronym": "",
 "cat": "RMKT",
@@ -846,6 +1506,17 @@
 "status": "ACTIVE",
 "website": "WWW.NASDAQBALTIC.COM"
 },
+"XLJM": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "SI",
+"city": "LJUBLJANA",
+"name": "SI ENTER",
+"oprt": "XLJU",
+"short": "SI ENTER",
+"status": "ACTIVE",
+"website": "WWW.LJSE.SI"
+},
 "XLJU": {
 "acronym": "",
 "cat": "RMKT",
@@ -856,6 +1527,28 @@
 "short": "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
 "status": "ACTIVE",
 "website": "WWW.LJSE.SI"
+},
+"XLOM": {
+"acronym": "LSE",
+"cat": "NSPD",
+"cc": "GB",
+"city": "LONDON",
+"name": "LONDON STOCK EXCHANGE - MTF",
+"oprt": "XLON",
+"short": "LONDON STOCK EXCHANGE - MTF",
+"status": "ACTIVE",
+"website": "WWW.LONDONSTOCKEXCHANGE.COM"
+},
+"XLON": {
+"acronym": "LSE",
+"cat": "NSPD",
+"cc": "GB",
+"city": "LONDON",
+"name": "LONDON STOCK EXCHANGE",
+"oprt": "XLON",
+"short": "LONDON STOCK EXCHANGE",
+"status": "ACTIVE",
+"website": "WWW.LONDONSTOCKEXCHANGE.COM"
 },
 "XLUX": {
 "acronym": "",
@@ -901,6 +1594,17 @@
 "short": "BORSA ITALIANA",
 "status": "ACTIVE",
 "website": "WWW.BORSAITALIANA.IT"
+},
+"XMLI": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FR",
+"city": "PARIS",
+"name": "EURONEXT ACCESS PARIS",
+"oprt": "XPAR",
+"short": "EURONEXT ACCESS PARIS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
 },
 "XMSM": {
 "acronym": "",
@@ -1014,6 +1718,17 @@
 "status": "ACTIVE",
 "website": "WWW.PSE.CZ"
 },
+"XPRM": {
+"acronym": "PSE",
+"cat": "NSPD",
+"cc": "CZ",
+"city": "PRAGUE",
+"name": "PRAGUE STOCK EXCHANGE - MTF",
+"oprt": "XPRA",
+"short": "PRAGUE STOCK EXCHANGE - MTF",
+"status": "ACTIVE",
+"website": "WWW.PSE.CZ"
+},
 "XRIS": {
 "acronym": "",
 "cat": "RMKT",
@@ -1091,6 +1806,17 @@
 "short": "TOKYO STOCK EXCHANGE",
 "status": "ACTIVE",
 "website": "WWW.JPX.CO.JP"
+},
+"XTND": {
+"acronym": "XTND",
+"cat": "NSPD",
+"cc": "HU",
+"city": "BUDAPEST",
+"name": "XTEND",
+"oprt": "XBUD",
+"short": "XTEND",
+"status": "ACTIVE",
+"website": "WWW.BET.HU"
 },
 "XTSE": {
 "acronym": "TSX",
