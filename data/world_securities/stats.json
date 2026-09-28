@@ -90,7 +90,7 @@
    }
   },
   "EU_UK": {
-   "figi": 7265,
+   "figi": 8748,
    "n": 18831,
    "ticker": 10233,
    "types": {
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-09-28T17:51:42+00:00",
+ "generated_at": "2026-09-28T17:59:09+00:00",
  "issuers": 13389,
  "mic_samples": {
   "AIMX": {
@@ -287,7 +287,7 @@
  },
  "total": 29308,
  "unmapped_figi_types": {},
- "with_figi": 17237,
+ "with_figi": 18720,
  "with_isin": 23796,
  "with_issuer": 19826,
  "with_lei": 19826,
