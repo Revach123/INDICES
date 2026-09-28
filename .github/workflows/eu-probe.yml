@@ -1,0 +1,46 @@
+name: EU securities source probe
+
+# בדיקת היתכנות למאגר ניי"ע אירופי (ESMA/FCA FIRDS, GLEIF, ISO MIC).
+# מקמט את הסיכומים ל-probe_out_committed/eu_*.json באותו ענף.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - "scripts/eu_securities/probe_firds.py"
+      - ".github/workflows/eu-probe.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eu-probe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Probe
+        run: python scripts/eu_securities/probe_firds.py
+      - name: Commit probe output
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p probe_out_committed
+          cp probe_out/eu_*.json probe_out_committed/ 2>/dev/null || true
+          git add probe_out_committed
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "EU probe output"
+          for i in 1 2 3; do git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0; sleep 5; done
+          exit 1
