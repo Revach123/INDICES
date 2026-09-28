@@ -1,9 +1,17 @@
-"""מושך היסטוריית מחירים (OHLC יומי, כל הטווח הזמין) לכל מדד ב-data/universe.csv
-דרך Yahoo Finance chart API - המקור היחיד שנמצא נגיש ואמין מ-GitHub Actions
-(ר' probe.py: stooq/TASE/investing חסומים ע"י הגנת בוט, SEC דורש User-Agent
+"""מושך היסטוריית מחירים (OHLC יומי) לכל מדד ב-data/universe.csv דרך Yahoo
+Finance chart API - המקור היחיד שנמצא נגיש ואמין מ-GitHub Actions (ר'
+probe.py: stooq/TASE/investing חסומים ע"י הגנת בוט, SEC דורש User-Agent
 עם אימייל, ECB/FRED לא נגישים). כותב/מחליף קובץ CSV מלא לכל מדד ב-data/prices/
-- לא incremental - טווח 'max' של Yahoo זול מספיק (בקשת JSON אחת) שאין טעם
-לסבך עם עדכון חלקי, וזה גם מתקן את עצמו אוטומטית אם Yahoo מתקן נתון היסטורי.
+- לא incremental, מתקן את עצמו אוטומטית אם Yahoo מתקן נתון היסטורי.
+
+**באג קריטי שנמצא ותוקן (9.28.2026)**: range=max, למרות interval=1d,
+מחזיר בפועל נתונים *רבעוניים* (פער ~90 יום בין שורות!) לטווחים ארוכים -
+לא יומיים כמבוקש. אומת בפועל (probe_daily_granularity.py) על AAPL וגם על
+sp500tr הקיים - המשמעות: תמחור-חי-לפי-תאריך-דוח (swap_index_pricing
+ב-MASLULIM) פעל עד כה על מחיר מיושן עד ~3 חודשים, לא "נכון ליום הדוח"
+כמתוכנן. **התיקון**: period1/period2 מפורשים (לא range) - אומת שמחזיר
+יומי אמיתי גם על פני ~2.75 שנה (טווח הארכיון של MASLULIM, מ-2024 ואילך).
+PERIOD1 למטה כולל מרווח ביטחון לפני תחילת הארכיון (ינואר 2024).
 
 הרצה: python scripts/fetch_prices.py
 """
@@ -20,6 +28,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 UNIVERSE = Path("data/universe.csv")
 OUT_DIR = Path("data/prices")
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+PERIOD1 = int(datetime(2023, 6, 1, tzinfo=timezone.utc).timestamp())
 
 
 def load_universe() -> list[dict]:
@@ -29,7 +38,8 @@ def load_universe() -> list[dict]:
 
 def fetch_one(session: requests.Session, symbol: str) -> list[dict]:
     r = session.get(CHART_URL.format(symbol=symbol),
-                     params={"range": "max", "interval": "1d", "events": "history"},
+                     params={"period1": PERIOD1, "period2": int(time.time()),
+                              "interval": "1d", "events": "history"},
                      timeout=30)
     r.raise_for_status()
     data = r.json()

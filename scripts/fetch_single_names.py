@@ -23,6 +23,10 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 TICKER_LIST = Path("data/option_underlyers.txt")
 OUT_DIR = Path("data/prices/singles")
+# period1/period2 מפורשים, לא range=max/2y - אומת (probe_daily_granularity.py)
+# ש-range מחזיר בפועל נתונים רבעוניים לטווחים ארוכים למרות interval=1d;
+# period מפורש כן מחזיר יומי אמיתי. מכסה את כל טווח הארכיון של MASLULIM.
+PERIOD1 = int(datetime(2023, 6, 1, tzinfo=timezone.utc).timestamp())
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
 
 
@@ -37,7 +41,8 @@ def safe_filename(symbol: str) -> str:
 
 def fetch_one(session: requests.Session, symbol: str) -> list[dict]:
     r = session.get(CHART_URL.format(symbol=symbol),
-                     params={"range": "2y", "interval": "1d", "events": "history"},
+                     params={"period1": PERIOD1, "period2": int(time.time()),
+                              "interval": "1d", "events": "history"},
                      timeout=30)
     r.raise_for_status()
     data = r.json()
