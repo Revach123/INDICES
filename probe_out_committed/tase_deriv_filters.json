@@ -1,0 +1,82 @@
+{
+  "d1q1": {
+    "status": 200,
+    "TotalRec": 7492,
+    "n_items": 30,
+    "distinct_assets": [
+      "מדד ת\"א-35"
+    ]
+  },
+  "d1q2": {
+    "status": 200,
+    "TotalRec": 6768,
+    "n_items": 30,
+    "distinct_assets": [
+      "מדד ת\"א-35"
+    ]
+  },
+  "d2q1": {
+    "status": 200,
+    "TotalRec": 7380,
+    "n_items": 30,
+    "distinct_assets": [
+      "מדד ת\"א-35"
+    ]
+  },
+  "d2q2": {
+    "status": 200,
+    "TotalRec": 6674,
+    "n_items": 30,
+    "distinct_assets": [
+      "מדד ת\"א-35"
+    ]
+  },
+  "d3q1": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d3q2": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d4q1": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d4q2": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d5q1": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d5q2": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d6q1": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  },
+  "d6q2": {
+    "status": 200,
+    "TotalRec": 0,
+    "n_items": 0,
+    "distinct_assets": []
+  }
+}
