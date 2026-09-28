@@ -75,3 +75,30 @@ python scripts/fetch_constituents.py
 
 ב-CI: `.github/workflows/fetch.yml` - `workflow_dispatch` + cron יומי
 (04:30 UTC), מריץ את שני הסקריפטים ומבצע commit לתוצאות.
+
+## מאגר ניירות ערך עולמי (`data/world_securities/`)
+
+ניירות הערך הרשומים בבורסות **אירופה, בריטניה, שווייץ, יפן וקנדה** - ממקורות רשמיים בלבד,
+בלי ניחוש משמות. נבנה ע"י `scripts/world_securities/build.py` (workflow `world-securities.yml`,
+יומי 05:40 UTC) ונצרך ע"י Revach (טעינה ל-D1, דף `securities-world`, זיהוי אחזקות קרנות סל).
+הריצה כאן כי הריפו ציבורי (דקות Actions ללא הגבלה) - הורדת FIRDS ו-OpenFIGI בלי מפתח.
+
+| שוק | מקור רשמי | מה מגיע ממנו |
+|---|---|---|
+| אירופה (EEA) | ESMA FIRDS (FULINS שבועי, E+C) | ISIN, קוד CFI (סוג רשמי), LEI, כל זירות המסחר + IssrReq, הזירה הרלוונטית |
+| בריטניה | FCA FIRDS | אותו פורמט |
+| שווייץ | SIX (`fqs/ref.csv`, `equity_issuers.json`) | ISIN, סימול, סגמנט/קו מוצר, רישום ראשי |
+| יפן | JPX (List of TSE-listed Issues + רשימת ה-ETN) | קוד, שוק (Prime/Standard/Growth), ענף 33/17, קבוצת גודל |
+| קנדה | TMX (company directory + interlisted) | כל קווי המסחר ב-TSX/TSXV, רישום כפול בארה"ב |
+| כולם | GLEIF · ISO 10383 (MIC) · OpenFIGI | פרטי המנפיק לפי LEI · שמות/סוגי בורסות · טיקר ו-FIGI לפי MIC |
+
+**"רשום"** = ביוזמת המנפיק או באישורו (FIRDS: `IssrReq=true`) בשוק מוסדר או MTF, והמסחר לא
+הסתיים; לא מסחר משני בלי המנפיק (Freiverkehr/Tradegate) ולא מוצרים מובנים של בנקים (CFI EY).
+**בורסה עיקרית** - רק כשחד-משמעית: הזירה הרלוונטית של הרגולטור (אם היא ברישום), בורסה יחידה,
+או הבורסה היחידה במדינת ה-ISIN; אחרת ריק ומוצגות כל הבורסות. **רישום משני של חברה זרה**
+(`foreign_listing`) - ISIN של מדינה מחוץ לאירופה שנרשם בבורסה אירופית (למשל בבורסת סופיה) - מסומן.
+מדיניות: לא מוחקים (`removed_at`), וכל שוק "הכל או כלום" - שוק שהמקור שלו נכשל נשאר כמו בריצה הקודמת.
+
+קבצים: `securities.jsonl` (שורה לנייר), `issuers.jsonl` (GLEIF), `exchanges.json` (MIC),
+`stats.json`, ומטמונים `figi_cache.jsonl` / `gleif_cache.jsonl`. מפתח OpenFIGI (secret
+`OPENFIGI_API_KEY`) לא חובה - בלעדיו 250 בדיקות לדקה, וההשלמה מתפרסת על כמה ריצות.
