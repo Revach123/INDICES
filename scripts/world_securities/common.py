@@ -310,9 +310,11 @@ def dominant_exch_codes(cache):
     per = {}
     for c in cache.values():
         mic = (c.get("job") or {}).get("micCode")
-        for d in c.get("data") or []:
-            per.setdefault(mic, {}).setdefault(d.get("exchCode"), 0)
-            per[mic][d.get("exchCode")] += 1
+        # ספירה לפי ניירות (לא לפי רשומות): קרן סל עם 8 קווי מטבע ב-order book הבינלאומי של LSE
+        # (exchCode XL/E1) לא גוברת על קו המסחר הראשי (LN) של אלפי מניות
+        for code in {d.get("exchCode") for d in c.get("data") or []}:
+            per.setdefault(mic, {}).setdefault(code, 0)
+            per[mic][code] += 1
     return {mic: max(v, key=v.get) for mic, v in per.items() if v}
 
 
