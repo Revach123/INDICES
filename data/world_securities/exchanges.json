@@ -1,0 +1,1012 @@
+{
+"ABUL": {
+"acronym": "BSE",
+"cat": "RMKT",
+"cc": "BG",
+"city": "SOFIA",
+"name": "BULGARIAN STOCK EXCHANGE - ALTERNATIVE MARKET",
+"oprt": "XBUL",
+"status": "ACTIVE",
+"website": "WWW.BSE-SOFIA.BG"
+},
+"AQSE": {
+"acronym": "AQSE",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQUIS STOCK EXCHANGE",
+"oprt": "AQSE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQSG": {
+"acronym": "AQSE",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQSE GROWTH MARKET (EQUITY)",
+"oprt": "AQSE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQSN": {
+"acronym": "AQSE",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQSE TRADING (NON-EQUITY)",
+"oprt": "AQSE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQST": {
+"acronym": "AQSE",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQSE TRADING (EQUITY)",
+"oprt": "AQSE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQXA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD)",
+"oprt": "AQXE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQXD": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK",
+"oprt": "AQXE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"AQXE": {
+"acronym": "AQX",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "AQUIS EXCHANGE PLC",
+"oprt": "AQXE",
+"status": "ACTIVE",
+"website": "WWW.AQUIS.EU"
+},
+"ARCH": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "GB",
+"city": "LONDON",
+"name": "ARCHAX",
+"oprt": "ARCH",
+"status": "ACTIVE",
+"website": "WWW.ARCHAX.COM"
+},
+"ARTX": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "LI",
+"city": "TRIESEN",
+"name": "ARTEX EUROPE",
+"oprt": "ARTX",
+"status": "ACTIVE",
+"website": "WWW.ARTEX.IO"
+},
+"ASEX": {
+"acronym": "ASE",
+"cat": "RMKT",
+"cc": "GR",
+"city": "ATHENS",
+"name": "ATHENS STOCK EXCHANGE",
+"oprt": "ASEX",
+"status": "ACTIVE",
+"website": "WWW.ASE.GR"
+},
+"ATFX": {
+"acronym": "ATFUND",
+"cat": "MLTF",
+"cc": "IT",
+"city": "MILANO",
+"name": "ATFUND MTF",
+"oprt": "XMIL",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"BARK": {
+"acronym": "CBOE  REGM DARK",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "CBOE EUROPE - REGULATED MARKET DARK BOOK",
+"oprt": "BCRM",
+"status": "ACTIVE",
+"website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
+},
+"BARO": {
+"acronym": "CBOE  REGM OFF BOOK",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "CBOE EUROPE - REGULATED MARKET OFF BOOK",
+"oprt": "BCRM",
+"status": "ACTIVE",
+"website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
+},
+"BART": {
+"acronym": "CBOE  REGM LIT",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK",
+"oprt": "BCRM",
+"status": "ACTIVE",
+"website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
+},
+"BARU": {
+"acronym": "CBOE EU REGM DARK",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "CBOE EUROPE - REGULATED MARKET DARK BOOK (NL)",
+"oprt": "CCRM",
+"status": "ACTIVE",
+"website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
+},
+"BCRM": {
+"acronym": "CBOE  EUROPE",
+"cat": "RMKT",
+"cc": "GB",
+"city": "LONDON",
+"name": "CBOE EUROPE REGULATED MARKETS",
+"oprt": "BCRM",
+"status": "ACTIVE",
+"website": "WWW.MARKETS.CBOE.COM/EUROPE/EQUITIES/OVERVIEW/"
+},
+"BEUO": {
+"acronym": "CBOE EU REGM OFF BOOK",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "CBOE EUROPE - REGULATED MARKET OFF BOOK (NL)",
+"oprt": "CCRM",
+"status": "ACTIVE",
+"website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
+},
+"BEUT": {
+"acronym": "CBOE EU REGM LIT",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "CBOE EUROPE - REGULATED MARKET INTEGRATED BOOK (NL)",
+"oprt": "CCRM",
+"status": "ACTIVE",
+"website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
+},
+"BMEX": {
+"acronym": "BME",
+"cat": "NSPD",
+"cc": "ES",
+"city": "MADRID",
+"name": "BME - BOLSAS Y MERCADOS ESPANOLES",
+"oprt": "BMEX",
+"status": "ACTIVE",
+"website": "WWW.BOLSASYMERCADOS.ES"
+},
+"CCRM": {
+"acronym": "CBOE EU RM",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "CBOE EUROPE REGULATED MARKETS (NL)",
+"oprt": "CCRM",
+"status": "ACTIVE",
+"website": "HTTP://MARKETS.CBOE.COM/EUROPE/EQUITIES/ABOUT/"
+},
+"CPTX": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "CAPTIN",
+"oprt": "CPTX",
+"status": "ACTIVE",
+"website": "WWW.CAPTIN.NL"
+},
+"DCSE": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "NASDAQ COPENHAGEN A/S - NORDIC@MID",
+"oprt": "XCSE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DHEL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "NASDAQ HELSINKI LTD - NORDIC@MID",
+"oprt": "XHEL",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DICE": {
+"acronym": "ICEX",
+"cat": "RMKT",
+"cc": "IS",
+"city": "REYKJAVIK",
+"name": "NASDAQ ICELAND HF. - NORDIC@MID",
+"oprt": "XICE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DSTO": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "NASDAQ STOCKHOLM AB - NORDIC@MID",
+"oprt": "XSTO",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"DUSA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "DUESSELDORF",
+"name": "BOERSE DUESSELDORF - REGULIERTER MARKT",
+"oprt": "XDUS",
+"status": "ACTIVE",
+"website": ""
+},
+"DUSC": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "DUESSELDORF",
+"name": "BOERSE DUESSELDORF - QUOTRIX - REGULIERTER MARKT",
+"oprt": "XDUS",
+"status": "ACTIVE",
+"website": ""
+},
+"ETFP": {
+"acronym": "ETFPLUS",
+"cat": "RMKT",
+"cc": "IT",
+"city": "MILANO",
+"name": "ELECTRONIC ETF, ETC/ETN AND OPEN-END FUNDS MARKET",
+"oprt": "XMIL",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"FRAA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "BOERSE FRANKFURT - REGULIERTER MARKT",
+"oprt": "XFRA",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"FSME": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "FIRST NORTH FINLAND - SME GROWTH MARKET",
+"oprt": "XHEL",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"HAMA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "HAMBURG",
+"name": "BOERSE HAMBURG - REGULIERTER MARKT",
+"oprt": "XHAM",
+"status": "ACTIVE",
+"website": ""
+},
+"HAMM": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "HAMBURG",
+"name": "BOERSE HAMBURG - LANG AND SCHWARZ EXCHANGE - REGULIERTER MARKT",
+"oprt": "XHAM",
+"status": "ACTIVE",
+"website": "WWW.BOERSENAG.DE"
+},
+"HANA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "HANNOVER",
+"name": "BOERSE HANNOVER - REGULIERTER MARKT",
+"oprt": "XHAN",
+"status": "ACTIVE",
+"website": ""
+},
+"JBUL": {
+"acronym": "BSE-MTF",
+"cat": "MLTF",
+"cc": "BG",
+"city": "SOFIA",
+"name": "BULGARIAN STOCK EXCHANGE - INTERNATIONAL MTF",
+"oprt": "XBUL",
+"status": "ACTIVE",
+"website": "WWW.BSE-SOFIA.BG"
+},
+"MCSE": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "NASDAQ COPENHAGEN A/S - AUCTION ON DEMAND",
+"oprt": "XCSE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MHEL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "NASDAQ HELSINKI LTD -  AUCTION ON DEMAND",
+"oprt": "XHEL",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MICE": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "IS",
+"city": "REYKJAVIK",
+"name": "NASDAQ ICELAND HF. - AUCTION ON DEMAND",
+"oprt": "XICE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MIVX": {
+"acronym": "MIV",
+"cat": "RMKT",
+"cc": "IT",
+"city": "MILAN",
+"name": "EURONEXT MIV MILAN",
+"oprt": "XMIL",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"MSTO": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "NASDAQ STOCKHOLM AB - AUCTION ON DEMAND",
+"oprt": "XSTO",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"MTAA": {
+"acronym": "MTA",
+"cat": "RMKT",
+"cc": "IT",
+"city": "MILAN",
+"name": "EURONEXT MILAN",
+"oprt": "XMIL",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"MUNA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "MUENCHEN",
+"name": "BOERSE MUENCHEN - REGULIERTER MARKT",
+"oprt": "XMUN",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-MUENCHEN.DE"
+},
+"MUNC": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "MUENCHEN",
+"name": "BOERSE MUENCHEN - GETTEX - REGULIERTER MARKT",
+"oprt": "XMUN",
+"status": "ACTIVE",
+"website": "WWW.GETTEX.DE"
+},
+"NPEX": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "NL",
+"city": "THE HAGUE",
+"name": "NPEX",
+"oprt": "NPEX",
+"status": "ACTIVE",
+"website": "WWW.NPEX.NL"
+},
+"POSE": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "ES",
+"city": "MADRID",
+"name": "PORTFOLIO STOCK EXCHANGE",
+"oprt": "POSE",
+"status": "ACTIVE",
+"website": "WWW.PORTFOLIO.EXCHANGE"
+},
+"STUA": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - REGULIERTER MARKT",
+"oprt": "XSTU",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"STUC": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 2",
+"oprt": "XSTU",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"WBAH": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "AT",
+"city": "VIENNA",
+"name": "WIENER BOERSE AG AMTLICHER HANDEL (OFFICIAL MARKET)",
+"oprt": "XWBO",
+"status": "ACTIVE",
+"website": "WWW.WIENERBOERSE.AT"
+},
+"WBDM": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "AT",
+"city": "VIENNA",
+"name": "WIENER BOERSE AG VIENNA MTF (VIENNA MTF)",
+"oprt": "XWBO",
+"status": "ACTIVE",
+"website": "WWW.WIENERBOERSE.AT"
+},
+"WETP": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "PL",
+"city": "WARSAW",
+"name": "WARSAW STOCK EXCHANGE/ ETPS",
+"oprt": "XWAR",
+"status": "ACTIVE",
+"website": "WWW.GPW.PL"
+},
+"XAMS": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "EURONEXT - EURONEXT AMSTERDAM",
+"oprt": "XAMS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"XATH": {
+"acronym": "ATHEXC",
+"cat": "RMKT",
+"cc": "GR",
+"city": "ATHENS",
+"name": "ATHENS EXCHANGE S.A. CASH MARKET",
+"oprt": "ASEX",
+"status": "ACTIVE",
+"website": "WWW.ATHEXGROUP.GR"
+},
+"XBAR": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "ES",
+"city": "BARCELONA",
+"name": "BOLSA DE BARCELONA",
+"oprt": "BMEX",
+"status": "ACTIVE",
+"website": "WWW.BORSABCN.ES"
+},
+"XBIL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "ES",
+"city": "BILBAO",
+"name": "BOLSA DE VALORES DE BILBAO",
+"oprt": "BMEX",
+"status": "ACTIVE",
+"website": "WWW.BOLSABILBAO.ES"
+},
+"XBRA": {
+"acronym": "BSSE",
+"cat": "RMKT",
+"cc": "SK",
+"city": "BRATISLAVA",
+"name": "BRATISLAVA STOCK EXCHANGE",
+"oprt": "XBRA",
+"status": "ACTIVE",
+"website": "WWW.BSSE.SK"
+},
+"XBRU": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "BE",
+"city": "BRUSSELS",
+"name": "EURONEXT - EURONEXT BRUSSELS",
+"oprt": "XBRU",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"XBSE": {
+"acronym": "REGS",
+"cat": "RMKT",
+"cc": "RO",
+"city": "BUCHAREST",
+"name": "SPOT REGULATED MARKET - BVB",
+"oprt": "XBSE",
+"status": "ACTIVE",
+"website": "WWW.BVB.RO"
+},
+"XBUD": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "HU",
+"city": "BUDAPEST",
+"name": "BUDAPEST STOCK EXCHANGE",
+"oprt": "XBUD",
+"status": "ACTIVE",
+"website": "WWW.BET.HU"
+},
+"XBUL": {
+"acronym": "BSE",
+"cat": "NSPD",
+"cc": "BG",
+"city": "SOFIA",
+"name": "BULGARIAN STOCK EXCHANGE",
+"oprt": "XBUL",
+"status": "ACTIVE",
+"website": "WWW.BSE-SOFIA.BG"
+},
+"XCSE": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DK",
+"city": "COPENHAGEN",
+"name": "NASDAQ COPENHAGEN A/S",
+"oprt": "XCSE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"XCYS": {
+"acronym": "CSE",
+"cat": "RMKT",
+"cc": "CY",
+"city": "NICOSIA (LEFKOSIA)",
+"name": "CYPRUS STOCK EXCHANGE",
+"oprt": "XCYS",
+"status": "ACTIVE",
+"website": "WWW.CSE.COM.CY"
+},
+"XDUB": {
+"acronym": "ISE",
+"cat": "NSPD",
+"cc": "IE",
+"city": "DUBLIN",
+"name": "IRISH STOCK EXCHANGE - ALL MARKET",
+"oprt": "XDUB",
+"status": "ACTIVE",
+"website": "WWW.ISE.IE"
+},
+"XDUS": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "DUESSELDORF",
+"name": "BOERSE DUESSELDORF",
+"oprt": "XDUS",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-DUESSELDORF.DE"
+},
+"XETA": {
+"acronym": "XETRA",
+"cat": "RMKT",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - REGULIERTER MARKT",
+"oprt": "XETR",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XETR": {
+"acronym": "XETRA",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA",
+"oprt": "XETR",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XETU": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "XETRA - REGULIERTERMARKT - OFF-BOOK",
+"oprt": "XETR",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XFRA": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "FRANKFURT",
+"name": "DEUTSCHE BOERSE AG",
+"oprt": "XFRA",
+"status": "ACTIVE",
+"website": "WWW.DEUTSCHE-BOERSE.COM"
+},
+"XGLO": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "PL",
+"city": "WARSAW",
+"name": "WARSAW STOCK EXCHANGE/ EQUITIES/GLOBAL CONNECT - MTF",
+"oprt": "XWAR",
+"status": "ACTIVE",
+"website": "WWW.GPW.PL"
+},
+"XHAM": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "HAMBURG",
+"name": "HANSEATISCHE WERTPAPIERBOERSE HAMBURG",
+"oprt": "XHAM",
+"status": "ACTIVE",
+"website": "WWW.BOERSENAG.DE"
+},
+"XHAN": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "HANNOVER",
+"name": "NIEDERSAECHSISCHE BOERSE ZU HANNOVER",
+"oprt": "XHAN",
+"status": "ACTIVE",
+"website": "WWW.BOERSENAG.DE"
+},
+"XHEL": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "FI",
+"city": "HELSINKI",
+"name": "NASDAQ HELSINKI LTD",
+"oprt": "XHEL",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"XICE": {
+"acronym": "ICEX",
+"cat": "RMKT",
+"cc": "IS",
+"city": "REYKJAVIK",
+"name": "NASDAQ ICELAND HF.",
+"oprt": "XICE",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"XLIS": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "PT",
+"city": "LISBOA",
+"name": "EURONEXT - EURONEXT LISBON",
+"oprt": "XLIS",
+"status": "ACTIVE",
+"website": "WWW.EURONEXT.COM"
+},
+"XLIT": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "LT",
+"city": "VILNIUS",
+"name": "AB NASDAQ VILNIUS",
+"oprt": "XLIT",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
+"XLJU": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "SI",
+"city": "LJUBLJANA",
+"name": "LJUBLJANA STOCK EXCHANGE (OFFICIAL MARKET)",
+"oprt": "XLJU",
+"status": "ACTIVE",
+"website": "WWW.LJSE.SI"
+},
+"XLUX": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "LU",
+"city": "LUXEMBOURG",
+"name": "LUXEMBOURG STOCK EXCHANGE",
+"oprt": "XLUX",
+"status": "ACTIVE",
+"website": "WWW.BOURSE.LU"
+},
+"XMAD": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "ES",
+"city": "MADRID",
+"name": "BOLSA DE MADRID",
+"oprt": "BMEX",
+"status": "ACTIVE",
+"website": "WWW.BOLSAMADRID.ES"
+},
+"XMAL": {
+"acronym": "MSE",
+"cat": "RMKT",
+"cc": "MT",
+"city": "VALLETTA",
+"name": "MALTA STOCK EXCHANGE",
+"oprt": "XMAL",
+"status": "ACTIVE",
+"website": "WWW.BORZAMALTA.COM.MT"
+},
+"XMIL": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "IT",
+"city": "MILANO",
+"name": "BORSA ITALIANA S.P.A.",
+"oprt": "XMIL",
+"status": "ACTIVE",
+"website": "WWW.BORSAITALIANA.IT"
+},
+"XMSM": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "IE",
+"city": "DUBLIN",
+"name": "EURONEXT DUBLIN",
+"oprt": "XDUB",
+"status": "ACTIVE",
+"website": "WWW.ISE.IE"
+},
+"XMUN": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "MUENCHEN",
+"name": "BOERSE MUENCHEN",
+"oprt": "XMUN",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-MUENCHEN.DE"
+},
+"XNCO": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "PL",
+"city": "WARSAW",
+"name": "WARSAW STOCK EXCHANGE/ EQUITIES/NEW CONNECT - MTF",
+"oprt": "XWAR",
+"status": "ACTIVE",
+"website": "WWW.NEWCONNECT.PL"
+},
+"XNGM": {
+"acronym": "NGM",
+"cat": "RMKT",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "NORDIC GROWTH MARKET",
+"oprt": "XNGM",
+"status": "ACTIVE",
+"website": "WWW.NGM.SE"
+},
+"XNXC": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "NXCHANGE",
+"oprt": "XNXC",
+"status": "ACTIVE",
+"website": "WWW.NXCHANGE.COM"
+},
+"XNXD": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "NL",
+"city": "AMSTERDAM",
+"name": "NXCHANGE B.V. MTF",
+"oprt": "XNXC",
+"status": "ACTIVE",
+"website": "WWW.NXCHANGE.COM"
+},
+"XOAS": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "NO",
+"city": "OSLO",
+"name": "EURONEXT EXPAND OSLO",
+"oprt": "XOSL",
+"status": "ACTIVE",
+"website": "WWW.OSLOBORS.NO"
+},
+"XOSL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "NO",
+"city": "OSLO",
+"name": "OSLO BORS",
+"oprt": "XOSL",
+"status": "ACTIVE",
+"website": "WWW.OSLOBORS.NO"
+},
+"XPRA": {
+"acronym": "PSE",
+"cat": "RMKT",
+"cc": "CZ",
+"city": "PRAGUE",
+"name": "PRAGUE STOCK EXCHANGE",
+"oprt": "XPRA",
+"status": "ACTIVE",
+"website": "WWW.PSE.CZ"
+},
+"XRIS": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "LV",
+"city": "RIGA",
+"name": "NASDAQ RIGA AS",
+"oprt": "XRIS",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
+"XSAT": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "SPOTLIGHT STOCK MARKET AB",
+"oprt": "XSAT",
+"status": "ACTIVE",
+"website": "WWW.SPOTLIGHTSTOCKMARKET.COM"
+},
+"XSTO": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "SE",
+"city": "STOCKHOLM",
+"name": "NASDAQ STOCKHOLM AB",
+"oprt": "XSTO",
+"status": "ACTIVE",
+"website": "WWW.NASDAQOMXNORDIC.COM"
+},
+"XSTU": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "DE",
+"city": "STUTTGART",
+"name": "BOERSE STUTTGART",
+"oprt": "XSTU",
+"status": "ACTIVE",
+"website": "WWW.BOERSE-STUTTGART.DE"
+},
+"XSWX": {
+"acronym": "SIX",
+"cat": "RMKT",
+"cc": "CH",
+"city": "ZURICH",
+"name": "SIX SWISS EXCHANGE",
+"oprt": "XSWX",
+"status": "ACTIVE",
+"website": "WWW.SIX-GROUP.COM/EN/SITE/EXCHANGES.HTML"
+},
+"XTAL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "EE",
+"city": "TALLINN",
+"name": "NASDAQ TALLINN AS",
+"oprt": "XTAL",
+"status": "ACTIVE",
+"website": "WWW.NASDAQBALTIC.COM"
+},
+"XTSE": {
+"acronym": "TSX",
+"cat": "NSPD",
+"cc": "CA",
+"city": "TORONTO",
+"name": "TORONTO STOCK EXCHANGE",
+"oprt": "XTSE",
+"status": "ACTIVE",
+"website": "WWW.TSE.COM"
+},
+"XTSX": {
+"acronym": "TSX-V",
+"cat": "NSPD",
+"cc": "CA",
+"city": "TORONTO",
+"name": "TSX VENTURE EXCHANGE",
+"oprt": "XTSX",
+"status": "ACTIVE",
+"website": "WWW.TSX.COM"
+},
+"XWAR": {
+"acronym": "WSE",
+"cat": "RMKT",
+"cc": "PL",
+"city": "WARSAW",
+"name": "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+"oprt": "XWAR",
+"status": "ACTIVE",
+"website": "WWW.GPW.PL"
+},
+"XWBO": {
+"acronym": "",
+"cat": "NSPD",
+"cc": "AT",
+"city": "VIENNA",
+"name": "WIENER BOERSE AG",
+"oprt": "XWBO",
+"status": "ACTIVE",
+"website": "WWW.WIENERBOERSE.AT"
+},
+"XZAG": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "HR",
+"city": "ZAGREB",
+"name": "ZAGREB STOCK EXCHANGE",
+"oprt": "XZAG",
+"status": "ACTIVE",
+"website": "WWW.ZSE.HR"
+},
+"XZAP": {
+"acronym": "",
+"cat": "MLTF",
+"cc": "HR",
+"city": "ZAGREB",
+"name": "PROGRESS MARKET",
+"oprt": "XZAG",
+"status": "ACTIVE",
+"website": "HTTP://PROGRESS.MARKET"
+},
+"ZBUL": {
+"acronym": "",
+"cat": "RMKT",
+"cc": "BG",
+"city": "SOFIA",
+"name": "BULGARIAN STOCK EXCHANGE - MAIN MARKET",
+"oprt": "XBUL",
+"status": "ACTIVE",
+"website": "WWW.BSE-SOFIA.BG"
+}
+}
