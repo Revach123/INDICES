@@ -120,6 +120,7 @@
 {"k":"21380025AXSQN7Y4RV82","v":{"category":"FUND","city":"SENNINGERBERG","country":"LU","d":"2026-09-28T14:33:40+00:00","hq_city":"ROTTERDAM","hq_country":"NL","jurisdiction":"LU","legal_form":"8888","name":"ROBECO SMART MOBILITY","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138002658CPO9NBH955","v":{"category":"GENERAL","city":"ST HELIER","country":"JE","d":"2026-09-28T17:51:42+00:00","hq_city":"BAAR","hq_country":"CH","jurisdiction":"JE","legal_form":"JOX1","name":"GLENCORE PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380026UDE3LKFSDP68","v":{"category":"GENERAL","city":"ELGIN","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"ELGIN","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"SPRINGFIELD PROPERTIES PLC","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"2138002739WFQPLBEQ42","v":{"category":"GENERAL","city":"ROAD TOWN","country":"VG","d":"2026-09-28T18:10:18+00:00","hq_city":"ROAD TOWN","hq_country":"VG","jurisdiction":"VG","legal_form":"8888","name":"THALASSA HOLDINGS LTD","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380028AUYWGMYXQA57","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"AMICORP FS (UK) PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380028BFDFJK8BRX92","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"AFENTRA PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380028LJSQGRUAX965","v":{"category":"GENERAL","city":"DUBLIN","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"UNIPHAR PUBLIC LIMITED COMPANY","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -265,6 +266,7 @@
 {"k":"21380042E3Y3N9VZ6N48","v":{"category":"GENERAL","city":"READING","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"READING","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"PROVEXIS PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380042MB2JKZ6RRP12","v":{"category":"GENERAL","city":"SHEFFIELD","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"SHEFFIELD","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"ITM POWER PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138004313MO7RXAVA37","v":{"category":"GENERAL","city":"Wilmslow","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"Wilmslow","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"SOSANDAR PLC","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"2138004439PRUV6WB123","v":{"category":"GENERAL","city":"STOCKTON ON TEES","country":"GB","d":"2026-09-28T18:10:18+00:00","hq_city":"STOCKTON ON TEES","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"RAMSDENS HOLDINGS PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380044N3COGER5OK12","v":{"category":"FUND","city":"SENNINGERBERG","country":"LU","d":"2026-09-28T14:33:40+00:00","hq_city":"ROTTERDAM","hq_country":"NL","jurisdiction":"LU","legal_form":"8888","name":"ROBECO HIGH YIELD BONDS","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380044V7NMV5WGP427","v":{"category":"GENERAL","city":"METAMORFOSI","country":"GR","d":"2026-09-28T14:33:40+00:00","hq_city":"METAMORFOSI","hq_country":"GR","jurisdiction":"GR","legal_form":"W2NK","name":"ΕΛΛΗΝΙΚΗ ΒΙΟΜΗΧΑΝΙΑ ΜΑΡΜΑΡΩΝ ΤΕΧΝΙΚΗ & ΤΟΥΡΙΣΤΙΚΗ ΕΤΑΙΡΕΙΑ ΙΚΤΙΝΟΣ ΕΛΛΑΣ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"21380045HFBO9LESX437","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"IE","legal_form":"8888","name":"BNP PARIBAS EASY II GLOBAL HIGH YIELD OPPORTUNITIES UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -667,6 +669,7 @@
 {"k":"2138009U3EG31OPMGH36","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"AVACTA GROUP PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138009VHA1WI2VKMA28","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"APTITUDE SOFTWARE GROUP PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138009WZ6Y8N8X48137","v":{"category":"GENERAL","city":"THESSALONIKI","country":"GR","d":"2026-09-28T14:33:40+00:00","hq_city":"THESSALONIKI","hq_country":"GR","jurisdiction":"GR","legal_form":"W2NK","name":"ΣΩΚΡΑΤΗΣ .Δ. ΚΩΝΣΤΑΝΤΙΝΟΥ & ΥΙΟΣ Α.Ε. ΕΜΠΟΡΙΟ-ΒΙΟΜΗΧΑΝΙΑ ΥΑΛΙΚΩΝ ΚΑΙ ΕΙΔΩΝ ΟΙΚΙΑΚΗΣ ΧΡΗΣΗΣ","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"2138009X19O21NU5SG79","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T18:10:18+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"WATKIN JONES PLC","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"2138009X84CJ6FM1PH66","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T17:51:42+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"INVESTEC INVESTMENT TRUST PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138009XFT53PKLIH113","v":{"category":"GENERAL","city":"LONDON","country":"GB","d":"2026-09-28T14:33:40+00:00","hq_city":"LONDON","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"RICHMOND HILL RESOURCES PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"2138009XJ16RE3GPYT73","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"AMUNDI MSCI WORLD ESG BROAD TRANSITION UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -4715,6 +4718,7 @@
 {"k":"506700909QIDX4K4DY42","v":{"category":"GENERAL","city":"Zug","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Zug","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"EEII AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"50670090YSFJ2732TD58","v":{"category":"GENERAL","city":"Basel","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Basel","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"Bell Food Group AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"50670091T3297YN83C32","v":{"category":"GENERAL","city":"Zürich","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Zürich","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"Novavest Real Estate AG","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"50670096DRU8U0S8H007","v":{"category":"GENERAL","city":"Basel","country":"CH","d":"2026-09-28T18:10:18+00:00","hq_city":"Basel","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"Warteck Invest AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5067009M01V150S4CS45","v":{"category":"GENERAL","city":"Le Lignon","country":"CH","d":"2026-09-28T17:51:42+00:00","hq_city":"Le Lignon","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"BEBO Health SA","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"5067009MCPE99B3E4489","v":{"category":"GENERAL","city":"Interlaken","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Interlaken","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"JUNGFRAUBAHN HOLDING AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5067009Q145N3IVPSF71","v":{"category":"GENERAL","city":"Neuhausen am Rheinfall","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Neuhausen am Rheinfall","hq_country":"CH","jurisdiction":"CH","legal_form":"2JZ4","name":"Personalvorsorgestiftung IVF HARTMANN AG","reg_status":"LAPSED","status":"ACTIVE"}}
@@ -5754,6 +5758,7 @@
 {"k":"529900SQFJZNLOBO8Z15","v":{"category":"FUND","city":"LUXEMBOURG","country":"LU","d":"2026-09-28T17:51:42+00:00","hq_city":"LUXEMBOURG","hq_country":"LU","jurisdiction":"LU","legal_form":"8888","name":"EMERGING MARKETS EQUITY FOCUS","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"529900STNWWRK4MM7H18","v":{"category":"FUND","city":"Luxemburg","country":"LU","d":"2026-09-28T14:33:40+00:00","hq_city":"Luxemburg","hq_country":"LU","jurisdiction":"LU","legal_form":"9999","name":"Bond Opportunities","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"529900STW2CMCM8UP347","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"iShares iBonds Dec 2028 Term $ Corp UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"529900SUJBXTORH0LT80","v":{"category":"GENERAL","city":"Basel","country":"CH","d":"2026-09-28T18:10:18+00:00","hq_city":"Basel","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"Helvetia Baloise Holding AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"529900SUURYOXKCQ6Z90","v":{"category":"GENERAL","city":"Bayreuth","country":"DE","d":"2026-09-28T14:33:40+00:00","hq_city":"Bayreuth","hq_country":"DE","jurisdiction":"DE","legal_form":"6QQB","name":"7C Solarparken AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"529900SWF06EKVI1JY11","v":{"category":"GENERAL","city":"Stein am Rhein","country":"CH","d":"2026-09-28T14:33:40+00:00","hq_city":"Stein am Rhein","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"Phoenix Mecano AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"529900SY90CFKU4VXH42","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"9999","name":"iShares iBonds Dec 2031 Term $ Corp UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -6394,6 +6399,7 @@
 {"k":"5493003SR7FPZA8MG346","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"State Street SPDR S&P 500 Leaders UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5493003SVXZLNVHTJ685","v":{"category":"GENERAL","city":"Stockholm","country":"SE","d":"2026-09-28T17:51:42+00:00","hq_city":"Stockholm","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Preservia Hyresfastigheter AB (publ)","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5493003SXLIS3874L055","v":{"category":"GENERAL","city":"Ulricehamn","country":"SE","d":"2026-09-28T17:51:42+00:00","hq_city":"Ulricehamn","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Precomp Solutions Aktiebolag (publ)","reg_status":"LAPSED","status":"ACTIVE"}}
+{"k":"5493003TARU041L6MN07","v":{"category":"GENERAL","city":"Willemstad","country":"CW","d":"2026-09-28T18:10:18+00:00","hq_city":"Willemstad","hq_country":"CW","jurisdiction":"CW","legal_form":"36AO","name":"Source Group N.V","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"5493003TBEWGBIEG1X97","v":{"category":"GENERAL","city":"Hillerstorp","country":"SE","d":"2026-09-28T14:33:40+00:00","hq_city":"Hillerstorp","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Troax Group AB (publ)","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5493003TSM6WSACG3290","v":{"category":"FUND","city":"LUXEMBOURG","country":"LU","d":"2026-09-28T14:33:40+00:00","hq_city":"PUTEAUX","hq_country":"FR","jurisdiction":"LU","legal_form":"8888","name":"AMUNDI MSCI EUROPE ESG SELECTION","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5493003TZPR4B7QO9L49","v":{"category":"GENERAL","city":"SOLNA","country":"SE","d":"2026-09-28T14:33:40+00:00","hq_city":"SOLNA","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Vivesto AB","reg_status":"LAPSED","status":"ACTIVE"}}
@@ -6457,6 +6463,7 @@
 {"k":"54930048DNXTY1TW0R33","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Blackstone Corporate Funding EUR Fund","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"54930048HZ7YRK2FGE08","v":{"category":"GENERAL","city":"Горна Оряховица","country":"BG","d":"2026-09-28T14:33:40+00:00","hq_city":"Горна Оряховица","hq_country":"BG","jurisdiction":"BG","legal_form":"WTK4","name":"Захарни заводи Етанол АД","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"54930048KKPKHT5CD363","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"BARINGS EUROPE SELECT FUND","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"54930049CEWDI46Y3U28","v":{"category":"GENERAL","city":"London","country":"GB","d":"2026-09-28T18:10:18+00:00","hq_city":"London","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"JPMORGAN EUROPEAN DISCOVERY TRUST PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"54930049P6N7VGMITR21","v":{"category":"GENERAL","city":"George Town","country":"KY","d":"2026-09-28T17:51:42+00:00","hq_city":"George Town","hq_country":"KY","jurisdiction":"KY","legal_form":"OSBR","name":"SOUTH COAST FUNDING IV LTD","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"54930049QLLMPART6V29","v":{"category":"GENERAL","city":"WILMINGTON","country":"US","d":"2026-09-28T14:33:40+00:00","hq_city":"Wilmington","hq_country":"US","jurisdiction":"US-DE","legal_form":"XTIQ","name":"ARTHUR J. GALLAGHER & CO.","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"5493004BCIKYU1YL3H63","v":{"category":"GENERAL","city":"LIMASSOL","country":"CY","d":"2026-09-28T14:33:40+00:00","hq_city":"LIMASSOL","hq_country":"CY","jurisdiction":"CY","legal_form":"MYKG","name":"FRONTLINE PLC","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -8921,6 +8928,7 @@
 {"k":"549300SO0SR49AJLB076","v":{"category":"FUND","city":"'s-Gravenhage","country":"NL","d":"2026-09-28T14:33:40+00:00","hq_city":"'s-Gravenhage","hq_country":"NL","jurisdiction":"NL","legal_form":"8888","name":"First Class Return Fund (NL)","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"549300SO3FMK7H6DDY54","v":{"category":"GENERAL","city":"MAJURO","country":"MH","d":"2026-09-28T14:33:40+00:00","hq_city":"Athens","hq_country":"GR","jurisdiction":"MH","legal_form":"DSII","name":"STAR BULK CARRIERS CORP.","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"549300SO4M8V2WZULT56","v":{"category":"FUND","city":"Luxembourg","country":"LU","d":"2026-09-28T17:51:42+00:00","hq_city":"Strassen","hq_country":"LU","jurisdiction":"LU","legal_form":"UDY2","name":"EURO CORPORATE BONDS","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"549300SOEWCYZTK2SP87","v":{"category":"GENERAL","city":"Edinburgh","country":"GB","d":"2026-09-28T18:10:18+00:00","hq_city":"Edinburgh","hq_country":"GB","jurisdiction":"GB","legal_form":"B6ES","name":"SCHRODER UK MID CAP FUND PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"549300SOSI58J6VIW052","v":{"category":"GENERAL","city":"CLERMONT-FERRAND","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"CLERMONT-FERRAND","hq_country":"FR","jurisdiction":"FR","legal_form":"DEG4","name":"COMPAGNIE GENERALE DES ETABLISSEMENTS MICHELIN","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"549300SOSNCUUE5M4Y22","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Amsterdam","hq_country":"NL","jurisdiction":"IE","legal_form":"8888","name":"VanEck Gold Miners UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"549300SOTWSOJY5BFV46","v":{"category":"FUND","city":"George Town, Grand Cayman","country":"KY","d":"2026-09-28T17:51:42+00:00","hq_city":"George Town, Grand Cayman","hq_country":"KY","jurisdiction":"KY","legal_form":"9999","name":"Worldview Investment Fund - DWS European Small Mid Cap Equity Fund","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -9778,6 +9786,7 @@
 {"k":"6354004G51DG4BRFSN08","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Real Estate 2021","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"6354004MMQW4YDJJHP78","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"9999","name":"THIRD AVENUE GLOBAL VALUE FUND","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"6354004Q6KGHPAHD2Z16","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"9999","name":"Sanlam Ninety One International Inflation Linked Bond Fund","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"6354004QXYLNRJEQFS87","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T18:10:18+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"ARK Invest UCITS ICAV","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"6354004UKGUQNCOZOU60","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Amsterdam","hq_country":"NL","jurisdiction":"IE","legal_form":"8888","name":"VanEck Video Gaming And ESports UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"6354004Y7QUPTIOYID57","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Invesco STOXX Europe 600 Optimised Health Care UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"6354005AXTG8UYUIQX13","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Real Estate 2024","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -9826,6 +9835,7 @@
 {"k":"635400BK5J6GBMBFNG77","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"Janus Henderson Haitong Asia ex-Japan High Yield Corp USD Bond Screened Core UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400BOADGSBAGDTV98","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"INVESCO STOXX EUROPE 600 OPTIMISED TECHNOLOGY UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400BR2ROC1FVEBQ56","v":{"category":"GENERAL","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Ryanair Holdings Public Limited Company","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"635400BRTVJRP8KWVW82","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T18:10:18+00:00","hq_city":"Amsterdam","hq_country":"NL","jurisdiction":"IE","legal_form":"8888","name":"VanEck UCITS ETFs Plc","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400C236JOQ49N5548","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"9999","name":"Mpile Global Equity Fund","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400C8EK6DRI12LJ39","v":{"category":"GENERAL","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"BANK OF IRELAND GROUP PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400CC4MJG9XXZ1U96","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Global X Autonomous & Electric Vehicles UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -9875,6 +9885,7 @@
 {"k":"635400GA5X5CB144JX64","v":{"category":"GENERAL","city":"Dublin","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"CROWN CO-INVESTMENT OPPORTUNITIES III FEEDER PUBLIC LIMITED COMPANY","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400GGBEWULJXM5868","v":{"category":"GENERAL","city":"Dublin","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Greencore Group plc","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400GHBNFMMYHBKQ83","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"9999","name":"Canaccord Genuity Investment Funds plc","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"635400GJQLMWTOUSO139","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T18:10:18+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"Waystone ETF ICAV","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400GLDEJN13TKIJ68","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"GLOBAL X URANIUM UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400GTQT29EUGITJ14","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"INVESCO CONSUMER DISCRETIONARY S&P US SELECT SECTOR UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400GUFTQDXIVUEM96","v":{"category":"GENERAL","city":"OSLO","country":"NO","d":"2026-09-28T17:51:42+00:00","hq_city":"OSLO","hq_country":"NO","jurisdiction":"NO","legal_form":"YI42","name":"AYFIE GROUP AS","reg_status":"LAPSED","status":"ACTIVE"}}
@@ -10010,6 +10021,7 @@
 {"k":"635400TJTOIVKRYFBC50","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Global X Lithium & Battery Tech UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400TLEBYMVGAOUO19","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"Janus Henderson EUR IG Bond Paris-aligned Climate Core UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400TLVVBNXLFHWC59","v":{"category":"GENERAL","city":"TRALEE","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"TRALEE","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"KERRY GROUP PUBLIC LIMITED COMPANY","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"635400TOBIE7TESI6B53","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T18:10:18+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Goldman Sachs ETF ICAV","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400TTY8VPEDDDNX23","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"FAM Series UCITS ICAV","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400TTYKE8EIWDS617","v":{"category":"GENERAL","city":"Stockholm","country":"SE","d":"2026-09-28T14:33:40+00:00","hq_city":"Stockholm","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Securitas AB","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400TVSIFFQOB8RB67","v":{"category":"GENERAL","city":"Dublin","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Greencoat Renewables Public Limited Company","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -10072,6 +10084,7 @@
 {"k":"635400YCHKJWUTOPQO59","v":{"category":"FUND","city":"Tortola","country":"VG","d":"2026-09-28T14:33:40+00:00","hq_city":"New York","hq_country":"US","jurisdiction":"VG","legal_form":"9999","name":"Baron USA Partners Fund Limited","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400YEKXOXHOMXHI83","v":{"category":"GENERAL","city":"DUBLIN","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"CROWN CO-INVESTMENT OPPORTUNITIES II PUBLIC LIMITED COMPANY","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400YIAKIIDS7JKF64","v":{"category":"GENERAL","city":"Shannon","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"Shannon","hq_country":"IE","jurisdiction":"IE","legal_form":"VYAX","name":"Conroy Gold and Natural Resources plc","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"635400YMRJ8Q9PEKP753","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T18:10:18+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"2GV9","name":"KraneShares ICAV","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400YN8RAODRHWIX25","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Northern Trust Listed Private Equity UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400YORHNUYDAE8J97","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"INVESCO STOXX EUROPE 600 OPTIMISED CONSTRUCTION & MATERIALS UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"635400YWLCPKZHWGWK37","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Paris","hq_country":"FR","jurisdiction":"IE","legal_form":"8888","name":"BNP PARIBAS EASY ECPI GLOBAL ESG INFRASTRUCTURE UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -12380,6 +12393,7 @@
 {"k":"969500AEDFIE2DYDF769","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"E-PANGO","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500AGQP2FXW6GMN75","v":{"category":"GENERAL","city":"ALENCON","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"ALENCON","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"HEXAOM","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500AGVPK757LHYU02","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T14:33:40+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"X78I","name":"AMUNDI MDAX UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"969500AOHVTWVGM1KA18","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T18:10:18+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"MQU9","name":"AGRIPLAN BMTN - CR ILLE ET VILAINE","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500AQW31GYO8JZD66","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T14:33:40+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"AIR FRANCE - KLM","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500AUB9VZQELE5H35","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T14:33:40+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"X78I","name":"AMUNDI IBEX 35 DOBLE INVERSO DIARIO (-2X) UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500AW5FA86IVLHY37","v":{"category":"GENERAL","city":"PARIS","country":"IT","d":"2026-09-28T17:51:42+00:00","hq_city":"PARIS","hq_country":"IT","jurisdiction":"FR","legal_form":"K65D","name":"MONDO TV FRANCE","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -12451,6 +12465,7 @@
 {"k":"969500EUXVXI1P4RAR57","v":{"category":"GENERAL","city":"SAINT-OUEN-L'AUMONE","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"SAINT-OUEN-L'AUMONE","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"TRILOGIQ SA","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500EV3CD5YD4GS669","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"MQU9","name":"AMUNDI LABEL ISR ACTIONS JAPON UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500EVHCLEEM63OR65","v":{"category":"GENERAL","city":"TOULON","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"TOULON","hq_country":"FR","jurisdiction":"FR","legal_form":"5VCF","name":"GROUPE CARNIVOR","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"969500EVTHSDV3DMFN65","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T18:10:18+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"E6YB","name":"CAISSE REGIONALE DE CREDIT MUTUEL D'ILE DE FRANCE","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"969500EWBEGIDU4SVC87","v":{"category":"GENERAL","city":"LEVALLOIS-PERRET","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"LEVALLOIS-PERRET","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"GEVELOT S A","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500EX26X99WBVPD66","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"PROACTIS SA","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500EY082T9MF5R336","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"ATARI SA","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -12627,12 +12642,14 @@
 {"k":"969500P2Q1B47H4MCJ34","v":{"category":"GENERAL","city":"MEUDON","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"MEUDON","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"VALLOUREC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500P37RPOIG33A760","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"GROUPE SFPI","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500P3RUS57W9Z9Z70","v":{"category":"GENERAL","city":"NEUILLY-SUR-SEINE","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"NEUILLY-SUR-SEINE","hq_country":"FR","jurisdiction":"FR","legal_form":"TPNT","name":"CLARANOVA S.E.","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"969500P448GL7H3MJ058","v":{"category":"GENERAL","city":"LEVALLOIS-PERRET","country":"FR","d":"2026-09-28T18:10:18+00:00","hq_city":"LEVALLOIS-PERRET","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"KEYRUS","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500P7L99JTK2AIG60","v":{"category":"GENERAL","city":"SAINT-ROMAIN-AU-MONT-D'OR","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"SAINT-ROMAIN-AU-MONT-D'OR","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"ARTMARKET.COM","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500P8M3W2XX376054","v":{"category":"GENERAL","city":"METZ","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"METZ","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"COVIVIO","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500PAMIH8AZECWJ69","v":{"category":"GENERAL","city":"VALREAS","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"VALREAS","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"GALEO CONCEPT","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"969500PB4U31KEFHZ621","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"5VCF","name":"KLEPIERRE","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500PDJW8N0FSGGK69","v":{"category":"GENERAL","city":"ILLKIRCH-GRAFFENSTADEN","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"ILLKIRCH-GRAFFENSTADEN","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"TRANSGENE","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"969500PE6RET5QUGNV69","v":{"category":"GENERAL","city":"BERNIERES-SUR-MER","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"BERNIERES-SUR-MER","hq_country":"FR","jurisdiction":"FR","legal_form":"V9QP","name":"FD","reg_status":"LAPSED","status":"ACTIVE"}}
+{"k":"969500PERI4FW2QXP256","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T18:10:18+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"MQU9","name":"AMUNDI ETF SHORT EURO STOXX 50 DAILY UCITS ETF","reg_status":"LAPSED","status":"ACTIVE"}}
 {"k":"969500PI25OKPKTD9364","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"S0X8","name":"CAISS REGIO CREDI AGRIC MUTUEL PARIS IDF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500PJMBSFHYC37989","v":{"category":"GENERAL","city":"TREMBLAY-EN-FRANCE","country":"FR","d":"2026-09-28T14:49:24+00:00","hq_city":"TREMBLAY-EN-FRANCE","hq_country":"FR","jurisdiction":"FR","legal_form":"K65D","name":"AEROPORTS DE PARIS","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"969500PKO62D27NM6A51","v":{"category":"FUND","city":"PARIS","country":"FR","d":"2026-09-28T14:33:40+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"X78I","name":"BNP PARIBAS EASY STOXX EUROPE 600 UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -13230,6 +13247,7 @@
 {"k":"K8MS7FD7N5Z2WQ51AZ71","v":{"category":"GENERAL","city":"BILBAO","country":"ES","d":"2026-09-28T14:33:40+00:00","hq_city":"BILBAO","hq_country":"ES","jurisdiction":"ES","legal_form":"5RDO","name":"BANCO BILBAO VIZCAYA ARGENTARIA SOCIEDAD ANONIMA","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"KDTEY8BWE486IKZ3CC07","v":{"category":"GENERAL","city":"Wilmington","country":"US","d":"2026-09-28T14:33:40+00:00","hq_city":"Bellevue","hq_country":"US","jurisdiction":"US-DE","legal_form":"XTIQ","name":"PACCAR INC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"KNX4USFCNGPY45LOCE31","v":{"category":"GENERAL","city":"WILMINGTON","country":"US","d":"2026-09-28T14:33:40+00:00","hq_city":"WILMINGTON","hq_country":"US","jurisdiction":"US-DE","legal_form":"XTIQ","name":"INTEL CORPORATION","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"KY37LUS27QQX7BB93L28","v":{"category":"GENERAL","city":"VEVEY","country":"CH","d":"2026-09-28T18:10:18+00:00","hq_city":"VEVEY","hq_country":"CH","jurisdiction":"CH","legal_form":"MVII","name":"NESTLÉ S.A.","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"L3I9ZG2KFGXZ61BMYR72","v":{"category":"GENERAL","city":"HALIFAX","country":"CA","d":"2026-09-28T14:33:40+00:00","hq_city":"Toronto","hq_country":"CA","jurisdiction":"CA-NS","legal_form":"8888","name":"THE BANK OF NOVA SCOTIA","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"L47NHHI0Z9X22DV46U41","v":{"category":"GENERAL","city":"Hamburg","country":"DE","d":"2026-09-28T14:33:40+00:00","hq_city":"Hamburg","hq_country":"DE","jurisdiction":"DE","legal_form":"6QQB","name":"Beiersdorf Aktiengesellschaft","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"L612HZMU8V64SMUJWS40","v":{"category":"FUND","city":"DUBLIN","country":"IE","d":"2026-09-28T17:51:42+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Vanguard Global Stock Index Fund","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -13389,3 +13407,923 @@
 {"k":"ZSLF02UC3X1JFV1UX676","v":{"category":"GENERAL","city":"PARIS","country":"FR","d":"2026-09-28T17:51:42+00:00","hq_city":"PARIS","hq_country":"FR","jurisdiction":"FR","legal_form":"VD7Z","name":"GOLDMAN SACHS PARIS INC ET CIE","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"ZXTILKJKG63JELOEG630","v":{"category":"GENERAL","city":"WILMINGTON","country":"US","d":"2026-09-28T14:33:40+00:00","hq_city":"Seattle","hq_country":"US","jurisdiction":"US-DE","legal_form":"XTIQ","name":"AMAZON.COM, INC.","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"ZYXJDNVM2JI3VBM8G556","v":{"category":"GENERAL","city":"MILANO","country":"IT","d":"2026-09-28T14:33:40+00:00","hq_city":"MILANO","hq_country":"IT","jurisdiction":"IT","legal_form":"P418","name":"AMPLIFON S.P.A.","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"isin:BE0974280126","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300HFIIMTOP1DFR76"]}}
+{"k":"isin:BG1100001129","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG1100041067","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG1100041984","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG1100086070","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG1100109070","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG11ASASBT10","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG11HIYMAT14","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:BG11MOVEAT12","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:CA3518581051","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:CH0002619481","v":{"d":"2026-09-28T18:10:18+00:00","leis":["50670096DRU8U0S8H007"]}}
+{"k":"isin:CH0008207356","v":{"d":"2026-09-28T18:10:18+00:00","leis":["506700R7ZF010M400A82"]}}
+{"k":"isin:CH0008967926","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:CH0012627250","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300IFDFSDRT4D3076"]}}
+{"k":"isin:CH0033624211","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:CH0038863350","v":{"d":"2026-09-28T18:10:18+00:00","leis":["KY37LUS27QQX7BB93L28"]}}
+{"k":"isin:CH0047533549","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300JJC9RS9F18KX67"]}}
+{"k":"isin:CH0104136236","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300WAR8ES8RQ4KG29"]}}
+{"k":"isin:CH0104136285","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300WI0DOP26OT9C18"]}}
+{"k":"isin:CH0106027128","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300YSRG50NFTC1403"]}}
+{"k":"isin:CH0106027193","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300EDOYOCYE4QBH82"]}}
+{"k":"isin:CH0109967858","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300FPCP4SI1LHVE63"]}}
+{"k":"isin:CH0131872431","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300KAFK3SHFGRBU40"]}}
+{"k":"isin:CH0226976816","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300P3OOIKUVQQZN30"]}}
+{"k":"isin:CH0237935652","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300V7DPFVCRPOHK52"]}}
+{"k":"isin:CH0276837694","v":{"d":"2026-09-28T18:10:18+00:00","leis":["506700P3R89PJL1LM545"]}}
+{"k":"isin:CH0466642201","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900SUJBXTORH0LT80"]}}
+{"k":"isin:CH0524026959","v":{"d":"2026-09-28T18:10:18+00:00","leis":["50670072J8XF8F091F46"]}}
+{"k":"isin:CH1129677105","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900PL4KLKJVMULW74"]}}
+{"k":"isin:CH1244681594","v":{"d":"2026-09-28T18:10:18+00:00","leis":["391200N97TLOVQERPI50"]}}
+{"k":"isin:CH1408319130","v":{"d":"2026-09-28T18:10:18+00:00","leis":["391200PA3QBUP1WD8Z88"]}}
+{"k":"isin:CH1416135338","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300KAFK3SHFGRBU40"]}}
+{"k":"isin:CH1430134226","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900SLCCO6K43P8146"]}}
+{"k":"isin:CWN814651014","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493003TARU041L6MN07"]}}
+{"k":"isin:DE0005933964","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493004LBNAST882NV32"]}}
+{"k":"isin:DE0008131350","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900NZYUC5IBOIDC88"]}}
+{"k":"isin:DE000A0F5UH1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PJM8TJ6VI8BV03"]}}
+{"k":"isin:DE000A1K03W5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5299008Y94QHNMRK6U07"]}}
+{"k":"isin:DE000A3ENQ51","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900TU48UE99NHEY88"]}}
+{"k":"isin:DE000A41ZZJ4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900NVQXYIRCDQJ355"]}}
+{"k":"isin:DE000A4231H9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900RHI860BZ9LR687"]}}
+{"k":"isin:DE000ETF7029","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900YXF95TM54IH173"]}}
+{"k":"isin:DE000ETFL136","v":{"d":"2026-09-28T18:10:18+00:00","leis":["52990025I3GO1BM0RH15"]}}
+{"k":"isin:DK0010297548","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300H4CVN7BUI21N80"]}}
+{"k":"isin:DK0010298272","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300DLVC5OZZ7P2H71"]}}
+{"k":"isin:DK0015357065","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493004CTIJXEGP9YQ45"]}}
+{"k":"isin:DK0016015399","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300KKI18U36EHXZ86"]}}
+{"k":"isin:DK0060012896","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QI5NLSR7OIEZ92"]}}
+{"k":"isin:DK0060057644","v":{"d":"2026-09-28T18:10:18+00:00","leis":["9676008YQH4Z93UAMR40"]}}
+{"k":"isin:DK0060095735","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300FA9YZPWD7O8614"]}}
+{"k":"isin:DK0060096030","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300CMSI2E3L60JI77"]}}
+{"k":"isin:DK0060268506","v":{"d":"2026-09-28T18:10:18+00:00","leis":["54930090E6G3V7ZWIP76"]}}
+{"k":"isin:DK0060448918","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300Q42F3BH4YKGS83"]}}
+{"k":"isin:DK0060622967","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300NJNI2BKP1PQR21"]}}
+{"k":"isin:DK0060636595","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493004CFJF0N5USFW25"]}}
+{"k":"isin:DK0060655702","v":{"d":"2026-09-28T18:10:18+00:00","leis":["967600DT35GM55UACR15"]}}
+{"k":"isin:DK0060749281","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HYN2Q8NVXSJY74"]}}
+{"k":"isin:DK0060749364","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800M1LFTFCQNKLP15"]}}
+{"k":"isin:DK0060950111","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300VAFJV006WSLV36"]}}
+{"k":"isin:DK0061271699","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001IMI8ZHKLU9T81"]}}
+{"k":"isin:DK0061530896","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300L4MCYLCMMI2602"]}}
+{"k":"isin:DK0061530979","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300FTLNHKJX1FXF39"]}}
+{"k":"isin:DK0062612727","v":{"d":"2026-09-28T18:10:18+00:00","leis":["8945005TPPJFFDWHOS60"]}}
+{"k":"isin:DK0063179015","v":{"d":"2026-09-28T18:10:18+00:00","leis":["63670062FZO1RP0R0Z35"]}}
+{"k":"isin:ES0105687000","v":{"d":"2026-09-28T18:10:18+00:00","leis":["894500YQF1XJ6L8L8T23"]}}
+{"k":"isin:ES0106042007","v":{"d":"2026-09-28T18:10:18+00:00","leis":["959800PQGEW0BLERSP87"]}}
+{"k":"isin:ES0114400007","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:FI4000519236","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:FI4000586409","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:FR0000032658","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500J2V41R87GPTD23"]}}
+{"k":"isin:FR0000045213","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500AOHVTWVGM1KA18"]}}
+{"k":"isin:FR0000045528","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500EVTHSDV3DMFN65"]}}
+{"k":"isin:FR0000063307","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500NE4IRK1H9OAG25"]}}
+{"k":"isin:FR0000064958","v":{"d":"2026-09-28T18:10:18+00:00","leis":["9695008PJ4ZO8QKYII19"]}}
+{"k":"isin:FR0004029411","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500P448GL7H3MJ058"]}}
+{"k":"isin:FR0007054358","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500E6V09ZKCLMR398"]}}
+{"k":"isin:FR0010263202","v":{"d":"2026-09-28T18:10:18+00:00","leis":["9695005BDIQVS2PM7G48"]}}
+{"k":"isin:FR0010468983","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500HHS3SZQPCB3X15"]}}
+{"k":"isin:FR0010757781","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500PERI4FW2QXP256"]}}
+{"k":"isin:FR0010869578","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500CNU1SHEPGXA091"]}}
+{"k":"isin:FR0011023621","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500CM8I24LU7CYM82"]}}
+{"k":"isin:FR0011341205","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500667RSYIH8YL895"]}}
+{"k":"isin:FR0011550177","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500M16QGQY5B5T207"]}}
+{"k":"isin:FR0011550185","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500M16QGQY5B5T207"]}}
+{"k":"isin:FR0011550193","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500PKO62D27NM6A51"]}}
+{"k":"isin:FR0011550672","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500PKO62D27NM6A51"]}}
+{"k":"isin:FR0012300424","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500PE6RET5QUGNV69"]}}
+{"k":"isin:FR0013374667","v":{"d":"2026-09-28T18:10:18+00:00","leis":["894500106EI75PGHOV27"]}}
+{"k":"isin:FR001400SDI8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["9695002F4K6M8359O128"]}}
+{"k":"isin:FR001400SDJ6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500EV3CD5YD4GS669"]}}
+{"k":"isin:FR001400SDK4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500EV3CD5YD4GS669"]}}
+{"k":"isin:FR001400SDM0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["96950083ZYCRFEOBPJ43"]}}
+{"k":"isin:FR001400SDN8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500932K0U8BRFVI49"]}}
+{"k":"isin:FR001400SDO6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500932K0U8BRFVI49"]}}
+{"k":"isin:FR001400SDP3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500DKF52VVXDFKG23"]}}
+{"k":"isin:FR001400SQV3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["9695001A49STRH3GJE41"]}}
+{"k":"isin:FR001400ZGR7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500L603JJVEZZ0318"]}}
+{"k":"isin:FR0014015ZN2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["969500AGVPK757LHYU02"]}}
+{"k":"isin:GB0006108418","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300SOEWCYZTK2SP87"]}}
+{"k":"isin:GB0033862573","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138005T5CT5ITZ7ZX58"]}}
+{"k":"isin:GB00B01RDH75","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493003R8FJ6I76ZUW55"]}}
+{"k":"isin:GB00B3SXM832","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493003K5E043LHLO706"]}}
+{"k":"isin:GB00BD6RF223","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138009X19O21NU5SG79"]}}
+{"k":"isin:GB00BDR6V192","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138004439PRUV6WB123"]}}
+{"k":"isin:GB00BGYB6N58","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:GB00BMTS0Z37","v":{"d":"2026-09-28T18:10:18+00:00","leis":["54930049CEWDI46Y3U28"]}}
+{"k":"isin:GB00BND88V85","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800KFNMVI8PDZX472"]}}
+{"k":"isin:GB00BS9F9D74","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800N2NKOTYUNRCU14"]}}
+{"k":"isin:GB00BTNQ8K38","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138002FX1MYCA5ZZH32"]}}
+{"k":"isin:GB00BVG1CF25","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138008X94M7OVE73I77"]}}
+{"k":"isin:GB00BWXC7Y93","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300XODK7D2K2KYV43"]}}
+{"k":"isin:GG00BMHG0H12","v":{"d":"2026-09-28T18:10:18+00:00","leis":["894500LP94M98N8CY487"]}}
+{"k":"isin:GRF000153004","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800SHGGWDBFVRPS03"]}}
+{"k":"isin:GRS331043000","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800R89ZMN72PNB554"]}}
+{"k":"isin:GRS432003028","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800SNEJL2ZM642D98"]}}
+{"k":"isin:GRS487003006","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800U7SBKWW79CBG88"]}}
+{"k":"isin:HU0000171335","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:HU0000233879","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00000EF730","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0000EA7C44","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400OEXK3PLKUOD332"]}}
+{"k":"isin:IE0000FCGYF9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE0000H445G8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE0000JVOLK2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE0000MMQ5M5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0000QLH0G6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0000U24AJ9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0000U2ASV9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0000UW95D6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE00011CA799","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0001858L90","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00018LB0D8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0001AXQAS6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0001J5A2T9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE0001JJF0Q9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE0001JK8FV4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0001QF56M0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400YMRJ8Q9PEKP753"]}}
+{"k":"isin:IE0001R850E1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0001XIQ4D9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00020C1NS6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00021E4FE3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000245C884","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE00025DKLQ3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0002DDYPW4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800JORFX9WA7EEQ96"]}}
+{"k":"isin:IE0002L5QB31","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE0002PG6CA6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE0002RPS3K2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE0002UF1FD8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300CR64ZRKK6G8L34"]}}
+{"k":"isin:IE0002VEN3U3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00032L0R44","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE00034XRBU1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0003A512E4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE0003KQ8JX1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0003LGI4Z6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE0003MKK4H3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE0003RA2ZR3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0003RQ9F90","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0003UH9270","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0003UVYC20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0003Z9E2Y3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00049BN7O1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004GONJX4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004IR5U82","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE0004MFRED4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004O92CM1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004OYBZA6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004WPSAM9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0004ZFNTZ6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000544AJM3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00055OM853","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0005B8WVT6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE0005CH3U28","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0005E47AH7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0005FQHJC4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0005KF09R2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0005KI2KD2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0005TF96I9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00063FT9K6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00064KQDB3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE00068IJAK0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE0006CHRED6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006FFX5U1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006GNB732","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006GUEKQ7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K5X6EFCPELZ850"]}}
+{"k":"isin:IE0006K7DEL9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006LBEDV2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0006N7AK90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE0006RFB3X2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006WZF7C2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0006YCYW06","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000716YHJ7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00075IVKF9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00076HZIP3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00077FRP95","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00079WNSI6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007BT2BH8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0007F5YXX0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007G78AC4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007HPIXG8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007I99HX7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE0007ILCZU4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007SRI1C7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE0007SZHO07","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0007UJ6IE0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE0007Y8Y157","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00080CTQA4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K11SEREQYHRT63"]}}
+{"k":"isin:IE0008119MO8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008B0OAD5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008L7O3Q6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008NJMGB5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008TDJ461","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008V9P2F7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0008ZGI5C1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400GJQLMWTOUSO139"]}}
+{"k":"isin:IE00096S6AV7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00098S8RU7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE00099GAJC6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0009BM62P2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE0009OCO2W4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE0009PACXU3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0009RE6PA1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0009SA6OY7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE0009VWHAE6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE0009YEDMC6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000A0RC215","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000A8N67F3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000AD2AYN2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE000AE3TNP7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000AIFGRB9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000AON7ET1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000AP27VA7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000AV35A01","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000AWRDWI7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000AZOUN82","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000B4EDHL6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000B9PQW54","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE000BBMJ8L9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000BLN64M9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE000BMDG046","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000BUIVY49","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000BW2B3J3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000BWKUES1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000BXC49I6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000BZFW5H7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000C5Q64P6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000C87OS21","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000CBYU7J5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000CL68Z69","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000CN8T855","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000CR3ZDF9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000CWUZKZ9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000CY30YV9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000CYTPBT0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE000CZ86N65","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000D0T0BO1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000D3E0G47","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000D5R9C23","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000D6810F1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000D8XC064","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000DB78H45","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000DNSAS54","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000DOZYQJ7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000DTA2ZH9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000E0V65D8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000E8WZD37","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000E9W0ID3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000EBFYWX3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000EDOZV89","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K5X6EFCPELZ850"]}}
+{"k":"isin:IE000EE3Q489","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000EGGFVG6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000EHRXW91","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000EPIJ442","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000EPX8KB7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000EVUY6K9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000F0DNOJ1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000F6XDNZ5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000FP52WM7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000FRX67F3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000FVQW7E7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000FVYOWC4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000FXHG8D6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000FYTRRJ6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000G2LIHG9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000GA3D489","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000GB2EQ90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000GE4QIR1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000GETKIK8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000GFG8GS0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000GGQK173","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000GMRDSZ7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000GSIFIB0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000GY4RHX5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000H0TSO96","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000H92C4B8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000HDPAH09","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000HGH8PV2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000HPBRE54","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000HQY8R78","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000HT8JEW8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000I5NV504","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000I9HGDZ3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000IF0HTJ9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000IF5WTI9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K11SEREQYHRT63"]}}
+{"k":"isin:IE000IQQEL77","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000IYBMW97","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000J3F4J90","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000J6CHW80","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE000J80JTL1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000JCGTOP1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K11SEREQYHRT63"]}}
+{"k":"isin:IE000JQ2IJD3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000JXFRNI0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000JZYIUN0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000K7PC2G4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300SMY5FJN8ZOIC50"]}}
+{"k":"isin:IE000KD0BZ68","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KDY10O3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000KF370H3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KHX9DX6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KJPDY61","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KLSD4Y8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KM34187","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000KRD5QO7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000KXMLOD6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000L2IS494","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000L2SA8K5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000L4EH2K5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000LG4J7E7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000LH4DDC2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000LOSV2D0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000LSFKN16","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000LT3MQE9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000LZ4F7J0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000LZ7BZW8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000M3UHD88","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000M7V94E1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE000M8NCUC9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001O1CLOD0EKP859"]}}
+{"k":"isin:IE000MAO75G5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000MELAE65","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE000MQ5XEW1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000MS9DTS9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000MUAJIF4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000MYCJA42","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000NDWFGA5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000NL12KM9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000NPK2VI6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000NVDQXE1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000NVM56L3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000NXF88S1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE000NYVK0R8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000O2G7VL0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000O2VOVU8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000O36LOH8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000O5M6XO1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000OHEH5Y9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000OJ31JQ4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000OK14N99","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000OKVTDF7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000OVF8Q66","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000P0FL8E3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000P0R7WK6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000P16KP52","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000P2WSBY0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000P4AYI47","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000P7C7930","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000PA766T7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000PEAJOT0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000PECRUX8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000PJL7R74","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000PPEL1I4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400K5X6EFCPELZ850"]}}
+{"k":"isin:IE000PWSK6H1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE000PY7F8J9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000PYIUPH0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000Q0IU5T1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000Q2EQ5K8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000Q8ZHWI1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001O1CLOD0EKP859"]}}
+{"k":"isin:IE000Q9IHH10","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE000QADMYA3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000QAO7DD4","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000QCDDND5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000QJMYB29","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000QLV3SY5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE000QMIHY81","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000QUCVEN9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000R65LK54","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000R6TN604","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400GJQLMWTOUSO139"]}}
+{"k":"isin:IE000R85HL30","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000RE0SQM6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000REVDBO3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000RH1ZG27","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000RI14ZD9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000RLUE8E9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000RMSPY39","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000RQJBQI6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE000RSCXLM4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000S2QZKI8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000S4A5WE2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000S6476U8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000S67ID55","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000S6ZDHA0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000SACNHU2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000SBJO6L2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000SBU19F7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE000SDZFVP4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000SHR0UX9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000SKTEI24","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000SM6I1K9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000SYQFJV2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000T5R61X5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000T9NSP89","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000TB3YTV4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TD3TI26","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TG1LGI4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TG7T8V7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TGK2UK9","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TGSG3Y5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000TI21P14","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000TZT8TI0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000UDFKE13","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000UJC4MR1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000UKN7GP4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000UL6CLP7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000UOXRAM8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000UXH6733","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000UZO4IC7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE000V0GDVU7","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000VAOK4J4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000VDI16Q5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000VDP6OY8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000VLWPWJ8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE000VMQ8IH9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000VVQWC23","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000VXC51U5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000VYO9NT0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000W566ZX2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000W6ZFH20","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TTY8VPEDDDNX23"]}}
+{"k":"isin:IE000WECC636","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000WHL2ZK1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WJCYGB4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WMIYI33","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WOBV8X1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000WQJ37B1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WQXBJO0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WV38GP5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE000WX7BVB0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WXLHR76","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000WYTQSF9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE000WZJ38F1","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
+{"k":"isin:IE000X1JN6A2","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000X3MDCC5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["254900FEDVTRKPLFK611"]}}
+{"k":"isin:IE000X6E0QC3","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000X8M8M80","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000X9FTI22","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000XAGSCY5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000XD7KCJ7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000XIBT2R7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000XIITCN5","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000XNILW20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000XZSV718","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000Y0DQX41","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000Y2AQPY9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000Y6ZXZ48","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000Y7V5EW2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300Q7FFITMZ2PFZ28"]}}
+{"k":"isin:IE000YELA4E3","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE000YG82CF0","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000YGEAK03","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000YICM5P9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE000YK1TO74","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE000YNE6S57","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000YU9K6K2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE000YYE6WK5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE000Z4OYPZ6","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000Z7ELYY2","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354002XZH78JPKRZL64"]}}
+{"k":"isin:IE000ZGT8JM8","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000ZH72RF4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000ZQOIPB1","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE000ZUAJ6B7","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE000ZZJ48Q0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE00B3CNHG25","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B3Q19T94","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B3S5XW04","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B3SC9K16","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B3T9LM79","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B3VPKB53","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B3VSSL01","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B3WMTH43","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B3X3R831","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B3XM3R14","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B3YC1100","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B41RYL63","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B42Q4896","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B435BG20","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B435CG94","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B43QJJ40","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B449XP68","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B44CND37","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B466KX20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B469F816","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B4JY5R22","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B4TS3815","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B52VJ196","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300F37ANJ4RAIPT18"]}}
+{"k":"isin:IE00B57S5Q22","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B58FQX63","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B58HMN42","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B5B3W843","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B5LP3W10","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B5MTWD60","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B5SG8Z57","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B5W34K94","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B60SWT88","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SWV01","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SWW18","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SWX25","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SWY32","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SX170","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SX287","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SX394","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B60SX402","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B6YX5F63","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B7LW6Y90","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B88DZ566","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B8BVCK12","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B8CJW150","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00B8J37J31","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B910VR50","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00B94ZB998","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BC7GZX26","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BCLWRB83","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BCLWRD08","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300ZP07LMR36K1T02"]}}
+{"k":"isin:IE00BD08DL65","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD1JRY91","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300PZLRJB7M8H1057"]}}
+{"k":"isin:IE00BD1JRZ09","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD34DB16","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD495N16","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD4TYF66","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD4TYL27","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BD6FTQ80","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BDDRDY39","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BDDRF700","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BDFBTQ78","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BDGV0C91","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BDT6FP91","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BDT6FS23","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BDT8TZ34","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BDVJF675","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF0H7608","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BF0M2Z96","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BF0M6N54","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BF1B7389","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BF1QPK61","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BF2FN646","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FN752","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FN869","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNB90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNF39","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNG46","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNH52","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNL98","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNQ44","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2FNR50","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2GC043","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2GFH28","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2GFJ42","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF2GFM70","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF450720","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BF4R5F15","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BF51K025","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF51K132","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BF540Z61","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BF541080","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BF92J153","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFWMQ331","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BFWXDX52","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR5Q31","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR5S54","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR5T61","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR5V83","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR6159","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFXR7892","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400YMRJ8Q9PEKP753"]}}
+{"k":"isin:IE00BFXR7900","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400YMRJ8Q9PEKP753"]}}
+{"k":"isin:IE00BFY0GV36","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BFYN8Y92","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BG0TQ445","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG0TQB18","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG0TQC25","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG0TQD32","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG21M733","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG482169","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BG7PP820","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BGHHCV04","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BGJWWT11","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BGJWWV33","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BGJWWW40","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BGJWWX56","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BGYWSZ44","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BH3YZ803","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BH4GPZ28","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BHJYDT11","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BHXMHN35","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BHZRR147","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE00BJ06C481","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BJ5CNR11","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE00BJ5JP436","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJ5JP659","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJ5JP766","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJBLQB74","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJBLQC81","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJK9HD13","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BJQRDK83","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BJQRDL90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BJQRDM08","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BJQRDN15","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BJQTJ848","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BJSBCS90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400TOBIE7TESI6B53"]}}
+{"k":"isin:IE00BJXRZJ40","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE00BJXT3H40","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BK5BCH80","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BK5BQY34","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BK63RN45","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BK7Y2R57","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BK80XL30","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BK8JH525","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKBF4J08","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKLTRN76","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BKPJY434","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400YMRJ8Q9PEKP753"]}}
+{"k":"isin:IE00BKPSPT20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKPTXQ89","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BKW9SV11","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKW9SW28","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKWD3966","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKWD3C98","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKWD3D06","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKWD3F20","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BKX8G916","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BKY4W127","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY55S33","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY55W78","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY59G90","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY59K37","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY81627","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKY81B71","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BKZG9Y92","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BL0BMZ89","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BL58LJ19","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BL643144","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BL6K8C82","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BLB2GS19","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BLCH1X54","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BLCHJ534","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJ641","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJB90","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJC08","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJH52","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJN13","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJT74","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHJZ35","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLCHK052","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLDGHF56","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BLM1CB28","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BLR6Q544","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLR6Q650","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLR6QB00","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLR6QC17","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BLRB0028","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BLRB0242","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BLRPQH31","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE00BLRPQL76","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BLRPQP15","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BLRPRF81","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BM67HJ62","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BM8QRY62","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BM8R0H36","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BM8R0J59","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BM8R0N95","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMC38736","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BMCZLJ20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BMD8KP97","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BMDBMT65","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BMDBMV87","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BMDBMW94","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BMDH1538","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE00BMDKNW35","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE00BMDPBZ72","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493007UGK254BW83T77"]}}
+{"k":"isin:IE00BMH5XY61","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5Y327","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5Y871","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5YF48","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5YL08","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5YR69","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMH5YS76","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354005DAVWC6RVTCO47"]}}
+{"k":"isin:IE00BMW13836","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400YMRJ8Q9PEKP753"]}}
+{"k":"isin:IE00BMWXKN31","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BMYDM919","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BMYMHS24","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BMZ17V16","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BN7J5Z03","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BNC1F287","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
+{"k":"isin:IE00BNG70R26","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BNGJJT35","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BNRQM384","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BP2NF958","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
+{"k":"isin:IE00BP3QZJ36","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300ZP07LMR36K1T02"]}}
+{"k":"isin:IE00BP46NG52","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BPRCH686","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BQQP9H09","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400BRTVJRP8KWVW82"]}}
+{"k":"isin:IE00BRB36B93","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BVGC6751","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BWBXM385","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001O1CLOD0EKP859"]}}
+{"k":"isin:IE00BWBXM724","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001O1CLOD0EKP859"]}}
+{"k":"isin:IE00BWBXM831","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493001O1CLOD0EKP859"]}}
+{"k":"isin:IE00BWBXMB69","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWC52F58","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWC52G65","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWT3KJ20","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWT3KL42","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWT3KN65","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BWT3KS11","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BX7RS779","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYM11J43","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYM11K57","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYM8JD58","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BYML9W36","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BYMS5W68","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BYNQMK61","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYPLS672","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800HPABKMZWEIP107"]}}
+{"k":"isin:IE00BYQCZL35","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYQCZT11","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYSZ5R67","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYT5CW92","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYTH5602","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYTH5R14","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYVDRC61","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYVDRD78","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYVDRF92","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYVHJM24","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYVQ9G36","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYWQWR46","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400MS3JWKKMQUOK57"]}}
+{"k":"isin:IE00BYX5K108","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
+{"k":"isin:IE00BYYW2S15","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BYZLWM19","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
+{"k":"isin:IE00BZ0G8860","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IE00BZ0PKS76","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:IT0003549422","v":{"d":"2026-09-28T18:10:18+00:00","leis":["8156006C71E895860132"]}}
+{"k":"isin:JE00BQKY0816","v":{"d":"2026-09-28T18:10:18+00:00","leis":["984500Z0CT5DE760B008"]}}
+{"k":"isin:LT0000128092","v":{"d":"2026-09-28T18:10:18+00:00","leis":["529900UB9QON717IL030"]}}
+{"k":"isin:LU0599612842","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU0705291903","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU0950668870","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU0950676113","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU0969639128","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1048314196","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1048315755","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1048316720","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1107559533","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1107559616","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1109941689","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1130155606","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1169822001","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1169825954","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1169830285","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1169830442","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1215461325","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1215828218","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1248511575","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1273488475","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1273488715","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1273642816","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1273642907","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1280303014","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1287023342","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1324510525","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1324516308","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1435356065","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1459800113","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1459802168","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1481201025","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1481201702","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1484800955","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1589327680","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1600334798","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1645386217","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1646360542","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1681039050","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1681039647","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1681044308","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1681048630","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1737653714","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1737654019","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1834983550","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1834984798","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1923163676","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1953136287","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU1981860072","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2009147757","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2023678282","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2023678878","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2023679090","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082996542","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082997193","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082997359","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082997789","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082999132","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2082999215","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2098887180","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2196473016","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2216829809","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2240851688","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2265794789","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2269164310","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2277591868","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2385068593","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2408468291","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2439734141","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2446383254","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2469335884","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2469465822","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2490201840","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2533810862","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2533812991","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2555926455","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2572257041","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2655993207","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2662649412","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2662649503","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2662649685","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2675291913","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2678230652","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2697596828","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2755521270","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2798197641","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2807512947","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2807513085","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2807513168","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2823895250","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870272577","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870272650","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870272734","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870272908","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870273039","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870273203","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2870273385","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2872291948","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2872292086","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2872292169","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2872292243","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2873560481","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2880762781","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2880762948","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2924150282","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2929405640","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2951555403","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2951555585","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2976314463","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2976314620","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2976320437","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2976320866","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2976321328","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2977997381","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2993392898","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2994520851","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU2994521669","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3000546336","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3024069877","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3025345789","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3028243718","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3046618362","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3046618446","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3053350024","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3053350610","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3053351261","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3065087333","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3065090717","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3078637405","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3078637660","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3119987140","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015138","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015211","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015302","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015484","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015567","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3121015641","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3125583602","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3146950038","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3168133059","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3195985372","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3206583901","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3250315499","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3257630437","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3281688633","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3299677271","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3299677438","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3384730795","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3402750635","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3411931689","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3447501068","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3456164386","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3456164972","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:LU3456165193","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:MHY1096C1093","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:NL0009272764","v":{"d":"2026-09-28T18:10:18+00:00","leis":["7245008X4XA5E9I1C615"]}}
+{"k":"isin:NL0009508712","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:NL0010408704","v":{"d":"2026-09-28T18:10:18+00:00","leis":["7245008X4XA5E9I1C615"]}}
+{"k":"isin:NL0011683594","v":{"d":"2026-09-28T18:10:18+00:00","leis":["7245008X4XA5E9I1C615"]}}
+{"k":"isin:NL0015000D50","v":{"d":"2026-09-28T18:10:18+00:00","leis":["254900YF0PQV9APMA050"]}}
+{"k":"isin:NO0013135368","v":{"d":"2026-09-28T18:10:18+00:00","leis":["636700X6XN8UWIBHQ877"]}}
+{"k":"isin:PTGHP0AM0005","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2549005DD4RV36NOVX85"]}}
+{"k":"isin:ROAEROACNOR5","v":{"d":"2026-09-28T18:10:18+00:00","leis":["315700G9KRN3B7XDBB73"]}}
+{"k":"isin:ROCAORACNOR9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["254900KPM2IO02URRM47"]}}
+{"k":"isin:ROCMCMACNOR0","v":{"d":"2026-09-28T18:10:18+00:00","leis":["315700WO0943MRYOIN24"]}}
+{"k":"isin:SE0014453874","v":{"d":"2026-09-28T18:10:18+00:00","leis":["5493005C147NU3KD0M89"]}}
+{"k":"isin:SE0023261599","v":{"d":"2026-09-28T18:10:18+00:00","leis":["636700WDI7YVR5F6V241"]}}
+{"k":"isin:SE0023313762","v":{"d":"2026-09-28T18:10:18+00:00","leis":["636700XU8GQ8ZL4RNM17"]}}
+{"k":"isin:SE0028799429","v":{"d":"2026-09-28T18:10:18+00:00","leis":["1595UU5YMU4S61M2UO26"]}}
+{"k":"isin:SE0029278209","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300A64U24QVHYJ135"]}}
+{"k":"isin:SN0000033192","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US0240611030","v":{"d":"2026-09-28T18:10:18+00:00","leis":["254900SMQY98VFKNCC32"]}}
+{"k":"isin:US30233Q1085","v":{"d":"2026-09-28T18:10:18+00:00","leis":["J3WHBG0MTS7O8ZVMDC91"]}}
+{"k":"isin:US3682872078","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US38349T1060","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US50186Q2021","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US52678P2056","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US65447N1037","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:US79589L1061","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:VGG878801114","v":{"d":"2026-09-28T18:10:18+00:00","leis":["2138002739WFQPLBEQ42"]}}
