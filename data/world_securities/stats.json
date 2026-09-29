@@ -1,8 +1,8 @@
 {
- "active": 29308,
+ "active": 29314,
  "by_category": {
   "dr": 345,
-  "etf": 7826,
+  "etf": 7832,
   "funds": 6410,
   "other": 129,
   "stocks": 14545,
@@ -12,7 +12,7 @@
   "AT": 82,
   "BE": 126,
   "BG": 397,
-  "CA": 4502,
+  "CA": 4508,
   "CH": 1541,
   "CY": 155,
   "CZ": 68,
@@ -46,22 +46,22 @@
   "—": 1580
  },
  "by_market": {
-  "CA": 4502,
+  "CA": 4508,
   "CH": 1534,
   "EU_UK": 18831,
   "JP": 4441
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4082,
-   "n": 4502,
-   "ticker": 4502,
+   "figi": 4088,
+   "n": 4508,
+   "ticker": 4508,
    "types": {
     "Closed-End Fund": 67,
     "Common Stock": 2037,
     "Debenture": 55,
     "Depositary Receipt": 107,
-    "ETF": 1804,
+    "ETF": 1810,
     "Investment Fund": 5,
     "Limited Partnership": 6,
     "Note / Bond": 2,
@@ -124,14 +124,14 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10484,
+  "exchange": 10490,
   "home_country": 985,
   "rlvnt": 16010,
   "single": 483,
   "—": 1346
  },
  "by_region": {
-  "CA": 4502,
+  "CA": 4508,
   "CH": 1541,
   "EU": 16498,
   "JP": 4441,
@@ -144,7 +144,7 @@
   "Convertible Preferred": 1,
   "Debenture": 55,
   "Depositary Receipt": 345,
-  "ETF": 7632,
+  "ETF": 7638,
   "ETN": 21,
   "ETP": 173,
   "Fund of Funds": 84,
@@ -172,7 +172,7 @@
   "cfi_fca": 2140,
   "jpx_section": 4420,
   "jpx_section+etn_list": 21,
-  "openfigi": 4082,
+  "openfigi": 4088,
   "six_product_line": 363,
   "six_sec_type": 3,
   "six_segment": 173,
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-09-28T18:10:18+00:00",
+ "generated_at": "2026-09-29T11:31:43+00:00",
  "issuers": 13248,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29308,
+ "total": 29314,
  "unmapped_figi_types": {},
- "with_figi": 18720,
+ "with_figi": 18726,
  "with_isin": 23796,
  "with_issuer": 19826,
  "with_lei": 19826,
- "with_share_class_figi": 20199,
- "with_ticker": 20710
+ "with_share_class_figi": 20205,
+ "with_ticker": 20716
 }
