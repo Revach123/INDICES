@@ -51,3 +51,4 @@ ftse100_tr,CUKX.L,FTSE 100 TR (פרוקסי ETF מצטבר),FTSE 100 TR (Acc ETF
 msci_india_proxy,INDA,MSCI הודו (פרוקסי ETF),MSCI India (ETF proxy),הודו,equity,
 china_a_proxy,ASHR,מניות סין A (פרוקסי ETF),China A-Shares (ETF proxy),סין,equity,
 shenzhen,399001.SZ,שנג'ן מורכב,Shenzhen Component,סין,equity,
+sp500_esg,^SPXESUP|^SPXESG|^SPESG,S&P 500 ESG (Scored & Screened),S&P 500 Scored & Screened (ESG),ארה"ב,equity,
