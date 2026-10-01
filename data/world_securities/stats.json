@@ -1,19 +1,19 @@
 {
- "active": 29314,
+ "active": 29317,
  "by_category": {
   "dr": 345,
-  "etf": 7832,
-  "funds": 6410,
-  "other": 129,
-  "stocks": 14545,
-  "unclassified": 53
+  "etf": 7838,
+  "funds": 6408,
+  "other": 128,
+  "stocks": 14541,
+  "unclassified": 57
  },
  "by_country": {
   "AT": 82,
   "BE": 126,
   "BG": 397,
-  "CA": 4508,
-  "CH": 1541,
+  "CA": 4514,
+  "CH": 1540,
   "CY": 155,
   "CZ": 68,
   "DE": 1939,
@@ -40,49 +40,49 @@
   "PL": 833,
   "PT": 50,
   "RO": 342,
-  "SE": 991,
+  "SE": 989,
   "SI": 23,
   "SK": 31,
   "—": 1580
  },
  "by_market": {
-  "CA": 4508,
-  "CH": 1534,
-  "EU_UK": 18831,
+  "CA": 4514,
+  "CH": 1533,
+  "EU_UK": 18829,
   "JP": 4441
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4088,
-   "n": 4508,
-   "ticker": 4508,
+   "figi": 4094,
+   "n": 4514,
+   "ticker": 4514,
    "types": {
     "Closed-End Fund": 67,
     "Common Stock": 2037,
-    "Debenture": 55,
+    "Debenture": 54,
     "Depositary Receipt": 107,
-    "ETF": 1810,
+    "ETF": 1816,
     "Investment Fund": 5,
     "Limited Partnership": 6,
     "Note / Bond": 2,
-    "Preferred Stock": 256,
+    "Preferred Stock": 253,
     "REIT Stock": 40,
     "Right": 1,
     "Unit": 15,
     "Warrant": 54,
-    "—": 53
+    "—": 57
    }
   },
   "CH": {
-   "figi": 1458,
-   "n": 1534,
-   "ticker": 1534,
+   "figi": 1457,
+   "n": 1533,
+   "ticker": 1533,
    "types": {
-    "Common Stock": 229,
+    "Common Stock": 230,
     "Depositary Receipt": 17,
     "ETF": 286,
     "ETP": 173,
-    "Investment Fund": 777,
+    "Investment Fund": 775,
     "Other Fund": 29,
     "Participation Certificate": 1,
     "REIT": 9,
@@ -91,10 +91,10 @@
   },
   "EU_UK": {
    "figi": 8748,
-   "n": 18831,
+   "n": 18829,
    "ticker": 10233,
    "types": {
-    "Common Stock": 7825,
+    "Common Stock": 7823,
     "Convertible Common": 6,
     "Convertible Preferred": 1,
     "Depositary Receipt": 221,
@@ -124,32 +124,32 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10490,
+  "exchange": 10495,
   "home_country": 985,
-  "rlvnt": 16010,
+  "rlvnt": 16008,
   "single": 483,
   "—": 1346
  },
  "by_region": {
-  "CA": 4508,
-  "CH": 1541,
-  "EU": 16498,
+  "CA": 4514,
+  "CH": 1540,
+  "EU": 16496,
   "JP": 4441,
   "UK": 2326
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13990,
+  "Common Stock": 13989,
   "Convertible Common": 6,
   "Convertible Preferred": 1,
-  "Debenture": 55,
+  "Debenture": 54,
   "Depositary Receipt": 345,
-  "ETF": 7638,
+  "ETF": 7644,
   "ETN": 21,
   "ETP": 173,
   "Fund of Funds": 84,
   "Hedge Fund": 111,
-  "Investment Fund": 4262,
+  "Investment Fund": 4260,
   "Limited Partnership": 6,
   "Note / Bond": 2,
   "Other": 2,
@@ -157,7 +157,7 @@
   "Other Fund": 1753,
   "Participation Certificate": 1,
   "Pension Fund": 3,
-  "Preferred Stock": 432,
+  "Preferred Stock": 429,
   "Private Equity Fund": 35,
   "REIT": 82,
   "REIT Stock": 40,
@@ -165,19 +165,19 @@
   "Right": 1,
   "Unit": 15,
   "Warrant": 54,
-  "—": 53
+  "—": 57
  },
  "by_type_source": {
-  "cfi_esma": 17686,
-  "cfi_fca": 2140,
+  "cfi_esma": 17684,
+  "cfi_fca": 2137,
   "jpx_section": 4420,
   "jpx_section+etn_list": 21,
-  "openfigi": 4088,
+  "openfigi": 4094,
   "six_product_line": 363,
-  "six_sec_type": 3,
+  "six_sec_type": 5,
   "six_segment": 173,
-  "tmx_symbology": 367,
-  "—": 53
+  "tmx_symbology": 363,
+  "—": 57
  },
  "exchanges": 171,
  "failed_markets": {},
@@ -190,8 +190,8 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-09-30T11:19:59+00:00",
- "issuers": 13248,
+ "generated_at": "2026-10-01T11:47:02+00:00",
+ "issuers": 13247,
  "mic_samples": {
   "AIMX": {
    "acronym": "LSE",
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29314,
+ "total": 29330,
  "unmapped_figi_types": {},
- "with_figi": 18726,
- "with_isin": 23796,
- "with_issuer": 19826,
- "with_lei": 19826,
- "with_share_class_figi": 20205,
- "with_ticker": 20716
+ "with_figi": 18731,
+ "with_isin": 23793,
+ "with_issuer": 19821,
+ "with_lei": 19821,
+ "with_share_class_figi": 20210,
+ "with_ticker": 20721
 }
