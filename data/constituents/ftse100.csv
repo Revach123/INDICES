@@ -12,9 +12,9 @@ Autotrader Group,AUTO,Media
 Aviva,AV,Life insurance
 Babcock International,BAB,Aerospace & defence
 BAE Systems,BA,Aerospace & defence
+Balfour Beatty,BBY,Construction & Materials
 Barclays,BARC,Banks
 Barratt Redrow,BTRW,Household goods & home construction
-Beazley,BEZ,Insurance
 BP,BP,Oil & gas producers
 British American Tobacco,BATS,Tobacco
 British Land,BLND,Real estate
@@ -80,7 +80,6 @@ Rio Tinto,RIO,Mining
 Rolls-Royce Holdings,RR,Aerospace & defence
 Sage Group,SGE,Software & computer services
 Sainsbury's,SBRY,Food & drug retailing
-Schroders,SDR,Financial services
 Scottish Mortgage Investment Trust,SMT,Collective investments
 Segro,SGRO,Real estate investment trusts
 Severn Trent,SVT,Multiline utilities
@@ -99,3 +98,4 @@ United Utilities,UU,Multiline utilities
 Vodafone Group,VOD,Mobile telecommunications
 Weir,WEIR,Industrial goods and services
 Whitbread,WTB,Retail hospitality
+WPP,WPP,Media
