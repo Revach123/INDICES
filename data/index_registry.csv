@@ -1,0 +1,18 @@
+index_key,name_en,provider,bbg_ticker,return_type,family,price_index_id,price_match,yahoo_candidates,composition_source,constituents,invesco_il_isin,invesco_il_replication,notes
+eurostoxx50_ntr,EURO STOXX 50 Total Return (Net),STOXX,SX5T,NTR,EURO STOXX 50,stoxx50,price_proxy,,invesco_index_holdings,50,IE00B60SWX25,Synthetic,רמת מחיר ^STOXX50E (לא TR) - ר' README; הרכב ללא משקלים גם ב-data/constituents/stoxx50.csv
+sp_select_financials_c20,S&P Select Sector Capped 20% Financials,S&P DJI,SPSUFN,,S&P 500 sector,sp500_financials,sector_proxy,^IXM,invesco_index_holdings,76,IE00B42Q4896,Synthetic,"sp500_financials = סקטור S&P 500 לא-מוגבל (אותם מרכיבים, משקלים שונים בגלל תקרת 20%)"
+sp_select_healthcare_c20,S&P Select Sector Capped 20% Health Care,S&P DJI,SPSUHCN,,S&P 500 sector,sp500_healthcare,sector_proxy,^IXV,invesco_index_holdings,59,IE00B3WMTH43,Synthetic,"כנ""ל - סקטור S&P 500 לא-מוגבל"
+sp_select_technology_c20,S&P Select Sector Capped 20% Technology,S&P DJI,SPSUTN,,S&P 500 sector,sp500_tech,sector_proxy,^IXT,invesco_index_holdings,74,IE00B3VSSL01,Synthetic,"כנ""ל - סקטור S&P 500 לא-מוגבל; תקרת 20% משמעותית כאן (Apple/Microsoft/Nvidia)"
+kbw_nasdaq_fintech_ntr,KBW NASDAQ Financial Technology Total Return (Net),Nasdaq,KFTXNR70,NTR,KBW Nasdaq,,none,^KFTX,invesco_index_holdings,50,IE00BYMS5W68,Synthetic,אין סדרת מחיר עדיין
+msci_em_ntr,MSCI Emerging Markets Total Return (Net),MSCI,NDUEEGF,NTR,MSCI EM,,none,^891800-USD-STRD,invesco_index_holdings,1178,IE00B3DWVS88,Synthetic,ר' README: ETF (EEM) נפסל כמחיר; הרכב+משקלים זמינים מ-Invesco
+msci_world_ntr,MSCI World Total Return (Net),MSCI,NDDUWI,NTR,MSCI World,,none,^990100-USD-STRD,invesco_index_holdings,1281,IE00B60SX394,Synthetic,ר' README: ETF (URTH) נפסל כמחיר; הרכב+משקלים זמינים מ-Invesco
+nasdaq100_notional_ntr,NASDAQ-100 Notional NTR,Nasdaq,NNDX,NTR,Nasdaq-100,nasdaq100,price_proxy,,invesco_index_holdings,102,IE00BNRQM384,Synthetic,רמת מחיר ^NDX (לא TR) - ר' README; 102 = כולל סוגי מניות כפולים (GOOGL/GOOG)
+russell2000_tr,Russell 2000 Total Return,FTSE Russell,RU20INTR,TR,Russell 2000,russell2000_tr,exact,,invesco_index_holdings,1957,IE00B60SX402,Synthetic,^RUTTR - טיקר TR ברמת מדד (ר' swap_ticker_map.csv)
+sp500_scored_screened_ntr,S&P 500 Scored & Screened NTR,S&P DJI,SPXESUN,NTR,S&P 500 ESG,sp500_esg,price_proxy,,invesco_index_holdings,329,IE00BKS7L097,Synthetic,רמת מחיר (לא NTR)
+sp500_ntr,S&P 500 Total Return (Net),S&P DJI,SPTR500N,NTR,S&P 500,sp500tr,tr_proxy,,invesco_index_holdings,503,IE00B3YCGJ38,Synthetic,sp500tr = ^SP500TR (TR ברוטו) - פער ניכוי מס דיבידנד ~0.4% בשנה
+stoxx600_tr,STOXX Europe 600 Total Return,STOXX,SXXR,NTR,STOXX Europe 600,,none,^STOXX,invesco_index_holdings,600,IE00B60SWW18,Synthetic,SXXR הוא קוד ה-Net Return של STOXX (לאמת מול STOXX); ^STOXX - אם יאומת - הוא מדד המחיר
+sp500_ew_ntr,S&P 500 Equal Weight Net Total Return,S&P DJI,SPXEWNTR,NTR,S&P 500,,none,^SPXEW,invesco_index_holdings,503,IE00BNGJJT35,Physical,לא למפות ל-sp500tr (משקל שווה ≠ משקל שוק)
+ftse_all_world_ntr,FTSE All-World,FTSE Russell,TAWNT01U,,FTSE GEIS,,none,,invesco_index_holdings,2293,IE000716YHJ7,Physical,
+msci_china_all_shares_connect,MSCI China All Shares Stock Connect Select,MSCI,NU732716,,MSCI China,,none,,invesco_index_holdings,576,IE00BK80XL30,Physical,לא למפות ל-csi300 - כולל גם H/Red-chip/ADR
+coinshares_blockchain,CoinShares Blockchain Global Equity,CoinShares,BLOCK,,thematic,,none,,invesco_index_holdings,46,IE00BGBN6P67,Physical,
+iboxx_usd_coco_at1,iBoxx USD Contingent Convertible Liquid Developed Market AT1 (8% Issuer Cap),S&P DJI (iBoxx),IBXXC1D3,,iBoxx,,none,,none,0,IE00BFZPF322,Physical,"מדד אג""ח - אין מרכיבי מדד בנתוני Invesco שנשאבו"

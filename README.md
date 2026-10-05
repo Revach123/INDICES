@@ -76,6 +76,35 @@ python scripts/fetch_constituents.py
 ב-CI: `.github/workflows/fetch.yml` - `workflow_dispatch` + cron יומי
 (04:30 UTC), מריץ את שני הסקריפטים ומבצע commit לתוצאות.
 
+## רישום מדדים (`data/index_registry.csv`)
+
+מיפוי מדדי עולם לפי מדד, החל ממדדי הייחוס של כל 17 הקרנות ברשימת Invesco ישראל
+(Revach `data/invesco/funds.json`). לכל מדד: ספק, טיקר בלומברג, סוג תשואה
+(`NTR`/`TR`, ריק אם לא ידוע בוודאות), סדרת המחיר ב-`universe.csv` אם יש (`price_index_id`)
+ומידת ההתאמה שלה:
+
+| `price_match` | משמעות |
+|---|---|
+| `exact` | אותו מדד ואותו בסיס תשואה (למשל ^RUTTR) |
+| `tr_proxy` | אותו מדד, בסיס TR שונה (ברוטו מול נטו) |
+| `price_proxy` | אותו מדד, מדד המחיר במקום TR |
+| `sector_proxy` | אותם מרכיבים, שיטת שקילה שונה (סקטור S&P 500 לא-מוגבל מול Select Sector Capped 20%) |
+| `none` | אין עדיין סדרת מחיר ברמת מדד |
+
+`yahoo_candidates` - טיקרים שטרם אומתו למדדים בלי סדרת מחיר. `scripts/probe_registry_candidates.py`
+(בתוך `probe.yml`) בודק לכל אחד instrumentType == INDEX ואת רמת המחיר. מוסיפים ל-`universe.csv`
+רק אחרי השוואה ידנית לרמת המדד הידועה (ר' "כלל קריטי" למעלה).
+
+**הרכב ומשקלים** (`composition_source = invesco_index_holdings`): Invesco מפרסמת לכל קרן את
+מרכיבי מדד הייחוס ומשקליהם (`/holdings/index`), כולל בקרנות סינתטיות. ב-Revach זה נשאב ל-
+`data/ETF/Invesco/index_holdings.json` (כ-300 קרנות IE). משם נבנית החשיפה לפי מדינה של הקרנות
+הסינתטיות בדף funds (`data/invesco/index_exposure.json`). המדינה של כל מרכיב נלקחת מה-Location
+של BlackRock באחזקות iShares, ולא מ-GLEIF/SEC ב-`world_securities`: שם רשומה כתובת רשומה/מטה,
+לא סיווג המדינה של ספק המדד (למשל Airbus מופיעה כ-NL ולא כצרפת).
+
+הרישום **לא** מוסיף שורות ל-`swap_ticker_map.csv`. הקובץ הזה משפיע ישירות על תמחור סוואפים
+ב-MASLULIM, והוספה אליו היא החלטה נפרדת.
+
 ## מאגר ניירות ערך עולמי (`data/world_securities/`)
 
 ניירות הערך הרשומים בבורסות **אירופה, בריטניה, שווייץ, יפן וקנדה** - ממקורות רשמיים בלבד,

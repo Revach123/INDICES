@@ -23,6 +23,8 @@ jobs:
         run: python scripts/probe_tr.py
       - name: Audit instrument types (INDEX vs ETF)
         run: python scripts/probe_instrument_types.py
+      - name: Probe Yahoo candidates for index_registry.csv
+        run: python scripts/probe_registry_candidates.py
       - name: Probe MAOF underlying list sources
         run: python scripts/probe_maof.py
       - name: Verify TASE stock tickers against Yahoo Finance
