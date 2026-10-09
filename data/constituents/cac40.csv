@@ -6,16 +6,17 @@ ArcelorMittal,Basic Materials,Steel,MT.AS
 Axa,Financial Services,Life & Health Insurance,CS.PA
 BNP Paribas,Financial Services,Diversified Banks,BNP.PA
 Bouygues,Industrials,Construction & Engineering,EN.PA
-Bureau Veritas,Inspection and certification,Consulting,BVI.PA
+Bureau Veritas,Industrials,Research & Consulting Services,BVI.PA
 Capgemini,Technology,IT Consulting & Other Services,CAP.PA
 Carrefour,Consumer Defensive,Hypermarkets & Super Centers,CA.PA
 Crédit Agricole,Financial Services,Regional Banks,ACA.PA
 Danone,Consumer Defensive,Packaged Foods & Meats,BN.PA
 Dassault Systèmes,Technology,Application Software,DSY.PA
-Edenred,Industrials,Transaction Processing Services,EDEN.PA
+Eiffage,Industrials,Construction & Engineering,FGR.PA
 Engie,Utilities,Gas Utilities,ENGI.PA
 EssilorLuxottica,Healthcare,"Apparel, Accessories & Luxury Goods",EL.PA
 Eurofins Scientific,Healthcare,Biotechnologies,ERF.PA
+Euronext,Financial Services,Financial Exchanges & Data,ENX.PA
 Hermès,Consumer Cyclical,"Apparel, Accessories & Luxury Goods",RMS.PA
 Kering,Consumer Cyclical,"Apparel, Accessories & Luxury Goods",KER.PA
 L'Oréal,Consumer Defensive,Personal Products,OR.PA
@@ -33,7 +34,6 @@ Schneider Electric,Industrials,Electrical Components & Equipment,SU.PA
 Société Générale,Financial Services,Diversified Banks,GLE.PA
 Stellantis,Consumer Cyclical,Automobile Manufacturers,STLAP.PA
 STMicroelectronics,Technology,Semiconductors,STMPA.PA
-Teleperformance,Communication Services,Outsourcing,TEP.PA
 Thales,Industrials,Aerospace & Defense,HO.PA
 TotalEnergies,Energy,Integrated Oil & Gas,TTE.PA
 Unibail-Rodamco-Westfield,Real Estate,Retail REITs,URW.PA
