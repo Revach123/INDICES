@@ -1,11 +1,11 @@
 {
- "active": 29325,
+ "active": 29342,
  "by_category": {
   "dr": 349,
-  "etf": 7859,
-  "funds": 6412,
+  "etf": 7882,
+  "funds": 6408,
   "other": 128,
-  "stocks": 14518,
+  "stocks": 14516,
   "unclassified": 59
  },
  "by_country": {
@@ -16,39 +16,39 @@
   "CH": 1538,
   "CY": 155,
   "CZ": 67,
-  "DE": 1936,
-  "DK": 634,
-  "EE": 32,
-  "ES": 779,
-  "FI": 195,
-  "FR": 975,
+  "DE": 1942,
+  "DK": 636,
+  "EE": 31,
+  "ES": 778,
+  "FI": 196,
+  "FR": 974,
   "GB": 2070,
-  "GR": 149,
+  "GR": 150,
   "HR": 82,
   "HU": 83,
-  "IE": 3209,
+  "IE": 3208,
   "IS": 30,
-  "IT": 872,
+  "IT": 878,
   "JP": 4447,
   "LI": 1,
   "LT": 24,
   "LU": 2434,
   "LV": 13,
-  "MT": 37,
+  "MT": 38,
   "NL": 347,
   "NO": 248,
   "PL": 833,
   "PT": 50,
   "RO": 342,
-  "SE": 986,
+  "SE": 987,
   "SI": 23,
   "SK": 31,
-  "—": 1594
+  "—": 1597
  },
  "by_market": {
   "CA": 4505,
   "CH": 1531,
-  "EU_UK": 18842,
+  "EU_UK": 18859,
   "JP": 4447
  },
  "by_market_detail": {
@@ -90,20 +90,20 @@
    }
   },
   "EU_UK": {
-   "figi": 7410,
-   "n": 18842,
-   "ticker": 10240,
+   "figi": 7411,
+   "n": 18859,
+   "ticker": 10241,
    "types": {
-    "Common Stock": 7816,
+    "Common Stock": 7814,
     "Convertible Common": 6,
     "Convertible Preferred": 1,
     "Depositary Receipt": 225,
-    "ETF": 5099,
-    "Fund of Funds": 84,
-    "Hedge Fund": 111,
-    "Investment Fund": 3480,
+    "ETF": 5122,
+    "Fund of Funds": 83,
+    "Hedge Fund": 114,
+    "Investment Fund": 3477,
     "Other Equity": 68,
-    "Other Fund": 1727,
+    "Other Fund": 1724,
     "Pension Fund": 3,
     "Preferred Stock": 176,
     "Private Equity Fund": 36,
@@ -125,36 +125,36 @@
  },
  "by_primary_source": {
   "exchange": 10490,
-  "home_country": 988,
-  "rlvnt": 16007,
+  "home_country": 991,
+  "rlvnt": 16019,
   "single": 481,
-  "—": 1359
+  "—": 1361
  },
  "by_region": {
   "CA": 4505,
   "CH": 1538,
-  "EU": 16512,
+  "EU": 16527,
   "JP": 4447,
-  "UK": 2323
+  "UK": 2325
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13968,
+  "Common Stock": 13966,
   "Convertible Common": 6,
   "Convertible Preferred": 1,
   "Debenture": 54,
   "Depositary Receipt": 349,
-  "ETF": 7666,
+  "ETF": 7689,
   "ETN": 23,
   "ETP": 170,
-  "Fund of Funds": 84,
-  "Hedge Fund": 111,
-  "Investment Fund": 4260,
+  "Fund of Funds": 83,
+  "Hedge Fund": 114,
+  "Investment Fund": 4257,
   "Limited Partnership": 6,
   "Note / Bond": 1,
   "Other": 2,
   "Other Equity": 68,
-  "Other Fund": 1756,
+  "Other Fund": 1753,
   "Participation Certificate": 1,
   "Pension Fund": 3,
   "Preferred Stock": 428,
@@ -168,8 +168,8 @@
   "—": 59
  },
  "by_type_source": {
-  "cfi_esma": 17701,
-  "cfi_fca": 2135,
+  "cfi_esma": 17717,
+  "cfi_fca": 2136,
   "jpx_section": 4424,
   "jpx_section+etn_list": 23,
   "openfigi": 4084,
@@ -183,15 +183,15 @@
  "failed_markets": {},
  "figi_pending": 0,
  "firds_files": {
-  "ESMA": "20261003",
-  "FCA": "20261003",
+  "ESMA": "20261010",
+  "FCA": "20261010",
   "dropped_issuer_venues": {
    "AACA|SINT|ACTIVE": 2,
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-10-09T12:04:10+00:00",
- "issuers": 13252,
+ "generated_at": "2026-10-10T11:20:37+00:00",
+ "issuers": 13272,
  "mic_samples": {
   "AIMX": {
    "acronym": "LSE",
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29401,
+ "total": 29437,
  "unmapped_figi_types": {},
- "with_figi": 17396,
- "with_isin": 23797,
- "with_issuer": 19836,
- "with_lei": 19836,
- "with_share_class_figi": 20220,
- "with_ticker": 20723
+ "with_figi": 17397,
+ "with_isin": 23820,
+ "with_issuer": 19853,
+ "with_lei": 19853,
+ "with_share_class_figi": 20221,
+ "with_ticker": 20724
 }
