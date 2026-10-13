@@ -2,11 +2,11 @@
  "active": 29342,
  "by_category": {
   "dr": 349,
-  "etf": 7882,
+  "etf": 7883,
   "funds": 6408,
   "other": 128,
-  "stocks": 14516,
-  "unclassified": 59
+  "stocks": 14514,
+  "unclassified": 60
  },
  "by_country": {
   "AT": 81,
@@ -53,15 +53,15 @@
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4084,
+   "figi": 4083,
    "n": 4505,
    "ticker": 4505,
    "types": {
     "Closed-End Fund": 67,
-    "Common Stock": 2024,
+    "Common Stock": 2022,
     "Debenture": 54,
     "Depositary Receipt": 107,
-    "ETF": 1819,
+    "ETF": 1820,
     "Investment Fund": 5,
     "Limited Partnership": 6,
     "Note / Bond": 1,
@@ -70,7 +70,7 @@
     "Right": 1,
     "Unit": 15,
     "Warrant": 55,
-    "—": 59
+    "—": 60
    }
   },
   "CH": {
@@ -90,9 +90,9 @@
    }
   },
   "EU_UK": {
-   "figi": 8742,
+   "figi": 7416,
    "n": 18859,
-   "ticker": 10241,
+   "ticker": 10246,
    "types": {
     "Common Stock": 7814,
     "Convertible Common": 6,
@@ -139,12 +139,12 @@
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13966,
+  "Common Stock": 13964,
   "Convertible Common": 6,
   "Convertible Preferred": 1,
   "Debenture": 54,
   "Depositary Receipt": 349,
-  "ETF": 7689,
+  "ETF": 7690,
   "ETN": 23,
   "ETP": 170,
   "Fund of Funds": 83,
@@ -165,19 +165,19 @@
   "Right": 1,
   "Unit": 15,
   "Warrant": 55,
-  "—": 59
+  "—": 60
  },
  "by_type_source": {
   "cfi_esma": 17717,
   "cfi_fca": 2136,
   "jpx_section": 4424,
   "jpx_section+etn_list": 23,
-  "openfigi": 4084,
+  "openfigi": 4083,
   "six_product_line": 363,
   "six_sec_type": 4,
   "six_segment": 170,
   "tmx_symbology": 362,
-  "—": 59
+  "—": 60
  },
  "exchanges": 171,
  "failed_markets": {},
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-10-12T13:28:32+00:00",
+ "generated_at": "2026-10-13T12:54:53+00:00",
  "issuers": 13272,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29437,
+ "total": 29440,
  "unmapped_figi_types": {},
- "with_figi": 18728,
- "with_isin": 23820,
+ "with_figi": 17401,
+ "with_isin": 23818,
  "with_issuer": 19853,
  "with_lei": 19853,
- "with_share_class_figi": 20221,
- "with_ticker": 20724
+ "with_share_class_figi": 20225,
+ "with_ticker": 20729
 }
