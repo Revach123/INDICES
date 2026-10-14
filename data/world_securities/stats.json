@@ -1,18 +1,18 @@
 {
- "active": 29342,
+ "active": 29350,
  "by_category": {
   "dr": 349,
-  "etf": 7883,
+  "etf": 7890,
   "funds": 6408,
-  "other": 128,
-  "stocks": 14514,
+  "other": 130,
+  "stocks": 14513,
   "unclassified": 60
  },
  "by_country": {
   "AT": 81,
   "BE": 126,
   "BG": 397,
-  "CA": 4505,
+  "CA": 4513,
   "CH": 1538,
   "CY": 155,
   "CZ": 67,
@@ -46,29 +46,29 @@
   "—": 1597
  },
  "by_market": {
-  "CA": 4505,
+  "CA": 4513,
   "CH": 1531,
   "EU_UK": 18859,
   "JP": 4447
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4083,
-   "n": 4505,
-   "ticker": 4505,
+   "figi": 4090,
+   "n": 4513,
+   "ticker": 4513,
    "types": {
     "Closed-End Fund": 67,
     "Common Stock": 2022,
-    "Debenture": 54,
+    "Debenture": 55,
     "Depositary Receipt": 107,
-    "ETF": 1820,
+    "ETF": 1827,
     "Investment Fund": 5,
     "Limited Partnership": 6,
     "Note / Bond": 1,
     "Preferred Stock": 252,
-    "REIT Stock": 40,
+    "REIT Stock": 39,
     "Right": 1,
-    "Unit": 15,
+    "Unit": 16,
     "Warrant": 55,
     "—": 60
    }
@@ -124,14 +124,14 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10490,
+  "exchange": 10498,
   "home_country": 991,
   "rlvnt": 16019,
   "single": 481,
   "—": 1361
  },
  "by_region": {
-  "CA": 4505,
+  "CA": 4513,
   "CH": 1538,
   "EU": 16527,
   "JP": 4447,
@@ -142,9 +142,9 @@
   "Common Stock": 13964,
   "Convertible Common": 6,
   "Convertible Preferred": 1,
-  "Debenture": 54,
+  "Debenture": 55,
   "Depositary Receipt": 349,
-  "ETF": 7690,
+  "ETF": 7697,
   "ETN": 23,
   "ETP": 170,
   "Fund of Funds": 83,
@@ -160,10 +160,10 @@
   "Preferred Stock": 428,
   "Private Equity Fund": 36,
   "REIT": 82,
-  "REIT Stock": 40,
+  "REIT Stock": 39,
   "Real Estate Fund": 13,
   "Right": 1,
-  "Unit": 15,
+  "Unit": 16,
   "Warrant": 55,
   "—": 60
  },
@@ -172,11 +172,11 @@
   "cfi_fca": 2136,
   "jpx_section": 4424,
   "jpx_section+etn_list": 23,
-  "openfigi": 4083,
+  "openfigi": 4090,
   "six_product_line": 363,
   "six_sec_type": 4,
   "six_segment": 170,
-  "tmx_symbology": 362,
+  "tmx_symbology": 363,
   "—": 60
  },
  "exchanges": 171,
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-10-13T12:54:53+00:00",
+ "generated_at": "2026-10-14T10:32:45+00:00",
  "issuers": 13272,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29440,
+ "total": 29450,
  "unmapped_figi_types": {},
- "with_figi": 17401,
+ "with_figi": 17408,
  "with_isin": 23818,
  "with_issuer": 19853,
  "with_lei": 19853,
- "with_share_class_figi": 20225,
- "with_ticker": 20729
+ "with_share_class_figi": 20232,
+ "with_ticker": 20737
 }
