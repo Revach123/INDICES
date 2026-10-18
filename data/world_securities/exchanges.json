@@ -1404,17 +1404,6 @@
 "status": "ACTIVE",
 "website": "WWW.DEUTSCHE-BOERSE.COM"
 },
-"XGLO": {
-"acronym": "",
-"cat": "MLTF",
-"cc": "PL",
-"city": "WARSAW",
-"name": "WARSAW STOCK EXCHANGE/ EQUITIES/GLOBAL CONNECT - MTF",
-"oprt": "XWAR",
-"short": "WARSAW STOCK EXCHANGE/ EQUITIES/GLOBAL CONNECT - MTF",
-"status": "ACTIVE",
-"website": "WWW.GPW.PL"
-},
 "XHAM": {
 "acronym": "",
 "cat": "RMKT",

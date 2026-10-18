@@ -13018,6 +13018,7 @@
 {"k":"9845008396BA67DA9B37","v":{"category":"GENERAL","city":"München","country":"DE","d":"2026-09-28T14:33:40+00:00","hq_city":"München","hq_country":"DE","jurisdiction":"DE","legal_form":"SGST","name":"Nagarro SE","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"98450083D85D91FAE112","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"GOLDMAN SACHS ALPHA ENHANCED WORLD EQUITY ACTIVE UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008439EUED140282","v":{"category":"GENERAL","city":"KØBENHAVN V","country":"DK","d":"2026-09-28T14:33:40+00:00","hq_city":"KØBENHAVN V","hq_country":"DK","jurisdiction":"DK","legal_form":"ZRPO","name":"CADELER A/S","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"984500843B7DFD045F10","v":{"category":"GENERAL","city":"Singapore","country":"SG","d":"2026-10-18T09:51:04+00:00","hq_city":"Singapore","hq_country":"SG","jurisdiction":"SG","legal_form":"VVOX","name":"Roundhouse AI Ltd","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"98450084A0C604AU5255","v":{"category":"GENERAL","city":"Schüttorf","country":"DE","d":"2026-09-28T17:51:42+00:00","hq_city":"Schüttorf","hq_country":"DE","jurisdiction":"DE","legal_form":"6QQB","name":"FIT GROUP AG","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008542C8DC84ER88","v":{"category":"GENERAL","city":"ROVERETO","country":"IT","d":"2026-09-28T17:51:42+00:00","hq_city":"ROVERETO","hq_country":"IT","jurisdiction":"IT","legal_form":"P418","name":"ENERGY S.P.A.","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008636C4DE89FC65","v":{"category":"GENERAL","city":"WROCŁAW","country":"PL","d":"2026-09-28T14:33:40+00:00","hq_city":"WROCŁAW","hq_country":"PL","jurisdiction":"PL","legal_form":"FJ0E","name":"DB ENERGY SPÓŁKA AKCYJNA","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -13029,6 +13030,7 @@
 {"k":"9845008B54Q395CF9349","v":{"category":"GENERAL","city":"Road Town","country":"VG","d":"2026-09-28T17:51:42+00:00","hq_city":"Road Town","hq_country":"VG","jurisdiction":"VG","legal_form":"6EH6","name":"COASTAL AFRICA GROUP LIMITED","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008C989A6CIB7782","v":{"category":"GENERAL","city":"SUNDSVALL","country":"SE","d":"2026-09-28T17:51:42+00:00","hq_city":"SUNDSVALL","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"XP Chemistries AB","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008D4B2E87807C43","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"Dublin","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"State Street SPDR S&P Developed Quality Aristocrats UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
+{"k":"9845008F50659UE90019","v":{"category":"GENERAL","city":"St. Helier","country":"JE","d":"2026-10-18T09:51:04+00:00","hq_city":"St. Helier","hq_country":"JE","jurisdiction":"JE","legal_form":"JOX1","name":"MEANTIME RESOURCES PLC","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008FBE57CA981157","v":{"category":"FUND","city":"Dublin","country":"IE","d":"2026-09-28T14:33:40+00:00","hq_city":"DUBLIN","hq_country":"IE","jurisdiction":"IE","legal_form":"8888","name":"Goldman Sachs EUR High Yield Bond Active UCITS ETF","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008O58DEC146B654","v":{"category":"GENERAL","city":"SÖSDALA","country":"SE","d":"2026-09-28T14:33:40+00:00","hq_city":"SÖSDALA","hq_country":"SE","jurisdiction":"SE","legal_form":"XJHM","name":"Norden Estates AB","reg_status":"ISSUED","status":"ACTIVE"}}
 {"k":"9845008Q9B1BUC588L43","v":{"category":"GENERAL","city":"Столична","country":"BG","d":"2026-09-28T17:51:42+00:00","hq_city":"Столична","hq_country":"BG","jurisdiction":"BG","legal_form":"WTK4","name":"Болерон","reg_status":"ISSUED","status":"ACTIVE"}}
@@ -13599,6 +13601,7 @@
 {"k":"isin:GRS487003006","v":{"d":"2026-09-28T18:10:18+00:00","leis":["213800U7SBKWW79CBG88"]}}
 {"k":"isin:HU0000171335","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
 {"k":"isin:HU0000233879","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
+{"k":"isin:HU0000704960","v":{"d":"2026-10-18T09:51:04+00:00","leis":[]}}
 {"k":"isin:IE00000EF730","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
 {"k":"isin:IE0000EA7C44","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400OEXK3PLKUOD332"]}}
 {"k":"isin:IE0000FCGYF9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400WICCMLCFRO5X42"]}}
@@ -13880,6 +13883,7 @@
 {"k":"isin:IE000RI14ZD9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400M7LYIHI1Z4JW95"]}}
 {"k":"isin:IE000RLUE8E9","v":{"d":"2026-09-28T18:10:18+00:00","leis":["635400KWMLZRXQLEWW81"]}}
 {"k":"isin:IE000RMSPY39","v":{"d":"2026-09-28T18:10:18+00:00","leis":["6354004QXYLNRJEQFS87"]}}
+{"k":"isin:IE000RPOEHQ4","v":{"d":"2026-10-18T09:51:04+00:00","leis":["635400TTY8VPEDDDNX23"]}}
 {"k":"isin:IE000RQJBQI6","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300QETNU1W5JY7Z94"]}}
 {"k":"isin:IE000RSCXLM4","v":{"d":"2026-09-28T18:10:18+00:00","leis":[]}}
 {"k":"isin:IE000S2QZKI8","v":{"d":"2026-09-28T18:10:18+00:00","leis":["549300UW7NYQH5503229"]}}
