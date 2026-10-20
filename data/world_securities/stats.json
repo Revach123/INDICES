@@ -1,19 +1,19 @@
 {
- "active": 29337,
+ "active": 29350,
  "by_category": {
-  "dr": 349,
-  "etf": 7919,
+  "dr": 360,
+  "etf": 7920,
   "funds": 6409,
-  "other": 130,
-  "stocks": 14474,
+  "other": 129,
+  "stocks": 14476,
   "unclassified": 56
  },
  "by_country": {
   "AT": 81,
   "BE": 126,
   "BG": 397,
-  "CA": 4519,
-  "CH": 1540,
+  "CA": 4532,
+  "CH": 1541,
   "CY": 155,
   "CZ": 67,
   "DE": 1945,
@@ -40,27 +40,27 @@
   "PL": 806,
   "PT": 50,
   "RO": 343,
-  "SE": 985,
+  "SE": 984,
   "SI": 23,
   "SK": 31,
   "—": 1596
  },
  "by_market": {
-  "CA": 4519,
-  "CH": 1533,
-  "EU_UK": 18838,
+  "CA": 4532,
+  "CH": 1534,
+  "EU_UK": 18837,
   "JP": 4447
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4099,
-   "n": 4519,
-   "ticker": 4519,
+   "figi": 4113,
+   "n": 4532,
+   "ticker": 4532,
    "types": {
     "Closed-End Fund": 67,
-    "Common Stock": 2021,
+    "Common Stock": 2024,
     "Debenture": 55,
-    "Depositary Receipt": 107,
+    "Depositary Receipt": 118,
     "ETF": 1837,
     "Investment Fund": 5,
     "Limited Partnership": 6,
@@ -69,19 +69,19 @@
     "REIT Stock": 39,
     "Right": 1,
     "Unit": 16,
-    "Warrant": 55,
+    "Warrant": 54,
     "—": 56
    }
   },
   "CH": {
-   "figi": 1457,
-   "n": 1533,
-   "ticker": 1533,
+   "figi": 1458,
+   "n": 1534,
+   "ticker": 1534,
    "types": {
     "Common Stock": 233,
     "Depositary Receipt": 17,
     "ETF": 286,
-    "ETP": 170,
+    "ETP": 171,
     "Investment Fund": 775,
     "Other Fund": 29,
     "Participation Certificate": 1,
@@ -90,11 +90,11 @@
    }
   },
   "EU_UK": {
-   "figi": 8718,
-   "n": 18838,
-   "ticker": 10230,
+   "figi": 8717,
+   "n": 18837,
+   "ticker": 10229,
    "types": {
-    "Common Stock": 7773,
+    "Common Stock": 7772,
     "Convertible Common": 6,
     "Convertible Preferred": 1,
     "Depositary Receipt": 225,
@@ -124,29 +124,29 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10506,
+  "exchange": 10520,
   "home_country": 992,
-  "rlvnt": 16011,
+  "rlvnt": 16010,
   "single": 454,
   "—": 1374
  },
  "by_region": {
-  "CA": 4519,
-  "CH": 1540,
-  "EU": 16514,
+  "CA": 4532,
+  "CH": 1541,
+  "EU": 16513,
   "JP": 4447,
   "UK": 2317
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13924,
+  "Common Stock": 13926,
   "Convertible Common": 6,
   "Convertible Preferred": 1,
   "Debenture": 55,
-  "Depositary Receipt": 349,
+  "Depositary Receipt": 360,
   "ETF": 7726,
   "ETN": 23,
-  "ETP": 170,
+  "ETP": 171,
   "Fund of Funds": 84,
   "Hedge Fund": 114,
   "Investment Fund": 4257,
@@ -164,19 +164,19 @@
   "Real Estate Fund": 13,
   "Right": 1,
   "Unit": 16,
-  "Warrant": 55,
+  "Warrant": 54,
   "—": 56
  },
  "by_type_source": {
-  "cfi_esma": 17694,
+  "cfi_esma": 17693,
   "cfi_fca": 2138,
   "jpx_section": 4424,
   "jpx_section+etn_list": 23,
-  "openfigi": 4099,
+  "openfigi": 4113,
   "six_product_line": 364,
   "six_sec_type": 4,
-  "six_segment": 171,
-  "tmx_symbology": 364,
+  "six_segment": 172,
+  "tmx_symbology": 363,
   "—": 56
  },
  "exchanges": 170,
@@ -190,8 +190,8 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-10-19T11:10:35+00:00",
- "issuers": 13248,
+ "generated_at": "2026-10-20T10:22:41+00:00",
+ "issuers": 13247,
  "mic_samples": {
   "AIMX": {
    "acronym": "LSE",
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29497,
+ "total": 29512,
  "unmapped_figi_types": {},
- "with_figi": 18721,
+ "with_figi": 18735,
  "with_isin": 23799,
- "with_issuer": 19832,
- "with_lei": 19832,
- "with_share_class_figi": 20227,
- "with_ticker": 20729
+ "with_issuer": 19831,
+ "with_lei": 19831,
+ "with_share_class_figi": 20241,
+ "with_ticker": 20742
 }
