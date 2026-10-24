@@ -180,17 +180,14 @@
   "—": 56
  },
  "exchanges": 170,
- "failed_markets": {},
- "figi_pending": 0,
- "firds_files": {
-  "ESMA": "20261017",
-  "FCA": "20261017",
-  "dropped_issuer_venues": {
-   "AACA|SINT|ACTIVE": 2,
-   "KBLM|OTFS|ACTIVE": 2
-  }
+ "failed_markets": {
+  "CA": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "CH": "RuntimeError('CH needs FIRDS lookup (official CFI/LEI)')",
+  "EU_UK": "RuntimeError('GET https://registers.esma.europa.eu/solr/esma_registers_firds_files/select failed: HTTP 502')"
  },
- "generated_at": "2026-10-23T10:27:30+00:00",
+ "figi_pending": 0,
+ "firds_files": {},
+ "generated_at": "2026-10-24T09:45:10+00:00",
  "issuers": 13245,
  "mic_samples": {
   "AIMX": {
