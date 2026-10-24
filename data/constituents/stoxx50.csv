@@ -6,7 +6,7 @@ AI.PA,Euronext Paris: AI,Air Liquide,Société Anonyme,France,Materials,1902
 AIR.PA,Euronext Paris: AIR,Airbus,Societas Europaea,France,Industrials,1970
 ALV.DE,FWB: ALV,Allianz,Societas Europaea,Germany,Financials,1890
 ABI.BR,Euronext Brussels: ABI,Anheuser-Busch InBev,Société Anonyme,Belgium,Consumer Staples,2008 (1366/1888/1852/1895)
-ARGX.BR,Euronext Amsterdam: ARGX,Argenx,Naamloze vennootschap,Netherlands,Health Care,2008
+ARGX.BR,Euronext Brussels: ARGX,Argenx,Naamloze vennootschap,Netherlands,Health Care,2008
 ASML.AS,Euronext Amsterdam: ASML,ASML Holding,Naamloze vennootschap,Netherlands,Information Technology,1984
 CS.PA,Euronext Paris: CS,Axa,Société Anonyme,France,Financials,1816
 BAS.DE,FWB: BAS,BASF,Societas Europaea,Germany,Materials,1865
@@ -18,9 +18,10 @@ BNP.PA,Euronext Paris: BNP,BNP Paribas,Société Anonyme,France,Financials,2002
 BN.PA,Euronext Paris: BN,Danone,Société Anonyme,France,Consumer Staples,1919
 DBK.DE,FWB: DBK,Deutsche Bank,Aktiengesellschaft,Germany,Financials,1870
 DB1.DE,FWB: DB1,Deutsche Börse,Aktiengesellschaft,Germany,Financials,1992
-DHL.DE,FWB: DPW,Deutsche Post,Aktiengesellschaft,Germany,Industrials,1995
+DHL.DE,FWB: DHL,Deutsche Post,Aktiengesellschaft,Germany,Industrials,1995
 DTE.DE,FWB: DTE,Deutsche Telekom,Aktiengesellschaft,Germany,Communication,1995
 ENEL.MI,BIT: ENEL,Enel,Società per azioni,Italy,Utilities,1962
+ENGI.PA,Euronext Paris: ENGI,Engie,Société Anonyme,France,Utilities,2008
 ENI.MI,BIT: ENI,Eni,Società per azioni,Italy,Energy,1953
 EL.PA,Euronext Paris: EL,EssilorLuxottica,Société anonyme,France,Health Care,1849
 RACE.MI,BIT: RACE,Ferrari,Naamloze vennootschap,Netherlands,Consumer Discretionary,1939
@@ -34,6 +35,7 @@ OR.PA,Euronext Paris: OR,L'Oréal,Société Anonyme,France,Consumer Staples,190
 MC.PA,Euronext Paris: MC,LVMH Moët Hennessy Louis Vuitton,Societas Europaea,France,Consumer Discretionary,1987 (1743 / 1765 / 1854)
 MBG.DE,FWB: MBG,Mercedes-Benz Group,Aktiengesellschaft,Germany,Consumer Discretionary,2007 (1926)
 MUV2.DE,FWB: MUV2,Munich Re,Aktiengesellschaft,Germany,Financials,1880
+NOKIA.HE,Nasdaq Helsinki: NOKIA,Nokia,Julkinen osakeyhtiö,Finland,Information Technology,1865
 NDA-FI.HE,Nasdaq Helsinki: NDA FI,Nordea,Aktiebolag,Finland,Financials,1820
 PRX.AS,Euronext Amsterdam: PRX,Prosus,Naamloze vennootschap,Netherlands,Consumer Discretionary,2019
 RHM.DE,FWB: RHM,Rheinmetall,Aktiengesellschaft,Germany,Industrials,1889
@@ -47,5 +49,3 @@ ENR.DE,FWB: ENR,Siemens Energy,Aktiengesellschaft,Germany,Industrials,2020
 TTE.PA,Euronext Paris: TTE,TotalEnergies,Societas Europaea,France,Energy,1924
 DG.PA,Euronext Paris: DG,Vinci SA,Société Anonyme,France,Industrials,1899
 UCG.MI,BIT: UCG,UniCredit,Società per azioni,Italy,Financials,1998
-VOW.DE,FWB: VOW,Volkswagen Group,Aktiengesellschaft,Germany,Consumer Discretionary,1937
-WKL.AS,Euronext Amsterdam: WKL,Wolters Kluwer,Naamloze vennootschap,Netherlands,Industrials,1968

@@ -9,11 +9,10 @@ BAMI.MI,Banco BPM,IT0005218380,Banks
 BPE.MI,BPER Banca,IT0000066123,Banks
 BC.MI,Brunello Cucinelli,IT0004764699,Consumer Products and Services
 BZU.MI,Buzzi,IT0001347308,Construction and Materials
-CPR.MI,Campari,IT0003849244,"Food, Beverage and Tobacco"
-DIA.MI,Diasorin,IT0003492391,Health Care
+CPR.MI,Campari,NL0015435975,"Food, Beverage and Tobacco"
 ENEL.MI,Enel,IT0003128367,Utilities
 ENI.MI,Eni,IT0003132476,Energy
-RACE.MI,Ferrari,NL0011509302,Automobiles and Parts
+RACE.MI,Ferrari,NL0011585146,Automobiles and Parts
 FCT.MI,Fincantieri,IT0005599938,Shipbuilding
 FBK.MI,FinecoBank,IT0000072170,Banks
 G.MI,Generali,IT0000062072,Insurance
@@ -30,12 +29,13 @@ NEXI.MI,Nexi,IT0005366767,Industrial Goods and Services
 PST.MI,Poste italiane,IT0003796171,Financial Services
 PRY.MI,Prysmian,IT0004176001,Industrial Goods and Services
 REC.MI,Recordati,IT0003828271,Health Care
-SPM.MI,Saipem,IT0000068525,Energy
+SPM.MI,Saipem,IT0005495657,Energy
 SRG.MI,Snam,IT0003153415,Energy
 STLAM.MI,Stellantis,NL00150001Q9,Automobiles and Parts
 STMMI.MI,STMicroelectronics,NL0000226223,Technology
-TIT.MI,Telecom Italia,IT0003497168,Telecommunications
-TEN.MI,Tenaris,LU0156801721,Energy
+TPRO.MI,Technoprobe,IT0005482333,Technology
+TIT.MI,Telecom Italia,IT0005712671,Telecommunications
+TEN.MI,Tenaris,LU2598331598,Energy
 TRN.MI,Terna,IT0003242622,Utilities
-UCG.MI,UniCredit,IT0004781412,Banks
+UCG.MI,UniCredit,IT0005239360,Banks
 UNI.MI,Unipol,IT0004810054,Insurance
