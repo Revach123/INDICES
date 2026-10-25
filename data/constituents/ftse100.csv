@@ -1,101 +1,101 @@
-Company,Ticker,FTSE industry classification benchmark sector[39]
-3i,III,Financial services
-Aberdeen Group,ABDN,Financial Services
-Admiral Group,ADM,Insurance
-Airtel Africa,AAF,Telecommunications services
-Alliance Witan,ALW,Investment Trusts
-Anglo American plc,AAL,Mining
-Antofagasta plc,ANTO,Mining
-Associated British Foods,ABF,Food & tobacco
-AstraZeneca,AZN,Pharmaceuticals & biotechnology
-Autotrader Group,AUTO,Media
-Aviva,AV,Life insurance
-Babcock International,BAB,Aerospace & defence
-BAE Systems,BA,Aerospace & defence
-Balfour Beatty,BBY,Construction & Materials
-Barclays,BARC,Banks
-Barratt Redrow,BTRW,Household goods & home construction
-BP,BP,Oil & gas producers
-British American Tobacco,BATS,Tobacco
-British Land,BLND,Real estate
-BT Group,BT.A,Telecommunications services
-Bunzl,BNZL,Support services
-Burberry Group,BRBY,Personal goods
-Centrica,CNA,Multiline utilities
-Coca-Cola Europacific Partners,CCEP,Beverages
-Coca-Cola HBC,CCH,Beverages
-Compass Group,CPG,Support services
-Computacenter,CCC,Software & Computer Services
-Convatec,CTEC,Health care equipment & supplies
-Croda International,CRDA,Chemicals
-DCC Energy,DCC,Support services
-Diageo,DGE,Beverages
-Diploma,DPLM,Industrial Support services
-EasyJet,EZJ,Travel and Leisure
-Endeavour Mining,EDV,Mining
-Experian,EXPN,Support services
-F & C Investment Trust,FCIT,Collective investments
-Fresnillo plc,FRES,Mining
-Games Workshop,GAW,Leisure Goods
-Glencore,GLEN,Mining
-GSK plc,GSK,Pharmaceuticals & biotechnology
-Haleon,HLN,Pharmaceuticals & biotechnology
-Halma plc,HLMA,Electronic equipment & parts
-Hiscox,HSX,Non-life Insurance
-Howdens Joinery,HWDN,Homebuilding & construction supplies
-HSBC,HSBA,Banks
-ICG,ICG,Financial services
-IG Group,IGG,Financial services
-IHG Hotels & Resorts,IHG,Travel & leisure
-IMI,IMI,Industrial engineering
-Imperial Brands,IMB,Tobacco
-Informa,INF,Media
-International Airlines Group,IAG,Travel & leisure
-Intertek,ITRK,Support services
-Investec,INVP,Financial Services
-Ithaca Energy,ITH,Oil & Gas Producers
-JD Sports,JD,General retailers
-Lion Finance Group,BGEO,Banking Services
-Kingfisher plc,KGF,Retailers
-Land Securities,LAND,Real estate investment trusts
-Legal & General,LGEN,Life insurance
-Lloyds Banking Group,LLOY,Banks
-LondonMetric Property,LMP,Real Estate Investment Trusts
-London Stock Exchange Group,LSEG,Financial services
-M&G,MNG,Financial services
-Marks & Spencer,MKS,Food & drug retailing
-Melrose Industries,MRO,Aerospace & defence
-Metlen Energy & Metals,MTLN,Multiline utilities
-National Grid plc,NG,Multiline utilities
-NatWest Group,NWG,Banks
-Next plc,NXT,General retailers
-Pearson plc,PSON,Media
-Pershing Square Holdings,PSH,Financial services
-Polar Capital Technology Trust,PCT,Investment trusts
-Prudential plc,PRU,Life insurance
-Reckitt,RKT,Household goods & home construction
-RELX,REL,Media
-Rentokil Initial,RTO,Support services
-Rio Tinto,RIO,Mining
-Rolls-Royce Holdings,RR,Aerospace & defence
-Sage Group,SGE,Software & computer services
-Sainsbury's,SBRY,Food & drug retailing
-Scottish Mortgage Investment Trust,SMT,Collective investments
-Segro,SGRO,Real estate investment trusts
-Severn Trent,SVT,Multiline utilities
-Shell plc,SHEL,Oil & gas producers
-Smiths Group,SMIN,General industrials
-Smith & Nephew,SN,Health care equipment & supplies
-Spirax Group,SPX,Industrial engineering
-SSE plc,SSE,Electrical utilities & independent power producers
-Standard Chartered,STAN,Banks
-Standard Life,SDLF,Life insurance
-St. James's Place,STJ,Financial services
-Tesco,TSCO,Food & drug retailing
-Tritax Big Box REIT,BBOX,Real Estate Investment Trusts
-Unilever,ULVR,Personal goods
-United Utilities,UU,Multiline utilities
-Vodafone Group,VOD,Mobile telecommunications
-Weir,WEIR,Industrial goods and services
-Whitbread,WTB,Retail hospitality
-WPP,WPP,Media
+Company,Ticker,ISIN[34],FTSE industry classification benchmark sector[35]
+3i,III,GB00B1YW4409,Financial services
+Aberdeen Group,ABDN,GB00BF8Q6K64,Financial Services
+Admiral Group,ADM,GB00B02J6398,Insurance
+Airtel Africa,AAF,GB00BKDRYJ47,Telecommunications services
+Alliance Witan,ALW,GB00B11V7W98,Investment Trusts
+Anglo American plc,AAL,GB00BTK05J60,Mining
+Antofagasta plc,ANTO,GB0000456144,Mining
+Associated British Foods,ABF,GB0006731235,Food & tobacco
+AstraZeneca,AZN,GB0009895292,Pharmaceuticals & biotechnology
+Autotrader Group,AUTO,GB00BVYVFW23,Media
+Aviva,AV,GB00BPQY8M80,Life insurance
+Babcock International,BAB,GB0009697037,Aerospace & defence
+BAE Systems,BA,GB0002634946,Aerospace & defence
+Balfour Beatty,BBY,GB0000961622,Construction & Materials
+Barclays,BARC,GB0031348658,Banks
+Barratt Redrow,BTRW,GB0000811801,Household goods & home construction
+BP,BP,GB0007980591,Oil & gas producers
+British American Tobacco,BATS,GB0002875804,Tobacco
+British Land,BLND,GB0001367019,Real estate
+BT Group,BT.A,GB0030913577,Telecommunications services
+Bunzl,BNZL,GB00B0744B38,Support services
+Burberry Group,BRBY,GB0031743007,Personal goods
+Centrica,CNA,GB00B033F229,Multiline utilities
+Coca-Cola Europacific Partners,CCEP,GB00BDCPN049,Beverages
+Coca-Cola HBC,CCH,CH0198251305,Beverages
+Compass Group,CPG,GB00BD6K4575,Support services
+Computacenter,CCC,GB00BV9FP302,Software & Computer Services
+Convatec,CTEC,GB00BD3VFW73,Health care equipment & supplies
+Croda International,CRDA,GB00BJFFLV09,Chemicals
+DCC Energy,DCC,IE0002424939,Support services
+Diageo,DGE,GB0002374006,Beverages
+Diploma,DPLM,GB0001826634,Industrial Support services
+EasyJet,EZJ,GB00B7KR2P84,Travel and Leisure
+Endeavour Mining,EDV,GB00BL6K5J42,Mining
+Experian,EXPN,GB00B19NLV48,Support services
+F & C Investment Trust,FCIT,GB00BS88V647,Collective investments
+Fresnillo plc,FRES,GB00B2QPKJ12,Mining
+Games Workshop,GAW,GB0003718474,Leisure Goods
+Glencore,GLEN,JE00B4T3BW64,Mining
+GSK plc,GSK,GB00BN7SWP63,Pharmaceuticals & biotechnology
+Haleon,HLN,GB00BMX86B70,Pharmaceuticals & biotechnology
+Halma plc,HLMA,GB0004052071,Electronic equipment & parts
+Hiscox,HSX,BMG4593F1389,Non-life Insurance
+Howdens Joinery,HWDN,GB0005576813,Homebuilding & construction supplies
+HSBC,HSBA,GB0005405286,Banks
+ICG,ICG,GB00BYT1DJ19,Financial services
+IG Group,IGG,GB00B06QFB75,Financial services
+IHG Hotels & Resorts,IHG,GB00BHJYC057,Travel & leisure
+IMI,IMI,GB00BGLP8L22,Industrial engineering
+Imperial Brands,IMB,GB0004544929,Tobacco
+Informa,INF,GB00BMJ6DW54,Media
+International Airlines Group,IAG,ES0177542018,Travel & leisure
+Intertek,ITRK,GB0031638363,Support services
+Investec,INVP,GB00B17BBQ50,Financial Services
+Ithaca Energy,ITH,GB00BPJHV584,Oil & Gas Producers
+JD Sports,JD,GB00BM8Q5M07,General retailers
+Lion Finance Group,BGEO,GB00BF4HYT85,Banking Services
+Kingfisher plc,KGF,GB0033195214,Retailers
+Land Securities,LAND,GB00BYW0PQ60,Real estate investment trusts
+Legal & General,LGEN,GB0005603997,Life insurance
+Lloyds Banking Group,LLOY,GB0008706128,Banks
+LondonMetric Property,LMP,GB00B4WFW713,Real Estate Investment Trusts
+London Stock Exchange Group,LSEG,GB00B0SWJX34,Financial services
+M&G,MNG,GB00BKFB1C65,Financial services
+Marks & Spencer,MKS,GB0031274896,Food & drug retailing
+Melrose Industries,MRO,GB00BNGDN821,Aerospace & defence
+Metlen Energy & Metals,MTLN,GB00BTQGS779,Multiline utilities
+National Grid plc,NG,GB00BDR05C01,Multiline utilities
+NatWest Group,NWG,GB00BM8PJY71,Banks
+Next plc,NXT,GB0032089863,General retailers
+Pearson plc,PSON,GB0006776081,Media
+Pershing Square Holdings,PSH,GG00BPFJTF46,Financial services
+Polar Capital Technology Trust,PCT,GB00BR3YV268,Investment trusts
+Prudential plc,PRU,GB0007099541,Life insurance
+Reckitt,RKT,GB00BSZBP530,Household goods & home construction
+RELX,REL,GB00B2B0DG97,Media
+Rentokil Initial,RTO,GB00B082RF11,Support services
+Rio Tinto,RIO,GB0007188757,Mining
+Rolls-Royce Holdings,RR,GB00B63H8491,Aerospace & defence
+Sage Group,SGE,GB00B8C3BL03,Software & computer services
+Sainsbury's,SBRY,GB00B019KW72,Food & drug retailing
+Scottish Mortgage Investment Trust,SMT,GB00BLDYK618,Collective investments
+Segro,SGRO,GB00B5ZN1N88,Real estate investment trusts
+Severn Trent,SVT,GB00B1FH8J72,Multiline utilities
+Shell plc,SHEL,GB00BP6MXD84,Oil & gas producers
+Smiths Group,SMIN,GB00B1WY2338,General industrials
+Smith & Nephew,SN,GB0009223206,Health care equipment & supplies
+Spirax Group,SPX,GB00BWFGQN14,Industrial engineering
+SSE plc,SSE,GB0007908733,Electrical utilities & independent power producers
+Standard Chartered,STAN,GB0004082847,Banks
+Standard Life,SDLF,GB00BGXQNP29,Life insurance
+St. James's Place,STJ,GB0007669376,Financial services
+Tesco,TSCO,GB00BLGZ9862,Food & drug retailing
+Tritax Big Box REIT,BBOX,GB00BG49KP99,Real Estate Investment Trusts
+Unilever,ULVR,GB00BVZK7T90,Personal goods
+United Utilities,UU,GB00B39J2M42,Multiline utilities
+Vodafone Group,VOD,GB00BH4HKS39,Mobile telecommunications
+Weir,WEIR,GB0009465807,Industrial goods and services
+Whitbread,WTB,GB00B1KJJ408,Retail hospitality
+WPP,WPP,JE00B8KF9B49,Media
