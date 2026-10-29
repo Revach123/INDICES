@@ -86,11 +86,45 @@ def parse_debt(content, out, reg):
                                     mat = (c.text or "").strip()[:10]
                     el.clear()
                     isin, cfi = g.get("Id"), g.get("ClssfctnTp") or ""
-                    if not isin or not cfi.startswith("D") or cfi[:2] in SKIP_CFI2 or isin in out:
+                    if not isin or not cfi.startswith("D") or cfi[:2] in SKIP_CFI2:
                         continue
-                    out[isin] = [lei or "", cfi, g.get("NtnlCcy") or "", mat or "", (g.get("ShrtNm") or "")[:60], reg]
-                    kept += 1
+                    # אותו ISIN מדווח ע"י כל זירה בנפרד; חלק מהזירות (MarketAxess, Bloomberg Trading Facility...)
+                    # רושמות את ה-LEI שלהן כ"מנפיק" - אוספים את כל ה-LEI-ים ובוחרים אחר כך (choose_issuer)
+                    a = out.get(isin)
+                    if a is None:
+                        a = out[isin] = [Counter(), cfi, g.get("NtnlCcy") or "", mat or "", (g.get("ShrtNm") or "")[:60], reg]
+                        kept += 1
+                    if lei:
+                        a[0][lei] += 1
     return rows, kept
+
+
+# מפעילי זירות מסחר ומתווכים שמופיעים בשדה המנפיק במקום המנפיק עצמו (נמצא בריצה הראשונה: ~5,500 ISIN).
+# VENUE_STRONG - אף פעם לא מנפיק; VENUE_OPERATOR - מפעילי בורסות שגם מנפיקים אג"ח משלהם (Deutsche Börse AG,
+# Euronext N.V., Nasdaq Inc.), ולכן נחשבים זירה רק כשה-LEI מופיע כמנפיק של VENUE_MIN מכשירים ומעלה.
+VENUE_STRONG = re.compile(r"trading\s+facility|marketaxess|tp\s+icap|liquidnet|tradeweb|wertpapierb[öo]rse|"
+                          r"^gfi\s+securities|^bgc\s|\bmtf\b|^tradition\b|^tullett\b|^aquis\b|^turquoise\b", re.I)
+VENUE_OPERATOR = re.compile(r"stock\s+exchange|b[öo]rse\s+aktiengesellschaft|^euronext\b|^nasdaq\b|"
+                            r"intercontinental\s+exchange|^cboe\b|^bloomberg\b|^ice\s", re.I)
+VENUE_MIN = 40
+
+
+def venue_leis(bonds, names):
+    n = Counter(l for v in bonds.values() for l in v[0])
+    out = set()
+    for lei, cnt in n.items():
+        nm = (names.get(lei) or {}).get("name") or ""
+        if VENUE_STRONG.search(nm) or (VENUE_OPERATOR.search(nm) and cnt >= VENUE_MIN):
+            out.add(lei)
+    return out
+
+
+def choose_issuer(cands, venues):
+    """הרוב מבין ה-LEI-ים שדווחו ל-ISIN, בלי מפעילי זירות. אם דווחה רק זירה - ריק (לא מנפיק שגוי)."""
+    for lei, _ in cands.most_common():
+        if lei not in venues:
+            return lei
+    return ""
 
 
 def load_firds():
@@ -189,6 +223,17 @@ def main():
     bonds, meta = load_firds()
     if len(bonds) < 50000:
         raise RuntimeError(f"only {len(bonds)} debt ISINs - not overwriting")
+    cand_leis = {l for v in bonds.values() for l in v[0]}
+    lei2_url, rr_url = gleif_files()
+    names = load_entities(lei2_url, cand_leis)  # שמות לזיהוי מפעילי זירות
+    venues = venue_leis(bonds, names)
+    log(f"bonds: trading-venue LEIs reported as issuer: {sorted((names.get(l) or {}).get('name') or l for l in venues)}")
+    venue_hits = 0
+    for v in bonds.values():
+        top = v[0].most_common(1)[0][0] if v[0] else ""
+        v[0] = choose_issuer(v[0], venues)
+        venue_hits += bool(top) and v[0] != top
+    log(f"bonds: issuer replaced/cleared for {venue_hits} ISINs where a trading venue was reported as issuer")
     by_cc = defaultdict(list)
     for isin, v in bonds.items():
         by_cc[isin[:2]].append([isin] + v[:5])
@@ -201,7 +246,6 @@ def main():
     leis = {v[0] for v in bonds.values() if v[0]}
     log(f"bonds: {len(bonds)} ISINs, {len(leis)} issuer LEIs, {len(by_cc)} ISIN prefixes")
 
-    lei2_url, rr_url = gleif_files()
     parents = load_parents(rr_url, leis)
     need = leis | {p for d in parents.values() for p in d.values() if p}
     ent = load_entities(lei2_url, need)
@@ -215,6 +259,7 @@ def main():
             f.write(json.dumps({"lei": lei, **e}, ensure_ascii=False) + "\n")
     cfi2 = Counter(v[1][:2] for v in bonds.values())
     stats = {"generated_at": NOW_ISO, "firds": meta, "isins": len(bonds), "issuers": len(leis),
+             "venue_issuer_fixed": venue_hits, "no_issuer": sum(1 for v in bonds.values() if not v[0]),
              "issuers_in_gleif": sum(1 for l in leis if l in ent),
              "with_direct_parent": sum(1 for l in leis if (parents.get(l) or {}).get("direct")),
              "with_ultimate_parent": sum(1 for l in leis if (parents.get(l) or {}).get("ultimate")),
