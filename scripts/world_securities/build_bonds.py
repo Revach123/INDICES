@@ -4,7 +4,7 @@
 מקורות (רשמיים בלבד, בלי ניחוש משמות):
   1. ESMA FIRDS + FCA FIRDS, קבצי FULINS_D (מכשירי חוב) - כל אג"ח שנסחרת בזירה באיחוד/בבריטניה, כפי שהבורסות
      (לוקסמבורג, Euronext Dublin, פרנקפורט, לונדון...) מדווחות לרגולטור: ISIN, שם, CFI, מטבע, פדיון, LEI המנפיק.
-     מוצרים מובנים בנקאיים (CFI DE/DS) לא נכללים.
+     מוצרים מובנים בנקאיים (CFI DE/DS - תעודות) נכללים ומסומנים בנפרד.
   2. GLEIF golden copy - רמה 1 (שם המנפיק, מדינה, מספר רישום ורשם) ורמה 2 (חברת אם ישירה/סופית לפי איחוד דוחות),
      למנפיקים שנמצאו ולחברות האם שלהם.
 
@@ -30,7 +30,10 @@ from common import NOW_ISO, TODAY, get, log
 import src_firds
 
 OUT = os.environ.get("BONDS_OUT_DIR", "data/world_bonds")
-SKIP_CFI2 = {"DE", "DS"}          # מוצרים מובנים (תעודות בנקאיות) - לא אג"ח של מנפיק
+SKIP_CFI2 = set()
+STRUCT_CFI2 = {"DE", "DS"}        # מוצרים מובנים (תעודות בנקאיות) - נכללים, ומסומנים בנפרד בדף (מתג אג"ח/תעודות)
+LEI_CAP = 2000                    # מכשירים לכל סוג (אג"ח / מובנים) לכל מנפיק בקבצי הדף
+ISIN_SHARD_MAX = 25000            # ISIN-ים לקובץ חיפוש בדף לפני פיצול לקידומת ארוכה יותר
 GLEIF_LATEST = "https://goldencopy.gleif.org/api/v2/golden-copies/publishes/latest"
 csv.field_size_limit(10 ** 9)
 
@@ -232,9 +235,10 @@ def site_shard(lei):
 
 def write_site(bonds, ent, parents, leis, stats):
     """קבצים לדף האתר (נטענים ישירות מ-raw.githubusercontent, gzip):
-    site/issuers.json.gz       - [lei, שם, מדינה, מס' אג"ח, שם חברת אם סופית, LEI חברת אם סופית, ישירה]
+    site/issuers.json.gz       - [lei, שם, מדינה, מס' מכשירים, שם חברת אם סופית, LEI חברת אם סופית, ישירה, מתוכם מובנים]
     site/lei/<0-63>.json.gz    - lei -> [[isin, cfi, ccy, maturity, short], ...]
-    site/isin/<4 תווים>.json.gz - isin -> [lei, cfi, ccy, maturity, short]  (חיפוש לפי ISIN)
+    site/isin/<קידומת>.json.gz - isin -> [lei, cfi, ccy, maturity, short]; site/isin_index.json - רשימת הקידומות
+                                 (4 תווים, ארוכה יותר כשיש יותר מ-ISIN_SHARD_MAX) - הדף בוחר את הקידומת הארוכה המתאימה
     site/meta.json             - תאריכים וספירות"""
     base = os.path.join(OUT, "site")
     for sub in ("lei", "isin"):
@@ -242,27 +246,50 @@ def write_site(bonds, ent, parents, leis, stats):
         for f in os.listdir(os.path.join(base, sub)):
             os.remove(os.path.join(base, sub, f))
     n = Counter(v[0] for v in bonds.values() if v[0])
+    ns = Counter(v[0] for v in bonds.values() if v[0] and v[1][:2] in STRUCT_CFI2)
     rows = []
     for lei in sorted(leis):
         e, p = ent.get(lei) or {}, parents.get(lei) or {}
         u, d = p.get("ultimate"), p.get("direct")
         rows.append([lei, e.get("name"), e.get("country"), n[lei], (ent.get(u) or {}).get("name") if u else None, u,
-                     (ent.get(d) or {}).get("name") if d and d != u else None])
+                     (ent.get(d) or {}).get("name") if d and d != u else None, ns[lei]])
     _gz_json(os.path.join(base, "issuers.json.gz"), rows)
-    by_lei, by_isin = defaultdict(dict), defaultdict(dict)
+    by_lei = defaultdict(dict)
     for isin, v in bonds.items():
-        rec = [isin] + v[1:5]
         if v[0]:
-            by_lei[site_shard(v[0])].setdefault(v[0], []).append(rec)
-        by_isin[isin[:4]][isin] = [v[0]] + v[1:5]
+            by_lei[site_shard(v[0])].setdefault(v[0], []).append([isin] + v[1:5])
     for k, d in by_lei.items():
-        for lst in d.values():
+        for lei, lst in d.items():
+            # מנפיק עם עשרות אלפי תעודות (SG Issuer וכו'): בדף עד LEI_CAP לכל סוג; חיפוש ISIN מכסה הכל
             lst.sort(key=lambda r: (r[3] or "9999", r[0]))
+            st = [r for r in lst if r[1][:2] in STRUCT_CFI2]
+            bd = [r for r in lst if r[1][:2] not in STRUCT_CFI2]
+            d[lei] = bd[:LEI_CAP] + st[:LEI_CAP]
         _gz_json(os.path.join(base, "lei", f"{k}.json.gz"), d)
-    for k, d in by_isin.items():
-        _gz_json(os.path.join(base, "isin", f"{k}.json.gz"), d)
+    # ISIN: קובץ לכל קידומת; קידומת עם יותר מ-ISIN_SHARD_MAX מתפצלת לקידומת ארוכה יותר (DE00 -> DE0001...)
+    prefixes = []
+
+    def write_isins(prefix, isins):
+        if len(isins) > ISIN_SHARD_MAX and len(prefix) < 10:
+            sub = defaultdict(list)
+            for i in isins:
+                sub[i[:len(prefix) + 1]].append(i)
+            for p2, lst in sub.items():
+                write_isins(p2, lst)
+            return
+        _gz_json(os.path.join(base, "isin", f"{prefix}.json.gz"), {i: [bonds[i][0]] + bonds[i][1:5] for i in isins})
+        prefixes.append(prefix)
+
+    by4 = defaultdict(list)
+    for isin in bonds:
+        by4[isin[:4]].append(isin)
+    for p4, lst in by4.items():
+        write_isins(p4, lst)
+    json.dump(sorted(prefixes), open(os.path.join(base, "isin_index.json"), "w", encoding="utf-8"))
+    by_isin = prefixes
     json.dump({"generated_at": stats["generated_at"], "firds": stats["firds"], "isins": stats["isins"],
-               "issuers": stats["issuers"], "no_issuer": stats["no_issuer"]},
+               "issuers": stats["issuers"], "no_issuer": stats["no_issuer"],
+               "structured": sum(1 for v in bonds.values() if v[1][:2] in STRUCT_CFI2)},
               open(os.path.join(base, "meta.json"), "w", encoding="utf-8"))
     log(f"site: {len(rows)} issuers, {len(by_lei)} lei shards, {len(by_isin)} isin shards")
 
