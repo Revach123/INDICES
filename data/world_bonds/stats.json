@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:50:52+00:00",
+ "generated_at": "2026-10-29T23:58:40+00:00",
  "firds": {
   "ESMA": {
    "date": "20261024",
@@ -11,10 +11,12 @@
   }
  },
  "isins": 326641,
- "issuers": 16489,
- "issuers_in_gleif": 16489,
- "with_direct_parent": 2523,
- "with_ultimate_parent": 2721,
+ "issuers": 16549,
+ "venue_issuer_fixed": 5977,
+ "no_issuer": 5221,
+ "issuers_in_gleif": 16549,
+ "with_direct_parent": 2509,
+ "with_ultimate_parent": 2702,
  "by_cfi2": {
   "DT": 185171,
   "DB": 88547,
