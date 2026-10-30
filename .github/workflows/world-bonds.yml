@@ -1,0 +1,57 @@
+name: World bonds (FIRDS debt -> issuer LEI -> parent)
+
+# אג"ח שנסחרות באירופה/בריטניה -> המנפיק (LEI) -> חברת האם (GLEIF). ר' scripts/world_securities/build_bonds.py.
+# נפרד לגמרי ממאגר המניות/קרנות (world-securities.yml): פלט רק ל-data/world_bonds/, concurrency נפרד.
+# שבועי - קבצי FULINS המלאים מתפרסמים פעם בשבוע.
+
+on:
+  schedule:
+    - cron: "17 9 * * 0"
+  workflow_dispatch: {}
+  push:
+    branches-ignore: [main]
+    paths:
+      - scripts/world_securities/build_bonds.py
+      - .github/workflows/world-bonds.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: world-bonds
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Build
+        working-directory: scripts/world_securities
+        env:
+          BONDS_OUT_DIR: ${{ github.workspace }}/data/world_bonds
+        run: python -u build_bonds.py
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/wb && cp -r data/world_bonds/. /tmp/wb/
+          for i in 1 2 3 4 5; do
+            git fetch -q origin "$GITHUB_REF_NAME" && git reset -q --hard "origin/$GITHUB_REF_NAME"
+            rm -rf data/world_bonds && mkdir -p data/world_bonds && cp -r /tmp/wb/. data/world_bonds/
+            git add -A data/world_bonds
+            git diff --cached --quiet && { echo "no changes"; exit 0; }
+            git commit -q -m "World bonds update ($(date -u +%Y-%m-%d))"
+            git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
