@@ -263,7 +263,8 @@ def write_site(bonds, ent, parents, leis, stats):
     for k, d in by_lei.items():
         for lei, lst in d.items():
             # מנפיק עם עשרות אלפי תעודות (SG Issuer וכו'): בדף עד LEI_CAP לכל סוג; חיפוש ISIN מכסה הכל
-            lst.sort(key=lambda r: (r[3] or "9999", r[0]))
+            # בתוקף קודם (פדיון קרוב), ניירות שמועד הפדיון שלהם עבר בסוף - שלא יתפסו את המכסה
+            lst.sort(key=lambda r: (bool(r[3]) and r[3] < TODAY, r[3] or "9999", r[0]))
             st = [r for r in lst if r[1][:2] in STRUCT_CFI2]
             bd = [r for r in lst if r[1][:2] not in STRUCT_CFI2]
             d[lei] = bd[:LEI_CAP] + st[:LEI_CAP]
