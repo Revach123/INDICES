@@ -1,1 +1,1 @@
-{"generated_at": "2026-10-30T06:11:58+00:00", "firds": {"ESMA": {"date": "20261024", "files": 4}, "FCA": {"date": "20261024", "files": 3}}, "isins": 689442, "issuers": 16593, "no_issuer": 5325, "structured": 363111}
+{"generated_at": "2026-10-30T06:26:51+00:00", "firds": {"ESMA": {"date": "20261024", "files": 4}, "FCA": {"date": "20261024", "files": 3}}, "isins": 689442, "issuers": 16663, "no_issuer": 5071, "issuer_from_mapping": 423808, "firds_vs_mapping": {"both": 423554, "agree": 420807, "agree_pct": 99.35}, "structured": 363111}
