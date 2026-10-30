@@ -12,9 +12,11 @@
   isin/<CC>.csv.gz   - isin,lei,cfi,ccy,maturity,short_name לפי שתי האותיות הראשונות של ה-ISIN (חיפוש מהיר)
   issuers.jsonl      - lei -> שם, מדינה, רשם + מספר רישום, קטגוריה, חברת אם ישירה/סופית (LEI + שם)
   stats.json
+  site/              - קבצים לדף האתר (Revach: securities-world-bonds.html), ר' write_site
 """
 import csv
 import gzip
+import hashlib
 import io
 import json
 import os
@@ -218,6 +220,53 @@ def load_entities(lei2_url, need):
     return ent
 
 
+def _gz_json(path, obj):
+    with gzip.open(path, "wt", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def site_shard(lei):
+    """מנפיק -> קובץ (64 קבצים), אותו חישוב בדף (Revach: securities-world-bonds.html)."""
+    return int(hashlib.sha1(lei.encode()).hexdigest()[:8], 16) % 64
+
+
+def write_site(bonds, ent, parents, leis, stats):
+    """קבצים לדף האתר (נטענים ישירות מ-raw.githubusercontent, gzip):
+    site/issuers.json.gz       - [lei, שם, מדינה, מס' אג"ח, שם חברת אם סופית, LEI חברת אם סופית, ישירה]
+    site/lei/<0-63>.json.gz    - lei -> [[isin, cfi, ccy, maturity, short], ...]
+    site/isin/<4 תווים>.json.gz - isin -> [lei, cfi, ccy, maturity, short]  (חיפוש לפי ISIN)
+    site/meta.json             - תאריכים וספירות"""
+    base = os.path.join(OUT, "site")
+    for sub in ("lei", "isin"):
+        os.makedirs(os.path.join(base, sub), exist_ok=True)
+        for f in os.listdir(os.path.join(base, sub)):
+            os.remove(os.path.join(base, sub, f))
+    n = Counter(v[0] for v in bonds.values() if v[0])
+    rows = []
+    for lei in sorted(leis):
+        e, p = ent.get(lei) or {}, parents.get(lei) or {}
+        u, d = p.get("ultimate"), p.get("direct")
+        rows.append([lei, e.get("name"), e.get("country"), n[lei], (ent.get(u) or {}).get("name") if u else None, u,
+                     (ent.get(d) or {}).get("name") if d and d != u else None])
+    _gz_json(os.path.join(base, "issuers.json.gz"), rows)
+    by_lei, by_isin = defaultdict(dict), defaultdict(dict)
+    for isin, v in bonds.items():
+        rec = [isin] + v[1:5]
+        if v[0]:
+            by_lei[site_shard(v[0])].setdefault(v[0], []).append(rec)
+        by_isin[isin[:4]][isin] = [v[0]] + v[1:5]
+    for k, d in by_lei.items():
+        for lst in d.values():
+            lst.sort(key=lambda r: (r[3] or "9999", r[0]))
+        _gz_json(os.path.join(base, "lei", f"{k}.json.gz"), d)
+    for k, d in by_isin.items():
+        _gz_json(os.path.join(base, "isin", f"{k}.json.gz"), d)
+    json.dump({"generated_at": stats["generated_at"], "firds": stats["firds"], "isins": stats["isins"],
+               "issuers": stats["issuers"], "no_issuer": stats["no_issuer"]},
+              open(os.path.join(base, "meta.json"), "w", encoding="utf-8"))
+    log(f"site: {len(rows)} issuers, {len(by_lei)} lei shards, {len(by_isin)} isin shards")
+
+
 def main():
     os.makedirs(os.path.join(OUT, "isin"), exist_ok=True)
     bonds, meta = load_firds()
@@ -265,6 +314,7 @@ def main():
              "with_ultimate_parent": sum(1 for l in leis if (parents.get(l) or {}).get("ultimate")),
              "by_cfi2": dict(cfi2.most_common()), "by_isin_prefix": dict(Counter({k: len(v) for k, v in by_cc.items()}).most_common(40))}
     json.dump(stats, open(os.path.join(OUT, "stats.json"), "w", encoding="utf-8"), indent=1)
+    write_site(bonds, ent, parents, leis, stats)
     log(json.dumps(stats)[:1500])
 
 
