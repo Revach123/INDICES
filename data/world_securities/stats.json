@@ -1,18 +1,18 @@
 {
- "active": 29378,
+ "active": 29381,
  "by_category": {
   "dr": 360,
   "etf": 7964,
   "funds": 6412,
   "other": 126,
-  "stocks": 14461,
-  "unclassified": 55
+  "stocks": 14463,
+  "unclassified": 56
  },
  "by_country": {
   "AT": 80,
   "BE": 123,
   "BG": 397,
-  "CA": 4543,
+  "CA": 4546,
   "CH": 1540,
   "CY": 155,
   "CZ": 67,
@@ -46,19 +46,19 @@
   "—": 1623
  },
  "by_market": {
-  "CA": 4543,
+  "CA": 4546,
   "CH": 1533,
   "EU_UK": 18855,
   "JP": 4447
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4128,
-   "n": 4543,
-   "ticker": 4543,
+   "figi": 4130,
+   "n": 4546,
+   "ticker": 4546,
    "types": {
     "Closed-End Fund": 67,
-    "Common Stock": 2027,
+    "Common Stock": 2029,
     "Debenture": 53,
     "Depositary Receipt": 118,
     "ETF": 1849,
@@ -70,7 +70,7 @@
     "Right": 1,
     "Unit": 16,
     "Warrant": 53,
-    "—": 55
+    "—": 56
    }
   },
   "CH": {
@@ -124,14 +124,14 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10530,
+  "exchange": 10533,
   "home_country": 996,
   "rlvnt": 16005,
   "single": 454,
   "—": 1393
  },
  "by_region": {
-  "CA": 4543,
+  "CA": 4546,
   "CH": 1540,
   "EU": 16530,
   "JP": 4447,
@@ -139,7 +139,7 @@
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13912,
+  "Common Stock": 13914,
   "Convertible Common": 5,
   "Convertible Preferred": 1,
   "Debenture": 53,
@@ -165,19 +165,19 @@
   "Right": 1,
   "Unit": 16,
   "Warrant": 53,
-  "—": 55
+  "—": 56
  },
  "by_type_source": {
   "cfi_esma": 17717,
   "cfi_fca": 2129,
   "jpx_section": 4424,
   "jpx_section+etn_list": 23,
-  "openfigi": 4128,
+  "openfigi": 4130,
   "six_product_line": 363,
   "six_sec_type": 5,
   "six_segment": 174,
   "tmx_symbology": 360,
-  "—": 55
+  "—": 56
  },
  "exchanges": 170,
  "failed_markets": {},
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-11-02T13:47:24+00:00",
+ "generated_at": "2026-11-03T12:57:51+00:00",
  "issuers": 13251,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29612,
+ "total": 29616,
  "unmapped_figi_types": {},
- "with_figi": 18745,
- "with_isin": 23832,
+ "with_figi": 18747,
+ "with_isin": 23831,
  "with_issuer": 19846,
  "with_lei": 19846,
- "with_share_class_figi": 20270,
- "with_ticker": 20767
+ "with_share_class_figi": 20272,
+ "with_ticker": 20770
 }
