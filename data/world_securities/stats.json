@@ -5,8 +5,8 @@
   "etf": 7988,
   "funds": 6414,
   "other": 126,
-  "stocks": 14446,
-  "unclassified": 56
+  "stocks": 14447,
+  "unclassified": 55
  },
  "by_country": {
   "AT": 79,
@@ -53,12 +53,12 @@
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4130,
+   "figi": 4131,
    "n": 4546,
    "ticker": 4546,
    "types": {
     "Closed-End Fund": 67,
-    "Common Stock": 2028,
+    "Common Stock": 2029,
     "Debenture": 54,
     "Depositary Receipt": 118,
     "ETF": 1850,
@@ -70,7 +70,7 @@
     "Right": 1,
     "Unit": 16,
     "Warrant": 52,
-    "—": 56
+    "—": 55
    }
   },
   "CH": {
@@ -139,7 +139,7 @@
  },
  "by_type": {
   "Closed-End Fund": 67,
-  "Common Stock": 13898,
+  "Common Stock": 13899,
   "Convertible Common": 5,
   "Convertible Preferred": 1,
   "Debenture": 54,
@@ -165,19 +165,19 @@
   "Right": 1,
   "Unit": 16,
   "Warrant": 52,
-  "—": 56
+  "—": 55
  },
  "by_type_source": {
   "cfi_esma": 17721,
   "cfi_fca": 2136,
   "jpx_section": 4421,
   "jpx_section+etn_list": 23,
-  "openfigi": 4130,
+  "openfigi": 4131,
   "six_product_line": 363,
   "six_sec_type": 4,
   "six_segment": 176,
   "tmx_symbology": 360,
-  "—": 56
+  "—": 55
  },
  "exchanges": 170,
  "failed_markets": {},
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-11-09T14:16:37+00:00",
+ "generated_at": "2026-11-10T13:43:17+00:00",
  "issuers": 13242,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29674,
+ "total": 29676,
  "unmapped_figi_types": {},
- "with_figi": 17420,
- "with_isin": 23847,
+ "with_figi": 17421,
+ "with_isin": 23846,
  "with_issuer": 19857,
  "with_lei": 19857,
- "with_share_class_figi": 20272,
+ "with_share_class_figi": 20273,
  "with_ticker": 20771
 }
