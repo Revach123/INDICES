@@ -1,8 +1,8 @@
 {
- "active": 29388,
+ "active": 29391,
  "by_category": {
   "dr": 360,
-  "etf": 7988,
+  "etf": 7991,
   "funds": 6410,
   "other": 126,
   "stocks": 14449,
@@ -13,7 +13,7 @@
   "BE": 123,
   "BG": 385,
   "CA": 4547,
-  "CH": 1540,
+  "CH": 1543,
   "CY": 155,
   "CZ": 67,
   "DE": 1957,
@@ -47,7 +47,7 @@
  },
  "by_market": {
   "CA": 4547,
-  "CH": 1533,
+  "CH": 1536,
   "EU_UK": 18864,
   "JP": 4444
  },
@@ -74,13 +74,13 @@
    }
   },
   "CH": {
-   "figi": 1456,
-   "n": 1533,
-   "ticker": 1533,
+   "figi": 1459,
+   "n": 1536,
+   "ticker": 1536,
    "types": {
     "Common Stock": 234,
     "Depositary Receipt": 17,
-    "ETF": 288,
+    "ETF": 291,
     "ETP": 173,
     "Investment Fund": 770,
     "Other Fund": 29,
@@ -124,7 +124,7 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10531,
+  "exchange": 10534,
   "home_country": 999,
   "rlvnt": 16018,
   "single": 445,
@@ -132,7 +132,7 @@
  },
  "by_region": {
   "CA": 4547,
-  "CH": 1540,
+  "CH": 1543,
   "EU": 16534,
   "JP": 4444,
   "UK": 2323
@@ -144,7 +144,7 @@
   "Convertible Preferred": 1,
   "Debenture": 54,
   "Depositary Receipt": 360,
-  "ETF": 7792,
+  "ETF": 7795,
   "ETN": 23,
   "ETP": 173,
   "Fund of Funds": 86,
@@ -173,7 +173,7 @@
   "jpx_section": 4421,
   "jpx_section+etn_list": 23,
   "openfigi": 4132,
-  "six_product_line": 361,
+  "six_product_line": 364,
   "six_sec_type": 4,
   "six_segment": 177,
   "tmx_symbology": 360,
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-11-11T12:55:01+00:00",
+ "generated_at": "2026-11-12T13:57:11+00:00",
  "issuers": 13241,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29678,
+ "total": 29681,
  "unmapped_figi_types": {},
- "with_figi": 18745,
- "with_isin": 23844,
+ "with_figi": 18748,
+ "with_isin": 23847,
  "with_issuer": 19855,
  "with_lei": 19855,
- "with_share_class_figi": 20271,
- "with_ticker": 20769
+ "with_share_class_figi": 20274,
+ "with_ticker": 20772
 }
