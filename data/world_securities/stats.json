@@ -1,8 +1,8 @@
 {
- "active": 29402,
+ "active": 29411,
  "by_category": {
   "dr": 360,
-  "etf": 8011,
+  "etf": 8020,
   "funds": 6410,
   "other": 126,
   "stocks": 14441,
@@ -12,7 +12,7 @@
   "AT": 79,
   "BE": 123,
   "BG": 385,
-  "CA": 4554,
+  "CA": 4563,
   "CH": 1545,
   "CY": 155,
   "CZ": 67,
@@ -46,22 +46,22 @@
   "—": 1612
  },
  "by_market": {
-  "CA": 4554,
+  "CA": 4563,
   "CH": 1538,
   "EU_UK": 18866,
   "JP": 4444
  },
  "by_market_detail": {
   "CA": {
-   "figi": 4140,
-   "n": 4554,
-   "ticker": 4554,
+   "figi": 4149,
+   "n": 4563,
+   "ticker": 4563,
    "types": {
     "Closed-End Fund": 67,
     "Common Stock": 2030,
     "Debenture": 54,
     "Depositary Receipt": 118,
-    "ETF": 1858,
+    "ETF": 1867,
     "Investment Fund": 5,
     "Limited Partnership": 6,
     "Note / Bond": 1,
@@ -90,7 +90,7 @@
    }
   },
   "EU_UK": {
-   "figi": 8710,
+   "figi": 7378,
    "n": 18866,
    "ticker": 10232,
    "types": {
@@ -124,14 +124,14 @@
   }
  },
  "by_primary_source": {
-  "exchange": 10543,
+  "exchange": 10552,
   "home_country": 999,
   "rlvnt": 16044,
   "single": 440,
   "—": 1376
  },
  "by_region": {
-  "CA": 4554,
+  "CA": 4563,
   "CH": 1545,
   "EU": 16536,
   "JP": 4444,
@@ -144,7 +144,7 @@
   "Convertible Preferred": 1,
   "Debenture": 54,
   "Depositary Receipt": 360,
-  "ETF": 7815,
+  "ETF": 7824,
   "ETN": 23,
   "ETP": 173,
   "Fund of Funds": 86,
@@ -172,7 +172,7 @@
   "cfi_fca": 2151,
   "jpx_section": 4421,
   "jpx_section+etn_list": 23,
-  "openfigi": 4140,
+  "openfigi": 4149,
   "six_product_line": 365,
   "six_sec_type": 4,
   "six_segment": 177,
@@ -190,7 +190,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-11-15T12:55:37+00:00",
+ "generated_at": "2026-11-16T13:56:36+00:00",
  "issuers": 13241,
  "mic_samples": {
   "AIMX": {
@@ -285,12 +285,12 @@
    "website": "WWW.TSE.COM"
   }
  },
- "total": 29716,
+ "total": 29725,
  "unmapped_figi_types": {},
- "with_figi": 18754,
+ "with_figi": 17431,
  "with_isin": 23856,
  "with_issuer": 19858,
  "with_lei": 19858,
- "with_share_class_figi": 20271,
- "with_ticker": 20768
+ "with_share_class_figi": 20280,
+ "with_ticker": 20777
 }
