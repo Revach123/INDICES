@@ -38431,7 +38431,7 @@
 {"k":"XTKS:6383","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000BLQSJ0","exchCode":"JT","figi":"BBG000BLQSW5","marketSector":"Equity","name":"DAIFUKU CO LTD","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001S6FL73","ticker":"6383"}],"job":{"idType":"TICKER","idValue":"6383","micCode":"XTKS"}}}
 {"k":"XTKS:6384","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000DNBG24","exchCode":"JT","figi":"BBG000DNBGZ8","marketSector":"Equity","name":"SHOWA SHINKU CO LTD","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001SCPYJ8","ticker":"6384"}],"job":{"idType":"TICKER","idValue":"6384","micCode":"XTKS"}}}
 {"k":"XTKS:6387","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000HNQ6Z0","exchCode":"JT","figi":"BBG000HNQ920","marketSector":"Equity","name":"SAMCO INC","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001S7QPV3","ticker":"6387"}],"job":{"idType":"TICKER","idValue":"6387","micCode":"XTKS"}}}
-{"k":"XTKS:638A","v":{"d":"2026-11-05T13:27:46+00:00","data":null,"job":{"idType":"TICKER","idValue":"638A","micCode":"XTKS"}}}
+{"k":"XTKS:638A","v":{"d":"2026-11-19T14:39:15+00:00","data":null,"job":{"idType":"TICKER","idValue":"638A","micCode":"XTKS"}}}
 {"k":"XTKS:6390","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000BLR1F2","exchCode":"JT","figi":"BBG000BLR1S8","marketSector":"Equity","name":"KATO WORKS CO LTD","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001S6FLG3","ticker":"6390"}],"job":{"idType":"TICKER","idValue":"6390","micCode":"XTKS"}}}
 {"k":"XTKS:6391","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000BR27J9","exchCode":"JT","figi":"BBG000BR2807","marketSector":"Equity","name":"KAJI TECHNOLOGY CORP","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001S6LFL3","ticker":"6391"}],"job":{"idType":"TICKER","idValue":"6391","micCode":"XTKS"}}}
 {"k":"XTKS:6392","v":{"d":"2026-09-28T14:49:24+00:00","data":[{"compositeFIGI":"BBG000BDP8F7","exchCode":"JT","figi":"BBG000BDP8Q5","marketSector":"Equity","name":"YAMADA CORP","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG001S6GNS5","ticker":"6392"}],"job":{"idType":"TICKER","idValue":"6392","micCode":"XTKS"}}}
@@ -40181,6 +40181,7 @@
 {"k":"XTSE:AMZU","v":{"d":"2026-09-28T15:44:56+00:00","data":[{"compositeFIGI":"BBG01VCHDSM9","exchCode":"CT","figi":"BBG01VCHDSP6","marketSector":"Equity","name":"SAVVYLONG (2X) AMZN ETF","securityType":"ETP","securityType2":"Mutual Fund","shareClassFIGI":"BBG01VCHDVG9","ticker":"AMZU"}],"job":{"idType":"TICKER","idValue":"AMZU","micCode":"XTSE"}}}
 {"k":"XTSE:ANET","v":{"d":"2026-09-28T14:33:40+00:00","data":[{"compositeFIGI":"BBG01S2TNJR5","exchCode":"CT","figi":"BBG01S2TNJT3","marketSector":"Equity","name":"ARISTA NETWORKS INC","securityType":"Canadian DR","securityType2":"Depositary Receipt","shareClassFIGI":"BBG01S2TNL54","ticker":"ANET"}],"job":{"idType":"TICKER","idValue":"ANET","micCode":"XTSE"}}}
 {"k":"XTSE:ANRG","v":{"d":"2026-09-28T14:33:40+00:00","data":[{"compositeFIGI":"BBG002GMD9X9","exchCode":"CT","figi":"BBG011FSFDL0","marketSector":"Equity","name":"ANAERGIA INC-SUB VOTING SHR","securityType":"Common Stock","securityType2":"Common Stock","shareClassFIGI":"BBG002GMD9Y8","ticker":"ANRG"}],"job":{"idType":"TICKER","idValue":"ANRG","micCode":"XTSE"}}}
+{"k":"XTSE:ANTH","v":{"d":"2026-11-19T14:39:15+00:00","data":[{"compositeFIGI":"BBG026RJ2FZ9","exchCode":"CT","figi":"BBG026RJ2G14","marketSector":"Equity","name":"ANTHROPIC PBC","securityType":"Receipt","securityType2":"Depositary Receipt","shareClassFIGI":"BBG026RJ2HD9","ticker":"ANTH"}],"job":{"idType":"TICKER","idValue":"ANTH","micCode":"XTSE"}}}
 {"k":"XTSE:AP-U","v":{"d":"2026-09-28T14:33:40+00:00","data":[{"compositeFIGI":"BBG000C665J4","exchCode":"CT","figi":"BBG000C66675","marketSector":"Equity","name":"ALLIED PROPERTIES REAL ESTAT","securityType":"REIT","securityType2":"REIT","shareClassFIGI":"BBG001SF3C76","ticker":"AP-U"}],"job":{"idType":"TICKER","idValue":"AP-U","micCode":"XTSE"}}}
 {"k":"XTSE:AP/U","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"AP/U","micCode":"XTSE"}}}
 {"k":"XTSE:APH","v":{"d":"2026-09-28T14:33:40+00:00","data":[{"compositeFIGI":"BBG0222SWMR6","exchCode":"CT","figi":"BBG0222SWMT4","marketSector":"Equity","name":"AMPHENOL CORP","securityType":"Canadian DR","securityType2":"Depositary Receipt","shareClassFIGI":"BBG0222SWNZ5","ticker":"APH"}],"job":{"idType":"TICKER","idValue":"APH","micCode":"XTSE"}}}
@@ -40380,7 +40381,7 @@
 {"k":"XTSE:BN-PF-K","v":{"d":"2026-10-28T11:33:47+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PF-K","micCode":"XTSE"}}}
 {"k":"XTSE:BN-PF-L","v":{"d":"2026-10-28T11:33:47+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PF-L","micCode":"XTSE"}}}
 {"k":"XTSE:BN-PF-M","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PF-M","micCode":"XTSE"}}}
-{"k":"XTSE:BN-PF-N","v":{"d":"2026-11-05T13:27:46+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PF-N","micCode":"XTSE"}}}
+{"k":"XTSE:BN-PF-N","v":{"d":"2026-11-19T14:39:15+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PF-N","micCode":"XTSE"}}}
 {"k":"XTSE:BN-PK","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PK","micCode":"XTSE"}}}
 {"k":"XTSE:BN-PM","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PM","micCode":"XTSE"}}}
 {"k":"XTSE:BN-PN","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN-PN","micCode":"XTSE"}}}
@@ -40400,7 +40401,7 @@
 {"k":"XTSE:BN/PF/K","v":{"d":"2026-10-28T11:33:47+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PF/K","micCode":"XTSE"}}}
 {"k":"XTSE:BN/PF/L","v":{"d":"2026-10-28T11:33:47+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PF/L","micCode":"XTSE"}}}
 {"k":"XTSE:BN/PF/M","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PF/M","micCode":"XTSE"}}}
-{"k":"XTSE:BN/PF/N","v":{"d":"2026-11-05T13:27:46+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PF/N","micCode":"XTSE"}}}
+{"k":"XTSE:BN/PF/N","v":{"d":"2026-11-19T14:39:15+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PF/N","micCode":"XTSE"}}}
 {"k":"XTSE:BN/PR/B","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PR/B","micCode":"XTSE"}}}
 {"k":"XTSE:BN/PR/C","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PR/C","micCode":"XTSE"}}}
 {"k":"XTSE:BN/PR/K","v":{"d":"2026-11-11T12:55:01+00:00","data":null,"job":{"idType":"TICKER","idValue":"BN/PR/K","micCode":"XTSE"}}}
