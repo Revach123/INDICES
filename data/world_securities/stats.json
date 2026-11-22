@@ -91,9 +91,9 @@
    }
   },
   "EU_UK": {
-   "figi": 8705,
+   "figi": 8707,
    "n": 18886,
-   "ticker": 10237,
+   "ticker": 10239,
    "types": {
     "Common Stock": 7745,
     "Convertible Common": 4,
@@ -191,7 +191,7 @@
    "KBLM|OTFS|ACTIVE": 2
   }
  },
- "generated_at": "2026-11-21T13:40:40+00:00",
+ "generated_at": "2026-11-22T13:33:35+00:00",
  "issuers": 13246,
  "mic_samples": {
   "AIMX": {
@@ -290,10 +290,10 @@
  "unmapped_figi_types": {
   "Receipt": 1
  },
- "with_figi": 18764,
+ "with_figi": 18766,
  "with_isin": 23872,
  "with_issuer": 19881,
  "with_lei": 19881,
- "with_share_class_figi": 20290,
- "with_ticker": 20788
+ "with_share_class_figi": 20292,
+ "with_ticker": 20790
 }
